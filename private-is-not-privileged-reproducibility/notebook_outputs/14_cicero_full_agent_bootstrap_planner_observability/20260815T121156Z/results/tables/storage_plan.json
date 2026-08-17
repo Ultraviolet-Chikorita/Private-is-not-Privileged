@@ -1,0 +1,20 @@
+{
+  "filesystem_before": {
+    "total_bytes": 399327958007808,
+    "used_bytes": 288601839566848,
+    "free_bytes": 110726118440960,
+    "free_gib": 103121.73370361328,
+    "models_bytes": 33463639523,
+    "models_encrypted_bytes": 0
+  },
+  "selected_file_count": 67,
+  "missing_file_count": 0,
+  "download_bytes": 0,
+  "download_gib": 0.0,
+  "estimated_final_selected_gib": 31.165442916564643,
+  "largest_encrypted_file_gib": 0.0,
+  "environment_reserve_gib": 8.0,
+  "working_reserve_gib": 2.0,
+  "required_free_gib": 10.0,
+  "fits_current_filesystem": true
+}

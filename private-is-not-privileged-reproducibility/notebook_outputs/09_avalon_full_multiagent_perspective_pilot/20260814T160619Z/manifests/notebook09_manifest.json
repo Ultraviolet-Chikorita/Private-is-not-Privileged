@@ -1,0 +1,26 @@
+{
+  "notebook_build": "latent-reservations-notebook09-full-multiagent-perspective-v2",
+  "run_id": "20260814T160619Z",
+  "run_output_dir": "/workspace/latent-reservations/notebook_outputs/09_avalon_full_multiagent_perspective_pilot/20260814T160619Z",
+  "avalon_commit": "2439c6b50df7b45bae4cfcaa67e1d973e4dd8fa5",
+  "source_notebook08b_run": "/workspace/latent-reservations/notebook_outputs/08b_avalon_native_engine_repair/20260814T141443Z",
+  "protocol_freeze": "/workspace/latent-reservations/notebook_outputs/09_avalon_full_multiagent_perspective_pilot/20260814T160619Z/manifests/protocol_freeze.json",
+  "prompt_patch": "/workspace/latent-reservations/notebook_outputs/09_avalon_full_multiagent_perspective_pilot/20260814T160619Z/manifests/prompt_patch.json",
+  "native_engine_interface": "/workspace/latent-reservations/notebook_outputs/09_avalon_full_multiagent_perspective_pilot/20260814T160619Z/manifests/native_engine_interface.json",
+  "perspective_preflight": "/workspace/latent-reservations/notebook_outputs/09_avalon_full_multiagent_perspective_pilot/20260814T160619Z/results/tables/perspective_preflight.csv",
+  "game_design": "/workspace/latent-reservations/notebook_outputs/09_avalon_full_multiagent_perspective_pilot/20260814T160619Z/results/tables/game_design_preoutcome.csv",
+  "games_directory": "/workspace/latent-reservations/notebook_outputs/09_avalon_full_multiagent_perspective_pilot/20260814T160619Z/data/games",
+  "target_state_index": "/workspace/latent-reservations/notebook_outputs/09_avalon_full_multiagent_perspective_pilot/20260814T160619Z/results/tables/target_state_index.csv",
+  "all_player_mission_interface": "/workspace/latent-reservations/notebook_outputs/09_avalon_full_multiagent_perspective_pilot/20260814T160619Z/results/tables/all_player_mission_interface.csv",
+  "perspective_boundary_audit": "/workspace/latent-reservations/notebook_outputs/09_avalon_full_multiagent_perspective_pilot/20260814T160619Z/results/tables/perspective_boundary_audit.csv",
+  "all_target_activations": "/workspace/latent-reservations/notebook_outputs/09_avalon_full_multiagent_perspective_pilot/20260814T160619Z/data/all_target_activations.safetensors",
+  "sibling_measurements": "/workspace/latent-reservations/notebook_outputs/09_avalon_full_multiagent_perspective_pilot/20260814T160619Z/results/tables/target_sibling_measurements.csv",
+  "primary_gates": "/workspace/latent-reservations/notebook_outputs/09_avalon_full_multiagent_perspective_pilot/20260814T160619Z/results/tables/primary_gates.json",
+  "natural_condition_behavior": "/workspace/latent-reservations/notebook_outputs/09_avalon_full_multiagent_perspective_pilot/20260814T160619Z/results/tables/natural_strategic_condition_behavior.csv",
+  "result_summary": "/workspace/latent-reservations/notebook_outputs/09_avalon_full_multiagent_perspective_pilot/20260814T160619Z/results/tables/result_summary.json",
+  "figures": [
+    "/workspace/latent-reservations/notebook_outputs/09_avalon_full_multiagent_perspective_pilot/20260814T160619Z/results/figures/method_brier_comparison.png",
+    "/workspace/latent-reservations/notebook_outputs/09_avalon_full_multiagent_perspective_pilot/20260814T160619Z/results/figures/sabotage_rate_by_known_evil_teammate.png",
+    "/workspace/latent-reservations/notebook_outputs/09_avalon_full_multiagent_perspective_pilot/20260814T160619Z/results/figures/sabotage_rate_by_natural_mission.png"
+  ]
+}

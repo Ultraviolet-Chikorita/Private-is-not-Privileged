@@ -1,0 +1,10 @@
+{
+  "notebook03_run": "/workspace/latent-reservations/notebook_outputs/03_llm_deliberation_evidence_freeze/20260814T014816Z",
+  "notebook03_frozen": true,
+  "h1_delta_latent": -14.495083109537761,
+  "h1_ci95": [
+    -25.559805552164715,
+    -7.303814188639323
+  ],
+  "h3_gap": 0.0
+}

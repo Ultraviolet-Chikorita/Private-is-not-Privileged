@@ -1,0 +1,71 @@
+{
+  "notebook_build": "latent-reservations-notebook14-cicero-full-agent-bootstrap-v5.7-source-py37-venv",
+  "run_id": "20260815T122832Z",
+  "cicero_commit": "e85afeddb34f5b7c1ea0827203b425a0f7e68ead",
+  "purpose": "Bootstrap the released full CICERO agent and map native strategic planner observables.",
+  "agent_config": {
+    "compare_task_config": "/workspace/latent-reservations/vendor/diplomacy_cicero/conf/c01_ag_cmp/cmp.prototxt",
+    "cicero_include": "agents/cicero.prototxt",
+    "resolved_cicero_agent_config": "conf/common/agents/cicero.prototxt"
+  },
+  "scientific_status": "Engineering/mechanistic observability validation only; no H1 estimate.",
+  "model_inventory": {
+    "files": 67,
+    "total_bytes": 33463639523
+  },
+  "source_signals": {
+    "BQRE1PAgent": true,
+    "run_search": true,
+    "blueprint_policy": true,
+    "plausible_orders": true,
+    "action_probabilities": true,
+    "belief_state": true,
+    "bilateral": true
+  },
+  "runtime_signals": {
+    "BQRE1PAgent_present": true,
+    "run_search_method_present": true,
+    "br_corr_module_present": true
+  },
+  "observable_presence": {
+    "blueprint_policy": true,
+    "plausible_orders": true,
+    "action_probabilities": true,
+    "belief_state": true,
+    "search_result": true,
+    "conditional_values": true
+  },
+  "startup_result": {
+    "command": [
+      "/workspace/latent-reservations/.venvs/cicero_full_agent_py37_source_v5/bin/python",
+      "run.py",
+      "--adhoc",
+      "--cfg",
+      "conf/c01_ag_cmp/cmp.prototxt",
+      "Iagent_one=agents/cicero.prototxt",
+      "use_shared_agent=1",
+      "power_one=TURKEY"
+    ],
+    "planner_search_observed": true,
+    "process_exited_before_search": false,
+    "returncode_after_stop": 1,
+    "log_path": "/workspace/latent-reservations/notebook_outputs/14_cicero_full_agent_bootstrap_planner_observability/20260815T122832Z/data/runtime/full_agent_startup.log"
+  },
+  "readiness": {
+    "frozen_cicero_commit": true,
+    "released_model_files_present": true,
+    "legacy_python37_present": true,
+    "standard_virtual_environment_present": true,
+    "pip_stack_marker_present": true,
+    "legacy_full_agent_imports_pass": true,
+    "legacy_gpu_visible": true,
+    "run_py_entrypoint_pass": true,
+    "source_BQRE1PAgent_found": true,
+    "source_run_search_found": true,
+    "runtime_BQRE1PAgent_found": true,
+    "runtime_run_search_found": true,
+    "full_agent_reached_native_search": true,
+    "planner_observable_policy_found": true,
+    "ready_for_notebook15_cicero_planner_capture": true
+  }
+}

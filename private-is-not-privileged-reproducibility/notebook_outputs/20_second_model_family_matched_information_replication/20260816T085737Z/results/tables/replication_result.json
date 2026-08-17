@@ -1,0 +1,54 @@
+{
+  "subject_model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "subject_revision_resolved": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+  "valid_states": 76,
+  "source_games": 40,
+  "metrics": {
+    "activation": {
+      "brier": 0.2538592763207855,
+      "accuracy": 0.631578947368421,
+      "auroc": 0.6218211648892535
+    },
+    "strong_text": {
+      "brier": 0.2222761668946565,
+      "accuracy": 0.6973684210526315,
+      "auroc": 0.4626743232157506
+    },
+    "matched_auditor": {
+      "brier": 0.5161512894737501,
+      "accuracy": 0.34210526315789475,
+      "auroc": 0.7309269893355209
+    },
+    "trained_text": {
+      "brier": 0.2222761668946565,
+      "accuracy": 0.6973684210526315,
+      "auroc": 0.4626743232157506
+    },
+    "structured": {
+      "brier": 0.14542260566776305,
+      "accuracy": 0.8421052631578947,
+      "auroc": 0.8310090237899919
+    },
+    "constant": {
+      "brier": 0.21213003024383711,
+      "accuracy": 0.6973684210526315,
+      "auroc": 0.44585726004922066
+    },
+    "shuffled_activation": {
+      "brier": 0.3277974272575441,
+      "accuracy": 0.5263157894736842,
+      "auroc": 0.5135356849876949
+    }
+  },
+  "delta_strong_text_minus_activation": -0.04539087099934392,
+  "cluster_bootstrap": {
+    "reps": 20000,
+    "mean": -0.045392437162753325,
+    "ci95_low": -0.12563326795347474,
+    "ci95_high": 0.032769092305371186,
+    "fraction_positive": 0.1288
+  },
+  "activation_beats_shuffled_label_control": true,
+  "privileged_access_supported": false,
+  "decision": "second_family_privileged_access_not_supported_valid_test"
+}

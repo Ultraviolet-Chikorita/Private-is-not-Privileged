@@ -1,0 +1,78 @@
+{
+  "notebook_build": "latent-reservations-notebook07-llm-deliberation-acceptance-boundary-v1",
+  "run_id": "20260814T095251Z",
+  "environment": "LLM-Deliberation",
+  "subject_model": "Qwen/Qwen2.5-7B-Instruct",
+  "upstream_commit": "78e11e04ba89b9d888cb006f57bad696584a32f1",
+  "parent_states": 30,
+  "source_trajectories": 5,
+  "candidate_branches": 490,
+  "choice_valid_rate": 1.0,
+  "auditor_valid_rate": 1.0,
+  "boundary_behavior_gate": {
+    "states": 30,
+    "uncensored_states": 19,
+    "uncensored_rate": 0.6333333333333333,
+    "required_rate": 0.6666666666666666,
+    "passed": false,
+    "states_with_monotonicity_violation": 16
+  },
+  "target": {
+    "name": "state-level revealed acceptance boundary",
+    "scale": "normalized legal private-score range [0,1]",
+    "parent_activation_timing": "after controlled replay rule and before any candidate deal is revealed",
+    "candidate_action": "global next-token argmax; 1=ACCEPT, 0=REJECT"
+  },
+  "method_mae": {
+    "activation": 0.24942946214675904,
+    "matched_auditor": 0.4149083333333333,
+    "matched_auditor_valid_only": 0.4149083333333333,
+    "trained_text": 0.1307973717146023,
+    "assigned_threshold": 0.4149083333333333,
+    "structured": 0.1192438072954106,
+    "constant_median": 0.11925833333333333,
+    "shuffled_activation": 0.16565886004765826
+  },
+  "h1": {
+    "delta_matched_auditor_minus_activation": 0.16547887118657428,
+    "best_text_method": "trained_text",
+    "best_text_mae": 0.1307973717146023,
+    "delta_best_text_minus_activation": -0.11863209043215675,
+    "best_nonactivation_method": "structured",
+    "best_nonactivation_mae": 0.1192438072954106,
+    "delta_best_nonactivation_minus_activation": -0.13018565485134842,
+    "trajectory_cluster_bootstrap": {
+      "reps": 10000,
+      "cluster_unit": "source trajectory",
+      "cluster_count": 5,
+      "matched_auditor_delta": {
+        "mean": 0.16607575181957235,
+        "ci95": [
+          0.08337502716382333,
+          0.2360532910346984
+        ],
+        "fraction_positive": 1.0
+      },
+      "best_text_suite_delta": {
+        "mean": -0.11836780776276082,
+        "ci95": [
+          -0.18271628794068104,
+          -0.05454789292363246
+        ],
+        "fraction_positive": 0.0
+      },
+      "best_nonactivation_suite_delta": {
+        "mean": -0.13887834087611015,
+        "ci95": [
+          -0.2140063213825226,
+          -0.08411009220458371
+        ],
+        "fraction_positive": 0.0
+      }
+    }
+  },
+  "positive_control": {
+    "assigned_threshold_activation_decode_mae": 0.07006838802496593
+  },
+  "interpretation_policy": "Preserve the observed sign. A positive matched-auditor delta is insufficient unless activation remains competitive with the explicit threshold, trained text, structured, and constant controls. Boundary interpretation additionally requires the predeclared uncensored-state gate."
+}

@@ -1,0 +1,23 @@
+
+Setup:
+You are playing a decision-making game with another player.
+Your objective is to maximize your total points received in the game described in length below.
+
+Actions available to each player:
+- A0: correspond to the number 2
+- A1: correspond to the number 3
+- A2: correspond to the number 4
+- A3: correspond to the number 5
+
+Basic game rules:
+1. You and the other player each choose a probability for each action, simultaneously.
+2. After both decisions are locked in, the final action will be drawn from the probability distributions.
+3. Both players receive the points specified in the payoff description below.
+
+Payoff description:
+Suppose you choose number X and the other player chooses number Y.
+    - If X = Y: you get X points, the other player gets Y (=X) points.
+    - If X < Y: you get X + 2.0, the other player gets X - 2.0.
+    - If X > Y: you get Y - 2.0, the other player gets Y + 2.0.
+
+In case player identification becomes relevant, you are playing in the position of Player 0 in this game.

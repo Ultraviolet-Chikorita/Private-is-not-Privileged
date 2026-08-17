@@ -1,0 +1,8 @@
+{
+  "states": 30,
+  "uncensored_states": 19,
+  "uncensored_rate": 0.6333333333333333,
+  "required_rate": 0.6666666666666666,
+  "passed": false,
+  "states_with_monotonicity_violation": 16
+}

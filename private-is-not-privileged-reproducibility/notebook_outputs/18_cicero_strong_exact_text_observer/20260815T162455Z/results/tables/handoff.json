@@ -1,0 +1,15 @@
+{
+  "notebook_build": "latent-reservations-notebook18-cicero-strong-exact-text-observer-v2-cache-resolution",
+  "source_notebook17_run_id": "20260815T154340Z",
+  "source_notebook17_run_dir": "/workspace/latent-reservations/notebook_outputs/17_cicero_exact_dialogue_input_visibility/20260815T154340Z",
+  "source_notebook17_build": "latent-reservations-notebook17-cicero-exact-dialogue-visibility-v1",
+  "cicero_commit": "e85afeddb34f5b7c1ea0827203b425a0f7e68ead",
+  "text_visible_threshold": 0.8,
+  "expected_primary_episodes": 18,
+  "required_handoff": {
+    "source_run_id_matches": true,
+    "capture_valid": true,
+    "ready_for_notebook18": true,
+    "no_privileged_claim_already_made": true
+  }
+}

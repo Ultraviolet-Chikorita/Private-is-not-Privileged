@@ -1,0 +1,547 @@
+[
+  {
+    "path": "data/activations/pre_action_all_layers.safetensors",
+    "bytes": 15655000,
+    "sha256": "5566b23c89106d9d32d91f625bf216d2da844760d41fe537cb22a8d4af8305b4"
+  },
+  {
+    "path": "data/h1_records.jsonl",
+    "bytes": 993381,
+    "sha256": "32279990cd9b0c26b67630f93973fb972ebed0b3887b630198c7559d1390c037"
+  },
+  {
+    "path": "data/legacy_replay.log",
+    "bytes": 35,
+    "sha256": "171e4cf95d6aed1bbc33e19d99774b2218de06269adb066f048af7324103f4bd"
+  },
+  {
+    "path": "data/legacy_replay_helper.py",
+    "bytes": 2513,
+    "sha256": "eb851afe44e67f7fe0453bc84e77153ce29d072d6eed7c4bfbc05f25640cd84b"
+  },
+  {
+    "path": "data/legacy_replay_requests.json",
+    "bytes": 1447907,
+    "sha256": "2abcbfef4fcea93b90128c2f0c390540622f972d0ed4f9384f8fd00596133493"
+  },
+  {
+    "path": "data/legacy_replay_results.json",
+    "bytes": 20614,
+    "sha256": "bbea3ac1138e268a2db304dcef578b7e9a9e7d6b2e2b90903a6b274718b13bd4"
+  },
+  {
+    "path": "data/legacy_selected_state_order.json",
+    "bytes": 2281,
+    "sha256": "713f9a0256ad0cb54caa1d2afcd1e014a50ca8b37e03e1910665f9ef13c00065"
+  },
+  {
+    "path": "data/legacy_state_builder.log",
+    "bytes": 11255,
+    "sha256": "3838369b00ac533f3fc1080cedc1f9c28d612588888724623f4b62336da37fe9"
+  },
+  {
+    "path": "data/legacy_state_builder.py",
+    "bytes": 29530,
+    "sha256": "f232461c2b5b8bed8471730bf493ff90109ed98ff69799fc8e47662950589e0f"
+  },
+  {
+    "path": "data/states/cicero_g000_p001_ENGLAND.json",
+    "bytes": 12712,
+    "sha256": "811150dbe2d0ac428867f3731c82b0f3ba9a9c0f1f7a5598f76eb25efeaa7cee"
+  },
+  {
+    "path": "data/states/cicero_g000_p014_ENGLAND.json",
+    "bytes": 51297,
+    "sha256": "3d1546be8bf0d878c3cf7b51d795c3348dcb41a589a4937204506147300e87b9"
+  },
+  {
+    "path": "data/states/cicero_g001_p001_ITALY.json",
+    "bytes": 13698,
+    "sha256": "0982804146af7a5267360c93a060605b899446fbea9bc630c6f76ee88f09c381"
+  },
+  {
+    "path": "data/states/cicero_g001_p003_ITALY.json",
+    "bytes": 21331,
+    "sha256": "eea4d3092953af9cc1fefc48b9f8581bd9a526fe883d6c32c35bfd0b5879bf60"
+  },
+  {
+    "path": "data/states/cicero_g002_p003_RUSSIA.json",
+    "bytes": 18165,
+    "sha256": "6c34849998d142a260bca0c8a04a61c56a8d8c32e0f1b3aab1f161b4be19cba6"
+  },
+  {
+    "path": "data/states/cicero_g002_p005_RUSSIA.json",
+    "bytes": 25318,
+    "sha256": "fb52b676c547380e5ee4b42d79a1412f3676f8e69fbbffa2cd87e035e64f4ab5"
+  },
+  {
+    "path": "data/states/cicero_g003_p001_ENGLAND.json",
+    "bytes": 9363,
+    "sha256": "ad450194d670b4f82b05f75cd0d7ebde1df5d085075ecf40ca3ef7bdc76825b4"
+  },
+  {
+    "path": "data/states/cicero_g003_p025_ENGLAND.json",
+    "bytes": 58715,
+    "sha256": "fc679a760537e8d93ab0fb2383476fde19b283343e0d1f14df326f3544e3a936"
+  },
+  {
+    "path": "data/states/cicero_g004_p005_GERMANY.json",
+    "bytes": 26519,
+    "sha256": "f4aa1a0f8c9825efcd9bdbed253c3008bd4171d1148cf75045d3db122d5f2f32"
+  },
+  {
+    "path": "data/states/cicero_g004_p010_GERMANY.json",
+    "bytes": 41878,
+    "sha256": "777b624563d149a180c61d9abc3da44944b6488476ab6432ed5fb530e4361e46"
+  },
+  {
+    "path": "data/states/cicero_g005_p001_AUSTRIA.json",
+    "bytes": 15541,
+    "sha256": "2c331499e1824b5bebf338e0a1283e9c763143dc8e08f0df1b1468d3ef89b8c5"
+  },
+  {
+    "path": "data/states/cicero_g005_p015_AUSTRIA.json",
+    "bytes": 61678,
+    "sha256": "12d8c6cd3cbfa143177932765541d5eefddd2f40b8444dd38b06095bda10adee"
+  },
+  {
+    "path": "data/states/cicero_g006_p009_TURKEY.json",
+    "bytes": 40468,
+    "sha256": "8353213761e2e81f9217bc92b636fb77e730acf911ae2f8fe5cda8540420995c"
+  },
+  {
+    "path": "data/states/cicero_g006_p024_TURKEY.json",
+    "bytes": 85731,
+    "sha256": "12e91f9efbdc98919805acd95b8af6957dbaf259cbf64b7b3271c8cfe84152e2"
+  },
+  {
+    "path": "data/states/cicero_g007_p000_RUSSIA.json",
+    "bytes": 8070,
+    "sha256": "b4c95217e5d8b8f7d578946384e7d6ade890b30382ed8bb7f780fc1ad9f66d89"
+  },
+  {
+    "path": "data/states/cicero_g007_p001_FRANCE.json",
+    "bytes": 13733,
+    "sha256": "76cc639372bf828a23d8fccff4ea2bfb0a045230cf855521bc3a6fc93f81d796"
+  },
+  {
+    "path": "data/states/cicero_g008_p001_ITALY.json",
+    "bytes": 12868,
+    "sha256": "28ff9fae2e17cb6d2199a62213b215e1b13a18bfb92f2d922125f0794aa3e79d"
+  },
+  {
+    "path": "data/states/cicero_g008_p005_ITALY.json",
+    "bytes": 26601,
+    "sha256": "1f11ede700988a280bdbada68e9602cb6aaf4083d1e08ee4e000c93069459b97"
+  },
+  {
+    "path": "data/states/cicero_g009_p001_ENGLAND.json",
+    "bytes": 10045,
+    "sha256": "6356f0d5c1a40bde5640d172b0abb884fc65e098bb306488c730832fdf0d3d41"
+  },
+  {
+    "path": "data/states/cicero_g009_p003_ENGLAND.json",
+    "bytes": 15899,
+    "sha256": "d6b7877506e11d4d6e24ba7b3a5cc608a8c4ee12f3adf85ae81b22b7c4018432"
+  },
+  {
+    "path": "data/states/cicero_g010_p028_FRANCE.json",
+    "bytes": 74640,
+    "sha256": "5cf3bcac742d8eaa789aaf6c6f1bd6124c397f268fd599be2453b2ff08b7ae23"
+  },
+  {
+    "path": "data/states/cicero_g010_p031_FRANCE.json",
+    "bytes": 83645,
+    "sha256": "38a7d62013ed935abf470c1b7ddedd487642d6d65dedcd999051198585179653"
+  },
+  {
+    "path": "data/states/cicero_g011_p001_RUSSIA.json",
+    "bytes": 17500,
+    "sha256": "4cad8daf5b647e0158e887200e42b00174d99c00dd04f20d114442605265bd1e"
+  },
+  {
+    "path": "data/states/cicero_g011_p003_RUSSIA.json",
+    "bytes": 26940,
+    "sha256": "771d50250074d37c33d87ce4e645e1b92cb2c158234145be45f116fbc32bbd6d"
+  },
+  {
+    "path": "data/states/cicero_g012_p001_RUSSIA.json",
+    "bytes": 18063,
+    "sha256": "b3732af52487ceedf377b61e38c4ff60b69b4ab453e25eb53ef8d962d4b11993"
+  },
+  {
+    "path": "data/states/cicero_g012_p005_RUSSIA.json",
+    "bytes": 37897,
+    "sha256": "38040452e08c37ac937b2c708fa6cebc167b0f23f628c0c0b55134b4ecefad88"
+  },
+  {
+    "path": "data/states/cicero_g013_p000_RUSSIA.json",
+    "bytes": 11676,
+    "sha256": "3e1fd9ecfb7a738b86de2bd269c49dec9cf63fd37de5139ebfeb0549ca7ff199"
+  },
+  {
+    "path": "data/states/cicero_g013_p001_RUSSIA.json",
+    "bytes": 18938,
+    "sha256": "ffc3f04b09738caf53c25f55a552ac308d534cac6d48b8d62ab9dc9af12b91b1"
+  },
+  {
+    "path": "data/states/cicero_g014_p000_RUSSIA.json",
+    "bytes": 10271,
+    "sha256": "23a0fb9fa721c243ba6738d02c21331a442142868189d1fd136cdc38e2ff2b21"
+  },
+  {
+    "path": "data/states/cicero_g014_p001_RUSSIA.json",
+    "bytes": 16285,
+    "sha256": "aeea6a360cdd0978334e3442a20b0f044763202675f24f6357793bb3b0f8f0fb"
+  },
+  {
+    "path": "data/states/cicero_g015_p001_ENGLAND.json",
+    "bytes": 11289,
+    "sha256": "6d42cc12914eaea9769c71d2641d9ac8f855b3a33214734c2183eb034c7ef1f2"
+  },
+  {
+    "path": "data/states/cicero_g015_p005_ENGLAND.json",
+    "bytes": 23550,
+    "sha256": "7f98acadff0ebdbe75fa23ce35279f0b969d8b5b707dd3dc1001c9880a336cf4"
+  },
+  {
+    "path": "data/states/cicero_g016_p001_ITALY.json",
+    "bytes": 12213,
+    "sha256": "8d4d04fc349ea3c872c0ec71a0bed0548ac3e981b5bf20be9b05b3f2b8abdecc"
+  },
+  {
+    "path": "data/states/cicero_g016_p004_ITALY.json",
+    "bytes": 26363,
+    "sha256": "a59d1c0b42403f846a2d71fe538b5f4952ac948d53ba9983c79b1da3b7c11e1b"
+  },
+  {
+    "path": "data/states/cicero_g017_p001_FRANCE.json",
+    "bytes": 17832,
+    "sha256": "2143bda5fa4fa6216a32779a5b8a9a2841d705d23d3f6d9c2d80268cc29b5b2f"
+  },
+  {
+    "path": "data/states/cicero_g017_p005_FRANCE.json",
+    "bytes": 33062,
+    "sha256": "883ddf7b050f9a91447caa8c1d640c7aa0ff7168930b5602b580138a690a6576"
+  },
+  {
+    "path": "data/states/cicero_g018_p001_ENGLAND.json",
+    "bytes": 9228,
+    "sha256": "f8b96f4bd4ec04957f21daaa72dcfcc46cc35027af2a1658c7506b1f61a9e33f"
+  },
+  {
+    "path": "data/states/cicero_g019_p007_RUSSIA.json",
+    "bytes": 26368,
+    "sha256": "ad656bfd7d4b05cfb7afef9e7b932e3494b327099e0aea04df827f7f7dfe7655"
+  },
+  {
+    "path": "data/states/cicero_g019_p009_ITALY.json",
+    "bytes": 31664,
+    "sha256": "a5fc7de2bb6e467919f4d58688aff1f9b6248bc559bffab91558c515bf3ae89f"
+  },
+  {
+    "path": "data/states/cicero_g020_p001_ITALY.json",
+    "bytes": 10337,
+    "sha256": "19763b93eba0d9bac5a82509d9c57fc08aa1efb0ba53ee38951a34a48f72bc2e"
+  },
+  {
+    "path": "data/states/cicero_g020_p005_ITALY.json",
+    "bytes": 20334,
+    "sha256": "27f64381021ae1fa6badd8552c3299ebeec61ba09019f88487a3537157e16497"
+  },
+  {
+    "path": "data/states/cicero_g021_p003_FRANCE.json",
+    "bytes": 19992,
+    "sha256": "0963762ea30aa9982444b4223b72ebd516d5dd1b329d7a5875c3d104f9918ee6"
+  },
+  {
+    "path": "data/states/cicero_g021_p005_FRANCE.json",
+    "bytes": 25921,
+    "sha256": "b09b2293ff7eb00d7a9fd875251eea2d5da9647fff4f88af3f714a8a6ff6076d"
+  },
+  {
+    "path": "data/states/cicero_g022_p005_ENGLAND.json",
+    "bytes": 31918,
+    "sha256": "65b2e2c838d2a592b3acb5329eac68e61383152409ae1efa046d47300b7d3e00"
+  },
+  {
+    "path": "data/states/cicero_g022_p008_ENGLAND.json",
+    "bytes": 42350,
+    "sha256": "045e571102682e4e62353be43c8d3a0fb895360963f440e1e86ae39397a8da71"
+  },
+  {
+    "path": "data/states/cicero_g023_p007_ITALY.json",
+    "bytes": 27124,
+    "sha256": "d8905237d35af141f79bd6cd3cef4a53107be866ced97fff9b83cf8dcb1c45c3"
+  },
+  {
+    "path": "data/states/cicero_g023_p009_ITALY.json",
+    "bytes": 32294,
+    "sha256": "f77b8125b208530aa3a1a9af7f33ee8939a0aace9c7898c67e1b61af85faacdc"
+  },
+  {
+    "path": "data/states/cicero_g024_p001_FRANCE.json",
+    "bytes": 10114,
+    "sha256": "276b02c6504892c41e26b3b72ea8945e1871e33e52dd07dceb874e3f8acbfe98"
+  },
+  {
+    "path": "data/states/cicero_g024_p005_FRANCE.json",
+    "bytes": 20831,
+    "sha256": "6b2a1f8543a241e68add99757b8bbf6b39ba9391806ecead4cf315351f3febbb"
+  },
+  {
+    "path": "data/states/cicero_g025_p001_ENGLAND.json",
+    "bytes": 10396,
+    "sha256": "d47dc275aff3523162d9a6a45f962d86b9306bb7ee88a1ed1edd6cd144ce5c6e"
+  },
+  {
+    "path": "data/states/cicero_g026_p001_GERMANY.json",
+    "bytes": 12619,
+    "sha256": "b5bbccd21a91040fd1b95b693c6079bbbf4f36b62c525c4bc33b5b7f4e36dac6"
+  },
+  {
+    "path": "data/states/cicero_g026_p003_GERMANY.json",
+    "bytes": 18955,
+    "sha256": "744d76670daf8ecd871ae0c1b3956b25db6be79c616a561068d24e051c150b71"
+  },
+  {
+    "path": "data/states/cicero_g027_p001_AUSTRIA.json",
+    "bytes": 11172,
+    "sha256": "0a9f008118dfb6e1e2f928cec80e981b62682f73ebd67a4d55a264db2a156e8f"
+  },
+  {
+    "path": "data/states/cicero_g027_p003_AUSTRIA.json",
+    "bytes": 18785,
+    "sha256": "c6b0a7ee1ff71fd93ec88ba5e57a0bfbe98150c48ae06e570d195f210e077e35"
+  },
+  {
+    "path": "data/states/cicero_g028_p001_GERMANY.json",
+    "bytes": 9880,
+    "sha256": "82c97382cae7d93a27c47249c8f04fd7625214b1b7c7f5bdb235409c88fe6823"
+  },
+  {
+    "path": "data/states/cicero_g028_p003_GERMANY.json",
+    "bytes": 16290,
+    "sha256": "7637635767c3669cc88b746d248a63a626f562473a5983a2ca4eeb3800b0746d"
+  },
+  {
+    "path": "data/states/cicero_g029_p018_RUSSIA.json",
+    "bytes": 61111,
+    "sha256": "40db28d5c1fb43de6528b8a94383333702c0754bbec2655291567f80c3d8218e"
+  },
+  {
+    "path": "data/states/cicero_g029_p019_RUSSIA.json",
+    "bytes": 66601,
+    "sha256": "ce3feae37abf2ab9239fa8d39f3c8b5f8d83cb95a3d66dbaaa04ba453248a912"
+  },
+  {
+    "path": "data/states/cicero_g030_p000_RUSSIA.json",
+    "bytes": 13431,
+    "sha256": "0246320174d73dfcdf0fd5db1044c912621cc3c8e9d98c8f7a9975574fcb0469"
+  },
+  {
+    "path": "data/states/cicero_g030_p001_RUSSIA.json",
+    "bytes": 24401,
+    "sha256": "33cf80743c4186b3e134f9c110b7534c124b1fb88e974d0fe75c6204c138da4e"
+  },
+  {
+    "path": "data/states/cicero_g031_p000_RUSSIA.json",
+    "bytes": 6804,
+    "sha256": "bcd6f57f261ea135083bef3c98952b562f56e7b0259799dd221a155dbd6a35df"
+  },
+  {
+    "path": "data/states/cicero_g031_p012_FRANCE.json",
+    "bytes": 32777,
+    "sha256": "6dd988fc9c0da4ffccceaeb634e62e2cdd3ae81ebf112ba2b615ce12d17a11eb"
+  },
+  {
+    "path": "data/states/cicero_g032_p001_AUSTRIA.json",
+    "bytes": 11355,
+    "sha256": "104bfa9d43bc24313e3b36e34fe8a8e3b9345c3dd798250bcb47f520f5819e9d"
+  },
+  {
+    "path": "data/states/cicero_g032_p003_AUSTRIA.json",
+    "bytes": 17910,
+    "sha256": "8c7ef7024b65bffd92510ddb356e581f4c70ab711bf752fb0e08a0076e42f880"
+  },
+  {
+    "path": "data/states/cicero_g033_p009_AUSTRIA.json",
+    "bytes": 33941,
+    "sha256": "57e7a0029fc070873cc89e0f08e87563b9d8134c9ebb9e5c7e680938a0f04b49"
+  },
+  {
+    "path": "data/states/cicero_g033_p013_AUSTRIA.json",
+    "bytes": 45756,
+    "sha256": "b15b9885e2603c504800d6647200d3e680c4fff5e03a8bbadac333ab2b8dd83e"
+  },
+  {
+    "path": "data/states/cicero_g034_p001_ENGLAND.json",
+    "bytes": 10990,
+    "sha256": "418d172c771e6a5890d2d0a4a283e97c4d5661e442e80542c159a3ec133a006e"
+  },
+  {
+    "path": "data/states/cicero_g034_p004_ENGLAND.json",
+    "bytes": 19451,
+    "sha256": "d61d37b80de3d7cb70517648d8fa77432eea42cdee0ebdd422605d20821ea6a4"
+  },
+  {
+    "path": "data/states/cicero_g035_p003_ITALY.json",
+    "bytes": 19267,
+    "sha256": "00728794a57234393206fcfdeec56914fab9bf5f9281e32f3b8ef41886d1efa8"
+  },
+  {
+    "path": "data/states/cicero_g035_p005_ITALY.json",
+    "bytes": 24901,
+    "sha256": "ddf0d953e6bfe36ac6263aa2f53b8439eb5325b95bd3d9af1df217008e70665b"
+  },
+  {
+    "path": "data/states/cicero_g036_p001_ENGLAND.json",
+    "bytes": 12432,
+    "sha256": "c92cfbb96ab6dedc45624d8c4165df875aa87a3b4e49de6ab458f9574a7f2922"
+  },
+  {
+    "path": "data/states/cicero_g036_p025_ENGLAND.json",
+    "bytes": 61993,
+    "sha256": "a047d13489df9362d78f962ebda8000b70d622b257dacb081291ad2082a0ab4a"
+  },
+  {
+    "path": "data/states/cicero_g037_p001_ITALY.json",
+    "bytes": 14283,
+    "sha256": "26daf647f3bfd703e967aa20f168d209835ee7b0f5b815e5a2179e5d8a2bac90"
+  },
+  {
+    "path": "data/states/cicero_g037_p009_ITALY.json",
+    "bytes": 43157,
+    "sha256": "d7850fa43ae5a9a1148b8257daee745f6a54ddb72e4210ab2bb7363a1975b5af"
+  },
+  {
+    "path": "data/states/cicero_g038_p001_TURKEY.json",
+    "bytes": 13768,
+    "sha256": "e1c59ff26750a7c00597193748e95130f1ef61b4f6f414ebc7432997aad46bd2"
+  },
+  {
+    "path": "data/states/cicero_g038_p003_TURKEY.json",
+    "bytes": 20501,
+    "sha256": "9c896c56443f614e9860389fc4532f7763db34773a449e2a938aa98d2647add6"
+  },
+  {
+    "path": "data/states/cicero_g039_p001_ENGLAND.json",
+    "bytes": 15667,
+    "sha256": "307d37cce4664ab37d7ddc711914a48ab2549bdb1147709cd115063e59ca00e9"
+  },
+  {
+    "path": "data/states/cicero_g039_p016_ENGLAND.json",
+    "bytes": 60275,
+    "sha256": "12a00b5eea56bdb794efa48f59d5721259dd45a64d481537c677d2b312a96494"
+  },
+  {
+    "path": "manifests/legacy_native_engine_handoff.json",
+    "bytes": 539,
+    "sha256": "b24537b6ff3375c850a5908dcad20757b798493615f55b577bb3f1eda7d45468"
+  },
+  {
+    "path": "manifests/notebook19_manifest.json",
+    "bytes": 2401,
+    "sha256": "aed65011b25c33b78847b9aeda2a2f020fa89cebf54137c0845620bc5cd8b3fa"
+  },
+  {
+    "path": "manifests/protocol_freeze.json",
+    "bytes": 1614,
+    "sha256": "1a1f0ddf842eba0d9b8a83794a7d5a4fef683d57b5a6103107131d307a886ca9"
+  },
+  {
+    "path": "results/figures/h1_brier_methods.png",
+    "bytes": 72193,
+    "sha256": "cf341afea2fd460bf966f32fb55da341777c16198d35dbf96f74febfbeccd115"
+  },
+  {
+    "path": "results/figures/h1_selected_layers.png",
+    "bytes": 35179,
+    "sha256": "c495cc0f3592a1f080d67badd44ab4bd2bb90eb8cea6a374fe3fa3c570b38e3f"
+  },
+  {
+    "path": "results/figures/h1_source_game_deltas.png",
+    "bytes": 60996,
+    "sha256": "20b264822a2d77835a6e361afe0128d076dde86ba17e589434b864dbf2816803"
+  },
+  {
+    "path": "results/tables/activation_nested_folds.csv",
+    "bytes": 196,
+    "sha256": "a3ed3ac479762e6971875f53e8990cc6206d5c551ac25a1dd0d46591762c627e"
+  },
+  {
+    "path": "results/tables/h1_by_power.csv",
+    "bytes": 475,
+    "sha256": "1cb3ab3c6b908d503e16d4a02337135276fcc36c9e0b090e46e40276770a051a"
+  },
+  {
+    "path": "results/tables/h1_outcomes.csv",
+    "bytes": 38395,
+    "sha256": "66da70019d1febda760f04544a7df3003f8e695ca26374e1e57f14158e65f99e"
+  },
+  {
+    "path": "results/tables/h1_result.json",
+    "bytes": 1849,
+    "sha256": "efdbc07be12a49c0059272312267f76ab31a49f408284c11bc7fd942416196d1"
+  },
+  {
+    "path": "results/tables/h1_valid_same_state_rows.csv",
+    "bytes": 37731,
+    "sha256": "b980b657aa7bad9421b14968b2d62c671bee2f0fe39b80f75f1a4ea3ed8b3401"
+  },
+  {
+    "path": "results/tables/heldout_h1_predictions.csv",
+    "bytes": 31187,
+    "sha256": "37dbb5c46d782dd4d7c45a55fbc1a53a4fae7cd94558cf0d82e3ffe2a383ac48"
+  },
+  {
+    "path": "results/tables/manual_parser_audit_sample.csv",
+    "bytes": 93348,
+    "sha256": "b29412fb48018aee15aec78eff3d832017866d4211a8e5ebe8949dc2d0805c2f"
+  },
+  {
+    "path": "results/tables/preoutcome_prompt_manifest.csv",
+    "bytes": 7771,
+    "sha256": "9840c7f89c6b13c3f1a949f072f75a60c8ffb89be23699355db67f9fde82e7bf"
+  },
+  {
+    "path": "results/tables/readiness.json",
+    "bytes": 984,
+    "sha256": "f9688c2daf3f8e2daea9ebea279299ebcc919885764726b1d3cfac14abb32945"
+  },
+  {
+    "path": "results/tables/readiness_preanalysis.json",
+    "bytes": 658,
+    "sha256": "45b25981185be43cd610ef8d0cbcf96f6aeea595dbcbf47f0c6bcf3107e276b6"
+  },
+  {
+    "path": "results/tables/result_summary.json",
+    "bytes": 5555,
+    "sha256": "abb2be6cd889bda0f0979b5133ee754971967011bc8482936c57a1a95d5bd42e"
+  },
+  {
+    "path": "results/tables/shuffled_activation_nested_folds.csv",
+    "bytes": 197,
+    "sha256": "7a71e9a9fb67d0207751c19cb1a22052b63d5ee49b3f39858d20794bfaf8180c"
+  },
+  {
+    "path": "results/tables/source_game_paired_deltas.csv",
+    "bytes": 2687,
+    "sha256": "2e2f0e0f1715f1edb18777ea4c0ca005e333dca83286b7c1bbe66d3c9e572365"
+  },
+  {
+    "path": "results/tables/source_state_bank_preoutcome.csv",
+    "bytes": 22883,
+    "sha256": "e21a88ae614279e2bde67554e8f788d28a7c6891b1ffb5cfd281a3bc23280900"
+  },
+  {
+    "path": "results/tables/state_selection_attempts.csv",
+    "bytes": 18486,
+    "sha256": "69cb35c5145fa78dc6b7b2ff0906c651f4d94195af1c519fc69f7c7d29fc8dea"
+  },
+  {
+    "path": "results/tables/strong_text_nested_folds.csv",
+    "bytes": 463,
+    "sha256": "d1880693f8effe1101214fa0d90907b187d429cbf60c36cfb2cba01d929c78fd"
+  }
+]

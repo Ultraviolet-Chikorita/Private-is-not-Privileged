@@ -1,0 +1,21 @@
+{
+  "notebook_build": "latent-reservations-notebook19-cicero-h1-activation-vs-strong-text-v4-streamed-fast-state-selection",
+  "native_runtime_isolation": "Notebook14 Python3.7/Torch1.7.1 subprocess only",
+  "run_id": "20260815T180359Z",
+  "run_output_dir": "/workspace/latent-reservations/notebook_outputs/19_cicero_h1_activation_vs_strong_text/20260815T180359Z",
+  "source_notebook10_run": "/workspace/latent-reservations/notebook_outputs/10_cicero_full_press_bootstrap_data_discovery/20260814T172358Z",
+  "source_notebook11_run": "/workspace/latent-reservations/notebook_outputs/11_cicero_native_engine_legal_order_replay/20260814T185224Z",
+  "protocol_freeze": "/workspace/latent-reservations/notebook_outputs/19_cicero_h1_activation_vs_strong_text/20260815T180359Z/manifests/protocol_freeze.json",
+  "state_bank": "/workspace/latent-reservations/notebook_outputs/19_cicero_h1_activation_vs_strong_text/20260815T180359Z/results/tables/source_state_bank_preoutcome.csv",
+  "records": "/workspace/latent-reservations/notebook_outputs/19_cicero_h1_activation_vs_strong_text/20260815T180359Z/data/h1_records.jsonl",
+  "activations": "/workspace/latent-reservations/notebook_outputs/19_cicero_h1_activation_vs_strong_text/20260815T180359Z/data/activations/pre_action_all_layers.safetensors",
+  "heldout_predictions": "/workspace/latent-reservations/notebook_outputs/19_cicero_h1_activation_vs_strong_text/20260815T180359Z/results/tables/heldout_h1_predictions.csv",
+  "h1_result": "/workspace/latent-reservations/notebook_outputs/19_cicero_h1_activation_vs_strong_text/20260815T180359Z/results/tables/h1_result.json",
+  "readiness": "/workspace/latent-reservations/notebook_outputs/19_cicero_h1_activation_vs_strong_text/20260815T180359Z/results/tables/readiness.json",
+  "result_summary": "/workspace/latent-reservations/notebook_outputs/19_cicero_h1_activation_vs_strong_text/20260815T180359Z/results/tables/result_summary.json",
+  "figures": [
+    "/workspace/latent-reservations/notebook_outputs/19_cicero_h1_activation_vs_strong_text/20260815T180359Z/results/figures/h1_brier_methods.png",
+    "/workspace/latent-reservations/notebook_outputs/19_cicero_h1_activation_vs_strong_text/20260815T180359Z/results/figures/h1_selected_layers.png",
+    "/workspace/latent-reservations/notebook_outputs/19_cicero_h1_activation_vs_strong_text/20260815T180359Z/results/figures/h1_source_game_deltas.png"
+  ]
+}

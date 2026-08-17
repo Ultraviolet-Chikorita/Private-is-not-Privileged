@@ -1,0 +1,8 @@
+name,path,exists,is_file,is_dir
+readme,/workspace/latent-reservations/vendor/diplomacy_cicero/README.md,True,True,False
+released_games,/workspace/latent-reservations/vendor/diplomacy_cicero/data/cicero_redacted_games,True,False,True
+fairdiplomacy,/workspace/latent-reservations/vendor/diplomacy_cicero/fairdiplomacy,True,False,True
+dipcc,/workspace/latent-reservations/vendor/diplomacy_cicero/dipcc,True,False,True
+parlai_diplomacy,/workspace/latent-reservations/vendor/diplomacy_cicero/parlai_diplomacy,True,False,True
+requirements,/workspace/latent-reservations/vendor/diplomacy_cicero/requirements.txt,True,True,False
+setup,/workspace/latent-reservations/vendor/diplomacy_cicero/setup.py,True,True,False

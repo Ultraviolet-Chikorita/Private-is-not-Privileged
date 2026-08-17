@@ -1,0 +1,51 @@
+{
+  "notebook_build": "latent-reservations-notebook11-cicero-native-order-replay-v4",
+  "run_id": "20260814T185224Z",
+  "environment": "CICERO-style full-press Diplomacy",
+  "cicero_commit": "e85afeddb34f5b7c1ea0827203b425a0f7e68ead",
+  "engine_import": {
+    "route": "normal_import",
+    "module_name": "pydipcc",
+    "module_file": "/workspace/latent-reservations/vendor/diplomacy_cicero/fairdiplomacy/pydipcc.cpython-312-x86_64-linux-gnu.so",
+    "attempts": [],
+    "commit": "e85afeddb34f5b7c1ea0827203b425a0f7e68ead",
+    "python_executable": "/usr/local/bin/python",
+    "python_soabi": "cpython-312-x86_64-linux-gnu",
+    "artifact_diagnostics": "/workspace/latent-reservations/notebook_outputs/11_cicero_native_engine_legal_order_replay/20260814T185224Z/data/engine/pydipcc_artifact_diagnostics.json"
+  },
+  "reconstructed_source_games": [
+    0,
+    1,
+    2
+  ],
+  "selected_candidate": {
+    "candidate_id": "cicero_g000_p000_ENGLAND",
+    "game_index": 0,
+    "phase_name": "S1901M",
+    "power": "ENGLAND",
+    "focal_location": "EDI",
+    "option_a": "F EDI - NTH",
+    "option_b": "F EDI S F LON - NTH",
+    "parent_game_sha256": "e806179f3e70c1f5d300e93fcb6151ad0471d891e6cdcb4a1a713bad4b50423b",
+    "post_state_sha256_a": "4310eeefea4420a60b4a375a97c06b708afdd4a634a0d12a6c589bf916d00893",
+    "post_state_sha256_b": "acab570d11bf5d2e42872b40aba943de0e40ad766c779e1e8f09978680eaae92",
+    "parent_text_sha256": "baf3a2d66a1b172a331bc264ef8cd509fd24615b5370c9e9a4a2d1f539a3fd0d",
+    "released_subject_message_count": 15
+  },
+  "readiness": {
+    "cicero_commit_frozen_clean": true,
+    "official_pydipcc_loaded": true,
+    "required_engine_methods_present": true,
+    "exact_reconstruction_source_games": 3,
+    "at_least_three_source_games_reconstructed": true,
+    "released_board_state_match": true,
+    "legal_focal_orders_enumerated": true,
+    "two_legal_choices_selected_preoutcome": true,
+    "identical_native_parent": true,
+    "native_post_states_diverge": true,
+    "released_focal_messages_preserved": true,
+    "historical_orders_excluded_from_subject_text": true,
+    "ready_for_notebook12_full_press_order_pilot": true
+  },
+  "interpretation_policy": "Notebook 11 proves native phase reconstruction and divergent legal-order siblings only. Historical CICERO focal orders are not local-subject labels."
+}

@@ -1,0 +1,16 @@
+{
+  "notebook_build": "latent-reservations-notebook10-cicero-full-press-bootstrap-v1",
+  "run_id": "20260814T172358Z",
+  "run_output_dir": "/workspace/latent-reservations/notebook_outputs/10_cicero_full_press_bootstrap_data_discovery/20260814T172358Z",
+  "repo": "/workspace/latent-reservations/vendor/diplomacy_cicero",
+  "repo_commit": "e85afeddb34f5b7c1ea0827203b425a0f7e68ead",
+  "provenance": "/workspace/latent-reservations/notebook_outputs/10_cicero_full_press_bootstrap_data_discovery/20260814T172358Z/manifests/cicero_provenance.json",
+  "protocol_freeze": "/workspace/latent-reservations/notebook_outputs/10_cicero_full_press_bootstrap_data_discovery/20260814T172358Z/manifests/protocol_freeze.json",
+  "released_inventory": "/workspace/latent-reservations/notebook_outputs/10_cicero_full_press_bootstrap_data_discovery/20260814T172358Z/results/tables/released_game_inventory.csv",
+  "phase_profile": "/workspace/latent-reservations/notebook_outputs/10_cicero_full_press_bootstrap_data_discovery/20260814T172358Z/results/tables/released_phase_profile.csv",
+  "candidate_states": "/workspace/latent-reservations/notebook_outputs/10_cicero_full_press_bootstrap_data_discovery/20260814T172358Z/results/tables/structural_candidate_states.csv",
+  "game_interface_hits": "/workspace/latent-reservations/notebook_outputs/10_cicero_full_press_bootstrap_data_discovery/20260814T172358Z/results/tables/game_interface_source_hits.csv",
+  "model_smoke": "/workspace/latent-reservations/notebook_outputs/10_cicero_full_press_bootstrap_data_discovery/20260814T172358Z/data/model_smoke/summary.json",
+  "readiness": "/workspace/latent-reservations/notebook_outputs/10_cicero_full_press_bootstrap_data_discovery/20260814T172358Z/results/tables/readiness.json",
+  "result_summary": "/workspace/latent-reservations/notebook_outputs/10_cicero_full_press_bootstrap_data_discovery/20260814T172358Z/results/tables/result_summary.json"
+}

@@ -1,0 +1,9 @@
+{
+  "BQRE1PAgent": true,
+  "run_search": true,
+  "blueprint_policy": true,
+  "plausible_orders": true,
+  "action_probabilities": true,
+  "belief_state": true,
+  "bilateral": true
+}

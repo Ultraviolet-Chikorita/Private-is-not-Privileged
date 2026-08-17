@@ -1,0 +1,11 @@
+{
+  "reps": 5000,
+  "cluster_unit": "source game family",
+  "test_family_count": 4,
+  "delta_latent": -0.24269359707832341,
+  "ci95": [
+    -0.8562154992421469,
+    0.14165234208106994
+  ],
+  "fraction_positive": 0.2524
+}

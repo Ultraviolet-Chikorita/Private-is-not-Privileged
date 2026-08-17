@@ -1,0 +1,7 @@
+{
+  "source_notebook05b_run": "/workspace/latent-reservations/notebook_outputs/05b_coopeval_pure_strategy_repair/20260814T072048Z",
+  "coopeval_commit": "8559e858b5cc33e0a29ac592c0b21eab007feb57",
+  "subject_model": "Qwen/Qwen2.5-7B-Instruct",
+  "source_families": 20,
+  "prior_result_used_for_selection": false
+}

@@ -1,0 +1,85 @@
+{
+  "notebook_build": "latent-reservations-notebook15-cicero-planner-capture-v2",
+  "run_id": "20260815T140016Z",
+  "cicero_commit": "e85afeddb34f5b7c1ea0827203b425a0f7e68ead",
+  "purpose": "Capture a completed released CICERO native planner result and pair it with subsequent outward behavior.",
+  "scientific_status": "Mechanistic capture/serialization positive control only; no activation-vs-text H1 estimate.",
+  "preflight": {
+    "cicero_commit": "e85afeddb34f5b7c1ea0827203b425a0f7e68ead",
+    "stack_markers": [
+      "/workspace/latent-reservations/.venvs/cicero_full_agent_py37_source_v5/.latent_reservations_cicero_stack_v5_7"
+    ],
+    "torch_route": {
+      "version": "1.7.1+cu110",
+      "cuda": "11.0",
+      "cuda_available": true,
+      "root": "/workspace/latent-reservations/.venvs/cicero_full_agent_py37_source_v5/lib/python3.7/site-packages/torch",
+      "lib": "/workspace/latent-reservations/.venvs/cicero_full_agent_py37_source_v5/lib/python3.7/site-packages/torch/lib"
+    },
+    "runtime_probe": {
+      "python": "/workspace/latent-reservations/.venvs/cicero_full_agent_py37_source_v5/bin/python",
+      "torch": "1.7.1+cu110",
+      "cuda_build": "11.0",
+      "cuda_available": true,
+      "postman": "/workspace/latent-reservations/vendor/diplomacy_cicero/thirdparty/github/fairinternal/postman/postman/python/postman/__init__.py",
+      "pydipcc": "/workspace/latent-reservations/vendor/diplomacy_cicero/fairdiplomacy/pydipcc.cpython-37m-x86_64-linux-gnu.so",
+      "agent": "<class 'fairdiplomacy.agents.bqre1p_agent.BQRE1PAgent'>"
+    }
+  },
+  "runtime_signatures": {
+    "BQRE1PAgent.generate_message": "(self, game: fairdiplomacy.pydipcc.Game, power: str, timestamp: Union[fairdiplomacy.timestamp.Timestamp, NoneType], state: fairdiplomacy.agents.base_agent.AgentState, timings: Union[fairdiplomacy.utils.timing_ctx.TimingCtx, NoneType] = None, recipient: Union[str, NoneType] = None, pseudo_orders: Union[fairdiplomacy.pseudo_orders.PseudoOrders, NoneType] = None) -> Union[fairdiplomacy.typedefs.MessageDict, NoneType]",
+    "BQRE1PAgent.get_orders": "(self, game: fairdiplomacy.pydipcc.Game, power: str, state: fairdiplomacy.agents.base_agent.AgentState) -> Tuple[str, ...]",
+    "BQRE1PAgent.run_bilateral_search_with_conditional_evs": "(self, game: fairdiplomacy.pydipcc.Game, *, bp_policy: Dict[str, Dict[Tuple[str, ...], float]], early_exit_for_power: Union[str, NoneType] = None, timings: Union[fairdiplomacy.utils.timing_ctx.TimingCtx, NoneType] = None, extra_plausible_orders: Union[Dict[str, List[Tuple[str, ...]]], NoneType] = None, agent_power: str, other_power: str, agent_state: Union[fairdiplomacy.agents.base_agent.AgentState, NoneType], conditional_evs: Dict[Tuple[Tuple[str, ...], Tuple[str, ...]], torch.Tensor], pre_rescored_bp: Union[Dict[str, Dict[Tuple[str, ...], float]], NoneType] = None) -> fairdiplomacy.agents.bqre1p_agent.BRMResult",
+    "BQRE1PAgent.run_search": "(self, game: fairdiplomacy.pydipcc.Game, *, bp_policy: Union[Dict[str, Dict[Tuple[str, ...], float]], NoneType] = None, early_exit_for_power: Union[str, NoneType] = None, timings: Union[fairdiplomacy.utils.timing_ctx.TimingCtx, NoneType] = None, extra_plausible_orders: Union[Dict[str, List[Tuple[str, ...]]], NoneType] = None, agent_power: Union[str, NoneType] = None, agent_state: Union[fairdiplomacy.agents.base_agent.AgentState, NoneType], rollout_results_cache: Union[fairdiplomacy.agents.base_strategy_model_rollouts.RolloutResultsCache, NoneType] = None, pre_rescored_bp: Union[Dict[str, Dict[Tuple[str, ...], float]], NoneType] = None) -> fairdiplomacy.agents.bqre1p_agent.BRMResult",
+    "BRMResult.avg_action_utility": "(self, pwr: str, a: Tuple[str, ...]) -> float",
+    "BRMResult.avg_utility": "(self, pwr: str) -> float",
+    "BRMResult.get_agent_policy": "(self) -> Dict[str, Dict[Tuple[str, ...], float]]",
+    "BRMResult.get_bp_policy": "(self) -> Dict[str, Dict[Tuple[str, ...], float]]",
+    "BRMResult.get_population_policy": "(self, power: Union[str, NoneType] = None) -> Dict[str, Dict[Tuple[str, ...], float]]"
+  },
+  "launch_result": {
+    "command": [
+      "/workspace/latent-reservations/.venvs/cicero_full_agent_py37_source_v5/bin/python",
+      "run.py",
+      "--adhoc",
+      "--cfg",
+      "conf/c01_ag_cmp/cmp.prototxt",
+      "Iagent_one=agents/cicero.prototxt",
+      "use_shared_agent=1",
+      "power_one=TURKEY"
+    ],
+    "capture_complete": true,
+    "process_exited_before_capture": false,
+    "returncode_after_stop": 1,
+    "event_files": [
+      "/workspace/latent-reservations/notebook_outputs/15_cicero_planner_capture_mechanistic_positive_control/20260815T140016Z/data/planner_capture_events/205556.jsonl"
+    ],
+    "log_path": "/workspace/latent-reservations/notebook_outputs/15_cicero_planner_capture_mechanistic_positive_control/20260815T140016Z/data/runtime/full_agent_capture.log"
+  },
+  "planner_method": "run_bilateral_search_with_conditional_evs",
+  "planner_result_type": "fairdiplomacy.agents.bqre1p_agent.BRMResult",
+  "policy_presence": {
+    "get_agent_policy": true,
+    "get_bp_policy": true,
+    "get_population_policy": true
+  },
+  "state_surface_presence": {
+    "belief": true,
+    "plausible_orders": true,
+    "utility_or_value": true,
+    "player_type": true
+  },
+  "outward_event_type": "generate_message_result",
+  "readiness": {
+    "frozen_cicero_commit": true,
+    "notebook14_runtime_stack_pass": true,
+    "instrumentation_probe_pass": true,
+    "completed_native_planner_result_captured": true,
+    "planner_method_identified": true,
+    "planner_result_type_present": true,
+    "planner_policy_payload_present": true,
+    "outward_event_paired": true,
+    "capture_error_events_absent": true,
+    "ready_for_following_measurement_stage": true
+  }
+}

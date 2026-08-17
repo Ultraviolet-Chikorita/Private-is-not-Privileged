@@ -1,0 +1,9 @@
+{
+  "overlapping_valid_states": 74,
+  "behavior_agreement_rate": 0.5,
+  "qwen_activation_brier": 0.3364877773082724,
+  "qwen_strong_text_brier": 0.24069465053041061,
+  "second_activation_brier": 0.2538592763207855,
+  "second_strong_text_brier": 0.2222761668946565,
+  "same_direction_text_minus_activation": true
+}

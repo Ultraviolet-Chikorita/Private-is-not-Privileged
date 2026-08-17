@@ -1,0 +1,12 @@
+{
+  "states": 20,
+  "source_games": 20,
+  "action_validity": 1.0,
+  "auditor_validity": 1.0,
+  "count_A": 10,
+  "count_B": 10,
+  "h1_gate_passed": true,
+  "prefix_match_rate": 0.8,
+  "extended_hit_token_ceiling_count": 0,
+  "stopped_on_choice_marker_count": 20
+}

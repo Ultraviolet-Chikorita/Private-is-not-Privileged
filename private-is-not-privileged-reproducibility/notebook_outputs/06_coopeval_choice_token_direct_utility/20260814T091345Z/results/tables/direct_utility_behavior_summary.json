@@ -1,0 +1,19 @@
+{
+  "target_action": "A0",
+  "low_beta_ratio": -8.0,
+  "high_beta_ratio": 8.0,
+  "low_beta_target_rate": 0.6,
+  "high_beta_target_rate": 1.0,
+  "target_rate_shift_high_minus_low": 0.4,
+  "low_beta_mean_position": 0.2375,
+  "high_beta_mean_position": 0.0,
+  "mean_position_shift_high_minus_low": -0.2375,
+  "families_with_finite_rho": 14,
+  "fraction_finite_rho_negative": 0.7857142857142857,
+  "mean_finite_rho": -0.5564894862028426,
+  "utility_gate": {
+    "target_rate_shift_required": 0.25,
+    "position_shift_required_at_most": -0.15,
+    "passed": true
+  }
+}

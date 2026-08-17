@@ -1,0 +1,7 @@
+{
+  "source_run": "/workspace/latent-reservations/notebook_outputs/13_qwen_format_activation_timing_ablation/20260814T205212Z",
+  "records": "/workspace/latent-reservations/notebook_outputs/22_private_deliberation_information_decomposition/20260816T085830Z/data/decomposition_records.jsonl",
+  "pre_activations": "/workspace/latent-reservations/notebook_outputs/22_private_deliberation_information_decomposition/20260816T085830Z/data/activations/pre_deliberation_t0.safetensors",
+  "post_activations": "/workspace/latent-reservations/notebook_outputs/22_private_deliberation_information_decomposition/20260816T085830Z/data/activations/post_deliberation_t1.safetensors",
+  "result": "/workspace/latent-reservations/notebook_outputs/22_private_deliberation_information_decomposition/20260816T085830Z/results/tables/decomposition_result.json"
+}

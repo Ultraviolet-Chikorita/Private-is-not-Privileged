@@ -1,0 +1,23 @@
+{
+  "notebook_build": "latent-reservations-notebook14-cicero-full-agent-bootstrap-v5.7-source-py37-venv",
+  "run_id": "20260815T122832Z",
+  "run_output_dir": "/workspace/latent-reservations/notebook_outputs/14_cicero_full_agent_bootstrap_planner_observability/20260815T122832Z",
+  "host_inventory": "/workspace/latent-reservations/notebook_outputs/14_cicero_full_agent_bootstrap_planner_observability/20260815T122832Z/data/engine/host_inventory.json",
+  "selected_model_subset": "/workspace/latent-reservations/notebook_outputs/14_cicero_full_agent_bootstrap_planner_observability/20260815T122832Z/results/tables/selected_model_subset.json",
+  "selected_model_remote_sizes": "/workspace/latent-reservations/notebook_outputs/14_cicero_full_agent_bootstrap_planner_observability/20260815T122832Z/results/tables/selected_model_remote_sizes.json",
+  "storage_plan": "/workspace/latent-reservations/notebook_outputs/14_cicero_full_agent_bootstrap_planner_observability/20260815T122832Z/results/tables/storage_plan.json",
+  "model_inventory": "/workspace/latent-reservations/notebook_outputs/14_cicero_full_agent_bootstrap_planner_observability/20260815T122832Z/data/engine/model_inventory.json",
+  "source_runtime_bootstrap": "/workspace/latent-reservations/notebook_outputs/14_cicero_full_agent_bootstrap_planner_observability/20260815T122832Z/data/engine/source_runtime_bootstrap.json",
+  "compatibility_flags": "/workspace/latent-reservations/notebook_outputs/14_cicero_full_agent_bootstrap_planner_observability/20260815T122832Z/data/engine/compatibility_flags.json",
+  "environment_stages": "/workspace/latent-reservations/notebook_outputs/14_cicero_full_agent_bootstrap_planner_observability/20260815T122832Z/data/engine/environment_stages.json",
+  "legacy_gpu_probe": "/workspace/latent-reservations/notebook_outputs/14_cicero_full_agent_bootstrap_planner_observability/20260815T122832Z/data/runtime/legacy_gpu_probe.txt",
+  "legacy_import_probe": "/workspace/latent-reservations/notebook_outputs/14_cicero_full_agent_bootstrap_planner_observability/20260815T122832Z/data/runtime/legacy_import_probe.txt",
+  "run_help": "/workspace/latent-reservations/notebook_outputs/14_cicero_full_agent_bootstrap_planner_observability/20260815T122832Z/data/runtime/run_help.txt",
+  "planner_source_hits": "/workspace/latent-reservations/notebook_outputs/14_cicero_full_agent_bootstrap_planner_observability/20260815T122832Z/data/source_audit/planner_source_hits.json",
+  "planner_runtime_inventory": "/workspace/latent-reservations/notebook_outputs/14_cicero_full_agent_bootstrap_planner_observability/20260815T122832Z/data/runtime/planner_runtime_inventory.json",
+  "full_agent_startup_log": "/workspace/latent-reservations/notebook_outputs/14_cicero_full_agent_bootstrap_planner_observability/20260815T122832Z/data/runtime/full_agent_startup.log",
+  "gpu_runtime_samples": "/workspace/latent-reservations/notebook_outputs/14_cicero_full_agent_bootstrap_planner_observability/20260815T122832Z/data/runtime/gpu_runtime_samples.json",
+  "planner_observable_hits": "/workspace/latent-reservations/notebook_outputs/14_cicero_full_agent_bootstrap_planner_observability/20260815T122832Z/data/source_audit/planner_observable_hits.json",
+  "readiness": "/workspace/latent-reservations/notebook_outputs/14_cicero_full_agent_bootstrap_planner_observability/20260815T122832Z/results/tables/readiness.json",
+  "result_summary": "/workspace/latent-reservations/notebook_outputs/14_cicero_full_agent_bootstrap_planner_observability/20260815T122832Z/results/tables/result_summary.json"
+}

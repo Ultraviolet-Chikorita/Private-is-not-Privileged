@@ -1,0 +1,8 @@
+left_condition,right_condition,paired_states,choice_agreement,left_B_rate,right_B_rate
+raw_direct_t0,compact_direct_t0,40,0.975,0.0,0.025
+raw_reason_t0,compact_reason_t0,37,0.5945945945945946,0.6216216216216216,0.6486486486486487
+raw_deliberate_t1,compact_deliberate_t1,39,0.6923076923076923,0.7435897435897436,0.7435897435897436
+raw_direct_t0,raw_reason_t0,37,0.3783783783783784,0.0,0.6216216216216216
+compact_direct_t0,compact_reason_t0,40,0.4,0.025,0.625
+raw_reason_t0,raw_deliberate_t1,36,0.6666666666666666,0.6111111111111112,0.7222222222222222
+compact_reason_t0,compact_deliberate_t1,40,0.725,0.625,0.75

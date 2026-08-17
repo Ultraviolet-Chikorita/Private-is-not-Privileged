@@ -1,0 +1,16 @@
+{
+  "figures/figure_h1_delta_by_trajectory.png": "43476206e398635289493014ac584a811fe6801168ba90c158f569ed5d07c97a",
+  "figures/figure_h1_predictions.png": "e0ec532b5ca606630a742aa6676f199102d017ee08f451fd63da240d10289e6b",
+  "figures/figure_h3_private_public_error.png": "f07bc78690cf0c495d1c95f4d403a10bae2e148e49cffc33d24568c37971bb83",
+  "figures/figure_method_convergence.png": "609837ea17c1518a8eeb7f5e0269a44cd9b8a87642e7bb93260e6fe5a5e499ec",
+  "frozen_evidence_summary.md": "9b9ed64cb45d722090b883bbed8ca30d05c0ae2efa8e8ee1f3d5806d3f3603d4",
+  "tables/core_validity_metrics.csv": "49061afb3071f9ef115d22aafe3c80e4fcce7c20b72ac0c74e8ab1a0df93d34d",
+  "tables/frozen_evidence_summary.json": "a25a34f4c2845567469e699d7bebc3ff7ce5bfc9a7b39109e41e96cd7f7b894a",
+  "tables/h1_cluster_bootstrap.json": "0b97b61f7968f0641bf4448cb2b15a3eca0a32c6bb137eeaed9ff23b05838c84",
+  "tables/h1_locked_loto_by_trajectory.csv": "6c242c0505eb72d63d0daa656397847158f81df8592bd55c43e8310644c68ed6",
+  "tables/h1_locked_state_predictions.csv": "13f03974eb66479478a771376e9ccd962a52535bb97c9eac05b8dc0ea289e5aa",
+  "tables/h1_nested_loto_by_trajectory.csv": "e1f7da6d974130baf8a8b5b025c479ac3829b418b8860a237385cb3c628a3973",
+  "tables/h1_nested_state_predictions.csv": "660c9b6c83ac089a40dcc05e408ef83c2b1c20773fbe28fdeb2b217aa5a83155",
+  "tables/h3_repaired_summary.json": "37662d246b8cc2392673b62be41ff15070e8a28e26b7544f412ec725f42a4e86",
+  "tables/method_convergence_spearman.csv": "3053c3d54aaa167c40a9902998328120ddbd1474855a7815f93cf1793ac4ebe9"
+}

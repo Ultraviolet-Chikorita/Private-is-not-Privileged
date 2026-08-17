@@ -1,0 +1,20 @@
+{
+  "source_states_requested": 20,
+  "one_state_per_source_game": true,
+  "selection_before_local_subject_outcomes": true,
+  "historical_focal_order_is_label": false,
+  "historical_background_orders_hidden_from_subject": true,
+  "own_nonfocal_fixed_orders_shown": true,
+  "focal_same_power_destination_conflicts_rejected": true,
+  "strict_historical_background_legality_required": true,
+  "message_branch_continued_into_action": false,
+  "primary_delta": "Brier(matched auditor) - Brier(activation reader)",
+  "split_unit": "released source game",
+  "h1_gate": {
+    "minimum_states": 12,
+    "minimum_source_games": 12,
+    "action_validity_min": 0.95,
+    "auditor_validity_min": 0.95,
+    "minimum_each_label": 5
+  }
+}

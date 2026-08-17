@@ -1,0 +1,6 @@
+state_id,legal,reparsed_deal,reparsed_score,original_deal,original_score,deal_match,score_match
+ld_000_trajectory_000_department_of_tourism,True,"{'A': 2, 'B': 2, 'C': 3, 'D': 1, 'E': 3}",60.0,"{'A': 2, 'B': 2, 'C': 3, 'D': 1, 'E': 3}",60.0,True,True
+ld_008_trajectory_001_local_labour_union,True,"{'A': 2, 'B': 2, 'C': 2, 'D': 2, 'E': 3}",81.0,"{'A': 2, 'B': 2, 'C': 2, 'D': 2, 'E': 3}",81.0,True,True
+ld_013_trajectory_002_environmental_league,True,"{'A': 3, 'B': 3, 'C': 4, 'D': 3, 'E': 3}",100.0,"{'A': 3, 'B': 3, 'C': 4, 'D': 3, 'E': 3}",100.0,True,True
+ld_020_trajectory_003_local_labour_union,True,"{'A': 2, 'B': 3, 'C': 3, 'D': 1, 'E': 4}",83.0,"{'A': 2, 'B': 3, 'C': 3, 'D': 1, 'E': 4}",83.0,True,True
+ld_025_trajectory_004_environmental_league,True,"{'A': 3, 'B': 1, 'C': 3, 'D': 1, 'E': 2}",45.0,"{'A': 3, 'B': 1, 'C': 3, 'D': 1, 'E': 2}",45.0,True,True

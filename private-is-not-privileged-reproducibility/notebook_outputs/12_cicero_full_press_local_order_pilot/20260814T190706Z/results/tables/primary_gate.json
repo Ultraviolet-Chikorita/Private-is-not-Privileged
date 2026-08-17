@@ -1,0 +1,9 @@
+{
+  "states": 20,
+  "source_games": 20,
+  "action_validity": 0.35,
+  "auditor_validity": 1.0,
+  "count_A": 5,
+  "count_B": 2,
+  "h1_gate_passed": false
+}

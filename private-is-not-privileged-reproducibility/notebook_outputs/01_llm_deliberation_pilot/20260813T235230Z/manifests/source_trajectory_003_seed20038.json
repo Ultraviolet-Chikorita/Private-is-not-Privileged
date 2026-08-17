@@ -1,0 +1,27 @@
+{
+  "trajectory_index": 3,
+  "seed": 20038,
+  "cmd": [
+    "/usr/local/bin/python",
+    "/workspace/latent-reservations/notebook_outputs/01_llm_deliberation_pilot/20260813T235230Z/seeded_upstream_runner.py",
+    "--exp_name",
+    "pilot_source_20260813T235230Z_003_seed20038",
+    "--agents_num",
+    "6",
+    "--issues_num",
+    "5",
+    "--window_size",
+    "6",
+    "--game_dir",
+    "/workspace/latent-reservations/notebook_outputs/01_llm_deliberation_pilot/20260813T235230Z/data/source_game/base_78e11e04ba89",
+    "--rounds_num",
+    "24",
+    "--temp",
+    "0.7",
+    "--hf_home",
+    "/workspace/.cache/huggingface"
+  ],
+  "returncode": 0,
+  "elapsed_s": 452.184,
+  "log": "/workspace/latent-reservations/notebook_outputs/01_llm_deliberation_pilot/20260813T235230Z/manifests/source_trajectory_003_seed20038.log"
+}

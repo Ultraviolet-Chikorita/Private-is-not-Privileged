@@ -1,0 +1,76 @@
+{
+  "metrics": {
+    "pre_activation": {
+      "brier": 0.2519524760315834,
+      "accuracy": 0.625,
+      "auroc": 0.7666666666666666
+    },
+    "post_activation": {
+      "brier": 0.10251083029330846,
+      "accuracy": 0.85,
+      "auroc": 1.0
+    },
+    "pre_strong_text": {
+      "brier": 0.2309672003859641,
+      "accuracy": 0.7,
+      "auroc": 0.3283333333333333
+    },
+    "exposed_strong_text": {
+      "brier": 0.033312500000025,
+      "accuracy": 0.975,
+      "auroc": 1.0
+    },
+    "pre_generative": {
+      "brier": 0.207125,
+      "accuracy": 0.725,
+      "auroc": 0.6683333333333333
+    },
+    "exposed_generative": {
+      "brier": 0.033312500000025,
+      "accuracy": 0.975,
+      "auroc": 1.0
+    },
+    "pre_tfidf": {
+      "brier": 0.19650215744105493,
+      "accuracy": 0.75,
+      "auroc": 0.27
+    },
+    "exposed_tfidf": {
+      "brier": 0.19947427843930177,
+      "accuracy": 0.75,
+      "auroc": 0.37666666666666665
+    }
+  },
+  "bootstrap": {
+    "private_information_advantage": {
+      "observed": 0.12845637009265565,
+      "mean": 0.12817710013179426,
+      "ci95_low": 0.010324636615009347,
+      "ci95_high": 0.2426369715874055,
+      "fraction_positive": 0.9842
+    },
+    "matched_information_advantage": {
+      "observed": -0.06919833029330844,
+      "mean": -0.06958089734869394,
+      "ci95_low": -0.1467396487099543,
+      "ci95_high": -0.0009484810234358087,
+      "fraction_positive": 0.0227
+    },
+    "observer_exposure_gain": {
+      "observed": 0.19765470038596408,
+      "mean": 0.19790462295783967,
+      "ci95_low": 0.12128503019195006,
+      "ci95_high": 0.28142307715709824,
+      "fraction_positive": 1.0
+    },
+    "activation_timing_gain": {
+      "observed": 0.14944164573827495,
+      "mean": 0.14935338068440546,
+      "ci95_low": 0.04875274581056952,
+      "ci95_high": 0.25286939754893345,
+      "fraction_positive": 0.99815
+    }
+  },
+  "information_asymmetry_pattern_supported": true,
+  "interpretation": "If private_information_advantage is positive while matched_information_advantage is not, and observer_exposure_gain is positive, the apparent T1 advantage is attributable to the newly generated deliberation being withheld from the observer rather than to an advantage under matched information."
+}

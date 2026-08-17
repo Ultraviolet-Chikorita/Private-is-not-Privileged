@@ -1,0 +1,9 @@
+{
+  "cicero_commit": "e85afeddb34f5b7c1ea0827203b425a0f7e68ead",
+  "legacy_python": "/workspace/latent-reservations/.venvs/cicero_full_agent_py37_source_v5/bin/python",
+  "legacy_torch": "1.7.1+cu110",
+  "legacy_pydipcc": "/workspace/latent-reservations/vendor/diplomacy_cicero/fairdiplomacy/pydipcc.cpython-37m-x86_64-linux-gnu.so",
+  "rebuilt_in_this_run": false,
+  "modern_kernel_imports_pydipcc": false,
+  "stack_marker": "/workspace/latent-reservations/.venvs/cicero_full_agent_py37_source_v5/.latent_reservations_cicero_stack_v5_7"
+}

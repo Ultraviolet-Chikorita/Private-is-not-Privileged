@@ -1,0 +1,17 @@
+{
+  "states": 40,
+  "valid_rows": 40,
+  "source_games": 40,
+  "deliberation_validity": 1.0,
+  "pre_observer_validity": 1.0,
+  "exposed_observer_validity": 1.0,
+  "action_validity": 1.0,
+  "label_A": 10,
+  "label_B": 30,
+  "minimum_each_label_pass": true,
+  "all_validity_rates_pass": true,
+  "all_40_source_games": true,
+  "matched_exposed_text_contract": true,
+  "observers_before_action": true,
+  "analysis_allowed": true
+}

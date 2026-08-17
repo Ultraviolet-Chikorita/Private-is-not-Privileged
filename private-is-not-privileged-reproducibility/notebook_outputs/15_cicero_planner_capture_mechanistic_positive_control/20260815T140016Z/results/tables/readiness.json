@@ -1,0 +1,12 @@
+{
+  "frozen_cicero_commit": true,
+  "notebook14_runtime_stack_pass": true,
+  "instrumentation_probe_pass": true,
+  "completed_native_planner_result_captured": true,
+  "planner_method_identified": true,
+  "planner_result_type_present": true,
+  "planner_policy_payload_present": true,
+  "outward_event_paired": true,
+  "capture_error_events_absent": true,
+  "ready_for_following_measurement_stage": true
+}

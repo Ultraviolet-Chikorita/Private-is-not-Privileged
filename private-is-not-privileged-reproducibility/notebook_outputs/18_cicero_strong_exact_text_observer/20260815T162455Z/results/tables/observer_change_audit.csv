@@ -1,0 +1,4 @@
+episode_id,sender,recipient,phase,strong_observer_orders,agent_top_orders,agent_top_probability,strong_observer_exact_planner_match,strong_observer_planner_jaccard,nb17_deterministic_exact_planner_match,nb17_deterministic_planner_jaccard,rescued_vs_nb17_deterministic,regressed_vs_nb17_deterministic,strong_observer_confidence,retry_count
+nb17_0003_a0efa9c44ac1dba7,AUSTRIA,ITALY,S1901M,A ROM APU | A VEN H | F NAP ION,A BUD - SER | A VIE - GAL | F TRI - ALB,0.5951421467467956,False,0.0,True,1.0,False,True,0.0,1
+nb17_0011_8cf086bd28dcfb46,GERMANY,ITALY,S1901M,A MUN RUH | A VEN H | F DEN SWE | F KIE DEN,A BER - KIE | A MUN - RUH | F KIE - DEN,0.7835916252602747,False,0.0,True,1.0,False,True,0.0,1
+nb17_0013_fc7a0befb6d650b1,ENGLAND,FRANCE,S1901M,A PAR BUR | F BRE MAO,A LVP - YOR | F EDI - NWG | F LON - NTH,0.5323646891796144,False,0.0,True,1.0,False,True,0.0,1

@@ -1,0 +1,17 @@
+{
+  "notebook_build": "latent-reservations-notebook08-avalon-bootstrap-interface-discovery-v1",
+  "run_id": "20260814T134313Z",
+  "run_output_dir": "/workspace/latent-reservations/notebook_outputs/08_avalon_bootstrap_interface_discovery/20260814T134313Z",
+  "repo": "/workspace/latent-reservations/vendor/avalon-llm",
+  "repo_commit": "2439c6b50df7b45bae4cfcaa67e1d973e4dd8fa5",
+  "provenance": "/workspace/latent-reservations/notebook_outputs/08_avalon_bootstrap_interface_discovery/20260814T134313Z/manifests/avalon_provenance.json",
+  "adapter_recommendation": "/workspace/latent-reservations/notebook_outputs/08_avalon_bootstrap_interface_discovery/20260814T134313Z/manifests/adapter_recommendation.json",
+  "official_engine_test": "/workspace/latent-reservations/notebook_outputs/08_avalon_bootstrap_interface_discovery/20260814T134313Z/data/engine_test/official_engine_test_summary.json",
+  "runtime_interface": "/workspace/latent-reservations/notebook_outputs/08_avalon_bootstrap_interface_discovery/20260814T134313Z/data/engine_test/runtime_interface.json",
+  "source_interfaces": "/workspace/latent-reservations/notebook_outputs/08_avalon_bootstrap_interface_discovery/20260814T134313Z/results/tables/source_interfaces.csv",
+  "source_keyword_hits": "/workspace/latent-reservations/notebook_outputs/08_avalon_bootstrap_interface_discovery/20260814T134313Z/results/tables/source_keyword_hits.csv",
+  "prompt_constants": "/workspace/latent-reservations/notebook_outputs/08_avalon_bootstrap_interface_discovery/20260814T134313Z/results/tables/prompt_constants.csv",
+  "model_smoke": "/workspace/latent-reservations/notebook_outputs/08_avalon_bootstrap_interface_discovery/20260814T134313Z/data/model_smoke/summary.json",
+  "readiness": "/workspace/latent-reservations/notebook_outputs/08_avalon_bootstrap_interface_discovery/20260814T134313Z/results/tables/readiness.json",
+  "result_summary": "/workspace/latent-reservations/notebook_outputs/08_avalon_bootstrap_interface_discovery/20260814T134313Z/results/tables/result_summary.json"
+}

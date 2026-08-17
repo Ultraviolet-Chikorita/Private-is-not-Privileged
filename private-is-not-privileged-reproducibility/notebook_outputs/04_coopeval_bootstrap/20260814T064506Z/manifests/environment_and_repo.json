@@ -1,0 +1,21 @@
+{
+  "python": "3.12.3",
+  "executable": "/usr/local/bin/python",
+  "torch": "2.8.0+cu128",
+  "torch_cuda": "12.8",
+  "cuda_available": true,
+  "cuda_device": "NVIDIA L40S",
+  "repo_commit": "8559e858b5cc33e0a29ac592c0b21eab007feb57",
+  "repo_branch": "main",
+  "repo_shape": {
+    "README.md": true,
+    "pyproject.toml": true,
+    "configs": true,
+    "src/coopeval": true,
+    "src/coopeval/games": true,
+    "src/coopeval/mechanisms": true,
+    "src/coopeval/agents": true,
+    "scripts/experiments": true
+  },
+  "license_files": []
+}

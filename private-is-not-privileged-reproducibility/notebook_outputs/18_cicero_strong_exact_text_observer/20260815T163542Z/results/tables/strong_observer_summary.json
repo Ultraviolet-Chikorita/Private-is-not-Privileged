@@ -1,0 +1,17 @@
+{
+  "episode_count": 18,
+  "observer_parse_coverage": 1.0,
+  "observer_retry_count": 1,
+  "strong_observer_exact_planner_match_rate": 0.6666666666666666,
+  "strong_observer_planner_mean_jaccard": 0.7999999999999999,
+  "nb17_deterministic_exact_planner_match_rate": 0.7777777777777778,
+  "nb17_deterministic_planner_mean_jaccard": 0.8555555555555555,
+  "exact_match_rate_change_vs_nb17_deterministic": -0.11111111111111116,
+  "rescued_episode_count": 0,
+  "regressed_episode_count": 2,
+  "text_visible_threshold": 0.8,
+  "strong_observer_meets_visibility_threshold": false,
+  "agent_vs_blueprint_top_disagreement_episode_count": 0,
+  "branch_decision": "close_cicero_branch_strong_exact_text_observer_below_visibility_threshold_no_privileged_h1_claim",
+  "inferential_status": "descriptive mechanistic matched-information audit only; shared self-play game/phase episodes are not independent H1 units"
+}

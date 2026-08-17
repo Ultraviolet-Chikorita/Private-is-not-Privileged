@@ -1,0 +1,13 @@
+{
+  "run_dir": "/workspace/latent-reservations/notebook_outputs/20_second_model_family_matched_information_replication/20260816T085737Z",
+  "protocol": "/workspace/latent-reservations/notebook_outputs/20_second_model_family_matched_information_replication/20260816T085737Z/manifests/protocol_freeze.json",
+  "source_run": "/workspace/latent-reservations/notebook_outputs/19_cicero_h1_activation_vs_strong_text/20260815T180359Z",
+  "records": "/workspace/latent-reservations/notebook_outputs/20_second_model_family_matched_information_replication/20260816T085737Z/data/replication_records.jsonl",
+  "activations": "/workspace/latent-reservations/notebook_outputs/20_second_model_family_matched_information_replication/20260816T085737Z/data/activations/pre_action_all_layers.safetensors",
+  "predictions": "/workspace/latent-reservations/notebook_outputs/20_second_model_family_matched_information_replication/20260816T085737Z/results/tables/heldout_predictions.csv",
+  "result": "/workspace/latent-reservations/notebook_outputs/20_second_model_family_matched_information_replication/20260816T085737Z/results/tables/replication_result.json",
+  "figures": [
+    "/workspace/latent-reservations/notebook_outputs/20_second_model_family_matched_information_replication/20260816T085737Z/results/figures/method_brier.png",
+    "/workspace/latent-reservations/notebook_outputs/20_second_model_family_matched_information_replication/20260816T085737Z/results/figures/source_game_deltas.png"
+  ]
+}

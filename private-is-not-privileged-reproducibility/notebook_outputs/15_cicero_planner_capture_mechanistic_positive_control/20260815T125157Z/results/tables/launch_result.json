@@ -1,0 +1,19 @@
+{
+  "command": [
+    "/workspace/latent-reservations/.venvs/cicero_full_agent_py37_source_v5/bin/python",
+    "run.py",
+    "--adhoc",
+    "--cfg",
+    "conf/c01_ag_cmp/cmp.prototxt",
+    "Iagent_one=agents/cicero.prototxt",
+    "use_shared_agent=1",
+    "power_one=TURKEY"
+  ],
+  "capture_complete": false,
+  "process_exited_before_capture": false,
+  "returncode_after_stop": 1,
+  "event_files": [
+    "/workspace/latent-reservations/notebook_outputs/15_cicero_planner_capture_mechanistic_positive_control/20260815T125157Z/data/planner_capture_events/203990.jsonl"
+  ],
+  "log_path": "/workspace/latent-reservations/notebook_outputs/15_cicero_planner_capture_mechanistic_positive_control/20260815T125157Z/data/runtime/full_agent_capture.log"
+}

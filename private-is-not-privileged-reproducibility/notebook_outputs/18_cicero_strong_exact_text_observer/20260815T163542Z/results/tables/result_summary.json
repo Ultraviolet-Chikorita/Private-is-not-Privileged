@@ -1,0 +1,98 @@
+{
+  "notebook_build": "latent-reservations-notebook18-cicero-strong-exact-text-observer-v2-cache-resolution",
+  "run_id": "20260815T163542Z",
+  "source_notebook17_run_id": "20260815T154340Z",
+  "cicero_commit": "e85afeddb34f5b7c1ea0827203b425a0f7e68ead",
+  "purpose": "Final learned/generative exact-text observer audit of CICERO planner-top action identity using the frozen Notebook 17 exact dialogue inputs.",
+  "observer": {
+    "observer_model": "Qwen/Qwen2.5-7B-Instruct",
+    "observer_revision_requested": null,
+    "local_files_only": true,
+    "project_hf_cache_dir": "/workspace/latent-reservations/.cache/huggingface",
+    "explicit_observer_model_path": null,
+    "model_load_source": "/workspace/.cache/huggingface/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28",
+    "model_load_mode": "resolved_local_snapshot",
+    "resolved_local_snapshot": "/workspace/.cache/huggingface/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28",
+    "model_cache_search_paths": [
+      "/workspace/latent-reservations/.cache/huggingface/models--Qwen--Qwen2.5-7B-Instruct/snapshots",
+      "/workspace/latent-reservations/.cache/huggingface/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots",
+      "/workspace/.cache/huggingface/models--Qwen--Qwen2.5-7B-Instruct/snapshots"
+    ],
+    "do_sample": false,
+    "temperature": 0.0,
+    "max_new_tokens": 192,
+    "max_retries_parse_only": 1,
+    "training_on_nb17_episodes": false,
+    "target_candidates_provided": false,
+    "recipient_injected": false,
+    "future_message_provided": false,
+    "planner_fields_provided": false,
+    "deterministic_text_derived_scaffold": [
+      "speaking_power",
+      "unit_origins"
+    ],
+    "external_metadata_injected": false,
+    "text_visible_threshold_inherited_from_nb17": 0.8,
+    "observer_revision_resolved": "a09a35458c702b33eeacc393d103063234e8bc28",
+    "dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "cuda_device_name": "NVIDIA L40S",
+    "load_seconds": 4.228156566619873,
+    "torch": "2.8.0+cu128",
+    "transformers": "4.57.6"
+  },
+  "information_contract": {
+    "dynamic_observer_fields": [
+      "input_text"
+    ],
+    "planner_reference_fields_in_prompt": false,
+    "future_message_in_prompt": false,
+    "recipient_injected": false,
+    "engine_state_in_prompt": false,
+    "targets_merged_after_generation": true
+  },
+  "summary": {
+    "episode_count": 18,
+    "observer_parse_coverage": 1.0,
+    "observer_retry_count": 1,
+    "strong_observer_exact_planner_match_rate": 0.6666666666666666,
+    "strong_observer_planner_mean_jaccard": 0.7999999999999999,
+    "nb17_deterministic_exact_planner_match_rate": 0.7777777777777778,
+    "nb17_deterministic_planner_mean_jaccard": 0.8555555555555555,
+    "exact_match_rate_change_vs_nb17_deterministic": -0.11111111111111116,
+    "rescued_episode_count": 0,
+    "regressed_episode_count": 2,
+    "text_visible_threshold": 0.8,
+    "strong_observer_meets_visibility_threshold": false,
+    "agent_vs_blueprint_top_disagreement_episode_count": 0,
+    "branch_decision": "close_cicero_branch_strong_exact_text_observer_below_visibility_threshold_no_privileged_h1_claim",
+    "inferential_status": "descriptive mechanistic matched-information audit only; shared self-play game/phase episodes are not independent H1 units"
+  },
+  "readiness": {
+    "accepted_notebook17_handoff": true,
+    "source_primary_episode_count_matches": true,
+    "all_source_input_hashes_verified": true,
+    "observer_input_manifest_excludes_reference_fields": true,
+    "observer_is_untrained_on_nb17_episode_labels": true,
+    "observer_generation_is_deterministic": true,
+    "observer_parse_coverage_at_least_threshold": true,
+    "no_new_cicero_run": true,
+    "strong_observer_meets_text_visibility_threshold": false,
+    "agent_vs_blueprint_disagreement_available": false,
+    "cicero_planner_action_privileged_access_claim_supported": false,
+    "cicero_mechanistic_text_visibility_branch_complete": true,
+    "ready_for_paper_freeze": true,
+    "no_notebook19_scientific_experiment_recommended": true,
+    "decision": "close_cicero_branch_strong_exact_text_observer_below_visibility_threshold_no_privileged_h1_claim",
+    "ready": true
+  },
+  "paper_handoff": {
+    "cicero_branch_closed": true,
+    "ready_for_cross_experiment_paper_synthesis": true,
+    "original_activation_h1_implication": "none_direct_this_is_a_cicero_planner_mechanistic_audit",
+    "recommended_paper_framing": "separate internal policy representation/decodability from privileged predictive access",
+    "recommended_next_artifact": "paper_freeze_cross_experiment_synthesis_notebook_or_script",
+    "recommend_new_scientific_notebook19": false
+  },
+  "claim_guardrail": "Even if the learned observer remains below the visibility threshold, this notebook does not establish the original activation H1. The reference is CICERO's explicit planner state, the episodes are correlated within one game/phase, and the frozen bank has no agent-vs-blueprint top-action disagreements."
+}

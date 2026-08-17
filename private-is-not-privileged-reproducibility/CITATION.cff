@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+title: "Private Is Not Privileged: reproducibility bundle"
+message: "If you use this repository, please cite the accompanying manuscript."
+type: software
+authors:
+  - family-names: Chikka
+    given-names: Yuvan

@@ -1,0 +1,18 @@
+{
+  "notebook_build": "latent-reservations-notebook07b-scalar-acceptance-boundary-v2",
+  "run_id": "20260814T103440Z",
+  "run_output_dir": "/workspace/latent-reservations/notebook_outputs/07b_llm_deliberation_scalar_acceptance_boundary/20260814T103440Z",
+  "source_notebook07_run": "/workspace/latent-reservations/notebook_outputs/07_llm_deliberation_acceptance_boundary/20260814T095251Z",
+  "input_snapshot": "/workspace/latent-reservations/notebook_outputs/07b_llm_deliberation_scalar_acceptance_boundary/20260814T103440Z/manifests/input_snapshot.json",
+  "protocol_freeze": "/workspace/latent-reservations/notebook_outputs/07b_llm_deliberation_scalar_acceptance_boundary/20260814T103440Z/manifests/protocol_freeze.json",
+  "parent_activations": "/workspace/latent-reservations/notebook_outputs/07b_llm_deliberation_scalar_acceptance_boundary/20260814T103440Z/data/parent_activations/parent_all_layers.safetensors",
+  "candidate_choices": "/workspace/latent-reservations/notebook_outputs/07b_llm_deliberation_scalar_acceptance_boundary/20260814T103440Z/data/branches/candidate_choices",
+  "boundaries": "/workspace/latent-reservations/notebook_outputs/07b_llm_deliberation_scalar_acceptance_boundary/20260814T103440Z/results/tables/revealed_scalar_boundaries.csv",
+  "predictions": "/workspace/latent-reservations/notebook_outputs/07b_llm_deliberation_scalar_acceptance_boundary/20260814T103440Z/results/tables/heldout_scalar_predictions.csv",
+  "result_summary": "/workspace/latent-reservations/notebook_outputs/07b_llm_deliberation_scalar_acceptance_boundary/20260814T103440Z/results/tables/result_summary.json",
+  "figures": [
+    "/workspace/latent-reservations/notebook_outputs/07b_llm_deliberation_scalar_acceptance_boundary/20260814T103440Z/results/figures/scalar_acceptance_curves.png",
+    "/workspace/latent-reservations/notebook_outputs/07b_llm_deliberation_scalar_acceptance_boundary/20260814T103440Z/results/figures/scalar_method_comparison.png",
+    "/workspace/latent-reservations/notebook_outputs/07b_llm_deliberation_scalar_acceptance_boundary/20260814T103440Z/results/figures/threshold_vs_scalar_boundary.png"
+  ]
+}

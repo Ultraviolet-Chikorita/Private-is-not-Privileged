@@ -1,0 +1,18 @@
+{
+  "message_episode_count": 129,
+  "message_exact_pair_count": 129,
+  "message_exact_pair_rate": 1.0,
+  "message_distinct_recipients_exact": 7,
+  "order_episode_count": 3,
+  "order_planner_pair_count": 3,
+  "order_planner_pair_rate": 1.0,
+  "order_agent_policy_support_rate": 1.0,
+  "agent_top1_match_rate": 1.0,
+  "blueprint_top1_match_rate": 1.0,
+  "mean_agent_nll": 0.0,
+  "mean_blueprint_nll": 0.418596011640293,
+  "mean_blueprint_minus_agent_nll": 0.418596011640293,
+  "mean_agent_bp_total_variation_orders": 0.31122198305870435,
+  "mean_agent_bp_total_variation_messages": 0.06756155166409816,
+  "inferential_status": "descriptive mechanistic calibration only; repeated powers/messages from a shared game phase are not independent H1 units"
+}

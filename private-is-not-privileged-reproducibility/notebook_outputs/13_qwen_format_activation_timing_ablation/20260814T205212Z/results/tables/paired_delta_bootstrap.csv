@@ -1,0 +1,5 @@
+comparison,left_condition,right_condition,contrast,mean,ci95_low,ci95_high,fraction_positive
+format_deliberate,raw_deliberate_t1,compact_deliberate_t1,auditor_minus_activation,-0.006098548680688904,-0.1050209145794322,0.09527830494034611,0.4531
+format_deliberate,raw_deliberate_t1,compact_deliberate_t1,trained_text_minus_activation,-0.004726447136718957,-0.16335238920743186,0.15238410177456418,0.474
+t1_vs_reason_t0_compact,compact_reason_t0,compact_deliberate_t1,auditor_minus_activation,-0.034676283109235935,-0.15054378676194222,0.08285373693657656,0.2763
+t1_vs_reason_t0_compact,compact_reason_t0,compact_deliberate_t1,trained_text_minus_activation,0.1318288152970044,0.014015176350144407,0.2585692677553942,0.9862

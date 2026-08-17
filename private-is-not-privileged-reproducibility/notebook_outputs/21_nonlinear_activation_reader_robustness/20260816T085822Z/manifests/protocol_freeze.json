@@ -1,0 +1,15 @@
+{
+  "source_run": "/workspace/latent-reservations/notebook_outputs/19_cicero_h1_activation_vs_strong_text/20260815T180359Z",
+  "reader": "StandardScaler -> PCA -> one-hidden-layer tanh MLP",
+  "pca_components": 16,
+  "hidden_units": 16,
+  "activation": "tanh",
+  "solver": "lbfgs",
+  "alpha": 1.0,
+  "only_tuned_dimension": "decoder layer via inner grouped folds",
+  "outer_folds": "frozen source-game folds",
+  "primary_metric": "Brier",
+  "primary_comparator": "frozen fold-selected strong text",
+  "negative_control": "same nonlinear pipeline with globally permuted labels",
+  "bootstrap": "source-game clustered 20,000 reps"
+}

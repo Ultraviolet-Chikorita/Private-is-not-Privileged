@@ -1,0 +1,23 @@
+{
+  "notebook_build": "latent-reservations-notebook01-pilot-run-all-v2",
+  "run_id": "20260813T235230Z",
+  "run_output_dir": "/workspace/latent-reservations/notebook_outputs/01_llm_deliberation_pilot/20260813T235230Z",
+  "notebook00_input_run": "/workspace/latent-reservations/notebook_outputs/00_llm_deliberation_bootstrap/20260813T212827Z",
+  "subject_model": "Qwen/Qwen2.5-7B-Instruct",
+  "upstream_commit": "78e11e04ba89b9d888cb006f57bad696584a32f1",
+  "upstream_worktree_record": "/workspace/latent-reservations/notebook_outputs/01_llm_deliberation_pilot/20260813T235230Z/manifests/upstream_worktree_status.json",
+  "source_histories": [
+    "/workspace/latent-reservations/notebook_outputs/01_llm_deliberation_pilot/20260813T235230Z/data/source_histories/trajectory_000_nb00.json",
+    "/workspace/latent-reservations/notebook_outputs/01_llm_deliberation_pilot/20260813T235230Z/data/source_histories/trajectory_001_seed18020.json",
+    "/workspace/latent-reservations/notebook_outputs/01_llm_deliberation_pilot/20260813T235230Z/data/source_histories/trajectory_002_seed19029.json",
+    "/workspace/latent-reservations/notebook_outputs/01_llm_deliberation_pilot/20260813T235230Z/data/source_histories/trajectory_003_seed20038.json",
+    "/workspace/latent-reservations/notebook_outputs/01_llm_deliberation_pilot/20260813T235230Z/data/source_histories/trajectory_004_seed21047.json"
+  ],
+  "states_dir": "/workspace/latent-reservations/notebook_outputs/01_llm_deliberation_pilot/20260813T235230Z/data/states",
+  "first_real_state_replay": "/workspace/latent-reservations/notebook_outputs/01_llm_deliberation_pilot/20260813T235230Z/results/tables/first_real_state_replay.json",
+  "actions": "/workspace/latent-reservations/notebook_outputs/01_llm_deliberation_pilot/20260813T235230Z/data/branches/actions.jsonl",
+  "auditor": "/workspace/latent-reservations/notebook_outputs/01_llm_deliberation_pilot/20260813T235230Z/data/branches/auditor.jsonl",
+  "activations": "/workspace/latent-reservations/notebook_outputs/01_llm_deliberation_pilot/20260813T235230Z/data/activations/pilot_all_layers.safetensors",
+  "splits": "/workspace/latent-reservations/notebook_outputs/01_llm_deliberation_pilot/20260813T235230Z/data/derived/splits.json",
+  "pilot_summary": "/workspace/latent-reservations/notebook_outputs/01_llm_deliberation_pilot/20260813T235230Z/results/tables/pilot_summary.json"
+}

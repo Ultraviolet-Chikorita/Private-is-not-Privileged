@@ -1,0 +1,16 @@
+outer_fold,selected_layer,selected_C,inner_cv_brier,condition
+0,21,0.01,0.22063864174020964,compact_reason_t0
+1,18,0.01,0.307615397800989,compact_reason_t0
+2,19,0.01,0.3013106912675486,compact_reason_t0
+3,19,0.01,0.2757112413273698,compact_reason_t0
+4,19,0.01,0.1647147316966717,compact_reason_t0
+0,19,0.1,0.08435182554393825,raw_deliberate_t1
+1,19,10.0,0.03999923004664399,raw_deliberate_t1
+2,20,0.1,0.09052709331614923,raw_deliberate_t1
+3,18,10.0,0.11880353165818186,raw_deliberate_t1
+4,20,0.1,0.07199824270527688,raw_deliberate_t1
+0,19,0.1,0.08787764147947308,compact_deliberate_t1
+1,19,0.1,0.09790033991613352,compact_deliberate_t1
+2,20,0.1,0.13976914714136643,compact_deliberate_t1
+3,19,0.1,0.11606047766297492,compact_deliberate_t1
+4,20,0.1,0.09655909847500055,compact_deliberate_t1

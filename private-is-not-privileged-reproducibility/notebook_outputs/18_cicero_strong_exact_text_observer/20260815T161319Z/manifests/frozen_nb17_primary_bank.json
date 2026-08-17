@@ -1,0 +1,55 @@
+{
+  "source_notebook17_run_id": "20260815T154340Z",
+  "primary_episode_count": 18,
+  "episode_ids": [
+    "nb17_0000_1bb411d13feb43ae",
+    "nb17_0001_f030ef06cb9f10ac",
+    "nb17_0002_5be0045cf250b978",
+    "nb17_0003_a0efa9c44ac1dba7",
+    "nb17_0004_224497a34b481078",
+    "nb17_0005_b668a61ea9cf5d3c",
+    "nb17_0006_cfdb5f03f32b33b7",
+    "nb17_0007_7a93e4876fc67dda",
+    "nb17_0008_98eee2071d1daed4",
+    "nb17_0009_8b290d40159d2ec7",
+    "nb17_0010_6f61d3183e0ecd0c",
+    "nb17_0011_8cf086bd28dcfb46",
+    "nb17_0012_3068fcb8c3f7b44f",
+    "nb17_0013_fc7a0befb6d650b1",
+    "nb17_0015_750256e81a7b3cc7",
+    "nb17_0016_a7758be9f5d0b31a",
+    "nb17_0018_b9a93e288fbef601",
+    "nb17_0019_3509b70acb91d8f2"
+  ],
+  "input_sha256": [
+    "1bb411d13feb43aec74db3a64bcde95a847093e2ffed296606734a163d0ff554",
+    "f030ef06cb9f10ac0ea0806a59ee8ff239b5da4cd0ca1f95910c9ac8182316dd",
+    "5be0045cf250b978c145135ae53be604c02a09fee99e908c38fda579b27ed029",
+    "a0efa9c44ac1dba7427257e95c6a22bae815827ec1915803fa45a470c5bdabda",
+    "224497a34b4810786e56880cdeeb6f00d27b1140134339809f65eb7b93c82a6e",
+    "b668a61ea9cf5d3c6984c81a1b35cf9966460995e53df64dc7a390ea007ba178",
+    "cfdb5f03f32b33b7fe6ebd88cf318dcb00b8bfa556db01754f00c349b347ae03",
+    "7a93e4876fc67ddae7a6da71a7336bbc5382f65954b671b6dbfcb5fc37616c43",
+    "98eee2071d1daed450bc62780d204c0e0297fa80ff74541002b79951b9330d5b",
+    "8b290d40159d2ec7883d91273b69f43310bfd0a156f64c51d12e6c06e3b47fa0",
+    "6f61d3183e0ecd0c087c972e3202bd459589dd77e638315c3abf9aa042c32224",
+    "8cf086bd28dcfb46afc19c39f009061bcce134c3a57b998bb0437abacc9d431d",
+    "3068fcb8c3f7b44f9a6ff176c2312f3a9da6bef6dd3644e6092d71e587116407",
+    "fc7a0befb6d650b1485433a6c27c0102f400a7e052ca9fbe94212e692513453d",
+    "750256e81a7b3cc75ecaaad6b60a36dd08370459a72bbcf038af0a37be65b24d",
+    "a7758be9f5d0b31a9c7623c1956cda1e5e1d8b1c54267e35e45fbf31ecbbb94b",
+    "b9a93e288fbef601723d849c0f122e8fe5fb22dd32d11c72e973158d9ab66f5d",
+    "3509b70acb91d8f2b7526deeecb3f4a8772c71b99c52c2631b0793357a33267d"
+  ],
+  "distinct_senders": 6,
+  "distinct_recipients": 7,
+  "phases": [
+    "S1901M"
+  ],
+  "eligibility_rule": [
+    "dialogue_output_match_strength > 0",
+    "planner_pair_mode == exact_sender_recipient_phase_before_input",
+    "observer_parse_ok == true"
+  ],
+  "selection_uses_observer_correctness": false
+}

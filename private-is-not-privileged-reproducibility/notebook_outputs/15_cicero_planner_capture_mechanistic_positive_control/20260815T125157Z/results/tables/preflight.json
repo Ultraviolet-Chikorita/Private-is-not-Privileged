@@ -1,0 +1,22 @@
+{
+  "cicero_commit": "e85afeddb34f5b7c1ea0827203b425a0f7e68ead",
+  "stack_markers": [
+    "/workspace/latent-reservations/.venvs/cicero_full_agent_py37_source_v5/.latent_reservations_cicero_stack_v5_7"
+  ],
+  "torch_route": {
+    "version": "1.7.1+cu110",
+    "cuda": "11.0",
+    "cuda_available": true,
+    "root": "/workspace/latent-reservations/.venvs/cicero_full_agent_py37_source_v5/lib/python3.7/site-packages/torch",
+    "lib": "/workspace/latent-reservations/.venvs/cicero_full_agent_py37_source_v5/lib/python3.7/site-packages/torch/lib"
+  },
+  "runtime_probe": {
+    "python": "/workspace/latent-reservations/.venvs/cicero_full_agent_py37_source_v5/bin/python",
+    "torch": "1.7.1+cu110",
+    "cuda_build": "11.0",
+    "cuda_available": true,
+    "postman": "/workspace/latent-reservations/vendor/diplomacy_cicero/thirdparty/github/fairinternal/postman/postman/python/postman/__init__.py",
+    "pydipcc": "/workspace/latent-reservations/vendor/diplomacy_cicero/fairdiplomacy/pydipcc.cpython-37m-x86_64-linux-gnu.so",
+    "agent": "<class 'fairdiplomacy.agents.bqre1p_agent.BQRE1PAgent'>"
+  }
+}

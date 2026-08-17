@@ -1,0 +1,21 @@
+{
+  "states": "exact frozen one-state-per-game bank from accepted timing experiment",
+  "state_bank_sha256": "d29ad1d616fae9c8f6ddf04983fba6421249c544afc767ea33be1d746e21b389",
+  "format": "compact only",
+  "subject_model": "Qwen/Qwen2.5-7B-Instruct",
+  "action_target": "single final consequential A/B order after generated private deliberation",
+  "T0": "activation and observer before any deliberation output, predicting later final action",
+  "T1_private": "post-deliberation activation versus T0 observer; intentionally information-asymmetric diagnostic",
+  "T1_matched": "same post-deliberation activation versus observer given identical final prompt including frozen deliberation",
+  "action_generation": "one shared deterministic final action per state; not regenerated across observer comparisons",
+  "outer_split_unit": "source game",
+  "activation_reader": "nested grouped linear all-layer reader",
+  "text_reader": "generative observer plus trained exact-prompt TF-IDF, fold-selected",
+  "primary_metrics": [
+    "observer exposure gain",
+    "post-vs-pre activation timing gain",
+    "T1 matched-information delta"
+  ],
+  "bootstrap": "source-game paired 20,000 reps",
+  "claim_boundary": "No claim of silent latent computation; generated deliberation is new private textual information until deliberately exposed to the observer."
+}

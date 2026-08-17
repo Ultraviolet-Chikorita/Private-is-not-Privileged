@@ -1,0 +1,33 @@
+{
+  "command": [
+    "/workspace/latent-reservations/.venvs/cicero_full_agent_py37_source_v5/bin/python",
+    "run.py",
+    "--adhoc",
+    "--cfg",
+    "conf/c01_ag_cmp/cmp.prototxt",
+    "Iagent_one=agents/cicero.prototxt",
+    "use_shared_agent=1",
+    "power_one=TURKEY"
+  ],
+  "capture_complete": true,
+  "paired_outer_message_count_at_stop": 24,
+  "process_exited_before_capture": false,
+  "returncode_after_stop": 1,
+  "event_counts_at_stop": {
+    "instrumentation_loaded": 1,
+    "generate_message_begin": 24,
+    "run_bilateral_search_with_conditional_evs_result": 204,
+    "dialogue_model_input": 55,
+    "dialogue_model_result": 55,
+    "generate_message_result": 24
+  },
+  "event_files": [
+    "/workspace/latent-reservations/notebook_outputs/17_cicero_exact_dialogue_input_visibility/20260815T154340Z/data/exact_dialogue_events/208111.jsonl"
+  ],
+  "log_path": "/workspace/latent-reservations/notebook_outputs/17_cicero_exact_dialogue_input_visibility/20260815T154340Z/data/runtime/full_agent_exact_dialogue_capture.log",
+  "stop_metadata": {
+    "capture_target_time_unix": 1786809333.771307,
+    "signal": "SIGINT",
+    "signal_sent_time_unix": 1786809333.772951
+  }
+}

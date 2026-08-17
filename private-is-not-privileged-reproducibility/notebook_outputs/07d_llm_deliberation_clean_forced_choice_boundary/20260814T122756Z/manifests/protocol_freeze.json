@@ -1,0 +1,87 @@
+{
+  "notebook_build": "latent-reservations-notebook07d-clean-forced-choice-boundary-v1",
+  "source_run": "/workspace/latent-reservations/notebook_outputs/07c_llm_deliberation_native_format_scalar_boundary/20260814T110150Z",
+  "parent_states": 30,
+  "candidate_scores": "same frozen candidate score banks used by the prior scalar-boundary branches",
+  "controlled_parent_transform": "original initial private rules + frozen history + frozen incentive summary + controlled binary replay; ordinary speaking/output contract excluded",
+  "parent_activation_timing": "controlled parent state before candidate score is revealed",
+  "controlled_action": "forced binary choice from relative next-token logits over canonical legal tokens; 0=REJECT, 1=ACCEPT",
+  "unrestricted_global_argmax": "diagnostic only",
+  "behavioral_gates": {
+    "below_minimum_accept_count_max": 0,
+    "maximum_score_accept_rate_min": 0.9,
+    "uncensored_state_rate_min": 0.6666666666666666,
+    "state_monotonicity_violation_rate_max": 0.2
+  },
+  "primary_target": "binary forced-choice isotonic boundary normalized to legal score range",
+  "secondary_target": "continuation premium = revealed boundary - explicit minimum",
+  "primary_delta": "matched text auditor MAE - activation reader MAE",
+  "conservative_text_suite": [
+    "matched generative auditor",
+    "trained character-TFIDF",
+    "assigned-threshold baseline"
+  ],
+  "conservative_nonactivation_suite": [
+    "matched generative auditor",
+    "trained character-TFIDF",
+    "assigned-threshold baseline",
+    "structured state",
+    "fold-wise constant median"
+  ],
+  "fold_protocol": {
+    "trajectory_to_fold": {
+      "trajectory_000": 0,
+      "trajectory_001": 1,
+      "trajectory_002": 2,
+      "trajectory_003": 3,
+      "trajectory_004": 4
+    },
+    "outer_folds": {
+      "0": {
+        "test_fold": 0,
+        "validation_fold": 1,
+        "inner_train_folds": [
+          2,
+          3,
+          4
+        ]
+      },
+      "1": {
+        "test_fold": 1,
+        "validation_fold": 2,
+        "inner_train_folds": [
+          0,
+          3,
+          4
+        ]
+      },
+      "2": {
+        "test_fold": 2,
+        "validation_fold": 3,
+        "inner_train_folds": [
+          0,
+          1,
+          4
+        ]
+      },
+      "3": {
+        "test_fold": 3,
+        "validation_fold": 4,
+        "inner_train_folds": [
+          0,
+          1,
+          2
+        ]
+      },
+      "4": {
+        "test_fold": 4,
+        "validation_fold": 0,
+        "inner_train_folds": [
+          1,
+          2,
+          3
+        ]
+      }
+    }
+  }
+}

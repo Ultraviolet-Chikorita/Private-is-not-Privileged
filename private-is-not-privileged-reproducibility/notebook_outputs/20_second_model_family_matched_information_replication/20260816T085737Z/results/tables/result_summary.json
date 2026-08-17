@@ -1,0 +1,128 @@
+{
+  "notebook_build": "latent-reservations-p1-second-model-family-matched-information-v1",
+  "run_id": "20260816T085737Z",
+  "source_qwen_run": "/workspace/latent-reservations/notebook_outputs/19_cicero_h1_activation_vs_strong_text/20260815T180359Z",
+  "frozen_state_bank_sha256": "e21a88ae614279e2bde67554e8f788d28a7c6891b1ffb5cfd281a3bc23280900",
+  "subject_model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "subject_revision_requested": "main",
+  "subject_revision_resolved": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+  "decoder_layer_path": "model.layers",
+  "protocol": {
+    "experiment": "second-model-family replication",
+    "source_state_bank_sha256": "e21a88ae614279e2bde67554e8f788d28a7c6891b1ffb5cfd281a3bc23280900",
+    "source_state_count": 78,
+    "source_games": 40,
+    "subject_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "subject_revision_requested": "main",
+    "behavioral_target": "model-specific consequential choice of frozen option B versus option A",
+    "prompt_format": "identical compact prompt text before chat-template rendering",
+    "activation_timing": "final rendered prompt token before any subject output",
+    "split_unit": "source game",
+    "folds": "frozen source-state folds",
+    "activation_reader": "all-layer linear logistic, nested grouped layer and C selection",
+    "strong_text_candidates": [
+      "same-model matched generative observer",
+      "trained exact-prompt TF-IDF"
+    ],
+    "strong_text_selection": "inner grouped folds only",
+    "controls": [
+      "structured",
+      "constant",
+      "shuffled-label activation"
+    ],
+    "primary_metric": "Brier score",
+    "primary_effect": "source-game mean squared-error(strong text) - squared-error(activation)",
+    "uncertainty": "20,000-replicate source-game cluster bootstrap",
+    "support_rule": "valid run AND delta > 0 AND bootstrap CI low > 0 AND activation beats shuffled-label control",
+    "no_test_fold_tuning": true
+  },
+  "readiness": {
+    "frozen_source_bank_sha256_match": true,
+    "selected_state_count": 78,
+    "selected_source_games": 40,
+    "action_validity": 0.9743589743589743,
+    "auditor_validity": 1.0,
+    "usable_same_state_count": 76,
+    "usable_source_games": 40,
+    "label_A_count": 53,
+    "label_B_count": 23,
+    "minimum_usable_states_pass": true,
+    "minimum_source_games_pass": true,
+    "action_validity_pass": true,
+    "auditor_validity_pass": true,
+    "minimum_each_label_pass": true,
+    "split_purity_pass": true,
+    "all_auditors_generated_before_action": true,
+    "activation_action_prompt_hash_match": true,
+    "auditor_contains_exact_rendered_subject_text": true,
+    "activation_rows_align": true,
+    "analysis_allowed": true,
+    "activation_beats_shuffled_label_control": true,
+    "all_heldout_predictions_complete": true,
+    "privileged_access_supported": false
+  },
+  "result": {
+    "subject_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "subject_revision_resolved": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+    "valid_states": 76,
+    "source_games": 40,
+    "metrics": {
+      "activation": {
+        "brier": 0.2538592763207855,
+        "accuracy": 0.631578947368421,
+        "auroc": 0.6218211648892535
+      },
+      "strong_text": {
+        "brier": 0.2222761668946565,
+        "accuracy": 0.6973684210526315,
+        "auroc": 0.4626743232157506
+      },
+      "matched_auditor": {
+        "brier": 0.5161512894737501,
+        "accuracy": 0.34210526315789475,
+        "auroc": 0.7309269893355209
+      },
+      "trained_text": {
+        "brier": 0.2222761668946565,
+        "accuracy": 0.6973684210526315,
+        "auroc": 0.4626743232157506
+      },
+      "structured": {
+        "brier": 0.14542260566776305,
+        "accuracy": 0.8421052631578947,
+        "auroc": 0.8310090237899919
+      },
+      "constant": {
+        "brier": 0.21213003024383711,
+        "accuracy": 0.6973684210526315,
+        "auroc": 0.44585726004922066
+      },
+      "shuffled_activation": {
+        "brier": 0.3277974272575441,
+        "accuracy": 0.5263157894736842,
+        "auroc": 0.5135356849876949
+      }
+    },
+    "delta_strong_text_minus_activation": -0.04539087099934392,
+    "cluster_bootstrap": {
+      "reps": 20000,
+      "mean": -0.045392437162753325,
+      "ci95_low": -0.12563326795347474,
+      "ci95_high": 0.032769092305371186,
+      "fraction_positive": 0.1288
+    },
+    "activation_beats_shuffled_label_control": true,
+    "privileged_access_supported": false,
+    "decision": "second_family_privileged_access_not_supported_valid_test"
+  },
+  "cross_model_descriptive": {
+    "overlapping_valid_states": 74,
+    "behavior_agreement_rate": 0.5,
+    "qwen_activation_brier": 0.3364877773082724,
+    "qwen_strong_text_brier": 0.24069465053041061,
+    "second_activation_brier": 0.2538592763207855,
+    "second_strong_text_brier": 0.2222761668946565,
+    "same_direction_text_minus_activation": true
+  },
+  "claim_boundary": "This is a second-model-family replication on the same frozen states. It tests linear final-token residual readers, not all possible neural decoders."
+}

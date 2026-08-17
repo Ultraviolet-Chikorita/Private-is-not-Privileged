@@ -1,0 +1,20 @@
+{
+  "private_valid_rate": 1.0,
+  "public_valid_rate": 1.0,
+  "private_unique_proposal_levels": 4,
+  "public_unique_proposal_levels": 4,
+  "private_behavior_bin_mae_all": 1.0333333333333334,
+  "private_behavior_bin_mae_public_subset": 0.8,
+  "public_behavior_bin_mae": 0.8,
+  "h3_public_minus_private_error_gap": 0.0,
+  "h3_cluster_bootstrap_95ci": [
+    0.0,
+    0.0
+  ],
+  "private_behavior_spearman": 0.19545826852242557,
+  "public_behavior_spearman": 0.6256296648304468,
+  "private_threshold_bin_mae": 0.5,
+  "public_threshold_bin_mae": 0.4,
+  "order_control_proposal_match_rate": 0.8,
+  "order_control_minimum_match_rate": 1.0
+}

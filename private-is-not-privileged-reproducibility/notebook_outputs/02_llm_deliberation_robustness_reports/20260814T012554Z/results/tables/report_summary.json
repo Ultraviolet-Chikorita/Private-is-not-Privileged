@@ -1,0 +1,16 @@
+{
+  "private_valid_rate": 1.0,
+  "public_valid_rate": 1.0,
+  "private_behavior_bin_mae_all": 2.466666666666667,
+  "private_behavior_bin_mae_public_subset": 2.533333333333333,
+  "public_behavior_bin_mae": 2.533333333333333,
+  "h3_public_minus_private_error_gap": 0.0,
+  "h3_cluster_bootstrap_95ci": [
+    0.0,
+    0.0
+  ],
+  "private_behavior_spearman": null,
+  "public_behavior_spearman": null,
+  "private_threshold_bin_mae": 1.1666666666666667,
+  "public_threshold_bin_mae": 1.2
+}

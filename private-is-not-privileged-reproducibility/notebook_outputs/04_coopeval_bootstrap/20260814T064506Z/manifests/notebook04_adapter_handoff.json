@@ -1,0 +1,96 @@
+{
+  "notebook_build": "latent-reservations-notebook04-coopeval-bootstrap-interface-discovery-v2",
+  "run_id": "20260814T064506Z",
+  "run_output_dir": "/workspace/latent-reservations/notebook_outputs/04_coopeval_bootstrap/20260814T064506Z",
+  "prior_frozen_evidence": {
+    "notebook03_run": "/workspace/latent-reservations/notebook_outputs/03_llm_deliberation_evidence_freeze/20260814T014816Z",
+    "notebook03_frozen": true,
+    "h1_delta_latent": -14.495083109537761,
+    "h1_ci95": [
+      -25.559805552164715,
+      -7.303814188639323
+    ],
+    "h3_gap": 0.0
+  },
+  "coopeval": {
+    "url": "https://github.com/Xiao215/CoopEval.git",
+    "commit": "8559e858b5cc33e0a29ac592c0b21eab007feb57",
+    "branch": "main",
+    "upstream_dir": "/workspace/latent-reservations/vendor/coopeval",
+    "tracked_clean": true,
+    "editable_install_passed": true,
+    "runner_help_passed": true,
+    "targeted_native_tests_attempted": false,
+    "targeted_native_tests_returncode": null
+  },
+  "target": {
+    "game": "Traveler's Dilemma",
+    "game_config": "configs/games/travellers_dilemma.yaml",
+    "game_class": {
+      "module": "coopeval.games.travellers_dilemma",
+      "class": "TravellersDilemma",
+      "constructor": "(*, min_claim: 'int', num_actions: 'int', claim_spacing: 'int', bonus: 'float') -> 'None'",
+      "source_file": "/workspace/latent-reservations/vendor/coopeval/src/coopeval/games/travellers_dilemma.py",
+      "public_methods": [
+        {
+          "name": "add_mediator_action",
+          "signature": "(self) -> None"
+        },
+        {
+          "name": "get_action_self_payoff",
+          "signature": "(self, action: 'Action') -> 'float'"
+        },
+        {
+          "name": "get_actions_payoff",
+          "signature": "(self, actions: 'Sequence[Action]') -> 'Sequence[float]'"
+        },
+        {
+          "name": "get_player_prompt",
+          "signature": "(self, player_id: int) -> str"
+        },
+        {
+          "name": "play",
+          "signature": "(self, additional_info: 'list[str] | str', players: 'Sequence[Agent]', action_map: 'Callable' = <function TravellersDilemma.<lambda> at 0x794ca3243ce0>) -> 'list[Move]'"
+        },
+        {
+          "name": "prompt_player_mix_probs",
+          "signature": "(self, player: coopeval.agents.agent_manager.Agent, extra_info: str | None = None, output_instruction: str | None = None) -> tuple[str, dict[int, float]]"
+        }
+      ]
+    },
+    "mechanism": "No Mechanism",
+    "mechanism_config": "configs/mechanisms/no_mechanism.yaml",
+    "mechanism_class": {
+      "module": "coopeval.mechanisms.no_mechanism",
+      "class": "NoMechanism",
+      "constructor": "(base_game: coopeval.games.base.Game, *, tournament_workers: int = 1)",
+      "source_file": "/workspace/latent-reservations/vendor/coopeval/src/coopeval/mechanisms/no_mechanism.py",
+      "public_methods": [
+        {
+          "name": "run_tournament",
+          "signature": "(self, players: list[coopeval.agents.agent_manager.Agent]) -> coopeval.ranking_evaluations.payoffs_base.PayoffsBase"
+        }
+      ]
+    },
+    "behavioral_target": "continuous claim"
+  },
+  "discovery_artifacts": {
+    "config_inventory": "/workspace/latent-reservations/notebook_outputs/04_coopeval_bootstrap/20260814T064506Z/results/tables/official_config_inventory.json",
+    "class_discovery": "/workspace/latent-reservations/notebook_outputs/04_coopeval_bootstrap/20260814T064506Z/results/tables/class_discovery.json",
+    "source_interfaces": "/workspace/latent-reservations/notebook_outputs/04_coopeval_bootstrap/20260814T064506Z/results/tables/source_interface_discovery.json",
+    "agent_configs": "/workspace/latent-reservations/notebook_outputs/04_coopeval_bootstrap/20260814T064506Z/results/tables/agent_config_inventory.json",
+    "output_schemas": "/workspace/latent-reservations/notebook_outputs/04_coopeval_bootstrap/20260814T064506Z/results/tables/author_output_schema_inventory.json",
+    "environment": "/workspace/latent-reservations/notebook_outputs/04_coopeval_bootstrap/20260814T064506Z/manifests/environment_and_repo.json",
+    "worktree": "/workspace/latent-reservations/notebook_outputs/04_coopeval_bootstrap/20260814T064506Z/manifests/coopeval_worktree.json",
+    "native_tests": "/workspace/latent-reservations/notebook_outputs/04_coopeval_bootstrap/20260814T064506Z/manifests/native_target_tests.json"
+  },
+  "next_notebook_scope": [
+    "construct one official-engine Traveler's Dilemma state",
+    "recover exact subject prompt and continuous claim parser",
+    "use the same local Qwen subject checkpoint",
+    "capture final-prompt-token activations",
+    "run a matched text-only auditor",
+    "test a small parameterized payoff sweep",
+    "freeze grouped states before any causal extension"
+  ]
+}

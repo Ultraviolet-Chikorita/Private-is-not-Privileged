@@ -1,0 +1,112 @@
+[
+  {
+    "path": "data/activations/post_deliberation_t1.safetensors",
+    "bytes": 8028248,
+    "sha256": "7af8899c52f2a261c2fb8991cb8c11e58c48bb6aa57425a59ee9d716d31ca910"
+  },
+  {
+    "path": "data/activations/pre_deliberation_t0.safetensors",
+    "bytes": 8028248,
+    "sha256": "fba814a7d2302a4adb5efbe05b82b954284b4bdd4cf28874ce7f982f8c1d8c49"
+  },
+  {
+    "path": "data/decomposition_records.jsonl",
+    "bytes": 1217587,
+    "sha256": "8de91138a9286d862cbb6e2a92fd085c5b62df0d1bcf8b6276f03aaa9cfe7338"
+  },
+  {
+    "path": "data/legacy_replay.log",
+    "bytes": 35,
+    "sha256": "3acff5a5fc9bfd9893a9dfb1fae54efdf7332ca94a673270ef67a93acd8f3cca"
+  },
+  {
+    "path": "data/legacy_replay_helper.py",
+    "bytes": 1697,
+    "sha256": "ede662602492b046a2d5950d1441ae4d9e1a604978b58da3808f64ae3b1415b7"
+  },
+  {
+    "path": "data/legacy_replay_requests.json",
+    "bytes": 696210,
+    "sha256": "b88fbc3e647b9e5994accbff02a6315dfc6445d2b5647ca1f44a9fcac5464b7f"
+  },
+  {
+    "path": "data/legacy_replay_results.json",
+    "bytes": 7132,
+    "sha256": "0622571d139c5ed2b90869a3f2325a7ee9934c9c3959961c32caae274cfe85dd"
+  },
+  {
+    "path": "manifests/p3_manifest.json",
+    "bytes": 841,
+    "sha256": "0f87e60ffb0f7d500976de77453faf2480b1e3760d26b7338050eda1efbbaa87"
+  },
+  {
+    "path": "manifests/protocol_freeze.json",
+    "bytes": 1346,
+    "sha256": "9f181ae0e6890cc19e581e9fb12009512db12173a41694618730f88d9480a02f"
+  },
+  {
+    "path": "results/figures/decomposition_brier.png",
+    "bytes": 57776,
+    "sha256": "90be3ae52b37167119ac6253f6b99996c1f94bbe0ffe01737c631f8b31fa6e8e"
+  },
+  {
+    "path": "results/figures/decomposition_effects.png",
+    "bytes": 61921,
+    "sha256": "03f868af64405525393290980d352bf8341621c4366302e3f0f721a6a4b7cca7"
+  },
+  {
+    "path": "results/tables/decomposition_outcomes.csv",
+    "bytes": 11205,
+    "sha256": "d14914b9943135f24f6f326a7e92a10e2dd2844cd96c50f8b048dbae83824e9f"
+  },
+  {
+    "path": "results/tables/decomposition_predictions.csv",
+    "bytes": 15314,
+    "sha256": "9906d066a71ef84c0a647d21d11e8c1cbf54f208282b1f152dc4b588d9c6fce7"
+  },
+  {
+    "path": "results/tables/decomposition_result.json",
+    "bytes": 2265,
+    "sha256": "862e3c8b1d7102d2806163b5bcff12195a73edf0caa11648cf09d0374391303d"
+  },
+  {
+    "path": "results/tables/exposed_text_folds.csv",
+    "bytes": 325,
+    "sha256": "a3d5a19e37ca11c329b4be80bcff0fab28bc1b57e9f59c070935bb9d4a1610e0"
+  },
+  {
+    "path": "results/tables/post_activation_folds.csv",
+    "bytes": 64,
+    "sha256": "98b1e0730b8e64822226b2e1e11babfe37ec6d8d68dd64d0d74b935f352d2308"
+  },
+  {
+    "path": "results/tables/pre_activation_folds.csv",
+    "bytes": 69,
+    "sha256": "1a25cbe3ab65533216521f62162fcd7792c8e554d3ee7df557b5ad9d3f9b1a9d"
+  },
+  {
+    "path": "results/tables/pre_text_folds.csv",
+    "bytes": 293,
+    "sha256": "49cbb14d0e35f8d5124533d53c4f8f6ecb42b76bbf76c7398cbd83d686360a9f"
+  },
+  {
+    "path": "results/tables/readiness.json",
+    "bytes": 425,
+    "sha256": "71aa0f4eecc882af80a380a44220020479040e506332ef8ae279926461b04d10"
+  },
+  {
+    "path": "results/tables/result_summary.json",
+    "bytes": 4874,
+    "sha256": "492134a7419ca9e8ba3dc2b303b745f6502bcd8e5d334c0d8f5fb41fbf207beb"
+  },
+  {
+    "path": "results/tables/source_game_decomposition_deltas.csv",
+    "bytes": 3392,
+    "sha256": "5ca5d19f9c1a17644d60304a41370147f30b5e41dc44537bb08f0c2648a0267b"
+  },
+  {
+    "path": "results/tables/valid_rows.csv",
+    "bytes": 11289,
+    "sha256": "0c8a5d1fb7e3024f20cc87bcb321f6bdee92dfcc020a026b3fb8548b52bfaad5"
+  }
+]

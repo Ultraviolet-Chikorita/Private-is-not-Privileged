@@ -1,0 +1,26 @@
+{
+  "notebook_build": "latent-reservations-notebook01-pilot-run-all-v2",
+  "run_id": "20260813T235230Z",
+  "subject_model": "Qwen/Qwen2.5-7B-Instruct",
+  "upstream_commit": "78e11e04ba89b9d888cb006f57bad696584a32f1",
+  "source_trajectories": 5,
+  "pilot_states": 30,
+  "train_n": 18,
+  "validation_n": 6,
+  "test_n": 6,
+  "test_trajectory": [
+    "trajectory_004"
+  ],
+  "selected_activation_layer": 12,
+  "selected_activation_alpha": 0.1,
+  "activation_validation_mae": 7.867430369059245,
+  "activation_test_mae": 26.115956624348957,
+  "matched_auditor_test_mae": 15.0,
+  "trained_text_test_mae": 14.71377574514564,
+  "delta_latent_auditor_minus_activation_mae": -11.115956624348957,
+  "delta_trained_text_minus_activation_mae": -11.402180879203318,
+  "threshold_positive_control_test_mae": 3.2392349243164062,
+  "threshold_positive_control_layer": 18,
+  "shuffled_label_activation_test_mae": 21.00259844462077,
+  "interpretation": "Diagnostic pilot only; one held-out trajectory (6 states) is too small for inferential claims."
+}

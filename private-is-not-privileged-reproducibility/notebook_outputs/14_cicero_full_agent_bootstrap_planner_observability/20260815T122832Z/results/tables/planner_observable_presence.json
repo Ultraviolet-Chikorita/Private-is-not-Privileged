@@ -1,0 +1,8 @@
+{
+  "blueprint_policy": true,
+  "plausible_orders": true,
+  "action_probabilities": true,
+  "belief_state": true,
+  "search_result": true,
+  "conditional_values": true
+}

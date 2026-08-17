@@ -1,0 +1,14 @@
+{
+  "observer_model": "Qwen/Qwen2.5-7B-Instruct",
+  "observer_revision_requested": null,
+  "observer_revision_resolved": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "model_load_source": "/workspace/.cache/huggingface/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28",
+  "model_load_mode": "resolved_local_snapshot",
+  "project_hf_cache_dir": "/workspace/latent-reservations/.cache/huggingface",
+  "dtype": "torch.bfloat16",
+  "device": "cuda:0",
+  "cuda_device_name": "NVIDIA L40S",
+  "load_seconds": 44.33272314071655,
+  "torch": "2.8.0+cu128",
+  "transformers": "4.57.6"
+}

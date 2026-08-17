@@ -1,0 +1,212 @@
+[
+  {
+    "relative_path": "data/exact_dialogue_events/208111.jsonl",
+    "sha256": "8a9bb2f9adf681da8feb015b5b6a9e230163db9a06537b722f51fe9ad6415cd4",
+    "size_bytes": 1925521
+  },
+  {
+    "relative_path": "data/exact_dialogue_inputs/episode_0000_ITALY_AUSTRIA_1bb411d13feb43ae.txt",
+    "sha256": "1bb411d13feb43aec74db3a64bcde95a847093e2ffed296606734a163d0ff554",
+    "size_bytes": 1105
+  },
+  {
+    "relative_path": "data/exact_dialogue_inputs/episode_0001_ITALY_GERMANY_f030ef06cb9f10ac.txt",
+    "sha256": "f030ef06cb9f10ac0ea0806a59ee8ff239b5da4cd0ca1f95910c9ac8182316dd",
+    "size_bytes": 789
+  },
+  {
+    "relative_path": "data/exact_dialogue_inputs/episode_0002_FRANCE_GERMANY_5be0045cf250b978.txt",
+    "sha256": "5be0045cf250b978c145135ae53be604c02a09fee99e908c38fda579b27ed029",
+    "size_bytes": 1044
+  },
+  {
+    "relative_path": "data/exact_dialogue_inputs/episode_0003_AUSTRIA_ITALY_a0efa9c44ac1dba7.txt",
+    "sha256": "a0efa9c44ac1dba7427257e95c6a22bae815827ec1915803fa45a470c5bdabda",
+    "size_bytes": 1260
+  },
+  {
+    "relative_path": "data/exact_dialogue_inputs/episode_0004_FRANCE_ENGLAND_224497a34b481078.txt",
+    "sha256": "224497a34b4810786e56880cdeeb6f00d27b1140134339809f65eb7b93c82a6e",
+    "size_bytes": 769
+  },
+  {
+    "relative_path": "data/exact_dialogue_inputs/episode_0005_GERMANY_FRANCE_b668a61ea9cf5d3c.txt",
+    "sha256": "b668a61ea9cf5d3c6984c81a1b35cf9966460995e53df64dc7a390ea007ba178",
+    "size_bytes": 1440
+  },
+  {
+    "relative_path": "data/exact_dialogue_inputs/episode_0006_AUSTRIA_RUSSIA_cfdb5f03f32b33b7.txt",
+    "sha256": "cfdb5f03f32b33b7fe6ebd88cf318dcb00b8bfa556db01754f00c349b347ae03",
+    "size_bytes": 912
+  },
+  {
+    "relative_path": "data/exact_dialogue_inputs/episode_0007_TURKEY_RUSSIA_7a93e4876fc67dda.txt",
+    "sha256": "7a93e4876fc67ddae7a6da71a7336bbc5382f65954b671b6dbfcb5fc37616c43",
+    "size_bytes": 1123
+  },
+  {
+    "relative_path": "data/exact_dialogue_inputs/episode_0008_TURKEY_ITALY_98eee2071d1daed4.txt",
+    "sha256": "98eee2071d1daed450bc62780d204c0e0297fa80ff74541002b79951b9330d5b",
+    "size_bytes": 757
+  },
+  {
+    "relative_path": "data/exact_dialogue_inputs/episode_0009_GERMANY_FRANCE_8b290d40159d2ec7.txt",
+    "sha256": "8b290d40159d2ec7883d91273b69f43310bfd0a156f64c51d12e6c06e3b47fa0",
+    "size_bytes": 972
+  },
+  {
+    "relative_path": "data/exact_dialogue_inputs/episode_0010_FRANCE_GERMANY_6f61d3183e0ecd0c.txt",
+    "sha256": "6f61d3183e0ecd0c087c972e3202bd459589dd77e638315c3abf9aa042c32224",
+    "size_bytes": 1262
+  },
+  {
+    "relative_path": "data/exact_dialogue_inputs/episode_0011_GERMANY_ITALY_8cf086bd28dcfb46.txt",
+    "sha256": "8cf086bd28dcfb46afc19c39f009061bcce134c3a57b998bb0437abacc9d431d",
+    "size_bytes": 1371
+  },
+  {
+    "relative_path": "data/exact_dialogue_inputs/episode_0012_FRANCE_GERMANY_3068fcb8c3f7b44f.txt",
+    "sha256": "3068fcb8c3f7b44f9a6ff176c2312f3a9da6bef6dd3644e6092d71e587116407",
+    "size_bytes": 1481
+  },
+  {
+    "relative_path": "data/exact_dialogue_inputs/episode_0013_ENGLAND_FRANCE_fc7a0befb6d650b1.txt",
+    "sha256": "fc7a0befb6d650b1485433a6c27c0102f400a7e052ca9fbe94212e692513453d",
+    "size_bytes": 1369
+  },
+  {
+    "relative_path": "data/exact_dialogue_inputs/episode_0014_RUSSIA_TURKEY_1aca781d11075398.txt",
+    "sha256": "1aca781d110753988160e79c6ddfe6ea340243594dd5d85d61e9bf20f2c91467",
+    "size_bytes": 1464
+  },
+  {
+    "relative_path": "data/exact_dialogue_inputs/episode_0015_GERMANY_RUSSIA_750256e81a7b3cc7.txt",
+    "sha256": "750256e81a7b3cc75ecaaad6b60a36dd08370459a72bbcf038af0a37be65b24d",
+    "size_bytes": 1655
+  },
+  {
+    "relative_path": "data/exact_dialogue_inputs/episode_0016_ITALY_TURKEY_a7758be9f5d0b31a.txt",
+    "sha256": "a7758be9f5d0b31a9c7623c1956cda1e5e1d8b1c54267e35e45fbf31ecbbb94b",
+    "size_bytes": 1413
+  },
+  {
+    "relative_path": "data/exact_dialogue_inputs/episode_0017_FRANCE_ENGLAND_ccba7ff08569e94d.txt",
+    "sha256": "ccba7ff08569e94dd28f1cee07063bf3af7215815ad87d7f302fc93bc49dbc99",
+    "size_bytes": 1652
+  },
+  {
+    "relative_path": "data/exact_dialogue_inputs/episode_0018_ITALY_AUSTRIA_b9a93e288fbef601.txt",
+    "sha256": "b9a93e288fbef601723d849c0f122e8fe5fb22dd32d11c72e973158d9ab66f5d",
+    "size_bytes": 1568
+  },
+  {
+    "relative_path": "data/exact_dialogue_inputs/episode_0019_FRANCE_ITALY_3509b70acb91d8f2.txt",
+    "sha256": "3509b70acb91d8f2b7526deeecb3f4a8772c71b99c52c2631b0793357a33267d",
+    "size_bytes": 1677
+  },
+  {
+    "relative_path": "data/exact_dialogue_inputs/episode_0020_RUSSIA_AUSTRIA_758d774340054a38.txt",
+    "sha256": "758d774340054a38ebf7f582efec9fbfad7903d0c04f3591c9c669b9185c9a0f",
+    "size_bytes": 1381
+  },
+  {
+    "relative_path": "data/instrumentation/__pycache__/sitecustomize.cpython-37.pyc",
+    "sha256": "3aa1ee9ad28f163d6bbb375f1a5e04d5df06c853423b7f6027e5dd5bf3c473f0",
+    "size_bytes": 11022
+  },
+  {
+    "relative_path": "data/instrumentation/sitecustomize.py",
+    "sha256": "e960a53edcb48a02ddb62ba46efbe255df31b4c2f0021e8ca4006626206046b8",
+    "size_bytes": 15658
+  },
+  {
+    "relative_path": "data/runtime/capture_events_merged.json",
+    "sha256": "48283c7f0f9facf8330e72b4e6f0925d267990bc39219e4efcf9ff6b342978cb",
+    "size_bytes": 4533706
+  },
+  {
+    "relative_path": "data/runtime/full_agent_exact_dialogue_capture.log",
+    "sha256": "610fdcd4e8b9ed6b662d1c6c33ec3c0fc9e6586c1bf5f28dc7d05143868c5be0",
+    "size_bytes": 1763561
+  },
+  {
+    "relative_path": "data/runtime/gpu_runtime_samples.json",
+    "sha256": "6be551ca822e575d34a2d712a102d740db9f320d1ddd23a401cdfb9f7dc74a19",
+    "size_bytes": 7940
+  },
+  {
+    "relative_path": "data/runtime/instrumentation_probe.txt",
+    "sha256": "1a1e6589d4cc5eec8d9cc19ab8fc1e03cdc2398ee80c290deaf12f93ae0e12b6",
+    "size_bytes": 392
+  },
+  {
+    "relative_path": "data/runtime/instrumentation_probe_events/207916.jsonl",
+    "sha256": "0795a2354e496125b0e458bc2bd105c30396071b7934ba07354eef420871ff6f",
+    "size_bytes": 607
+  },
+  {
+    "relative_path": "data/runtime/preflight_probe.txt",
+    "sha256": "8f3726a7f6f358a00cc6a16c9ab58f5701365e4ce8ac3c2efe3eaf253351a985",
+    "size_bytes": 904
+  },
+  {
+    "relative_path": "data/runtime/stop_metadata.json",
+    "sha256": "bad79a762538d6b4b93a57fc2b214c63b88fafddef0d723fb24c4b0f3bc37231",
+    "size_bytes": 119
+  },
+  {
+    "relative_path": "results/figures/planner_action_text_visibility.png",
+    "sha256": "75e24b49ddf54f4e8b8d91cf7f1018ea35fcae9be2ca0dc11a9707208788044e",
+    "size_bytes": 73091
+  },
+  {
+    "relative_path": "results/figures/planner_visibility_by_sender.png",
+    "sha256": "f6958314cf1387f136c21dd8dc6d4017c1bee7ea8e75ac0a3e77de1312a83b83",
+    "size_bytes": 51056
+  },
+  {
+    "relative_path": "results/tables/error_audit.json",
+    "sha256": "b1978df72cbf7ad058e2c07bafe1116429aa58f512cc2eab5288bdf08f3d98ce",
+    "size_bytes": 128
+  },
+  {
+    "relative_path": "results/tables/exact_dialogue_visibility_episodes.csv",
+    "sha256": "bd4dbad4246110f904f7325a311a6fe91466cb1867b0bac3dcd002a50d3b548f",
+    "size_bytes": 23640
+  },
+  {
+    "relative_path": "results/tables/exact_dialogue_visibility_episodes.jsonl",
+    "sha256": "34e78bedd84a062f6894d93abca8e33bc6beecea2385d5703d4fc349f79d75c3",
+    "size_bytes": 72266
+  },
+  {
+    "relative_path": "results/tables/handoff.json",
+    "sha256": "6e4878ae2f8754bec7d0d7def0186575940a13cc7d3490ca9af957db77d7a22c",
+    "size_bytes": 492
+  },
+  {
+    "relative_path": "results/tables/launch_result.json",
+    "sha256": "c9690f94aa69ae47786354680addbe708468dbddf935535de87daee1808ee50c",
+    "size_bytes": 1183
+  },
+  {
+    "relative_path": "results/tables/readiness.json",
+    "sha256": "bf28197eb91bb2cabea976ab6cb47c88dbd7c04caeb28beaddbf3e964fd25431",
+    "size_bytes": 1086
+  },
+  {
+    "relative_path": "results/tables/result_summary.json",
+    "sha256": "50fe85ee6fc746aa431bf13448f2ea90e2e0bf04293aae5d91ad5d7643c75242",
+    "size_bytes": 3753
+  },
+  {
+    "relative_path": "results/tables/visibility_by_sender.csv",
+    "sha256": "4eb8018db5620b1374be3f22eaeee19af5cc04dc222445e4da50294cb2a839ff",
+    "size_bytes": 160
+  },
+  {
+    "relative_path": "results/tables/visibility_summary.json",
+    "sha256": "ef122f4209bdf931e10a288f7a909f9ee85b657838bafd614302d794b14e7c0a",
+    "size_bytes": 1210
+  }
+]

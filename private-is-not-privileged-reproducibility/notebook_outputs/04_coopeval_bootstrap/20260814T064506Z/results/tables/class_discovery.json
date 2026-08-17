@@ -1,0 +1,50 @@
+{
+  "traveler_classes": [
+    {
+      "module": "coopeval.games.travellers_dilemma",
+      "class": "TravellersDilemma",
+      "constructor": "(*, min_claim: 'int', num_actions: 'int', claim_spacing: 'int', bonus: 'float') -> 'None'",
+      "source_file": "/workspace/latent-reservations/vendor/coopeval/src/coopeval/games/travellers_dilemma.py",
+      "public_methods": [
+        {
+          "name": "add_mediator_action",
+          "signature": "(self) -> None"
+        },
+        {
+          "name": "get_action_self_payoff",
+          "signature": "(self, action: 'Action') -> 'float'"
+        },
+        {
+          "name": "get_actions_payoff",
+          "signature": "(self, actions: 'Sequence[Action]') -> 'Sequence[float]'"
+        },
+        {
+          "name": "get_player_prompt",
+          "signature": "(self, player_id: int) -> str"
+        },
+        {
+          "name": "play",
+          "signature": "(self, additional_info: 'list[str] | str', players: 'Sequence[Agent]', action_map: 'Callable' = <function TravellersDilemma.<lambda> at 0x794ca3243ce0>) -> 'list[Move]'"
+        },
+        {
+          "name": "prompt_player_mix_probs",
+          "signature": "(self, player: coopeval.agents.agent_manager.Agent, extra_info: str | None = None, output_instruction: str | None = None) -> tuple[str, dict[int, float]]"
+        }
+      ]
+    }
+  ],
+  "no_mechanism_classes": [
+    {
+      "module": "coopeval.mechanisms.no_mechanism",
+      "class": "NoMechanism",
+      "constructor": "(base_game: coopeval.games.base.Game, *, tournament_workers: int = 1)",
+      "source_file": "/workspace/latent-reservations/vendor/coopeval/src/coopeval/mechanisms/no_mechanism.py",
+      "public_methods": [
+        {
+          "name": "run_tournament",
+          "signature": "(self, players: list[coopeval.agents.agent_manager.Agent]) -> coopeval.ranking_evaluations.payoffs_base.PayoffsBase"
+        }
+      ]
+    }
+  ]
+}

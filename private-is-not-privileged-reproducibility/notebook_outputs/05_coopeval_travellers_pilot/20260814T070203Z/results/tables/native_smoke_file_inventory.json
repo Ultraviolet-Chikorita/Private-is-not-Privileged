@@ -1,0 +1,10 @@
+[
+  "data/native_smoke/experiment.yaml",
+  "data/native_smoke/output/smoke_20260814T070203Z/agent_average_payoff.json",
+  "data/native_smoke/output/smoke_20260814T070203Z/config.json",
+  "data/native_smoke/output/smoke_20260814T070203Z/game_log.txt",
+  "data/native_smoke/output/smoke_20260814T070203Z/matchup_payoffs.json",
+  "data/native_smoke/output/smoke_20260814T070203Z/population_history.json",
+  "data/native_smoke/output/smoke_20260814T070203Z/records.jsonl",
+  "data/native_smoke/output/smoke_20260814T070203Z/replicator_dynamics_fitness.json"
+]

@@ -1,0 +1,25 @@
+{
+  "observer_model": "Qwen/Qwen2.5-7B-Instruct",
+  "observer_revision_requested": null,
+  "local_files_only": true,
+  "project_hf_cache_dir": "/workspace/latent-reservations/.cache/huggingface",
+  "explicit_observer_model_path": null,
+  "model_load_source": "/workspace/.cache/huggingface/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28",
+  "model_load_mode": "resolved_local_snapshot",
+  "resolved_local_snapshot": "/workspace/.cache/huggingface/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28",
+  "model_cache_search_paths": [
+    "/workspace/latent-reservations/.cache/huggingface/models--Qwen--Qwen2.5-7B-Instruct/snapshots",
+    "/workspace/latent-reservations/.cache/huggingface/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots",
+    "/workspace/.cache/huggingface/models--Qwen--Qwen2.5-7B-Instruct/snapshots"
+  ],
+  "do_sample": false,
+  "temperature": 0.0,
+  "max_new_tokens": 192,
+  "max_retries_parse_only": 1,
+  "training_on_nb17_episodes": false,
+  "target_candidates_provided": false,
+  "recipient_injected": false,
+  "future_message_provided": false,
+  "planner_fields_provided": false,
+  "text_visible_threshold_inherited_from_nb17": 0.8
+}

@@ -1,0 +1,16 @@
+{
+  "notebook_build": "latent-reservations-notebook12b-cicero-action-completion-repair-v4",
+  "run_id": "20260814T201107Z",
+  "run_output_dir": "/workspace/latent-reservations/notebook_outputs/12b_cicero_full_press_action_completion_repair/20260814T201107Z",
+  "source_run_dir": "/workspace/latent-reservations/notebook_outputs/12_cicero_full_press_local_order_pilot/20260814T190706Z",
+  "exact_prompt_hash_audit": "/workspace/latent-reservations/notebook_outputs/12b_cicero_full_press_action_completion_repair/20260814T201107Z/results/tables/exact_prompt_hash_audit.csv",
+  "repaired_local_subject_outcomes": "/workspace/latent-reservations/notebook_outputs/12b_cicero_full_press_action_completion_repair/20260814T201107Z/results/tables/repaired_local_subject_outcomes.csv",
+  "primary_gate": "/workspace/latent-reservations/notebook_outputs/12b_cicero_full_press_action_completion_repair/20260814T201107Z/results/tables/primary_gate.json",
+  "secondary_divergence": "/workspace/latent-reservations/notebook_outputs/12b_cicero_full_press_action_completion_repair/20260814T201107Z/results/tables/secondary_divergence.json",
+  "result_summary": "/workspace/latent-reservations/notebook_outputs/12b_cicero_full_press_action_completion_repair/20260814T201107Z/results/tables/result_summary.json",
+  "reused_activation_stack": "/workspace/latent-reservations/notebook_outputs/12_cicero_full_press_local_order_pilot/20260814T190706Z/data/all_order_activations.safetensors",
+  "figures": [
+    "/workspace/latent-reservations/notebook_outputs/12b_cicero_full_press_action_completion_repair/20260814T201107Z/results/figures/consequential_choice_counts.png",
+    "/workspace/latent-reservations/notebook_outputs/12b_cicero_full_press_action_completion_repair/20260814T201107Z/results/figures/method_brier_comparison.png"
+  ]
+}

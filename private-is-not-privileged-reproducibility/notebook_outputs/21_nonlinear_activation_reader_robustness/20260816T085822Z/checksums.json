@@ -1,0 +1,52 @@
+[
+  {
+    "path": "manifests/p2_manifest.json",
+    "sha256": "03bed36e3aadcc947c2432457c08da131d31e7428f2ef7895a2075656f19e536",
+    "bytes": 460
+  },
+  {
+    "path": "manifests/protocol_freeze.json",
+    "sha256": "f5374d02cedd29d519f724de82a5504dcd87bc7f4eac1db2f8c1661ef7a91769",
+    "bytes": 630
+  },
+  {
+    "path": "results/figures/nonlinear_brier_comparison.png",
+    "sha256": "4437e0426c3f69696681f8617685066d669507d64083095a92c3933ed898a5d0",
+    "bytes": 46566
+  },
+  {
+    "path": "results/figures/nonlinear_source_game_deltas.png",
+    "sha256": "9bc65845c9a3f9c12926fd088ece89411544558d2cdec7d75173aaa0003a87f2",
+    "bytes": 50283
+  },
+  {
+    "path": "results/tables/nonlinear_heldout_predictions.csv",
+    "sha256": "8693360faab75b14a8d480811c1314c6c30a32f74991f77496c06860818ba307",
+    "bytes": 28015
+  },
+  {
+    "path": "results/tables/nonlinear_nested_folds.csv",
+    "sha256": "b5a9658adf3d107d16656febc93b4631b60f7e2630f47d44dac63473f93d20aa",
+    "bytes": 161
+  },
+  {
+    "path": "results/tables/nonlinear_result.json",
+    "sha256": "099bee90b1451585bdc4517454ca5b5cc270b65a36f7b7406920305803cb095b",
+    "bytes": 1832
+  },
+  {
+    "path": "results/tables/result_summary.json",
+    "sha256": "b66175c92dac35f64cbbbc2567f4a80145efe2ecff8dbf76311787bdfac6a813",
+    "bytes": 2874
+  },
+  {
+    "path": "results/tables/shuffled_nonlinear_nested_folds.csv",
+    "sha256": "8b8dfc3b4ddcf3a5cd5f5c651821d464eba9e9c6eba162ea05061d6a7e570f6c",
+    "bytes": 163
+  },
+  {
+    "path": "results/tables/source_game_deltas.csv",
+    "sha256": "385c1bb77aa7f2fb3674240e3565318c5c597d323e3da6d0b7f9f66b0c222720",
+    "bytes": 1783
+  }
+]

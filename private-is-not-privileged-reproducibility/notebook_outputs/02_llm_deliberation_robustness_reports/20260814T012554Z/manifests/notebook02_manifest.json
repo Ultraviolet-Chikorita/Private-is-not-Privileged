@@ -1,0 +1,18 @@
+{
+  "notebook_build": "latent-reservations-notebook02-robustness-reports-run-all-v1",
+  "run_id": "20260814T012554Z",
+  "run_output_dir": "/workspace/latent-reservations/notebook_outputs/02_llm_deliberation_robustness_reports/20260814T012554Z",
+  "input_snapshot": "/workspace/latent-reservations/notebook_outputs/02_llm_deliberation_robustness_reports/20260814T012554Z/manifests/input_snapshot.json",
+  "loto_state_predictions": "/workspace/latent-reservations/notebook_outputs/02_llm_deliberation_robustness_reports/20260814T012554Z/results/tables/loto_state_predictions.csv",
+  "loto_by_trajectory": "/workspace/latent-reservations/notebook_outputs/02_llm_deliberation_robustness_reports/20260814T012554Z/results/tables/loto_by_trajectory.csv",
+  "loto_cluster_bootstrap": "/workspace/latent-reservations/notebook_outputs/02_llm_deliberation_robustness_reports/20260814T012554Z/results/tables/loto_cluster_bootstrap.json",
+  "all_layer_loto": "/workspace/latent-reservations/notebook_outputs/02_llm_deliberation_robustness_reports/20260814T012554Z/results/tables/exploratory_all_layer_loto.csv",
+  "shuffled_label_control": "/workspace/latent-reservations/notebook_outputs/02_llm_deliberation_robustness_reports/20260814T012554Z/results/tables/shuffled_label_control.json",
+  "private_reports_dir": "/workspace/latent-reservations/notebook_outputs/02_llm_deliberation_robustness_reports/20260814T012554Z/data/branches/private_reports",
+  "public_reports_dir": "/workspace/latent-reservations/notebook_outputs/02_llm_deliberation_robustness_reports/20260814T012554Z/data/branches/public_reports",
+  "public_selection": "/workspace/latent-reservations/notebook_outputs/02_llm_deliberation_robustness_reports/20260814T012554Z/data/derived/public_report_selection.json",
+  "report_state_table": "/workspace/latent-reservations/notebook_outputs/02_llm_deliberation_robustness_reports/20260814T012554Z/results/tables/report_state_table.csv",
+  "report_summary": "/workspace/latent-reservations/notebook_outputs/02_llm_deliberation_robustness_reports/20260814T012554Z/results/tables/report_summary.json",
+  "exact_repeat_control": "/workspace/latent-reservations/notebook_outputs/02_llm_deliberation_robustness_reports/20260814T012554Z/results/tables/exact_repeat_control.csv",
+  "robustness_summary": "/workspace/latent-reservations/notebook_outputs/02_llm_deliberation_robustness_reports/20260814T012554Z/results/tables/robustness_summary.json"
+}

@@ -1,0 +1,977 @@
+{
+  "prompt": [
+    {
+      "path": "src/coopeval/visualization/analysis_utils.py",
+      "line": 105,
+      "snippet": "103: \n104:     if len(unique_counts) != 1:\n105:         # Build detailed error message showing which groups have which counts\n106:         counts_by_group = {}\n107:         for group_key, count in folder_counts.items():"
+    },
+    {
+      "path": "src/coopeval/script_utils/display_helper.py",
+      "line": 75,
+      "snippet": "73: \n74: def detect_agent_type(player_name: str) -> str:\n75:     \"\"\"Infer whether the serialized player used CoT or IO prompting.\"\"\"\n76:     patterns = [\"CoT\", \"IO\"]\n77: "
+    },
+    {
+      "path": "src/coopeval/mechanisms/reputation.py",
+      "line": 14,
+      "snippet": "12: from coopeval.logger_manager import LOGGER\n13: from coopeval.mechanisms.base import RepetitiveMechanism\n14: from coopeval.mechanisms.prompts import (\n15:     REPUTATION_ACTION_DISTRIBUTION,\n16:     REPUTATION_MECHANISM_PROMPT,"
+    },
+    {
+      "path": "src/coopeval/mechanisms/reputation.py",
+      "line": 16,
+      "snippet": "14: from coopeval.mechanisms.prompts import (\n15:     REPUTATION_ACTION_DISTRIBUTION,\n16:     REPUTATION_MECHANISM_PROMPT,\n17:     REPUTATION_NO_ACTION_DISTRIBUTION_DESCRIPTION,\n18:     REPUTATION_NO_HISTORY_DESCRIPTION,"
+    },
+    {
+      "path": "src/coopeval/mechanisms/reputation.py",
+      "line": 71,
+      "snippet": "69:         return ReputationPayoffs(discount=self.discount)\n70: \n71:     def _build_history_prompts(self, players: Sequence[Agent]) -> list[str]:\n72:         \"\"\"\n73:         Constructs prompts by iterating players and delegating content generation"
+    },
+    {
+      "path": "src/coopeval/mechanisms/reputation.py",
+      "line": 73,
+      "snippet": "71:     def _build_history_prompts(self, players: Sequence[Agent]) -> list[str]:\n72:         \"\"\"\n73:         Constructs prompts by iterating players and delegating content generation\n74:         entirely to _format_reputation.\n75:         \"\"\""
+    },
+    {
+      "path": "src/coopeval/mechanisms/reputation.py",
+      "line": 76,
+      "snippet": "74:         entirely to _format_reputation.\n75:         \"\"\"\n76:         prompts = []\n77: \n78:         for observer in players:"
+    },
+    {
+      "path": "src/coopeval/mechanisms/reputation.py",
+      "line": 88,
+      "snippet": "86:             )\n87: \n88:             base_prompt = REPUTATION_MECHANISM_PROMPT.format(\n89:                 round_idx=rounds_played,\n90:                 discount=int(self.discount * 100),"
+    },
+    {
+      "path": "src/coopeval/mechanisms/reputation.py",
+      "line": 93,
+      "snippet": "91:                 history_context=reputation_text,\n92:             )\n93:             prompts.append(base_prompt)\n94: \n95:         return prompts"
+    },
+    {
+      "path": "src/coopeval/mechanisms/reputation.py",
+      "line": 95,
+      "snippet": "93:             prompts.append(base_prompt)\n94: \n95:         return prompts\n96: \n97:     def _format_reputation("
+    },
+    {
+      "path": "src/coopeval/mechanisms/reputation.py",
+      "line": 238,
+      "snippet": "236:         Args:\n237:             target_player: The player whose history we are formatting.\n238:             observer: The player who will receive this prompt (determines 'You' vs 'Agent #X').\n239:         \"\"\"\n240:         lines = []"
+    },
+    {
+      "path": "src/coopeval/mechanisms/reputation.py",
+      "line": 373,
+      "snippet": "371: \n372:         async def process_matchup(match_up: list[Agent], semaphore: asyncio.Semaphore) -> list[Move]:\n373:             reputation_information = self._build_history_prompts(match_up)\n374:             async with semaphore:\n375:                 moves = await self.base_game.play("
+    },
+    {
+      "path": "src/coopeval/mechanisms/repetition.py",
+      "line": 1,
+      "snippet": "1: \"\"\"Implementation of the repeated-game mechanism with history-aware prompts.\"\"\"\n2: \n3: from typing import Sequence, override"
+    },
+    {
+      "path": "src/coopeval/mechanisms/repetition.py",
+      "line": 9,
+      "snippet": "7: from coopeval.logger_manager import LOGGER\n8: from coopeval.mechanisms.base import RepetitiveMechanism\n9: from coopeval.mechanisms.prompts import (\n10:     REPETITION_MECHANISM_PROMPT,\n11:     REPETITION_NO_HISTORY_DESCRIPTION,"
+    },
+    {
+      "path": "src/coopeval/mechanisms/repetition.py",
+      "line": 10,
+      "snippet": "8: from coopeval.mechanisms.base import RepetitiveMechanism\n9: from coopeval.mechanisms.prompts import (\n10:     REPETITION_MECHANISM_PROMPT,\n11:     REPETITION_NO_HISTORY_DESCRIPTION,\n12:     REPETITION_OTHERPLAYER_LABEL,"
+    },
+    {
+      "path": "src/coopeval/mechanisms/repetition.py",
+      "line": 42,
+      "snippet": "40:         self.include_prior_distributions = include_prior_distributions\n41: \n42:     def _build_history_prompts(\n43:         self,\n44:         players: Sequence[Agent],"
+    },
+    {
+      "path": "src/coopeval/mechanisms/repetition.py",
+      "line": 48,
+      "snippet": "46:         history: RepetitiveMechanism.History,\n47:     ) -> list[str]:\n48:         \"\"\"Build perspective-specific history prompts for each player.\"\"\"\n49:         rounds_played = round_idx - 1\n50:         if not history:"
+    },
+    {
+      "path": "src/coopeval/mechanisms/repetition.py",
+      "line": 52,
+      "snippet": "50:         if not history:\n51:             return [\n52:                 REPETITION_MECHANISM_PROMPT.format(\n53:                     round_idx=rounds_played,\n54:                     discount=int(self.discount * 100),"
+    },
+    {
+      "path": "src/coopeval/mechanisms/repetition.py",
+      "line": 60,
+      "snippet": "58:             ]\n59:         return [\n60:             REPETITION_MECHANISM_PROMPT.format(\n61:                 round_idx=rounds_played,\n62:                 discount=int(self.discount * 100),"
+    },
+    {
+      "path": "src/coopeval/mechanisms/repetition.py",
+      "line": 158,
+      "snippet": "156:         history: RepetitiveMechanism.History,\n157:     ) -> str:\n158:         \"\"\"Format prompt with a limited window of history and action distributions.\"\"\"\n159:         if self.lookup_depth < 0:\n160:             raise ValueError(\"lookup_depth must be non-negative\")"
+    },
+    {
+      "path": "src/coopeval/mechanisms/repetition.py",
+      "line": 199,
+      "snippet": "197: \n198:         for round_idx in range(1, self.num_rounds + 1):\n199:             repetition_information = self._build_history_prompts(\n200:                 players, round_idx, matchup_history\n201:             )"
+    },
+    {
+      "path": "src/coopeval/mechanisms/prompts.py",
+      "line": 1,
+      "snippet": "1: \"\"\"Central repository for prompt templates used by mechanisms.\"\"\"\n2: \n3: import textwrap"
+    },
+    {
+      "path": "src/coopeval/mechanisms/prompts.py",
+      "line": 5,
+      "snippet": "3: import textwrap\n4: \n5: # Contracting mechanism prompts\n6: CONTRACT_DESIGN_PROMPT = textwrap.dedent(\"\"\"\n7:     Here is the twist:"
+    },
+    {
+      "path": "src/coopeval/mechanisms/prompts.py",
+      "line": 6,
+      "snippet": "4: \n5: # Contracting mechanism prompts\n6: CONTRACT_DESIGN_PROMPT = textwrap.dedent(\"\"\"\n7:     Here is the twist:\n8:     There will be the option for a payment contract in this game, and your task now is to design and propose one."
+    },
+    {
+      "path": "src/coopeval/mechanisms/prompts.py",
+      "line": 27,
+      "snippet": "25:     \"\"\")\n26: \n27: CONTRACT_APPROVAL_VOTE_PROMPT = textwrap.dedent(\"\"\"\n28:     Here is the twist:\n29:     On top of the original game rules, a payment contract can be put in place if the players agree to it via an approval voting process. A contract specifies a payment value for each action that a player can play."
+    },
+    {
+      "path": "src/coopeval/mechanisms/prompts.py",
+      "line": 45,
+      "snippet": "43:     \"\"\")\n44: \n45: CONTRACT_CONFIRMATION_PROMPT = textwrap.dedent(\"\"\"\n46:     Here is the twist:\n47:     On top of the original game rules, you have the option to sign a payment contract. A contract specifies a payment value for each action that a player can play. Here is the contract that was selected via approval voting (proposed by Player {designer_player_id}):"
+    },
+    {
+      "path": "src/coopeval/mechanisms/prompts.py",
+      "line": 57,
+      "snippet": "55:     \"\"\")\n56: \n57: CONTRACT_MECHANISM_PROMPT = textwrap.dedent(\"\"\"\n58:     Here is the twist:\n59:     On top of the original game rules, there is a payment contract in place because every player signed it in beforehand. Here is the contract that was selected via approval voting (proposed by Player {designer_player_id}):"
+    },
+    {
+      "path": "src/coopeval/mechanisms/prompts.py",
+      "line": 65,
+      "snippet": "63:     \"\"\")\n64: \n65: CONTRACT_REJECTION_PROMPT = textwrap.dedent(\"\"\"\n66:     Here is the twist:\n67:     On top of the original game rules, a payment contract was proposed to the players. It is NOT active though because some players rejected it. Here is the proposed contract that was selected via approval voting (proposed by Player {designer_player_id}):"
+    },
+    {
+      "path": "src/coopeval/mechanisms/prompts.py",
+      "line": 75,
+      "snippet": "73:     \"\"\")\n74: \n75: # Mediation mechanism prompts\n76: MEDIATOR_DESIGN_PROMPT = textwrap.dedent(\"\"\"\n77:     Here is the twist:"
+    },
+    {
+      "path": "src/coopeval/mechanisms/prompts.py",
+      "line": 76,
+      "snippet": "74: \n75: # Mediation mechanism prompts\n76: MEDIATOR_DESIGN_PROMPT = textwrap.dedent(\"\"\"\n77:     Here is the twist:\n78:     There will be a mediator for this game, and your task now is to design and propose one."
+    },
+    {
+      "path": "src/coopeval/mechanisms/prompts.py",
+      "line": 94,
+      "snippet": "92:     \"\"\")\n93: \n94: MEDIATOR_APPROVAL_VOTE_PROMPT = textwrap.dedent(\"\"\"\n95:     Here is the twist:\n96:     On top of the original game rules, you will have the option to delegate your move to a mediator."
+    },
+    {
+      "path": "src/coopeval/mechanisms/prompts.py",
+      "line": 114,
+      "snippet": "112:     \"\"\")\n113: \n114: MEDIATION_MECHANISM_PROMPT = textwrap.dedent(\"\"\"\n115:     Here is the twist:\n116:     On top of the original game rules, you have the option to delegate your move to a mediator."
+    },
+    {
+      "path": "src/coopeval/mechanisms/prompts.py",
+      "line": 127,
+      "snippet": "125: \n126: \n127: # Repetition mechanism prompts\n128: REPETITION_MECHANISM_PROMPT = textwrap.dedent(\"\"\"\n129:     Here is the twist:"
+    },
+    {
+      "path": "src/coopeval/mechanisms/prompts.py",
+      "line": 128,
+      "snippet": "126: \n127: # Repetition mechanism prompts\n128: REPETITION_MECHANISM_PROMPT = textwrap.dedent(\"\"\"\n129:     Here is the twist:\n130:     You are playing this game *repeatedly* with the same player(s). The action sampled from your action probability distribution will be visible to those player(s) in future rounds and may influence their decisions."
+    },
+    {
+      "path": "src/coopeval/mechanisms/prompts.py",
+      "line": 144,
+      "snippet": "142: REPETITION_OTHERPLAYER_LABEL = \"\\t{other_player}: {action_token}\"\n143: \n144: # Reputation mechanism prompts\n145: REPUTATION_MECHANISM_PROMPT = textwrap.dedent(\"\"\"\n146:     Here is the twist:"
+    },
+    {
+      "path": "src/coopeval/mechanisms/prompts.py",
+      "line": 145,
+      "snippet": "143: \n144: # Reputation mechanism prompts\n145: REPUTATION_MECHANISM_PROMPT = textwrap.dedent(\"\"\"\n146:     Here is the twist:\n147:     You are playing this game *repeatedly* but with varying players who you encounter at random."
+    },
+    {
+      "path": "src/coopeval/mechanisms/mediation.py",
+      "line": 11,
+      "snippet": "9: from coopeval.logger_manager import LOGGER\n10: from coopeval.mechanisms.base import Mechanism\n11: from coopeval.mechanisms.prompts import (\n12:     MEDIATION_MECHANISM_PROMPT,\n13:     MEDIATOR_APPROVAL_VOTE_PROMPT,"
+    },
+    {
+      "path": "src/coopeval/mechanisms/mediation.py",
+      "line": 12,
+      "snippet": "10: from coopeval.mechanisms.base import Mechanism\n11: from coopeval.mechanisms.prompts import (\n12:     MEDIATION_MECHANISM_PROMPT,\n13:     MEDIATOR_APPROVAL_VOTE_PROMPT,\n14:     MEDIATOR_DESIGN_PROMPT,"
+    },
+    {
+      "path": "src/coopeval/mechanisms/mediation.py",
+      "line": 13,
+      "snippet": "11: from coopeval.mechanisms.prompts import (\n12:     MEDIATION_MECHANISM_PROMPT,\n13:     MEDIATOR_APPROVAL_VOTE_PROMPT,\n14:     MEDIATOR_DESIGN_PROMPT,\n15: )"
+    },
+    {
+      "path": "src/coopeval/mechanisms/mediation.py",
+      "line": 14,
+      "snippet": "12:     MEDIATION_MECHANISM_PROMPT,\n13:     MEDIATOR_APPROVAL_VOTE_PROMPT,\n14:     MEDIATOR_DESIGN_PROMPT,\n15: )\n16: from coopeval.mechanisms.json_parsing import parse_bool_votes"
+    },
+    {
+      "path": "src/coopeval/mechanisms/mediation.py",
+      "line": 34,
+      "snippet": "32:         super().__init__(base_game, tournament_workers=tournament_workers)\n33:         self.mediators: dict[str, Mediator] = {}\n34:         self.mediator_design_prompt = MEDIATOR_DESIGN_PROMPT\n35:         self.mediation_mechanism_prompt = MEDIATION_MECHANISM_PROMPT\n36:         self._cached_agents: list[Agent] | None = None"
+    },
+    {
+      "path": "src/coopeval/mechanisms/mediation.py",
+      "line": 35,
+      "snippet": "33:         self.mediators: dict[str, Mediator] = {}\n34:         self.mediator_design_prompt = MEDIATOR_DESIGN_PROMPT\n35:         self.mediation_mechanism_prompt = MEDIATION_MECHANISM_PROMPT\n36:         self._cached_agents: list[Agent] | None = None\n37:         self.base_game.add_mediator_action()"
+    },
+    {
+      "path": "src/coopeval/mechanisms/mediation.py",
+      "line": 46,
+      "snippet": "44:         Design the mediator agent by the given LLM player.\n45:         \"\"\"\n46:         game_prompt = self.base_game.get_player_prompt(designer.player_id)\n47:         base_prompt = (\n48:             game_prompt"
+    },
+    {
+      "path": "src/coopeval/mechanisms/mediation.py",
+      "line": 47,
+      "snippet": "45:         \"\"\"\n46:         game_prompt = self.base_game.get_player_prompt(designer.player_id)\n47:         base_prompt = (\n48:             game_prompt\n49:             + \"\\n\""
+    },
+    {
+      "path": "src/coopeval/mechanisms/mediation.py",
+      "line": 48,
+      "snippet": "46:         game_prompt = self.base_game.get_player_prompt(designer.player_id)\n47:         base_prompt = (\n48:             game_prompt\n49:             + \"\\n\"\n50:             + self.mediator_design_prompt.format("
+    },
+    {
+      "path": "src/coopeval/mechanisms/mediation.py",
+      "line": 50,
+      "snippet": "48:             game_prompt\n49:             + \"\\n\"\n50:             + self.mediator_design_prompt.format(\n51:                 num_players=self.base_game.num_players,\n52:             )"
+    },
+    {
+      "path": "src/coopeval/mechanisms/mediation.py",
+      "line": 56,
+      "snippet": "54: \n55:         _, trace_id, mediator = await designer.chat_with_retries(\n56:             base_prompt=base_prompt,\n57:             parse_func=self._parse_mediator,\n58:         )"
+    },
+    {
+      "path": "src/coopeval/mechanisms/mediation.py",
+      "line": 117,
+      "snippet": "115: \n116:     def _mediator_description(self, mediator: Mediator) -> str:\n117:         \"\"\"Format the prompt for the mediator agent.\"\"\"\n118:         lines = []\n119:         for num_delegating, action in mediator.items():"
+    },
+    {
+      "path": "src/coopeval/mechanisms/mediation.py",
+      "line": 127,
+      "snippet": "125: \n126:     def _all_mediators_description(self, players: Sequence[Agent]) -> str:\n127:         \"\"\"Format all mediators for the voting prompt.\"\"\"\n128:         lines = []\n129:         for player in players:"
+    },
+    {
+      "path": "src/coopeval/mechanisms/mediation.py",
+      "line": 142,
+      "snippet": "140:         Ask an agent to vote on which mediators they approve.\n141:         \"\"\"\n142:         game_prompt = self.base_game.get_player_prompt(voter.player_id)\n143:         all_mediators = self._all_mediators_description(players)\n144:         vote_prompt = ("
+    },
+    {
+      "path": "src/coopeval/mechanisms/mediation.py",
+      "line": 144,
+      "snippet": "142:         game_prompt = self.base_game.get_player_prompt(voter.player_id)\n143:         all_mediators = self._all_mediators_description(players)\n144:         vote_prompt = (\n145:             game_prompt\n146:             + \"\\n\""
+    },
+    {
+      "path": "src/coopeval/mechanisms/mediation.py",
+      "line": 145,
+      "snippet": "143:         all_mediators = self._all_mediators_description(players)\n144:         vote_prompt = (\n145:             game_prompt\n146:             + \"\\n\"\n147:             + MEDIATOR_APPROVAL_VOTE_PROMPT.format("
+    },
+    {
+      "path": "src/coopeval/mechanisms/mediation.py",
+      "line": 147,
+      "snippet": "145:             game_prompt\n146:             + \"\\n\"\n147:             + MEDIATOR_APPROVAL_VOTE_PROMPT.format(\n148:                 all_mediators_description=all_mediators\n149:             )"
+    },
+    {
+      "path": "src/coopeval/mechanisms/mediation.py",
+      "line": 160,
+      "snippet": "158: \n159:         _, trace_id, votes = await voter.chat_with_retries(\n160:             base_prompt=vote_prompt,\n161:             parse_func=parse_votes,\n162:         )"
+    },
+    {
+      "path": "src/coopeval/mechanisms/mediation.py",
+      "line": 264,
+      "snippet": "262: \n263:         mediator_description = self._mediator_description(winning_mediator)\n264:         mediator_mechanism = self.mediation_mechanism_prompt.format(\n265:             mediator_description=mediator_description,\n266:             additional_action_id=self.base_game.num_base_actions,"
+    },
+    {
+      "path": "src/coopeval/mechanisms/contracting.py",
+      "line": 11,
+      "snippet": "9: from coopeval.logger_manager import LOGGER\n10: from coopeval.mechanisms.base import Mechanism\n11: from coopeval.mechanisms.prompts import (\n12:     CONTRACT_APPROVAL_VOTE_PROMPT,\n13:     CONTRACT_CONFIRMATION_PROMPT,"
+    },
+    {
+      "path": "src/coopeval/mechanisms/contracting.py",
+      "line": 12,
+      "snippet": "10: from coopeval.mechanisms.base import Mechanism\n11: from coopeval.mechanisms.prompts import (\n12:     CONTRACT_APPROVAL_VOTE_PROMPT,\n13:     CONTRACT_CONFIRMATION_PROMPT,\n14:     CONTRACT_DESIGN_PROMPT,"
+    },
+    {
+      "path": "src/coopeval/mechanisms/contracting.py",
+      "line": 13,
+      "snippet": "11: from coopeval.mechanisms.prompts import (\n12:     CONTRACT_APPROVAL_VOTE_PROMPT,\n13:     CONTRACT_CONFIRMATION_PROMPT,\n14:     CONTRACT_DESIGN_PROMPT,\n15:     CONTRACT_MECHANISM_PROMPT,"
+    },
+    {
+      "path": "src/coopeval/mechanisms/contracting.py",
+      "line": 14,
+      "snippet": "12:     CONTRACT_APPROVAL_VOTE_PROMPT,\n13:     CONTRACT_CONFIRMATION_PROMPT,\n14:     CONTRACT_DESIGN_PROMPT,\n15:     CONTRACT_MECHANISM_PROMPT,\n16:     CONTRACT_REJECTION_PROMPT,"
+    },
+    {
+      "path": "src/coopeval/mechanisms/contracting.py",
+      "line": 15,
+      "snippet": "13:     CONTRACT_CONFIRMATION_PROMPT,\n14:     CONTRACT_DESIGN_PROMPT,\n15:     CONTRACT_MECHANISM_PROMPT,\n16:     CONTRACT_REJECTION_PROMPT,\n17: )"
+    },
+    {
+      "path": "src/coopeval/mechanisms/contracting.py",
+      "line": 16,
+      "snippet": "14:     CONTRACT_DESIGN_PROMPT,\n15:     CONTRACT_MECHANISM_PROMPT,\n16:     CONTRACT_REJECTION_PROMPT,\n17: )\n18: from coopeval.mechanisms.json_parsing import ("
+    },
+    {
+      "path": "src/coopeval/mechanisms/contracting.py",
+      "line": 49,
+      "snippet": "47:             contract (Contract): The contract with Action keys and integer payoff adjustments.\n48:         \"\"\"\n49:         game_prompt = self.base_game.get_player_prompt(designer.player_id)\n50:         base_prompt = game_prompt + \"\\n\" + CONTRACT_DESIGN_PROMPT.format()\n51:         _response, trace_id, contract = await designer.chat_with_retries("
+    },
+    {
+      "path": "src/coopeval/mechanisms/contracting.py",
+      "line": 50,
+      "snippet": "48:         \"\"\"\n49:         game_prompt = self.base_game.get_player_prompt(designer.player_id)\n50:         base_prompt = game_prompt + \"\\n\" + CONTRACT_DESIGN_PROMPT.format()\n51:         _response, trace_id, contract = await designer.chat_with_retries(\n52:             base_prompt=base_prompt,"
+    },
+    {
+      "path": "src/coopeval/mechanisms/contracting.py",
+      "line": 52,
+      "snippet": "50:         base_prompt = game_prompt + \"\\n\" + CONTRACT_DESIGN_PROMPT.format()\n51:         _response, trace_id, contract = await designer.chat_with_retries(\n52:             base_prompt=base_prompt,\n53:             parse_func=self._parse_contract,\n54:         )"
+    },
+    {
+      "path": "src/coopeval/mechanisms/contracting.py",
+      "line": 63,
+      "snippet": "61:         Ask the LLM to confirm agreement to the contract with automatic retries.\n62:         \"\"\"\n63:         game_prompt = self.base_game.get_player_prompt(player.player_id)\n64:         base_prompt = (\n65:             game_prompt"
+    },
+    {
+      "path": "src/coopeval/mechanisms/contracting.py",
+      "line": 64,
+      "snippet": "62:         \"\"\"\n63:         game_prompt = self.base_game.get_player_prompt(player.player_id)\n64:         base_prompt = (\n65:             game_prompt\n66:             + \"\\n\""
+    },
+    {
+      "path": "src/coopeval/mechanisms/contracting.py",
+      "line": 65,
+      "snippet": "63:         game_prompt = self.base_game.get_player_prompt(player.player_id)\n64:         base_prompt = (\n65:             game_prompt\n66:             + \"\\n\"\n67:             + CONTRACT_CONFIRMATION_PROMPT.format("
+    },
+    {
+      "path": "src/coopeval/mechanisms/contracting.py",
+      "line": 67,
+      "snippet": "65:             game_prompt\n66:             + \"\\n\"\n67:             + CONTRACT_CONFIRMATION_PROMPT.format(\n68:                 contract_description=self._contract_description(\n69:                     self.contracts[designer.name]"
+    },
+    {
+      "path": "src/coopeval/mechanisms/contracting.py",
+      "line": 75,
+      "snippet": "73:         )\n74:         response, trace_id, agreement = await player.chat_with_retries(\n75:             base_prompt=base_prompt,\n76:             parse_func=self._parse_agreement,\n77:         )"
+    },
+    {
+      "path": "src/coopeval/mechanisms/contracting.py",
+      "line": 109,
+      "snippet": "107: \n108:     def _contract_description(self, contract: Contract) -> str:\n109:         \"\"\"Format the prompt for the contract agent.\n110: \n111:         Args:"
+    },
+    {
+      "path": "src/coopeval/mechanisms/contracting.py",
+      "line": 132,
+      "snippet": "130: \n131:     def _all_contracts_description(self, players: Sequence[Agent]) -> str:\n132:         \"\"\"Format all contracts for the voting prompt.\"\"\"\n133:         lines = []\n134:         for player in players:"
+    },
+    {
+      "path": "src/coopeval/mechanisms/contracting.py",
+      "line": 151,
+      "snippet": "149:             votes (dict[int, bool]): Mapping from contract index to approval (True/False)\n150:         \"\"\"\n151:         game_prompt = self.base_game.get_player_prompt(voter.player_id)\n152:         all_contracts = self._all_contracts_description(players)\n153:         vote_prompt = ("
+    },
+    {
+      "path": "src/coopeval/mechanisms/contracting.py",
+      "line": 153,
+      "snippet": "151:         game_prompt = self.base_game.get_player_prompt(voter.player_id)\n152:         all_contracts = self._all_contracts_description(players)\n153:         vote_prompt = (\n154:             game_prompt\n155:             + \"\\n\""
+    },
+    {
+      "path": "src/coopeval/mechanisms/contracting.py",
+      "line": 154,
+      "snippet": "152:         all_contracts = self._all_contracts_description(players)\n153:         vote_prompt = (\n154:             game_prompt\n155:             + \"\\n\"\n156:             + CONTRACT_APPROVAL_VOTE_PROMPT.format("
+    },
+    {
+      "path": "src/coopeval/mechanisms/contracting.py",
+      "line": 156,
+      "snippet": "154:             game_prompt\n155:             + \"\\n\"\n156:             + CONTRACT_APPROVAL_VOTE_PROMPT.format(\n157:                 all_contracts_description=all_contracts\n158:             )"
+    },
+    {
+      "path": "src/coopeval/mechanisms/contracting.py",
+      "line": 169,
+      "snippet": "167: \n168:         _, trace_id, votes = await voter.chat_with_retries(\n169:             base_prompt=vote_prompt,\n170:             parse_func=parse_votes,\n171:         )"
+    },
+    {
+      "path": "src/coopeval/mechanisms/contracting.py",
+      "line": 350,
+      "snippet": "348: \n349:         if all_agree:\n350:             contract_prompt = CONTRACT_MECHANISM_PROMPT.format(\n351:                 contract_description=self._contract_description(\n352:                     winning_contract"
+    },
+    {
+      "path": "src/coopeval/mechanisms/contracting.py",
+      "line": 356,
+      "snippet": "354:                 designer_player_id=winning_agent.player_id,\n355:             )\n356:             additional_info = [contract_prompt] * len(players)\n357:         else:\n358:             rejectors_str = \", \".join(rejector_ids)"
+    },
+    {
+      "path": "src/coopeval/mechanisms/contracting.py",
+      "line": 359,
+      "snippet": "357:         else:\n358:             rejectors_str = \", \".join(rejector_ids)\n359:             rejection_prompt = CONTRACT_REJECTION_PROMPT.format(\n360:                 contract_description=self._contract_description(\n361:                     winning_contract"
+    },
+    {
+      "path": "src/coopeval/mechanisms/contracting.py",
+      "line": 366,
+      "snippet": "364:                 designer_player_id=winning_agent.player_id,\n365:             )\n366:             additional_info = [rejection_prompt] * len(players)\n367: \n368:         moves = await self.base_game.play("
+    }
+  ],
+  "action_parse": [
+    {
+      "path": "src/coopeval/mechanisms/mediation.py",
+      "line": 67,
+      "snippet": "65:         \"\"\"\n66:         json_obj = extract_json_object_from_end(response)\n67:         valid_action_tokens = [\n68:             f\"A{a}\" for a in range(self.base_game.num_base_actions)\n69:         ]"
+    },
+    {
+      "path": "src/coopeval/mechanisms/mediation.py",
+      "line": 90,
+      "snippet": "88:             if not isinstance(v, str) or not v.startswith(\"A\"):\n89:                 raise ValueError(\n90:                     f\"Invalid action {v!r} for the pair {k}: {v}, \"\n91:                     f\"must be one of {valid_action_tokens}.\"\n92:                 )"
+    },
+    {
+      "path": "src/coopeval/mechanisms/mediation.py",
+      "line": 91,
+      "snippet": "89:                 raise ValueError(\n90:                     f\"Invalid action {v!r} for the pair {k}: {v}, \"\n91:                     f\"must be one of {valid_action_tokens}.\"\n92:                 )\n93:             try:"
+    },
+    {
+      "path": "src/coopeval/mechanisms/mediation.py",
+      "line": 97,
+      "snippet": "95:             except ValueError as exc:\n96:                 raise ValueError(\n97:                     f\"Invalid action {v!r} for the pair {k}: {v}, \"\n98:                     f\"must be one of {valid_action_tokens}.\"\n99:                 ) from exc"
+    },
+    {
+      "path": "src/coopeval/mechanisms/mediation.py",
+      "line": 98,
+      "snippet": "96:                 raise ValueError(\n97:                     f\"Invalid action {v!r} for the pair {k}: {v}, \"\n98:                     f\"must be one of {valid_action_tokens}.\"\n99:                 ) from exc\n100:             if not 0 <= action_idx < self.base_game.num_base_actions:"
+    },
+    {
+      "path": "src/coopeval/mechanisms/mediation.py",
+      "line": 102,
+      "snippet": "100:             if not 0 <= action_idx < self.base_game.num_base_actions:\n101:                 raise ValueError(\n102:                     f\"Invalid action {v} for the pair {k}: {v}, \"\n103:                     f\"must be one of {valid_action_tokens}.\"\n104:                 )"
+    },
+    {
+      "path": "src/coopeval/mechanisms/mediation.py",
+      "line": 103,
+      "snippet": "101:                 raise ValueError(\n102:                     f\"Invalid action {v} for the pair {k}: {v}, \"\n103:                     f\"must be one of {valid_action_tokens}.\"\n104:                 )\n105:             mediator[num_delegating] = self.base_game.action_class.from_index("
+    },
+    {
+      "path": "src/coopeval/mechanisms/json_parsing.py",
+      "line": 39,
+      "snippet": "37: \n38: \n39: def parse_action_value_map(\n40:     response: str,\n41:     *,"
+    },
+    {
+      "path": "src/coopeval/mechanisms/json_parsing.py",
+      "line": 44,
+      "snippet": "42:     num_actions: int,\n43: ) -> dict[int, int]:\n44:     \"\"\"Parse an integer value for every action token ``A0..A{n}``.\"\"\"\n45:     json_obj = extract_json_object_from_end(response)\n46:     values: dict[int, int] = {}"
+    },
+    {
+      "path": "src/coopeval/mechanisms/contracting.py",
+      "line": 19,
+      "snippet": "17: )\n18: from coopeval.mechanisms.json_parsing import (\n19:     parse_action_value_map,\n20:     parse_bool_votes,\n21: )"
+    },
+    {
+      "path": "src/coopeval/mechanisms/contracting.py",
+      "line": 85,
+      "snippet": "83:         Expecting a Python dictionary in string format.\n84:         \"\"\"\n85:         values = parse_action_value_map(\n86:             response,\n87:             num_actions=self.base_game.num_actions,"
+    },
+    {
+      "path": "src/coopeval/games/base.py",
+      "line": 25,
+      "snippet": "23:     @classmethod\n24:     def from_token(cls, token: str) -> Self:\n25:         \"\"\"Parse an action from a token like \"A0\" or \"A1\".\"\"\"\n26:         try:\n27:             idx = int(token.lstrip(\"A\"))"
+    },
+    {
+      "path": "src/coopeval/games/base.py",
+      "line": 380,
+      "snippet": "378:     @override\n379:     def add_mediator_action(self) -> None:\n380:         \"\"\"Add the mediator action and rebuild the parsed payoff matrix.\"\"\"\n381:         super().add_mediator_action()\n382:         self.payoff_matrix = self._parse_payoff_matrix(self.raw_payoff_matrix)"
+    },
+    {
+      "path": "scripts/analysis/plot_conditional_action_frequency.py",
+      "line": 63,
+      "snippet": "61:     consolidate_players: bool = True,\n62: ) -> ConditionalFrequencyIndex:\n63:     \"\"\"Extract action counters conditioned on co-player previous actions.\"\"\"\n64: \n65:     cond_freq: ConditionalFrequencyIndex = {}"
+    },
+    {
+      "path": "scripts/analysis/plot_conditional_action_frequency.py",
+      "line": 301,
+      "snippet": "299: \n300: def parse_args() -> argparse.Namespace:\n301:     \"\"\"Parse CLI arguments for conditional action-frequency plotting.\"\"\"\n302:     parser = argparse.ArgumentParser(\n303:         description=\"Generate prior-action conditioned action-frequency figures.\""
+    },
+    {
+      "path": "scripts/analysis/plot_action_frequency.py",
+      "line": 45,
+      "snippet": "43:     consolidate_players: bool = True,\n44: ) -> ActionFrequencyIndex:\n45:     \"\"\"Extract per-run action counters grouped by mechanism, game, and player.\"\"\"\n46: \n47:     action_freq: ActionFrequencyIndex = {}"
+    },
+    {
+      "path": "scripts/analysis/plot_action_frequency.py",
+      "line": 335,
+      "snippet": "333: \n334: def parse_args() -> argparse.Namespace:\n335:     \"\"\"Parse CLI arguments for action-frequency plotting.\"\"\"\n336:     parser = argparse.ArgumentParser(\n337:         description=\"Generate pooled and per-model action-frequency figures.\""
+    }
+  ],
+  "payoff": [
+    {
+      "path": "src/coopeval/logger_manager.py",
+      "line": 1,
+      "snippet": "1: \"\"\"Utility helpers for logging experiment outputs locally.\"\"\"\n2: \n3: import json"
+    },
+    {
+      "path": "src/coopeval/visualization/analysis_utils.py",
+      "line": 7,
+      "snippet": "5: \n6: class NormalizeScore:\n7:     \"\"\"Normalizes game scores to [0, 1] scale based on Nash Equilibrium and cooperative payoffs.\n8: \n9:     Example:"
+    },
+    {
+      "path": "src/coopeval/visualization/analysis_utils.py",
+      "line": 15,
+      "snippet": "13: \n14:     def __init__(self, game: str, game_config: dict):\n15:         \"\"\"Initialize normalizer by precomputing NE and cooperative payoffs.\"\"\"\n16:         self.game = game\n17: "
+    },
+    {
+      "path": "src/coopeval/visualization/analysis_utils.py",
+      "line": 19,
+      "snippet": "17: \n18:         if game == \"PrisonersDilemma\":\n19:             payoff_matrix = game_config[\"kwargs\"][\"payoff_matrix\"]\n20:             self.ne_payoff = payoff_matrix[\"DD\"][0]  # NE: both defect\n21:             self.coop_payoff = payoff_matrix[\"CC\"]["
+    },
+    {
+      "path": "src/coopeval/visualization/analysis_utils.py",
+      "line": 20,
+      "snippet": "18:         if game == \"PrisonersDilemma\":\n19:             payoff_matrix = game_config[\"kwargs\"][\"payoff_matrix\"]\n20:             self.ne_payoff = payoff_matrix[\"DD\"][0]  # NE: both defect\n21:             self.coop_payoff = payoff_matrix[\"CC\"][\n22:                 1"
+    },
+    {
+      "path": "src/coopeval/visualization/analysis_utils.py",
+      "line": 21,
+      "snippet": "19:             payoff_matrix = game_config[\"kwargs\"][\"payoff_matrix\"]\n20:             self.ne_payoff = payoff_matrix[\"DD\"][0]  # NE: both defect\n21:             self.coop_payoff = payoff_matrix[\"CC\"][\n22:                 1\n23:             ]  # Cooperative: both cooperate"
+    },
+    {
+      "path": "src/coopeval/visualization/analysis_utils.py",
+      "line": 26,
+      "snippet": "24: \n25:         elif game == \"PublicGoods\":\n26:             self.coop_payoff = game_config[\"kwargs\"][\"multiplier\"]\n27:             self.ne_payoff = 1  # NE: no one contributes\n28: "
+    },
+    {
+      "path": "src/coopeval/visualization/analysis_utils.py",
+      "line": 27,
+      "snippet": "25:         elif game == \"PublicGoods\":\n26:             self.coop_payoff = game_config[\"kwargs\"][\"multiplier\"]\n27:             self.ne_payoff = 1  # NE: no one contributes\n28: \n29:         elif game == \"TravellersDilemma\":"
+    },
+    {
+      "path": "src/coopeval/visualization/analysis_utils.py",
+      "line": 30,
+      "snippet": "28: \n29:         elif game == \"TravellersDilemma\":\n30:             self.ne_payoff = game_config[\"kwargs\"][\"min_claim\"]\n31:             spacing = game_config[\"kwargs\"][\"claim_spacing\"]\n32:             num_actions = game_config[\"kwargs\"][\"num_actions\"]"
+    },
+    {
+      "path": "src/coopeval/visualization/analysis_utils.py",
+      "line": 33,
+      "snippet": "31:             spacing = game_config[\"kwargs\"][\"claim_spacing\"]\n32:             num_actions = game_config[\"kwargs\"][\"num_actions\"]\n33:             self.coop_payoff = self.ne_payoff + spacing * (num_actions - 1)\n34: \n35:         elif game == \"TrustGame\":"
+    },
+    {
+      "path": "src/coopeval/visualization/analysis_utils.py",
+      "line": 36,
+      "snippet": "34: \n35:         elif game == \"TrustGame\":\n36:             payoff_matrix = game_config[\"kwargs\"][\"payoff_matrix\"]\n37:             self.ne_payoff = payoff_matrix[\"KK\"][0]  # NE: both keep\n38:             self.coop_payoff = payoff_matrix[\"GG\"][0]  # Cooperative: both give"
+    },
+    {
+      "path": "src/coopeval/visualization/analysis_utils.py",
+      "line": 37,
+      "snippet": "35:         elif game == \"TrustGame\":\n36:             payoff_matrix = game_config[\"kwargs\"][\"payoff_matrix\"]\n37:             self.ne_payoff = payoff_matrix[\"KK\"][0]  # NE: both keep\n38:             self.coop_payoff = payoff_matrix[\"GG\"][0]  # Cooperative: both give\n39: "
+    },
+    {
+      "path": "src/coopeval/visualization/analysis_utils.py",
+      "line": 38,
+      "snippet": "36:             payoff_matrix = game_config[\"kwargs\"][\"payoff_matrix\"]\n37:             self.ne_payoff = payoff_matrix[\"KK\"][0]  # NE: both keep\n38:             self.coop_payoff = payoff_matrix[\"GG\"][0]  # Cooperative: both give\n39: \n40:         elif game == \"StagHunt\":"
+    },
+    {
+      "path": "src/coopeval/visualization/analysis_utils.py",
+      "line": 41,
+      "snippet": "39: \n40:         elif game == \"StagHunt\":\n41:             self.ne_payoff = 3\n42:             self.coop_payoff = 5\n43: "
+    },
+    {
+      "path": "src/coopeval/visualization/analysis_utils.py",
+      "line": 42,
+      "snippet": "40:         elif game == \"StagHunt\":\n41:             self.ne_payoff = 3\n42:             self.coop_payoff = 5\n43: \n44:         elif game == \"MatchingPennies\":"
+    },
+    {
+      "path": "src/coopeval/visualization/analysis_utils.py",
+      "line": 45,
+      "snippet": "43: \n44:         elif game == \"MatchingPennies\":\n45:             self.ne_payoff = -1\n46:             self.coop_payoff = 0\n47: "
+    },
+    {
+      "path": "src/coopeval/visualization/analysis_utils.py",
+      "line": 46,
+      "snippet": "44:         elif game == \"MatchingPennies\":\n45:             self.ne_payoff = -1\n46:             self.coop_payoff = 0\n47: \n48:         else:"
+    },
+    {
+      "path": "src/coopeval/visualization/analysis_utils.py",
+      "line": 50,
+      "snippet": "48:         else:\n49:             # For non-social-dilemma games, use identity normalization\n50:             self.ne_payoff = 0.0\n51:             self.coop_payoff = 1.0\n52: "
+    },
+    {
+      "path": "src/coopeval/visualization/analysis_utils.py",
+      "line": 51,
+      "snippet": "49:             # For non-social-dilemma games, use identity normalization\n50:             self.ne_payoff = 0.0\n51:             self.coop_payoff = 1.0\n52: \n53:     def normalize(self, score: float) -> float:"
+    },
+    {
+      "path": "src/coopeval/visualization/analysis_utils.py",
+      "line": 54,
+      "snippet": "52: \n53:     def normalize(self, score: float) -> float:\n54:         \"\"\"Normalize a score to [0, 1] scale (0 = NE payoff, 1 = Cooperative payoff).\"\"\"\n55:         if self.coop_payoff == self.ne_payoff:\n56:             # Avoid division by zero"
+    },
+    {
+      "path": "src/coopeval/visualization/analysis_utils.py",
+      "line": 55,
+      "snippet": "53:     def normalize(self, score: float) -> float:\n54:         \"\"\"Normalize a score to [0, 1] scale (0 = NE payoff, 1 = Cooperative payoff).\"\"\"\n55:         if self.coop_payoff == self.ne_payoff:\n56:             # Avoid division by zero\n57:             return 0.0"
+    },
+    {
+      "path": "src/coopeval/visualization/analysis_utils.py",
+      "line": 59,
+      "snippet": "57:             return 0.0\n58: \n59:         return (score - self.ne_payoff) / (self.coop_payoff - self.ne_payoff)\n60: \n61:     def denormalize(self, normalized_score: float) -> float:"
+    },
+    {
+      "path": "src/coopeval/visualization/analysis_utils.py",
+      "line": 64,
+      "snippet": "62:         \"\"\"Convert a normalized score back to raw score.\"\"\"\n63:         return (\n64:             normalized_score * (self.coop_payoff - self.ne_payoff)\n65:             + self.ne_payoff\n66:         )"
+    },
+    {
+      "path": "src/coopeval/visualization/analysis_utils.py",
+      "line": 65,
+      "snippet": "63:         return (\n64:             normalized_score * (self.coop_payoff - self.ne_payoff)\n65:             + self.ne_payoff\n66:         )\n67: "
+    },
+    {
+      "path": "src/coopeval/visualization/analysis_utils.py",
+      "line": 92,
+      "snippet": "90:     for group_key, group_data in grouped_data.items():\n91:         if isinstance(group_data, dict) and \"folders\" in group_data:\n92:             # plot_payoff_tensors.py style\n93:             folder_counts[group_key] = len(group_data[\"folders\"])\n94:         elif isinstance(group_data, list):"
+    },
+    {
+      "path": "src/coopeval/script_utils/display_helper.py",
+      "line": 238,
+      "snippet": "236: \n237: \n238: def _action_self_payoffs(\n239:     game_name: str, game_config: dict\n240: ) -> list[tuple[str, float]]:"
+    },
+    {
+      "path": "src/coopeval/script_utils/display_helper.py",
+      "line": 241,
+      "snippet": "239:     game_name: str, game_config: dict\n240: ) -> list[tuple[str, float]]:\n241:     \"\"\"Return [(action_name, self_payoff)] sorted NE to cooperative.\"\"\"\n242: \n243:     from coopeval.registry.game_registry import GAME_REGISTRY"
+    },
+    {
+      "path": "src/coopeval/script_utils/display_helper.py",
+      "line": 248,
+      "snippet": "246:     game = game_cls(**game_config[\"game\"][\"kwargs\"])\n247:     pairs = [\n248:         (a.name, game.get_action_self_payoff(a))\n249:         for a in game.action_class.game_actions()\n250:     ]"
+    },
+    {
+      "path": "src/coopeval/script_utils/display_helper.py",
+      "line": 275,
+      "snippet": "273:     game_name: str, game_config: dict\n274: ) -> dict[str, tuple]:\n275:     \"\"\"Return {action_name: rgba_color} for all actions, ordered by payoff.\"\"\"\n276: \n277:     from coopeval.visualization.analysis_utils import NormalizeScore"
+    },
+    {
+      "path": "src/coopeval/script_utils/display_helper.py",
+      "line": 280,
+      "snippet": "278:     from coopeval.script_utils.colors import CMAP_VMAX, CMAP_VMIN, custom_cmap\n279: \n280:     pairs = _action_self_payoffs(game_name, game_config)\n281:     normalizer = NormalizeScore(game_name, game_config[\"game\"])\n282:     return {"
+    },
+    {
+      "path": "src/coopeval/script_utils/display_helper.py",
+      "line": 284,
+      "snippet": "282:     return {\n283:         name: custom_cmap(\n284:             (normalizer.normalize(payoff) - CMAP_VMIN) / (CMAP_VMAX - CMAP_VMIN)\n285:         )\n286:         for name, payoff in pairs"
+    },
+    {
+      "path": "src/coopeval/script_utils/display_helper.py",
+      "line": 286,
+      "snippet": "284:             (normalizer.normalize(payoff) - CMAP_VMIN) / (CMAP_VMAX - CMAP_VMIN)\n285:         )\n286:         for name, payoff in pairs\n287:     }"
+    },
+    {
+      "path": "src/coopeval/script_utils/colors.py",
+      "line": 19,
+      "snippet": "17: custom_cmap = LinearSegmentedColormap.from_list(\"custom\", PALETTE_BASE)\n18: \n19: # Colormap normalization range: normalized 0.0 = NE payoff, 1.0 = cooperative payoff.\n20: # Extending below/above keeps the visual extremes from being pure dark/bright.\n21: CMAP_VMIN = -1.0"
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/reputation_payoffs.py",
+      "line": 1,
+      "snippet": "1: \"\"\"Track payoffs for reputation-based mechanisms where matchups are history-dependent.\"\"\"\n2: \n3: import threading"
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/reputation_payoffs.py",
+      "line": 11,
+      "snippet": "9: from coopeval.agents.agent_manager import Agent\n10: from coopeval.games.base import Move\n11: from coopeval.ranking_evaluations.payoffs_base import PayoffsBase\n12: from coopeval.registry.agent_registry import create_agent\n13: "
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/reputation_payoffs.py",
+      "line": 15,
+      "snippet": "13: \n14: \n15: class ReputationPayoffs(PayoffsBase):\n16:     \"\"\"Track payoffs for reputation-based mechanisms.\n17: "
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/reputation_payoffs.py",
+      "line": 16,
+      "snippet": "14: \n15: class ReputationPayoffs(PayoffsBase):\n16:     \"\"\"Track payoffs for reputation-based mechanisms.\n17: \n18:     Unlike matchup-based mechanisms, reputation mechanisms cannot evaluate"
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/reputation_payoffs.py",
+      "line": 42,
+      "snippet": "40:     @override\n41:     def reset(self) -> None:\n42:         \"\"\"Clear all recorded payoff outcomes.\"\"\"\n43:         self._profiles.clear()\n44: "
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/reputation_payoffs.py",
+      "line": 60,
+      "snippet": "58:                     self._profiles[move.player].append(move.points)\n59: \n60:     def agent_average_payoff(self) -> dict[str, float | None]:\n61:         \"\"\"\n62:         Compute the average discounted payoff of each agent type across all rounds."
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/reputation_payoffs.py",
+      "line": 62,
+      "snippet": "60:     def agent_average_payoff(self) -> dict[str, float | None]:\n61:         \"\"\"\n62:         Compute the average discounted payoff of each agent type across all rounds.\n63: \n64:         Returns:"
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/reputation_payoffs.py",
+      "line": 65,
+      "snippet": "63: \n64:         Returns:\n65:             Dictionary mapping agent type to average discounted payoff, or None\n66:             for agents that were never drawn.\n67:         \"\"\""
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/reputation_payoffs.py",
+      "line": 68,
+      "snippet": "66:             for agents that were never drawn.\n67:         \"\"\"\n68:         agent_payoffs: dict[str, list[float]] = defaultdict(list)\n69: \n70:         for player, points_list in self._profiles.items():"
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/reputation_payoffs.py",
+      "line": 75,
+      "snippet": "73:                 continue\n74: \n75:             payoffs_array = np.array(points_list, dtype=float)\n76:             payoffs_2d = payoffs_array.reshape(-1, 1)\n77:             discounted = self._compute_discounted_average(payoffs_2d)"
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/reputation_payoffs.py",
+      "line": 76,
+      "snippet": "74: \n75:             payoffs_array = np.array(points_list, dtype=float)\n76:             payoffs_2d = payoffs_array.reshape(-1, 1)\n77:             discounted = self._compute_discounted_average(payoffs_2d)\n78:             agent_payoffs[agent_type].append(float(discounted[0]))"
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/reputation_payoffs.py",
+      "line": 77,
+      "snippet": "75:             payoffs_array = np.array(points_list, dtype=float)\n76:             payoffs_2d = payoffs_array.reshape(-1, 1)\n77:             discounted = self._compute_discounted_average(payoffs_2d)\n78:             agent_payoffs[agent_type].append(float(discounted[0]))\n79: "
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/reputation_payoffs.py",
+      "line": 78,
+      "snippet": "76:             payoffs_2d = payoffs_array.reshape(-1, 1)\n77:             discounted = self._compute_discounted_average(payoffs_2d)\n78:             agent_payoffs[agent_type].append(float(discounted[0]))\n79: \n80:         # Report None for models that never appeared so downstream code can tell them apart from zero-score models."
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/reputation_payoffs.py",
+      "line": 84,
+      "snippet": "82:         return {\n83:             agent_type: (\n84:                 float(np.mean(agent_payoffs[agent_type]))\n85:                 if agent_type in agent_payoffs\n86:                 else None"
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/reputation_payoffs.py",
+      "line": 85,
+      "snippet": "83:             agent_type: (\n84:                 float(np.mean(agent_payoffs[agent_type]))\n85:                 if agent_type in agent_payoffs\n86:                 else None\n87:             )"
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/reputation_payoffs.py",
+      "line": 93,
+      "snippet": "91:     @override\n92:     def to_json(self) -> dict[str, Any]:\n93:         \"\"\"Serialize payoff records.\"\"\"\n94:         serialized_profile = []\n95: "
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/reputation_payoffs.py",
+      "line": 111,
+      "snippet": "109:         cls,\n110:         json_data: dict[str, Any],\n111:     ) -> \"ReputationPayoffs\":\n112:         \"\"\"Reconstruct instance from JSON.\n113: "
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/reputation_payoffs.py",
+      "line": 118,
+      "snippet": "116: \n117:         Returns:\n118:             Reconstructed ReputationPayoffs instance.\n119:         \"\"\"\n120:         instance = cls("
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/replicator_dynamics.py",
+      "line": 10,
+      "snippet": "8: from coopeval.agents.agent_manager import Agent\n9: from coopeval.logger_manager import LOGGER\n10: from coopeval.ranking_evaluations.matchup_payoffs import MatchupPayoffs\n11: \n12: "
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/replicator_dynamics.py",
+      "line": 28,
+      "snippet": "26:         players: list[Agent],\n27:         *,\n28:         matchup_payoffs: MatchupPayoffs,\n29:     ) -> None:\n30:         \"\"\"Bind a population of ``agents`` to the tournament payoffs.\"\"\""
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/replicator_dynamics.py",
+      "line": 30,
+      "snippet": "28:         matchup_payoffs: MatchupPayoffs,\n29:     ) -> None:\n30:         \"\"\"Bind a population of ``agents`` to the tournament payoffs.\"\"\"\n31:         self.players = players\n32:         self.matchup_payoffs = matchup_payoffs"
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/replicator_dynamics.py",
+      "line": 32,
+      "snippet": "30:         \"\"\"Bind a population of ``agents`` to the tournament payoffs.\"\"\"\n31:         self.players = players\n32:         self.matchup_payoffs = matchup_payoffs\n33: \n34:         matchup_payoffs.ensure_payoff_tensor()"
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/replicator_dynamics.py",
+      "line": 34,
+      "snippet": "32:         self.matchup_payoffs = matchup_payoffs\n33: \n34:         matchup_payoffs.ensure_payoff_tensor()\n35: \n36:         self.agent_types = list(matchup_payoffs.agent_types)"
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/replicator_dynamics.py",
+      "line": 36,
+      "snippet": "34:         matchup_payoffs.ensure_payoff_tensor()\n35: \n36:         self.agent_types = list(matchup_payoffs.agent_types)\n37: \n38:     def population_update("
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/replicator_dynamics.py",
+      "line": 62,
+      "snippet": "60:         self,\n61:         population: np.ndarray,\n62:         matchup_payoffs: MatchupPayoffs,\n63:     ) -> None:\n64:         \"\"\""
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/replicator_dynamics.py",
+      "line": 69,
+      "snippet": "67:         Args:\n68:             population: Final population distribution\n69:             matchup_payoffs: MatchupPayoffs instance for computing fitness\n70:         \"\"\"\n71:         final_population_dict = {"
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/replicator_dynamics.py",
+      "line": 75,
+      "snippet": "73:             for agent, prob in zip(self.agent_types, population)\n74:         }\n75:         final_fitness_dict = matchup_payoffs.fitness(final_population_dict)\n76: \n77:         rd_fitness_record = {"
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/replicator_dynamics.py",
+      "line": 151,
+      "snippet": "149:         ]\n150: \n151:         matchup_payoffs = self.matchup_payoffs\n152:         if matchup_payoffs is None:\n153:             raise ValueError("
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/replicator_dynamics.py",
+      "line": 152,
+      "snippet": "150: \n151:         matchup_payoffs = self.matchup_payoffs\n152:         if matchup_payoffs is None:\n153:             raise ValueError(\n154:                 \"Matchup payoffs must be provided before running dynamics.\""
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/replicator_dynamics.py",
+      "line": 154,
+      "snippet": "152:         if matchup_payoffs is None:\n153:             raise ValueError(\n154:                 \"Matchup payoffs must be provided before running dynamics.\"\n155:             )\n156: "
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/replicator_dynamics.py",
+      "line": 157,
+      "snippet": "155:             )\n156: \n157:         agent_average_payoff = matchup_payoffs.agent_average_payoff()\n158: \n159:         LOGGER.log_record("
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/replicator_dynamics.py",
+      "line": 160,
+      "snippet": "158: \n159:         LOGGER.log_record(\n160:             record=agent_average_payoff, file_name=\"agent_average_payoff.json\"\n161:         )\n162: "
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/replicator_dynamics.py",
+      "line": 168,
+      "snippet": "166:                 for agent_type, prob in zip(self.agent_types, population)\n167:             }\n168:             fitness_dict = matchup_payoffs.fitness(population_dict)\n169:             if step % 100 == 0 or step == 1:\n170:                 print(f\"Step {step}: Population fitness is {fitness_dict}\")"
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/replicator_dynamics.py",
+      "line": 178,
+      "snippet": "176:             if np.max(np.abs(fitness - ave_population_fitness)) < tol:\n177:                 print(\"Converged: approximate equilibrium reached\")\n178:                 self._log_final_fitness(population, matchup_payoffs)\n179:                 return population_history\n180: "
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/replicator_dynamics.py",
+      "line": 194,
+      "snippet": "192:             )\n193: \n194:         self._log_final_fitness(population, matchup_payoffs)\n195:         return population_history"
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/payoffs_base.py",
+      "line": 1,
+      "snippet": "1: \"\"\"Base class for tracking tournament payoffs across different mechanism types.\"\"\"\n2: \n3: import math"
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/payoffs_base.py",
+      "line": 13,
+      "snippet": "11: \n12: \n13: class PayoffsBase(ABC):\n14:     \"\"\"Abstract base class for tracking tournament payoffs.\n15: "
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/payoffs_base.py",
+      "line": 14,
+      "snippet": "12: \n13: class PayoffsBase(ABC):\n14:     \"\"\"Abstract base class for tracking tournament payoffs.\n15: \n16:     Different mechanisms require different payoff tracking strategies:"
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/payoffs_base.py",
+      "line": 16,
+      "snippet": "14:     \"\"\"Abstract base class for tracking tournament payoffs.\n15: \n16:     Different mechanisms require different payoff tracking strategies:\n17:     - Matchup-based mechanisms (Mediation, Repetition) can evaluate\n18:       matchups in isolation and build payoff tensors."
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/payoffs_base.py",
+      "line": 18,
+      "snippet": "16:     Different mechanisms require different payoff tracking strategies:\n17:     - Matchup-based mechanisms (Mediation, Repetition) can evaluate\n18:       matchups in isolation and build payoff tensors.\n19:     - History-dependent mechanisms (Reputation) cannot evaluate matchups in\n20:       isolation and only track aggregate statistics."
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/payoffs_base.py",
+      "line": 30,
+      "snippet": "28:         \"\"\"\n29:         Args:\n30:             discount: Optional discount factor for averaging payoffs over multiple rounds.\n31:         \"\"\"\n32:         self.discount = discount if discount is not None else 1.0"
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/payoffs_base.py",
+      "line": 51,
+      "snippet": "49:         raise NotImplementedError\n50: \n51:     def _compute_discounted_average(self, payoffs: np.ndarray) -> np.ndarray:\n52:         \"\"\"Apply geometric discounting to a 2D payoff array (Rounds, Players).\n53: "
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/payoffs_base.py",
+      "line": 52,
+      "snippet": "50: \n51:     def _compute_discounted_average(self, payoffs: np.ndarray) -> np.ndarray:\n52:         \"\"\"Apply geometric discounting to a 2D payoff array (Rounds, Players).\n53: \n54:         Returns:"
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/payoffs_base.py",
+      "line": 57,
+      "snippet": "55:             1D array of shape (Players,)\n56:         \"\"\"\n57:         num_rounds, _ = payoffs.shape\n58:         d = self.discount\n59: "
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/payoffs_base.py",
+      "line": 61,
+      "snippet": "59: \n60:         if num_rounds == 0:\n61:             raise ValueError(\"Empty payoffs array, cannot compute average\")\n62: \n63:         if num_rounds > 1 and d == 1.0:"
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/payoffs_base.py",
+      "line": 80,
+      "snippet": "78:             )\n79: \n80:         weighted_sums = np.sum(payoffs * weights[:, None], axis=0)\n81: \n82:         return weighted_sums"
+    },
+    {
+      "path": "src/coopeval/ranking_evaluations/payoffs_base.py",
+      "line": 85,
+      "snippet": "83: \n84:     @abstractmethod\n85:     def agent_average_payoff(self) -> dict[str, float | None]:\n86:         \"\"\"\n87:         Compute the average payoff of each agent type in the population."
+    }
+  ],
+  "local_model": [
+    {
+      "path": "pyproject.toml",
+      "line": 27,
+      "snippet": "25:     \"torch\",\n26:     \"tqdm\",\n27:     \"transformers\",\n28: ]\n29: "
+    },
+    {
+      "path": "src/coopeval/config.py",
+      "line": 12,
+      "snippet": "10: FIGURE_DIR = PROJECT_ROOT / \"figures\"\n11: CONFIG_DIR = PROJECT_ROOT / \"configs\"\n12: MODEL_WEIGHTS_DIR = PROJECT_ROOT / \"model-weights\"\n13: CACHE_DIR = PROJECT_ROOT / \"caches\"\n14: DATA_DIR = PROJECT_ROOT / \"data\""
+    }
+  ],
+  "traveler": [
+    {
+      "path": "src/coopeval/visualization/analysis_utils.py",
+      "line": 29,
+      "snippet": "27:             self.ne_payoff = 1  # NE: no one contributes\n28: \n29:         elif game == \"TravellersDilemma\":\n30:             self.ne_payoff = game_config[\"kwargs\"][\"min_claim\"]\n31:             spacing = game_config[\"kwargs\"][\"claim_spacing\"]"
+    },
+    {
+      "path": "src/coopeval/script_utils/display_helper.py",
+      "line": 183,
+      "snippet": "181:         \"PrisonersDilemma\",\n182:         \"PublicGoods\",\n183:         \"TravellersDilemma\",\n184:         \"TrustGame\",\n185:         \"StagHunt\","
+    },
+    {
+      "path": "src/coopeval/script_utils/display_helper.py",
+      "line": 262,
+      "snippet": "260: \n261:     game = GAME_REGISTRY[game_name](**game_config[\"game\"][\"kwargs\"])\n262:     if game_name == \"TravellersDilemma\":\n263:         return {\n264:             a.name: f\"Claim {a.value}\" for a in game.action_class.game_actions()"
+    },
+    {
+      "path": "src/coopeval/registry/game_registry.py",
+      "line": 7,
+      "snippet": "5: from coopeval.games.public_goods import PublicGoods\n6: from coopeval.games.stag_hunt import StagHunt\n7: from coopeval.games.travellers_dilemma import TravellersDilemma\n8: from coopeval.games.trust_game import TrustGame\n9: "
+    },
+    {
+      "path": "src/coopeval/registry/game_registry.py",
+      "line": 13,
+      "snippet": "11:     \"PrisonersDilemma\": PrisonersDilemma,\n12:     \"PublicGoods\": PublicGoods,\n13:     \"TravellersDilemma\": TravellersDilemma,\n14:     \"TrustGame\": TrustGame,\n15:     \"StagHunt\": StagHunt,"
+    },
+    {
+      "path": "src/coopeval/games/travellers_dilemma.py",
+      "line": 1,
+      "snippet": "1: \"\"\"Traveler's Dilemma game implementation with configurable claim ladders.\"\"\"\n2: \n3: from __future__ import annotations"
+    },
+    {
+      "path": "src/coopeval/games/travellers_dilemma.py",
+      "line": 21,
+      "snippet": "19:     highest_claim_member = f\"CLAIM_{len(claims) - 1}\"\n20: \n21:     enum_cls = Enum(\"TravellersDilemmaAction\", members, type=Action)  # type: ignore[misc]\n22: \n23:     def _is_cooperate_action(self) -> bool:"
+    },
+    {
+      "path": "src/coopeval/games/travellers_dilemma.py",
+      "line": 30,
+      "snippet": "28: \n29: \n30: class TravellersDilemma(Game):\n31:     \"\"\"\n32:     Traveler's Dilemma for two players with a configurable action set."
+    },
+    {
+      "path": "src/coopeval/games/travellers_dilemma.py",
+      "line": 32,
+      "snippet": "30: class TravellersDilemma(Game):\n31:     \"\"\"\n32:     Traveler's Dilemma for two players with a configurable action set.\n33: \n34:     Actions represent claims (integers). When claims differ, both players"
+    },
+    {
+      "path": "src/coopeval/games/travellers_dilemma.py",
+      "line": 48,
+      "snippet": "46:     ) -> None:\n47:         if num_actions < 2:\n48:             raise ValueError(\"Travellers Dilemma requires at least 2 actions.\")\n49:         if claim_spacing <= 0:\n50:             raise ValueError(\"claim_spacing must be a positive integer.\")"
+    },
+    {
+      "path": "src/coopeval/games/travellers_dilemma.py",
+      "line": 99,
+      "snippet": "97:         )\n98: \n99:         # Traveller's Dilemma can expose dozens of claims, so restate the output instructions to emphasize covering the full action set.\n100:         self.default_output_instruction = textwrap.dedent(\"\"\"\n101:         Instruction:"
+    },
+    {
+      "path": "src/coopeval/games/travellers_dilemma.py",
+      "line": 155,
+      "snippet": "153: \n154:     def get_actions_payoff(self, actions: Sequence[Action]) -> Sequence[float]:\n155:         \"\"\"Return payoffs for a pair of claims given the Traveller's Dilemma rules.\"\"\"\n156:         action_a, action_b = actions\n157:         claim_a, claim_b = int(action_a.value), int(action_b.value)"
+    },
+    {
+      "path": "scripts/latex/tablelib/metrics.py",
+      "line": 26,
+      "snippet": "24:     \"PrisonersDilemma\",\n25:     \"PublicGoods\",\n26:     \"TravellersDilemma\",\n27:     \"TrustGame\",\n28: ]"
+    },
+    {
+      "path": "configs/games/travellers_dilemma.yaml",
+      "line": 1,
+      "snippet": "1: type: TravellersDilemma\n2: kwargs:\n3:   min_claim: 2"
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+state_id,observation_hash,rendered_prompt_hash,raw,deal,legal,score,original_deal,original_score,deal_match,score_match
+ld_000_trajectory_000_department_of_tourism,966b0a0c9b22a2d7173f701ae5e80a67a2d681890239ce01d3e9c51dd9228b26,a534d4f88250a5fe2c8011721d8746912f5e1a1743e5ad580d5d6d223aea99ac,"<SCRATCHPAD>
+Observations:
+- SportCo: High on federal loan (D1), moderate on infrastructure mix (A1), low on ecological impact (B1), employment rules (C4), and no compensation (E5).
+- Environmental League: High on ecological impact (B3), moderate on infrastructure mix (A3), low on federal loan (D1), employment rules (C4), and no compensation (E5).
+- Other Cities: Moderate on infrastructure mix (A3), high on ecological impact (B3), moderate on employment rules (C2), high on federal loan (D1), and moderate on compensation (E2).
+
+Proposals:
+- Federal loan (D1) is crucial for me, so I will stick to this.
+- Ecological impact (B3) is important, but I can slightly compromise to B2.
+- Employment rules (C4) are fine, but I can offer C3 to get more leverage.
+- Infrastructure mix (A2) is better than A3, which I can propose.
+- Compensation (E5) is acceptable, but I can offer E3 to get some points.
+
+Calculations:
+- D1: 10
+- B2: 20
+- C3: 4
+- A2: 11
+- E3: 12
+
+Total: 57 (below my threshold of 65, so I need to adjust)
+
+Final Deal: <DEAL>D1, B2, C3, A2, E3</DEAL>
+
+</SCRATCHPAD>
+
+<ANSWER>
+<DEAL>D1, B2, C3, A2, E3</DEAL>
+
+<PLAN>
+- Explore a compromise on infrastructure mix (A2) to slightly reduce SportCo's flexibility.
+- Discuss maintaining a balanced ecological impact (B2) while ensuring compliance with federal guidelines.
+- Offer a moderate preference to the Local Labour Union (C3) to ensure fair employment distribution.
+- Secure the federal loan (D1) as initially proposed.
+- Provide a moderate compensation to other cities (E3) to address their concerns.
+</PLAN>",,False,,"{'A': 2, 'B': 2, 'C': 3, 'D': 1, 'E': 3}",60.0,False,False
+ld_008_trajectory_001_local_labour_union,038a8f0433b30bef53b586dfe712192608821c80b4c46d3d9e31ed2398b48d6e,7b368e32ac23dc2ccd471c69d8e7a82f5ebd7b1c3bb848483d9f7bf5dab6bd52,"<SCRATCHPAD>
+- **Environmental League**: Prefers A3, B3, C3, D2, E4 (score: 90)
+- **Other Cities**: Prefers E4, D2, C3, A2, B2 (score: 88)
+- **Department of Tourism**: Prefers A2, B2, C3, D2, E4 (score: 90)
+- **SportCo**: Prefers A2, B1, C3, D2, E3 (score: 87)
+- **Local Labour Union**: Prefers C1, D1, A2, B1, E4 (score: 100)
+
+Given the history and plans, the current deal seems to be:
+<DEAL>A2, B2, C3, D2, E4</DEAL> (score: 88)
+
+To reach a score of at least 50 and ensure an agreement, I need to explore options that can increase the score while balancing all parties' interests.
+
+- **Environmental League**: They might be willing to accept A2 for B2 to get B2 (score: 20) instead of B3 (score: 0).
+- **Other Cities**: They might be willing to accept E3 (score: 6) instead of E4 (score: 8) to get additional benefits.
+- **Local Labour Union**: They might be willing to accept C2 (score: 35) instead of C3 (score: 25) to get a better deal overall.
+
+Considering these points, a possible deal could be:
+<DEAL>A2, B2, C2, D2, E3</DEAL> (score: 86)
+
+This deal meets the minimum score requirement and balances the interests of all parties.
+</SCRATCHPAD>
+
+<ANSWER>
+<DEAL>A2, B2, C2, D2, E3</DEAL>
+</ANSWER>
+
+<PLAN>
+- Explore if the Environmental League can accept A2 for B2.
+- Discuss with Other Cities if they can accept E3 with additional benefits.
+- Confirm with the Mayor on C2.
+- Offer minor adjustments to the Department of Tourism on D2.
+- Ensure the Local Labour Union agrees with C2.
+</PLAN>",,False,,"{'A': 2, 'B': 2, 'C': 2, 'D': 2, 'E': 3}",81.0,False,False
+ld_013_trajectory_002_environmental_league,d67cc88beeee2cab3e738a953ca7f37dabf53a6a94f04b168b2ff1cce571c491,9b57980b1f983a0b60f55ebbcd7cc8dc41360e5f499a864b21e4d49f8d1c62bb,"<SCRATCHPAD>
+- Mayor confirmed B2 is acceptable.
+- Local Labour Union prefers C3.
+- Department of Tourism secured D3.
+- Other Cities agreed on E1.
+- My preferred options are A3, B3, C4, D3, E4.
+- Current deal: A2, B2, C3, D3, E1 (score 85).
+
+Observations:
+- Mayor and Local Labour Union are aligned on C3.
+- Department of Tourism is flexible on D3.
+- Other Cities are firm on E1.
+
+Strategies:
+- Try to get A3 accepted.
+- Consider compromising on C3 to C4.
+- Explore E3 with Other Cities.
+
+Calculation:
+- A3 + B3 + C4 + D3 + E3 = 95
+
+Final deal: <DEAL>A3, B3, C4, D3, E3</DEAL>
+</SCRATCHPAD>
+
+<ANSWER>
+Propose <DEAL>A3, B3, C4, D3, E3</DEAL>.
+
+<PLAN>
+- Discuss with Local Labour Union on C4.
+- Offer E3 to Other Cities.
+- Confirm with Mayor on B3.
+- Reassure SportCo on A3.
+</PLAN>",,False,,"{'A': 3, 'B': 3, 'C': 4, 'D': 3, 'E': 3}",100.0,False,False
+ld_020_trajectory_003_local_labour_union,80103700b130b963f9a393d8ce5a91499ee4290545974a2b207f9f3ed2ed13ae,05ef5a48edd244f99aec159ec12ad85f86b2ad4b4a1978c23a439bfcf559f7a5,"<SCRATCHPAD>
+- **SportCo**: A3, B3, C3, D1, E3 (97)
+- **Department of Tourism**: A3, B3, C3, D1, E3 (97)
+- **Environmental League**: A3, B2, C3, D1, E4 (96)
+- **Other Cities**: A2, B2, C3, D1, E4 (95)
+- **Mayor**: A2, B2, C3, D1, E3 (94)
+
+**My Priorities**:
+- C1 (42) > C2 (35) > C3 (25) > C4 (0)
+- D1 (30) > D2 (20) > D3 (10) > D4 (0)
+- A2 (20) > A1 (15) > A3 (0)
+- E4 (8) > E3 (6) > E2 (4) > E1 (2) > E5 (0)
+- B1 (0) = B2 (0) = B3 (0)
+
+**Analysis**:
+- **Infrastructure Mix (A)**: A2 (20) is preferred by the Mayor and Other Cities, and it aligns with creating more jobs.
+- **Ecological Impact (B)**: B2 (0) is preferred by the Environmental League and Mayor, and it meets their concerns.
+- **Employment Rules (C)**: C3 (25) is preferred by the Environmental League and Mayor, and it balances union and non-union job distribution.
+- **Federal Loan (D)**: D1 (30) is preferred by SportCo, Department of Tourism, and Mayor.
+- **Compensation (E)**: E4 (8) is preferred by the Mayor and Other Cities, and it is a middle ground.
+
+**Proposed Deal**:
+- A2 (20)
+- B2 (0)
+- C3 (25)
+- D1 (30)
+- E4 (8)
+
+Total Score: 83
+
+**Adjustments**:
+- Slightly reduced score due to Mayor's preference for B2 over B3.
+- Maintained C3 to balance union and non-union job distribution.
+- Ensured D1 to secure Department of Tourism's approval.
+- Agreed on E4 to find a middle ground with",,False,,"{'A': 2, 'B': 3, 'C': 3, 'D': 1, 'E': 4}",83.0,False,False
+ld_025_trajectory_004_environmental_league,233cde9b5e73fdf8fe32bec37c403dbd0622183dfeabb48218e4c46a35daa50a,70802c4561260909c1f2e8760988020542bcac8c57ecc2068ff703aaa694f893,"<SCRATCHPAD>
+Observations:
+- SportCo is flexible on D and E, but not on A and B.
+- ""Other Cities"" are flexible on E.
+- ""Local Labour Union"" is flexible on C.
+- ""Department of Tourism"" is flexible on D and E.
+
+Deals' Calculations:
+- Current best deal: A2, B1, C3, D2, E3 = 77
+- Potential improvements:
+  - If A2 to A3, score increases to 90.
+  - If E3 to E2, score increases to 81.
+  - If C3 to C2, score increases to 78.
+
+Plan:
+- Push for A3 to get to 90.
+- Offer E2 to get to 81.
+- Consider C2 to get to 78 if necessary.
+
+</SCRATCHPAD>
+
+<ANSWER>
+DEAL A3, B1, C3, D2, E2
+
+<PLAN>
+- Explore if ""Other Cities"" can accept $450 million (E2) instead of $600 million.
+- Consider if ""Local Labour Union"" can accept C2 instead of C3.
+- Negotiate with ""Department of Tourism"" for D1 if needed to reach 90.
+</PLAN>",,False,,"{'A': 3, 'B': 1, 'C': 3, 'D': 1, 'E': 2}",45.0,False,False

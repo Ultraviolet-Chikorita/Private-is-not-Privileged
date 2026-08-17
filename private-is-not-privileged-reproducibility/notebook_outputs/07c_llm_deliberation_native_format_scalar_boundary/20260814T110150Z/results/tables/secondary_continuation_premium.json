@@ -1,0 +1,7 @@
+{
+  "activation_mae": 0.008838461873556185,
+  "trained_text_mae": 0.008580963501756604,
+  "zero_premium_mae": 0.011050000000000008,
+  "delta_zero_minus_activation": 0.002211538126443823,
+  "delta_text_minus_activation": -0.0002574983717995808
+}

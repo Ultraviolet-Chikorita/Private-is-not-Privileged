@@ -1,0 +1,9 @@
+{
+  "official_repo": "https://github.com/jonathanmli/Avalon-LLM.git",
+  "origin": "https://github.com/jonathanmli/Avalon-LLM.git",
+  "commit": "2439c6b50df7b45bae4cfcaa67e1d973e4dd8fa5",
+  "branch": null,
+  "detached_head": true,
+  "tracked_clean": true,
+  "source_commit_policy": "origin/main frozen at Notebook 08 start unless LR_AVALON_COMMIT supplied"
+}

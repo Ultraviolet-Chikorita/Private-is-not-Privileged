@@ -1,0 +1,26 @@
+{
+  "command": [
+    "/workspace/latent-reservations/.venvs/cicero_full_agent_py37_source_v5/bin/python",
+    "run.py",
+    "--adhoc",
+    "--cfg",
+    "conf/c01_ag_cmp/cmp.prototxt",
+    "Iagent_one=agents/cicero.prototxt",
+    "use_shared_agent=1",
+    "power_one=TURKEY"
+  ],
+  "capture_complete": true,
+  "process_exited_before_capture": false,
+  "returncode_after_stop": 1,
+  "event_counts_at_stop": {
+    "instrumentation_loaded": 1,
+    "run_bilateral_search_with_conditional_evs_begin": 1722,
+    "run_bilateral_search_with_conditional_evs_result": 1722,
+    "generate_message_result": 139,
+    "get_orders_result": 3
+  },
+  "event_files": [
+    "/workspace/latent-reservations/notebook_outputs/16_cicero_planner_intent_behavior_measurement/20260815T143203Z/data/planner_behavior_events/206556.jsonl"
+  ],
+  "log_path": "/workspace/latent-reservations/notebook_outputs/16_cicero_planner_intent_behavior_measurement/20260815T143203Z/data/runtime/full_agent_measurement.log"
+}

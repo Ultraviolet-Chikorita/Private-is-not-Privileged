@@ -1,0 +1,10 @@
+{
+  "reps": 200,
+  "observed_locked_loto_mae": 24.89508310953776,
+  "shuffled_mean_mae": 19.47167894681295,
+  "shuffled_ci95": [
+    14.07289163271586,
+    27.348693313598638
+  ],
+  "fraction_shuffled_mae_le_observed": 0.935
+}

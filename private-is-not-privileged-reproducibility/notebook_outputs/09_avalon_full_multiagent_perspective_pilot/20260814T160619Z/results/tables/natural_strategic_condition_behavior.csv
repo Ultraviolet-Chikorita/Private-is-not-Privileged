@@ -1,0 +1,14 @@
+mission,known_other_evil_on_team,subject_role,targets,source_games,sabotage_rate
+0,False,Assassin,5,5,0.8
+0,False,Minion,1,1,1.0
+1,False,Assassin,2,2,0.5
+1,False,Minion,5,5,0.6
+2,False,Assassin,3,3,0.6666666666666666
+2,False,Minion,3,3,0.6666666666666666
+3,False,Assassin,2,2,1.0
+3,False,Minion,3,3,0.3333333333333333
+3,True,Assassin,2,2,1.0
+3,True,Minion,2,2,1.0
+4,False,Assassin,1,1,0.0
+4,True,Assassin,3,3,0.0
+4,True,Minion,3,3,0.6666666666666666

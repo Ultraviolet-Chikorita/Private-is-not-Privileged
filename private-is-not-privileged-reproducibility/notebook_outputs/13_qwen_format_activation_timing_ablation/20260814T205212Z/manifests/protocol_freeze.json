@@ -1,0 +1,27 @@
+{
+  "source_states_requested": 40,
+  "one_state_per_source_game": true,
+  "selection_before_subject_outcomes": true,
+  "historical_focal_order_is_label": false,
+  "subject_outputs_actual_order_string": true,
+  "analysis_label_is_hash_swapped_option_membership": true,
+  "format_factor": [
+    "raw",
+    "compact"
+  ],
+  "timing_factor": [
+    "direct_t0",
+    "reason_t0",
+    "deliberate_t1"
+  ],
+  "exact_input_auditor": true,
+  "t1_auditor_receives_frozen_deliberation": true,
+  "source_game_is_split_unit": true,
+  "condition_gate": {
+    "minimum_states": 30,
+    "minimum_source_games": 30,
+    "action_validity_min": 0.95,
+    "auditor_validity_min": 0.95,
+    "minimum_each_analysis_label": 8
+  }
+}

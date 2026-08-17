@@ -1,0 +1,73 @@
+{
+  "notebook_build": "latent-reservations-notebook07-llm-deliberation-acceptance-boundary-v1",
+  "source_state_dir": "/workspace/latent-reservations/notebook_outputs/01_llm_deliberation_pilot/20260813T235230Z/data/states",
+  "state_count": 30,
+  "trajectory_count": 5,
+  "subject_model": "Qwen/Qwen2.5-7B-Instruct",
+  "upstream_commit": "78e11e04ba89b9d888cb006f57bad696584a32f1",
+  "fold_protocol": {
+    "trajectory_to_fold": {
+      "trajectory_000": 0,
+      "trajectory_001": 1,
+      "trajectory_002": 2,
+      "trajectory_003": 3,
+      "trajectory_004": 4
+    },
+    "outer_folds": {
+      "0": {
+        "test_fold": 0,
+        "validation_fold": 1,
+        "inner_train_folds": [
+          2,
+          3,
+          4
+        ]
+      },
+      "1": {
+        "test_fold": 1,
+        "validation_fold": 2,
+        "inner_train_folds": [
+          0,
+          3,
+          4
+        ]
+      },
+      "2": {
+        "test_fold": 2,
+        "validation_fold": 3,
+        "inner_train_folds": [
+          0,
+          1,
+          4
+        ]
+      },
+      "3": {
+        "test_fold": 3,
+        "validation_fold": 4,
+        "inner_train_folds": [
+          0,
+          1,
+          2
+        ]
+      },
+      "4": {
+        "test_fold": 4,
+        "validation_fold": 0,
+        "inner_train_folds": [
+          1,
+          2,
+          3
+        ]
+      }
+    }
+  },
+  "parent_representation": "all-layer decoder-block final-prompt-position activation after controlled-replay rule, before any candidate deal is revealed",
+  "candidate_selection": "legal-score enumeration; fixed full-range anchors plus assigned-threshold-focused anchors; deterministic deal representative per selected score",
+  "behavioral_action": "global next-token argmax; 1=ACCEPT, 0=REJECT",
+  "boundary_target": "isotonic crossing at accept probability 0.5 using binary one-token choices; capped to legal score range for fully accepting/rejecting grids",
+  "boundary_interpretation_gate": "at least two-thirds of parent states must contain both ACCEPT and REJECT choices",
+  "primary_error": "MAE on normalized revealed boundary",
+  "primary_delta": "matched generative auditor MAE - activation reader MAE",
+  "conservative_delta": "best fixed text suite MAE - activation MAE, where text suite contains matched generative auditor, trained text model, and assigned-threshold baseline",
+  "test_policy": "each source trajectory is outer-held-out once; layer/alpha selection uses only three train trajectories plus the predeclared validation trajectory"
+}

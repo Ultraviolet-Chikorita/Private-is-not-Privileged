@@ -1,0 +1,16 @@
+measure,value
+states,30.0
+source_trajectories,5.0
+locked_activation_mae,24.89508310953776
+matched_auditor_mae,10.4
+delta_latent,-14.495083109537761
+delta_latent_ci_low,-25.559805552164715
+delta_latent_ci_high,-7.303814188639323
+activation_nmae,0.3715684046199666
+auditor_nmae,0.15522388059701492
+threshold_positive_control_test_mae,3.2392349243164062
+exact_repeat_deal_match_rate,1.0
+report_order_proposal_match_rate,0.8
+report_order_minimum_match_rate,1.0
+h3_public_minus_private_error_gap,0.0
+h3_paired_substantive_identity_rate,1.0

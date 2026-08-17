@@ -1,0 +1,1158 @@
+file,line,terms,text
+unit_tests/test_utils_orders.py,15,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_utils_game.py,17,Game(,class TestUtilsGame(unittest.TestCase):
+unit_tests/test_utils_game.py,19,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_utils_game.py,20,add_message,"        game.add_message(""ITALY"", ""AUSTRIA"", ""hi there"", Timestamp.from_centis(12345))"
+unit_tests/test_sleep.py,24,Game(,        game = Game()
+unit_tests/test_sleep.py,25,add_message,"        game.add_message(""ENGLAND"", ""FRANCE"", ""test"", Timestamp.from_seconds(1))"
+unit_tests/test_sleep.py,31,Game(,        game = Game()
+unit_tests/test_sleep.py,32,add_message,"        game.add_message(""ENGLAND"", ""FRANCE"", ""test"", Timestamp.from_seconds(1))"
+unit_tests/test_sleep.py,33,add_message,"        game.add_message(""GERMANY"", ""FRANCE"", ""test"", Timestamp.from_seconds(2))"
+unit_tests/test_sleep.py,34,add_message,"        game.add_message(""FRANCE"", ""GERMANY"", ""test"", Timestamp.from_seconds(3))"
+unit_tests/test_sleep.py,54,Game(,        game = Game()
+unit_tests/test_sleep.py,64,add_message,"            game.add_message(power, recipient, ""blah"", Timestamp(0), increment_on_collision=True)"
+unit_tests/test_sleep.py,76,Game(,        game = Game()
+unit_tests/test_sleep.py,77,add_message,"        game.add_message(sender, recipient, ""message 1"", Timestamp(1), increment_on_collision=True)"
+unit_tests/test_sleep.py,78,add_message,"        game.add_message(sender, recipient, ""message 2"", Timestamp(1), increment_on_collision=True)"
+unit_tests/test_sleep.py,79,add_message,"        game.add_message(sender, recipient, ""message 3"", Timestamp(1), increment_on_collision=True)"
+unit_tests/test_sleep.py,86,add_message,"        game.add_message(sender, recipient, ""message 4"", Timestamp(1), increment_on_collision=True)"
+unit_tests/test_sleep.py,99,add_message,        game.add_message(
+unit_tests/test_sleep.py,111,Game(,        game = Game()
+unit_tests/test_sleep.py,126,Game(,        game = Game()
+unit_tests/test_sleep.py,142,Game(,        game = Game()
+unit_tests/test_sleep.py,158,Game(,        game = Game()
+unit_tests/test_sleep.py,174,Game(,        game = Game()
+unit_tests/test_sleep.py,190,Game(,        game = Game()
+unit_tests/test_sleep.py,191,set_orders,"        game.set_orders(""AUSTRIA"", (""F TRI - ADR"",))"
+unit_tests/test_sleep.py,192,process,        game.process()
+unit_tests/test_sleep.py,221,Game(,        game = Game()
+unit_tests/test_sleep.py,222,set_orders,"        game.set_orders(""GERMANY"", (""A MUN - TYR"",))"
+unit_tests/test_sleep.py,223,process,        game.process()
+unit_tests/test_sleep.py,237,Game(,        game = Game()
+unit_tests/test_sleep.py,238,process,        game.process()
+unit_tests/test_sleep.py,254,Game(,        game = Game()
+unit_tests/test_sleep.py,255,set_orders,"        game.set_orders(""GERMANY"", (""A MUN - BOH"",))"
+unit_tests/test_sleep.py,256,set_orders,"        game.set_orders(""ITALY"", (""A VEN - TYR"",))"
+unit_tests/test_sleep.py,257,process,        game.process()
+unit_tests/test_sleep.py,271,Game(,        game = Game()
+unit_tests/test_sleep.py,272,set_orders,"        game.set_orders(""GERMANY"", (""A MUN - BOH"",))"
+unit_tests/test_sleep.py,273,set_orders,"        game.set_orders(""ITALY"", (""A VEN - TYR"",))"
+unit_tests/test_sleep.py,274,process,        game.process()
+unit_tests/test_sleep.py,288,Game(,        game = Game()
+unit_tests/test_sleep.py,289,set_orders,"        game.set_orders(""GERMANY"", (""A MUN - BOH"",))"
+unit_tests/test_sleep.py,290,set_orders,"        game.set_orders(""ITALY"", (""A VEN - TYR"",))"
+unit_tests/test_sleep.py,291,process,        game.process()
+unit_tests/test_sleep.py,305,Game(,        game = Game()
+unit_tests/test_sleep.py,306,set_orders,"        game.set_orders(""GERMANY"", (""A MUN - SIL"",))"
+unit_tests/test_sleep.py,307,set_orders,"        game.set_orders(""ITALY"", (""A VEN - TYR"",))"
+unit_tests/test_sleep.py,308,process,        game.process()
+unit_tests/test_sleep.py,334,Game(,        game = Game()
+unit_tests/test_sleep.py,340,add_message,"        game.add_message(""ITALY"", ""AUSTRIA"", ""This is a convo initiation message"", Timestamp(1))"
+unit_tests/test_rollout_spring_ending.py,54,set_orders,        set_orders_dicts: List[JointAction] = [{power: () for power in POWERS} for i in range(n)]
+unit_tests/test_rollout_spring_ending.py,57,get_orderable_locations,                power_locs = game.get_orderable_locations()
+unit_tests/test_rollout_spring_ending.py,61,get_all_possible_orders,                        order = random.choice(game.get_all_possible_orders()[loc])
+unit_tests/test_rollout_spring_ending.py,63,set_orders,                    set_orders_dicts[i][power] = tuple(orders)
+unit_tests/test_rollout_spring_ending.py,66,set_orders,"            game, agent_power=None, set_orders_dicts=set_orders_dicts"
+unit_tests/test_rollout_spring_ending.py,71,Game(,        game = Game()
+unit_tests/test_rollout_spring_ending.py,80,Game(,        game = Game()
+unit_tests/test_rollout_spring_ending.py,91,Game(,        game = Game()
+unit_tests/test_rollout_spring_ending.py,101,Game(,        game = Game()
+unit_tests/test_rollout_spring_ending.py,162,Game(,        game = Game()
+unit_tests/test_rollout_spring_ending.py,221,Game(,        game = Game()
+unit_tests/test_rollout_spring_ending.py,240,Game(,        game = Game()
+unit_tests/test_rollout_spring_ending.py,241,set_orders,"        game.set_orders(""ITALY"", (""F NAP - ION"",))"
+unit_tests/test_rollout_spring_ending.py,242,set_orders,"        game.set_orders(""RUSSIA"", (""A WAR - GAL"",))"
+unit_tests/test_rollout_spring_ending.py,243,set_orders,"        game.set_orders(""AUSTRIA"", (""F TRI - ADR"",))"
+unit_tests/test_rollout_spring_ending.py,244,process,        game.process()
+unit_tests/test_rollout_spring_ending.py,303,Game(,        game = Game()
+unit_tests/test_rollout_spring_ending.py,305,set_orders,"        game.set_orders(""ITALY"", (""F NAP - ION"",))"
+unit_tests/test_rollout_spring_ending.py,306,set_orders,"        game.set_orders(""RUSSIA"", (""A WAR - GAL"",))"
+unit_tests/test_rollout_spring_ending.py,307,set_orders,"        game.set_orders(""AUSTRIA"", (""F TRI - ADR"",))"
+unit_tests/test_rollout_spring_ending.py,308,process,        game.process()
+unit_tests/test_rollout_spring_ending.py,367,Game(,        game = Game()
+unit_tests/test_rollout_spring_ending.py,368,set_orders,"        game.set_orders(""ITALY"", (""F NAP - ION"",))"
+unit_tests/test_rollout_spring_ending.py,369,set_orders,"        game.set_orders(""RUSSIA"", (""A WAR - GAL"",))"
+unit_tests/test_rollout_spring_ending.py,370,set_orders,"        game.set_orders(""AUSTRIA"", (""F TRI - ADR"",))"
+unit_tests/test_rollout_spring_ending.py,371,process,        game.process()
+unit_tests/test_rollout_spring_ending.py,431,Game(,        game = Game()
+unit_tests/test_rollout_spring_ending.py,432,set_orders,"        game.set_orders(""ITALY"", (""F NAP - ION"",))"
+unit_tests/test_rollout_spring_ending.py,433,set_orders,"        game.set_orders(""RUSSIA"", (""A WAR - GAL"",))"
+unit_tests/test_rollout_spring_ending.py,434,set_orders,"        game.set_orders(""AUSTRIA"", (""F TRI - ADR"",))"
+unit_tests/test_rollout_spring_ending.py,435,process,        game.process()
+unit_tests/test_rollout_spring_ending.py,543,Game(,        game = Game()
+unit_tests/test_rollout_spring_ending.py,544,set_orders,"        game.set_orders(""ITALY"", (""F NAP - ION"",))"
+unit_tests/test_rollout_spring_ending.py,545,set_orders,"        game.set_orders(""RUSSIA"", (""A WAR - GAL"",))"
+unit_tests/test_rollout_spring_ending.py,546,set_orders,"        game.set_orders(""AUSTRIA"", (""F TRI - ADR"",))"
+unit_tests/test_rollout_spring_ending.py,547,process,        game.process()
+unit_tests/test_rollout_spring_ending.py,599,Game(,        game = Game()
+unit_tests/test_rollout_spring_ending.py,600,set_orders,"        game.set_orders(""ITALY"", (""F NAP - ION"",))"
+unit_tests/test_rollout_spring_ending.py,601,set_orders,"        game.set_orders(""RUSSIA"", (""A WAR - GAL"",))"
+unit_tests/test_rollout_spring_ending.py,602,set_orders,"        game.set_orders(""AUSTRIA"", (""F TRI - ADR"",))"
+unit_tests/test_rollout_spring_ending.py,603,process,        game.process()
+unit_tests/test_resample_duplicate_disbands.py,29,Game(,"        inputs = FeatureEncoder().encode_inputs([Game()], input_version=3)"
+unit_tests/test_pydipcc.py,79,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,80,set_orders,"        game.set_orders(""RUSSIA"", [""F SEV - BLA""])"
+unit_tests/test_pydipcc.py,81,process,        game.process()
+unit_tests/test_pydipcc.py,83,"Game(,pydipcc.Game",        game2 = pydipcc.Game()
+unit_tests/test_pydipcc.py,84,from_json,        game2.from_json_inplace(game.to_json())
+unit_tests/test_pydipcc.py,88,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,89,set_orders,"        game.set_orders(""RUSSIA"", [""F SEV - BLA""])"
+unit_tests/test_pydipcc.py,90,process,        game.process()
+unit_tests/test_pydipcc.py,95,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,96,set_orders,"        game.set_orders(""RUSSIA"", [""F SEV - BLA""])"
+unit_tests/test_pydipcc.py,97,process,        game.process()
+unit_tests/test_pydipcc.py,102,"from_json,pydipcc.Game","        game = pydipcc.Game.from_json(open(TEST_DATA / ""game_100012_anonymized.json"").read())"
+unit_tests/test_pydipcc.py,106,add_message,    def test_add_message(self):
+unit_tests/test_pydipcc.py,107,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,108,add_message,"        game.add_message(""FRANCE"", ""AUSTRIA"", ""blast from the past"", Timestamp.from_centis(12345))"
+unit_tests/test_pydipcc.py,113,add_message,            game.add_message(
+unit_tests/test_pydipcc.py,118,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,121,add_message,"        game.add_message(""FRANCE"", ""AUSTRIA"", ""blast from the past"", Timestamp.from_centis(12345))"
+unit_tests/test_pydipcc.py,125,add_message,"        game.add_message(""AUSTRIA"", ""FRANCE"", ""back at ya"", Timestamp.from_centis(34567))"
+unit_tests/test_pydipcc.py,137,add_message,        game.add_message(
+unit_tests/test_pydipcc.py,145,process,        game.process()
+unit_tests/test_pydipcc.py,163,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,165,set_orders,"        game.set_orders(""FRANCE"", [""A PAR - BUR""])"
+unit_tests/test_pydipcc.py,166,process,        game.process()
+unit_tests/test_pydipcc.py,170,set_orders,"        game.set_orders(""FRANCE"", [""A BUR - BEL""])"
+unit_tests/test_pydipcc.py,171,set_orders,"        game.set_orders(""GERMANY"", [""A MUN - BUR""])"
+unit_tests/test_pydipcc.py,172,process,        game.process()
+unit_tests/test_pydipcc.py,178,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,179,set_orders,"        game.set_orders(""FRANCE"", [""A PAR - BUR""])"
+unit_tests/test_pydipcc.py,180,set_orders,"        game.set_orders(""GERMANY"", [""A MUN - RUH""])"
+unit_tests/test_pydipcc.py,188,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,189,add_message,"        game.add_message(""FRANCE"", ""AUSTRIA"", ""blast from the past"", Timestamp.from_centis(12345))"
+unit_tests/test_pydipcc.py,198,"from_json,pydipcc.Game",        game = pydipcc.Game.from_json(game.to_json())
+unit_tests/test_pydipcc.py,203,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,208,"from_json,pydipcc.Game",        game2 = pydipcc.Game.from_json(j)
+unit_tests/test_pydipcc.py,212,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,224,"from_json,pydipcc.Game",            game = pydipcc.Game.from_json(f.read())
+unit_tests/test_pydipcc.py,234,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,269,"from_json,pydipcc.Game",            game = pydipcc.Game.from_json(f.read())
+unit_tests/test_pydipcc.py,291,"from_json,pydipcc.Game",            game0 = pydipcc.Game.from_json(f.read())
+unit_tests/test_pydipcc.py,294,"from_json,pydipcc.Game",        game1 = pydipcc.Game.from_json(json1)
+unit_tests/test_pydipcc.py,301,"Game(,pydipcc.Game",        game0 = pydipcc.Game()
+unit_tests/test_pydipcc.py,302,set_orders,"        game0.set_orders(""RUSSIA"", [""F SEV - BLA""])"
+unit_tests/test_pydipcc.py,303,add_message,"        game0.add_message(""ENGLAND"", ""FRANCE"", ""hi"", Timestamp.from_centis(12345))"
+unit_tests/test_pydipcc.py,304,process,        game0.process()
+unit_tests/test_pydipcc.py,305,set_orders,"        game0.set_orders(""RUSSIA"", [""F BLA - RUM""])"
+unit_tests/test_pydipcc.py,306,add_message,"        game0.add_message(""FRANCE"", ""ENGLAND"", ""yo"", Timestamp.from_centis(12345))"
+unit_tests/test_pydipcc.py,309,"from_json,pydipcc.Game",        game1 = pydipcc.Game.from_json(json1)
+unit_tests/test_pydipcc.py,316,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,321,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,324,set_orders,"            game.set_orders(power, orders)"
+unit_tests/test_pydipcc.py,325,process,        game.process()
+unit_tests/test_pydipcc.py,344,"from_json,pydipcc.Game",            game = pydipcc.Game.from_json(stream.read())
+unit_tests/test_pydipcc.py,350,set_orders,    def test_set_orders_build(self):
+unit_tests/test_pydipcc.py,351,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,352,set_orders,"        game.set_orders(""GERMANY"", [""F KIE - HOL""])"
+unit_tests/test_pydipcc.py,356,process,        game.process()
+unit_tests/test_pydipcc.py,360,process,        game.process()
+unit_tests/test_pydipcc.py,361,set_orders,"        game.set_orders(""GERMANY"", [""A KIE B""])"
+unit_tests/test_pydipcc.py,365,process,        game.process()
+unit_tests/test_pydipcc.py,371,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,374,add_message,        game.add_message(
+unit_tests/test_pydipcc.py,377,add_message,        game.add_message(
+unit_tests/test_pydipcc.py,380,process,        game.process()  # finish S1901M
+unit_tests/test_pydipcc.py,381,add_message,"        game.add_message(""ENGLAND"", ""FRANCE"", ""not bad"", Timestamp.from_centis(2000))"
+unit_tests/test_pydipcc.py,382,process,        game.process()  # finish F1901M
+unit_tests/test_pydipcc.py,383,add_message,"        game.add_message(""FRANCE"", ""ENGLAND"", ""ok cool"", Timestamp.from_centis(3000))"
+unit_tests/test_pydipcc.py,390,set_orders,"        game.set_orders(""GERMANY"", [""F KIE - HOL""])"
+unit_tests/test_pydipcc.py,391,add_message,"        game.add_message(""TURKEY"", ""TURKEY"", ""hello me"", Timestamp.from_centis(3100))"
+unit_tests/test_pydipcc.py,392,process,        game.process()  # finish S1902M
+unit_tests/test_pydipcc.py,393,process,        game.process()  # finish F1902M
+unit_tests/test_pydipcc.py,395,add_message,"        game.add_message(""TURKEY"", ""TURKEY"", ""hello me again"", Timestamp.from_centis(3200))"
+unit_tests/test_pydipcc.py,397,process,        game.process()  # finish W1902A
+unit_tests/test_pydipcc.py,476,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,478,set_orders,"        game.set_orders(""AUSTRIA"", [""A BUD - SER""])"
+unit_tests/test_pydipcc.py,479,add_message,"        game.add_message(""RUSSIA"", ""TURKEY"", ""ahoy Turkey, it's F1901M"", Timestamp.from_centis(0))"
+unit_tests/test_pydipcc.py,480,process,        game.process()
+unit_tests/test_pydipcc.py,482,set_orders,"        game.set_orders(""ENGLAND"", [""F LON - ENG""])"
+unit_tests/test_pydipcc.py,483,add_message,        game.add_message(
+unit_tests/test_pydipcc.py,486,process,        game.process()
+unit_tests/test_pydipcc.py,488,set_orders,"        game.set_orders(""AUSTRIA"", [""A BUD B""])"
+unit_tests/test_pydipcc.py,489,add_message,"        game.add_message(""AUSTRIA"", ""AUSTRIA"", ""i love builds!"", Timestamp.from_centis(20))"
+unit_tests/test_pydipcc.py,490,process,        game.process()
+unit_tests/test_pydipcc.py,492,set_orders,"        game.set_orders(""GERMANY"", [""A MUN - BOH""])"
+unit_tests/test_pydipcc.py,493,add_message,        game.add_message(
+unit_tests/test_pydipcc.py,516,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,517,set_orders,"        game.set_orders(""AUSTRIA"", [""A BUD - SER""])"
+unit_tests/test_pydipcc.py,518,set_orders,"        game.set_orders(""ENGLAND"", [""F LON - ENG""])"
+unit_tests/test_pydipcc.py,519,set_orders,"        game.set_orders(""RUSSIA"", [""A WAR - PRU"", ""F STP/SC - FIN""])"
+unit_tests/test_pydipcc.py,520,set_orders,"        game.set_orders(""ITALY"", [""A VEN - PIE"", ""F NAP - TYS""])"
+unit_tests/test_pydipcc.py,557,set_orders,    def test_set_orders_wrong_power(self):
+unit_tests/test_pydipcc.py,558,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,559,set_orders,"        game.set_orders(""FRANCE"", [""A PAR - BUR"", ""F SEV - BLA""])"
+unit_tests/test_pydipcc.py,565,set_orders,    def test_set_orders_no_unit(self):
+unit_tests/test_pydipcc.py,566,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,567,set_orders,"        game.set_orders(""FRANCE"", [""A BUR - PAR""])"
+unit_tests/test_pydipcc.py,573,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,574,set_orders,"        game.set_orders(""AUSTRIA"", [""A BUD - SER""])"
+unit_tests/test_pydipcc.py,575,process,        game.process()
+unit_tests/test_pydipcc.py,576,set_orders,"        game.set_orders(""ENGLAND"", [""F LON - ENG""])"
+unit_tests/test_pydipcc.py,577,process,        game.process()
+unit_tests/test_pydipcc.py,579,"Game(,pydipcc.Game",        game_same = pydipcc.Game()
+unit_tests/test_pydipcc.py,580,set_orders,"        game_same.set_orders(""AUSTRIA"", [""A BUD - SER""])"
+unit_tests/test_pydipcc.py,581,process,        game_same.process()
+unit_tests/test_pydipcc.py,582,set_orders,"        game_same.set_orders(""ENGLAND"", [""F LON - ENG""])"
+unit_tests/test_pydipcc.py,583,process,        game_same.process()
+unit_tests/test_pydipcc.py,589,"Game(,pydipcc.Game",        game2 = pydipcc.Game()
+unit_tests/test_pydipcc.py,590,set_orders,"        game2.set_orders(""ENGLAND"", [""F LON - ENG""])"
+unit_tests/test_pydipcc.py,591,process,        game2.process()
+unit_tests/test_pydipcc.py,592,set_orders,"        game2.set_orders(""AUSTRIA"", [""A BUD - SER""])"
+unit_tests/test_pydipcc.py,593,process,        game2.process()
+unit_tests/test_pydipcc.py,602,"from_json,pydipcc.Game",            game = pydipcc.Game.from_json(f.read())
+unit_tests/test_pydipcc.py,613,"from_json,pydipcc.Game",            game = pydipcc.Game.from_json(f.read())
+unit_tests/test_pydipcc.py,624,"from_json,pydipcc.Game",            old_game = pydipcc.Game.from_json(f.read())
+unit_tests/test_pydipcc.py,626,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,628,set_orders,"            game.set_orders(power, list(reversed(action)))  # put them in not LOCS-ordered"
+unit_tests/test_pydipcc.py,643,"Game(,pydipcc.Game","        batch = FeatureEncoder().encode_inputs_all_powers([pydipcc.Game()], 3)"
+unit_tests/test_pydipcc.py,677,"from_json,pydipcc.Game",            gamesos = pydipcc.Game.from_json(f.read())
+unit_tests/test_pydipcc.py,678,"Game(,pydipcc.Game",            gamedss = pydipcc.Game(gamesos)
+unit_tests/test_pydipcc.py,679,pydipcc.Game,            gamedss.set_scoring_system(pydipcc.Game.SCORING_DSS)
+unit_tests/test_pydipcc.py,680,"from_json,pydipcc.Game",            gamedss2 = pydipcc.Game.from_json(gamedss.to_json())
+unit_tests/test_pydipcc.py,682,pydipcc.Game,        assert pydipcc.Game.SCORING_SOS == Scoring.SOS.value
+unit_tests/test_pydipcc.py,683,pydipcc.Game,        assert pydipcc.Game.SCORING_DSS == Scoring.DSS.value
+unit_tests/test_pydipcc.py,687,pydipcc.Game,"            gamesos.get_phase_history()[77].get_scores(pydipcc.Game.SCORING_SOS),"
+unit_tests/test_pydipcc.py,691,pydipcc.Game,"            gamesos.get_phase_history()[77].get_scores(pydipcc.Game.SCORING_DSS),"
+unit_tests/test_pydipcc.py,722,pydipcc.Game,"            gamesos.get_scores(pydipcc.Game.SCORING_SOS),"
+unit_tests/test_pydipcc.py,726,pydipcc.Game,"            gamedss.get_scores(pydipcc.Game.SCORING_SOS),"
+unit_tests/test_pydipcc.py,730,pydipcc.Game,"            gamedss2.get_scores(pydipcc.Game.SCORING_SOS),"
+unit_tests/test_pydipcc.py,735,pydipcc.Game,"            gamesos.get_scores(pydipcc.Game.SCORING_DSS), [0.2, 0.2, 0.0, 0.2, 0.0, 0.2, 0.2]"
+unit_tests/test_pydipcc.py,738,pydipcc.Game,"            gamedss.get_scores(pydipcc.Game.SCORING_DSS), [0.2, 0.2, 0.0, 0.2, 0.0, 0.2, 0.2]"
+unit_tests/test_pydipcc.py,741,pydipcc.Game,"            gamedss2.get_scores(pydipcc.Game.SCORING_DSS), [0.2, 0.2, 0.0, 0.2, 0.0, 0.2, 0.2]"
+unit_tests/test_pydipcc.py,752,pydipcc.Game,"        self.assertEqual(gamesos.get_scoring_system(), pydipcc.Game.SCORING_SOS)"
+unit_tests/test_pydipcc.py,753,pydipcc.Game,"        self.assertEqual(gamedss.get_scoring_system(), pydipcc.Game.SCORING_DSS)"
+unit_tests/test_pydipcc.py,754,pydipcc.Game,"        self.assertEqual(gamedss2.get_scoring_system(), pydipcc.Game.SCORING_DSS)"
+unit_tests/test_pydipcc.py,768,"from_json,pydipcc.Game",            game = pydipcc.Game.from_json(f.read())
+unit_tests/test_pydipcc.py,805,"from_json,pydipcc.Game",            game = pydipcc.Game.from_json(f.read())
+unit_tests/test_pydipcc.py,807,process,        game.process()
+unit_tests/test_pydipcc.py,831,"Game(,pydipcc.Game",    def _get_trivial_r_phase_game() -> pydipcc.Game:
+unit_tests/test_pydipcc.py,832,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,840,process,        game.process()
+unit_tests/test_pydipcc.py,848,process,        game.process()
+unit_tests/test_pydipcc.py,853,Game(,        game = self._get_trivial_r_phase_game()
+unit_tests/test_pydipcc.py,855,get_all_possible_orders,"        self.assertEqual(game.get_all_possible_orders()[""RUM""], [""A RUM D""])"
+unit_tests/test_pydipcc.py,858,Game(,        game = self._get_trivial_r_phase_game()
+unit_tests/test_pydipcc.py,861,from_json,    def test_trivial_r_phase_to_from_json(self):
+unit_tests/test_pydipcc.py,862,Game(,        game = self._get_trivial_r_phase_game()
+unit_tests/test_pydipcc.py,863,"from_json,pydipcc.Game",        game = pydipcc.Game.from_json(game.to_json())  # dislodged unit preserved in json dump
+unit_tests/test_pydipcc.py,864,get_all_possible_orders,"        self.assertEqual(game.get_all_possible_orders()[""RUM""], [""A RUM D""])"
+unit_tests/test_pydipcc.py,867,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,868,process,        game.process()
+unit_tests/test_pydipcc.py,869,process,        game.process()
+unit_tests/test_pydipcc.py,876,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,877,set_orders,"        game.set_orders(""ITALY"", [""F NAP - ION""])"
+unit_tests/test_pydipcc.py,878,set_orders,"        game.set_orders(""RUSSIA"", [""F SEV - BLA""])"
+unit_tests/test_pydipcc.py,879,process,        game.process()
+unit_tests/test_pydipcc.py,880,set_orders,"        game.set_orders(""ITALY"", [""F ION - GRE""])"
+unit_tests/test_pydipcc.py,881,process,        game.process()
+unit_tests/test_pydipcc.py,882,process,        game.process()
+unit_tests/test_pydipcc.py,883,set_orders,"        game.set_orders(""RUSSIA"", [""F BLA S F GRE - BUL""])"
+unit_tests/test_pydipcc.py,884,set_orders,"        game.set_orders(""ITALY"", [""F GRE - BUL/EC""])"
+unit_tests/test_pydipcc.py,886,process,        game.process()
+unit_tests/test_pydipcc.py,892,"Game(,pydipcc.Game",        game = pydipcc.Game(is_full_press=True)
+unit_tests/test_pydipcc.py,896,"Game(,pydipcc.Game",        game = pydipcc.Game(is_full_press=False)
+unit_tests/test_pydipcc.py,899,from_json,    def test_to_from_json(self):
+unit_tests/test_pydipcc.py,900,"Game(,pydipcc.Game",        game = pydipcc.Game(is_full_press=False)
+unit_tests/test_pydipcc.py,901,"from_json,pydipcc.Game",        self.assertFalse(pydipcc.Game.from_json(game.to_json()).is_full_press)
+unit_tests/test_pydipcc.py,904,"Game(,pydipcc.Game","        self.assertEqual(pydipcc.Game().map_name, ""standard"")"
+unit_tests/test_pydipcc.py,907,"Game(,pydipcc.Game","        self.assertEqual(json.loads(pydipcc.Game().to_json())[""map""], ""standard"")"
+unit_tests/test_pydipcc.py,909,from_json,    def test_map_from_json(self):
+unit_tests/test_pydipcc.py,910,"Game(,pydipcc.Game",        j = json.loads(pydipcc.Game().to_json())
+unit_tests/test_pydipcc.py,912,"from_json,pydipcc.Game",        game = pydipcc.Game.from_json(json.dumps(j))
+unit_tests/test_pydipcc.py,915,from_json,    def test_id_from_json(self):
+unit_tests/test_pydipcc.py,916,"Game(,pydipcc.Game",        j = json.loads(pydipcc.Game().to_json())
+unit_tests/test_pydipcc.py,918,"from_json,pydipcc.Game",        game = pydipcc.Game.from_json(json.dumps(j))
+unit_tests/test_pydipcc.py,922,"Game(,pydipcc.Game",        j = json.loads(pydipcc.Game().to_json())
+unit_tests/test_pydipcc.py,926,"Game(,pydipcc.Game",        j = json.loads(pydipcc.Game().to_json())
+unit_tests/test_pydipcc.py,927,pydipcc.Game,"        assert isinstance(pydipcc.Game.SCORING_DSS, int)"
+unit_tests/test_pydipcc.py,928,pydipcc.Game,"        j[""scoring_system""] = pydipcc.Game.SCORING_DSS"
+unit_tests/test_pydipcc.py,929,"from_json,pydipcc.Game",        game = pydipcc.Game.from_json(json.dumps(j))
+unit_tests/test_pydipcc.py,930,pydipcc.Game,"        self.assertEqual(game.get_scoring_system(), pydipcc.Game.SCORING_DSS)"
+unit_tests/test_pydipcc.py,934,pydipcc.Game,"            (""sum_of_squares"", pydipcc.Game.SCORING_SOS),"
+unit_tests/test_pydipcc.py,935,pydipcc.Game,"            (""draw_size"", pydipcc.Game.SCORING_DSS),"
+unit_tests/test_pydipcc.py,937,"Game(,pydipcc.Game",            j = json.loads(pydipcc.Game().to_json())
+unit_tests/test_pydipcc.py,939,"from_json,pydipcc.Game",            game = pydipcc.Game.from_json(json.dumps(j))
+unit_tests/test_pydipcc.py,943,"Game(,pydipcc.Game",        j = json.loads(pydipcc.Game().to_json())
+unit_tests/test_pydipcc.py,945,"from_json,pydipcc.Game","        self.assertRaises(Exception, pydipcc.Game.from_json, json.dumps(j))"
+unit_tests/test_pydipcc.py,950,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,955,process,        game.process()
+unit_tests/test_pydipcc.py,959,process,        game.process()
+unit_tests/test_pydipcc.py,965,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,970,process,        game.process()
+unit_tests/test_pydipcc.py,979,process,        game.process()
+unit_tests/test_pydipcc.py,983,process,        game.process()
+unit_tests/test_pydipcc.py,987,process,        game.process()
+unit_tests/test_pydipcc.py,991,process,        game.process()
+unit_tests/test_pydipcc.py,995,process,        game.process()
+unit_tests/test_pydipcc.py,1001,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,1006,process,        game.process()
+unit_tests/test_pydipcc.py,1010,process,        game.process()
+unit_tests/test_pydipcc.py,1014,process,        game.process()
+unit_tests/test_pydipcc.py,1018,process,        game.process()
+unit_tests/test_pydipcc.py,1024,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,1034,process,        game.process()
+unit_tests/test_pydipcc.py,1038,process,        game.process()
+unit_tests/test_pydipcc.py,1042,process,        game.process()
+unit_tests/test_pydipcc.py,1046,process,        game.process()
+unit_tests/test_pydipcc.py,1050,process,        game.process()
+unit_tests/test_pydipcc.py,1054,process,        game.process()
+unit_tests/test_pydipcc.py,1058,process,        game.process()
+unit_tests/test_pydipcc.py,1062,process,        game.process()
+unit_tests/test_pydipcc.py,1066,process,        game.process()
+unit_tests/test_pydipcc.py,1072,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,1077,process,        game.process()
+unit_tests/test_pydipcc.py,1081,process,        game.process()
+unit_tests/test_pydipcc.py,1090,process,        game.process()
+unit_tests/test_pydipcc.py,1094,process,        game.process()
+unit_tests/test_pydipcc.py,1098,process,        game.process()
+unit_tests/test_pydipcc.py,1102,process,        game.process()
+unit_tests/test_pydipcc.py,1106,process,        game.process()
+unit_tests/test_pydipcc.py,1110,process,        game.process()
+unit_tests/test_pydipcc.py,1114,process,        game.process()
+unit_tests/test_pydipcc.py,1118,process,        game.process()
+unit_tests/test_pydipcc.py,1127,process,        game.process()
+unit_tests/test_pydipcc.py,1131,process,        game.process()
+unit_tests/test_pydipcc.py,1135,process,        game.process()
+unit_tests/test_pydipcc.py,1141,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,1155,process,        game.process()
+unit_tests/test_pydipcc.py,1159,"Game(,pydipcc.Game",        gamecopy = pydipcc.Game(game)
+unit_tests/test_pydipcc.py,1164,process,        game.process()
+unit_tests/test_pydipcc.py,1170,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,1172,process,        game.process()
+unit_tests/test_pydipcc.py,1173,process,        game.process()
+unit_tests/test_pydipcc.py,1182,process,        game.process()
+unit_tests/test_pydipcc.py,1192,process,        game.process()
+unit_tests/test_pydipcc.py,1201,process,        game.process()
+unit_tests/test_pydipcc.py,1205,process,        game.process()
+unit_tests/test_pydipcc.py,1214,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,1215,set_orders,"        game.set_orders(""TURKEY"", [""A CON - BUL""])"
+unit_tests/test_pydipcc.py,1216,process,        game.process()
+unit_tests/test_pydipcc.py,1256,process,        game.process()
+unit_tests/test_pydipcc.py,1257,process,        game.process()
+unit_tests/test_pydipcc.py,1265,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,1266,set_orders,"        game.set_orders(""FRANCE"", [""F BRE - MAO""])"
+unit_tests/test_pydipcc.py,1267,process,        game.process()
+unit_tests/test_pydipcc.py,1268,set_orders,"        game.set_orders(""FRANCE"", [""F MAO - SPA/NC""])"
+unit_tests/test_pydipcc.py,1269,process,        game.process()
+unit_tests/test_pydipcc.py,1270,process,        game.process()
+unit_tests/test_pydipcc.py,1271,set_orders,"        game.set_orders(""FRANCE"", [""A MAR S F SPA""])"
+unit_tests/test_pydipcc.py,1274,get_all_possible_orders,        possible_orders = [d for ds in game.get_all_possible_orders().values() for d in ds]
+unit_tests/test_pydipcc.py,1312,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,1313,set_orders,"        game.set_orders(""FRANCE"", [""F BRE - MAO""])"
+unit_tests/test_pydipcc.py,1314,process,        game.process()
+unit_tests/test_pydipcc.py,1315,set_orders,"        game.set_orders(""FRANCE"", [""F MAO - SPA/SC""])"
+unit_tests/test_pydipcc.py,1316,process,        game.process()
+unit_tests/test_pydipcc.py,1317,process,        game.process()
+unit_tests/test_pydipcc.py,1318,set_orders,"        game.set_orders(""FRANCE"", [""A MAR S F SPA""])"
+unit_tests/test_pydipcc.py,1321,get_all_possible_orders,        possible_orders = [d for ds in game.get_all_possible_orders().values() for d in ds]
+unit_tests/test_pydipcc.py,1359,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,1360,set_orders,"        game.set_orders(""FRANCE"", [""F BRE - MAO""])"
+unit_tests/test_pydipcc.py,1361,process,        game.process()
+unit_tests/test_pydipcc.py,1362,set_orders,"        game.set_orders(""FRANCE"", [""F MAO - SPA/NC""])"
+unit_tests/test_pydipcc.py,1363,process,        game.process()
+unit_tests/test_pydipcc.py,1364,process,        game.process()
+unit_tests/test_pydipcc.py,1365,set_orders,"        game.set_orders(""FRANCE"", [""A MAR S F SPA/NC""])"
+unit_tests/test_pydipcc.py,1368,get_all_possible_orders,        possible_orders = [d for ds in game.get_all_possible_orders().values() for d in ds]
+unit_tests/test_pydipcc.py,1405,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,1406,set_orders,"        game.set_orders(""FRANCE"", [""F BRE - MAO""])"
+unit_tests/test_pydipcc.py,1407,process,        game.process()
+unit_tests/test_pydipcc.py,1408,set_orders,"        game.set_orders(""FRANCE"", [""F MAO - SPA/NC""])"
+unit_tests/test_pydipcc.py,1409,process,        game.process()
+unit_tests/test_pydipcc.py,1410,process,        game.process()
+unit_tests/test_pydipcc.py,1411,set_orders,"        game.set_orders(""FRANCE"", [""A MAR S F SPA - GAS""])"
+unit_tests/test_pydipcc.py,1414,get_all_possible_orders,        possible_orders = [d for ds in game.get_all_possible_orders().values() for d in ds]
+unit_tests/test_pydipcc.py,1454,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,1455,set_orders,"        game.set_orders(""FRANCE"", [""F BRE - MAO""])"
+unit_tests/test_pydipcc.py,1456,set_orders,"        game.set_orders(""FRANCE"", [""A MAR - BUR""])"
+unit_tests/test_pydipcc.py,1457,process,        game.process()
+unit_tests/test_pydipcc.py,1458,set_orders,"        game.set_orders(""FRANCE"", [""F MAO - SPA/SC""])"
+unit_tests/test_pydipcc.py,1459,process,        game.process()
+unit_tests/test_pydipcc.py,1460,process,        game.process()
+unit_tests/test_pydipcc.py,1461,set_orders,"        game.set_orders(""FRANCE"", [""A BUR S F SPA - MAR""])"
+unit_tests/test_pydipcc.py,1464,get_all_possible_orders,        possible_orders = [d for ds in game.get_all_possible_orders().values() for d in ds]
+unit_tests/test_pydipcc.py,1504,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,1505,set_orders,"        game.set_orders(""FRANCE"", [""F BRE - MAO""])"
+unit_tests/test_pydipcc.py,1506,process,        game.process()
+unit_tests/test_pydipcc.py,1507,set_orders,"        game.set_orders(""FRANCE"", [""F MAO - SPA/NC""])"
+unit_tests/test_pydipcc.py,1508,process,        game.process()
+unit_tests/test_pydipcc.py,1509,process,        game.process()
+unit_tests/test_pydipcc.py,1510,set_orders,"        game.set_orders(""FRANCE"", [""A MAR S F SPA/NC - GAS""])"
+unit_tests/test_pydipcc.py,1513,get_all_possible_orders,        possible_orders = [d for ds in game.get_all_possible_orders().values() for d in ds]
+unit_tests/test_pydipcc.py,1552,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,1553,set_orders,"        game.set_orders(""FRANCE"", [""F BRE - MAO""])"
+unit_tests/test_pydipcc.py,1554,process,        game.process()
+unit_tests/test_pydipcc.py,1555,set_orders,"        game.set_orders(""FRANCE"", [""A MAR S F MAO - SPA""])"
+unit_tests/test_pydipcc.py,1558,get_all_possible_orders,        possible_orders = [d for ds in game.get_all_possible_orders().values() for d in ds]
+unit_tests/test_pydipcc.py,1597,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_pydipcc.py,1598,set_orders,"        game.set_orders(""FRANCE"", [""F BRE - MAO""])"
+unit_tests/test_pydipcc.py,1599,process,        game.process()
+unit_tests/test_pydipcc.py,1600,set_orders,"        game.set_orders(""FRANCE"", [""A MAR S F MAO - SPA/NC""])"
+unit_tests/test_pydipcc.py,1603,get_all_possible_orders,        possible_orders = [d for ds in game.get_all_possible_orders().values() for d in ds]
+unit_tests/test_pseudo_cache.py,17,Game(,        game = Game()
+unit_tests/test_pseudo_cache.py,28,set_orders,"        game.set_orders(agent_power, a[agent_power])"
+unit_tests/test_pseudo_cache.py,29,process,        game.process()  # -> F1901M
+unit_tests/test_pseudo_cache.py,32,process,        game.process()  # -> W1901A
+unit_tests/test_pseudo_cache.py,40,Game(,        game_future = Game(game)
+unit_tests/test_pseudo_cache.py,41,set_orders,"        game_future.set_orders(agent_power, a2[agent_power])"
+unit_tests/test_pseudo_cache.py,42,process,        game_future.process()  # -> S1902M
+unit_tests/test_pseudo_cache.py,51,set_orders,"        game.set_orders(agent_power, a2[agent_power])"
+unit_tests/test_pseudo_cache.py,52,process,        game.process()  # -> S1902M
+unit_tests/test_parlai_order_filtering.py,23,Game(,        game = Game()
+unit_tests/test_parlai_order_filtering.py,24,get_all_possible_orders,        old_allowed_orders = game.get_all_possible_orders()
+unit_tests/test_parlai_order_filtering.py,26,set_orders,"        game.set_orders(""FRANCE"", [""F BRE - MAO""])"
+unit_tests/test_parlai_order_filtering.py,27,set_orders,"        game.set_orders(""AUSTRIA"", [""A BUD - SER""])"
+unit_tests/test_parlai_order_filtering.py,28,set_orders,"        game.set_orders(""TURKEY"", [""F ANK - CON"", ""A CON - SMY"", ""A SMY - ARM""])"
+unit_tests/test_parlai_order_filtering.py,29,process,        game.process()
+unit_tests/test_parlai_order_filtering.py,30,set_orders,"        game.set_orders(""TURKEY"", [""F CON - BUL/EC""])"
+unit_tests/test_parlai_order_filtering.py,31,process,        game.process()
+unit_tests/test_parlai_order_filtering.py,32,process,        game.process()
+unit_tests/test_parlai_order_filtering.py,34,get_all_possible_orders,        allowed_orders = game.get_all_possible_orders()
+unit_tests/test_parlai_message_history_truncation.py,24,Game(,def load_game():
+unit_tests/test_parlai_message_history_truncation.py,28,from_json,        game_object = Game.from_json(f.read())
+unit_tests/test_parlai_message_history_truncation.py,43,Game(,        game_json = load_game()
+unit_tests/test_parlai_message_history_building.py,34,Game(,def load_game() -> Game:
+unit_tests/test_parlai_message_history_building.py,37,from_json,        game_object = Game.from_json(f.read())
+unit_tests/test_parlai_message_history_building.py,45,add_message,        game_object.add_message(
+unit_tests/test_parlai_message_history_building.py,54,Game(,        game = load_game()
+unit_tests/test_parlai_input_validation.py,44,from_json,"            game = Game.from_json(f.read()).rolled_back_to_phase_start(""S1903M"")"
+unit_tests/test_parlai_formatting.py,46,Game(,def load_game():
+unit_tests/test_parlai_formatting.py,51,from_json,        game_object = Game.from_json(f.read())
+unit_tests/test_parlai_formatting.py,55,set_orders,"        game_object.set_orders(pwr, orders)"
+unit_tests/test_parlai_formatting.py,56,process,    game_object.process()
+unit_tests/test_parlai_formatting.py,63,Game(,        game = load_game()
+unit_tests/test_parlai_formatting.py,301,Game(,        game = Game()
+unit_tests/test_parlai_formatting.py,302,set_orders,"        game.set_orders(""FRANCE"", [""F BRE - MAO""])"
+unit_tests/test_parlai_formatting.py,303,process,        game.process()
+unit_tests/test_parlai_formatting.py,304,set_orders,"        game.set_orders(""FRANCE"", [""F MAO - SPA/NC""])"
+unit_tests/test_parlai_formatting.py,305,set_orders,"        game.set_orders(""RUSSIA"", [""A MOS S F STP/SC - LVN""])"
+unit_tests/test_parlai_formatting.py,306,process,        game.process()
+unit_tests/test_parlai_formatting.py,307,process,        game.process()
+unit_tests/test_parlai_formatting.py,308,set_orders,"        game.set_orders(""FRANCE"", [""A MAR S F SPA/NC - GAS""])"
+unit_tests/test_parlai_formatting.py,350,Game(,        game = Game()
+unit_tests/test_parlai_formatting.py,351,set_orders,"        game.set_orders(""FRANCE"", [""F BRE - MAO""])"
+unit_tests/test_parlai_formatting.py,352,process,        game.process()
+unit_tests/test_parlai_formatting.py,353,set_orders,"        game.set_orders(""FRANCE"", [""F MAO - SPA/NC""])"
+unit_tests/test_parlai_formatting.py,354,set_orders,"        game.set_orders(""RUSSIA"", [""A MOS S F STP - LVN""])"
+unit_tests/test_parlai_formatting.py,355,process,        game.process()
+unit_tests/test_parlai_formatting.py,356,process,        game.process()
+unit_tests/test_parlai_formatting.py,357,set_orders,"        game.set_orders(""FRANCE"", [""A MAR S F SPA - GAS""])"
+unit_tests/test_parlai_formatting.py,399,Game(,        game = Game()
+unit_tests/test_parlai_formatting.py,400,set_orders,"        game.set_orders(""FRANCE"", [""F BRE - MAO""])"
+unit_tests/test_parlai_formatting.py,401,process,        game.process()
+unit_tests/test_parlai_formatting.py,402,set_orders,"        game.set_orders(""FRANCE"", [""F MAO - SPA/NC""])"
+unit_tests/test_parlai_formatting.py,403,set_orders,"        game.set_orders(""RUSSIA"", [""A MOS S F STP/SC""])"
+unit_tests/test_parlai_formatting.py,404,process,        game.process()
+unit_tests/test_parlai_formatting.py,405,process,        game.process()
+unit_tests/test_parlai_formatting.py,406,set_orders,"        game.set_orders(""FRANCE"", [""A MAR S F SPA/NC""])"
+unit_tests/test_parlai_formatting.py,448,Game(,        game = Game()
+unit_tests/test_parlai_formatting.py,449,set_orders,"        game.set_orders(""FRANCE"", [""F BRE - MAO""])"
+unit_tests/test_parlai_formatting.py,450,process,        game.process()
+unit_tests/test_parlai_formatting.py,451,set_orders,"        game.set_orders(""FRANCE"", [""F MAO - SPA/NC""])"
+unit_tests/test_parlai_formatting.py,452,set_orders,"        game.set_orders(""RUSSIA"", [""A MOS S F STP""])"
+unit_tests/test_parlai_formatting.py,453,process,        game.process()
+unit_tests/test_parlai_formatting.py,454,process,        game.process()
+unit_tests/test_parlai_formatting.py,455,set_orders,"        game.set_orders(""FRANCE"", [""A MAR S F SPA""])"
+unit_tests/test_parlai_formatting.py,504,Game(,        game = load_game().rolled_back_to_phase_start(PHASE)
+unit_tests/test_parlai_formatting.py,626,Game(,        game = load_game()
+unit_tests/test_parlai_formatting.py,909,Game(,        game = TestMatchingWebdip._get_trivial_r_phase_game()
+unit_tests/test_parlai_formatting.py,947,Game(,        game = Game()
+unit_tests/test_parlai_formatting.py,948,set_orders,"        game.set_orders(""FRANCE"", [""F BRE - MAO""])"
+unit_tests/test_parlai_formatting.py,949,process,        game.process()
+unit_tests/test_parlai_formatting.py,950,set_orders,"        game.set_orders(""FRANCE"", [""F MAO - SPA/NC""])"
+unit_tests/test_parlai_formatting.py,951,set_orders,"        game.set_orders(""RUSSIA"", [""A MOS S F STP/SC - LVN""])"
+unit_tests/test_parlai_formatting.py,952,process,        game.process()
+unit_tests/test_parlai_formatting.py,953,process,        game.process()
+unit_tests/test_parlai_formatting.py,1007,Game(,        game = Game()
+unit_tests/test_parlai_formatting.py,1008,set_orders,"        game.set_orders(""FRANCE"", [""F BRE - MAO""])"
+unit_tests/test_parlai_formatting.py,1009,set_orders,"        game.set_orders(""RUSSIA"", [""F STP/SC - LVN""])"
+unit_tests/test_parlai_formatting.py,1010,process,        game.process()
+unit_tests/test_parlai_formatting.py,1011,set_orders,"        game.set_orders(""RUSSIA"", [""A MOS S F LVN - STP/SC""])"
+unit_tests/test_parlai_formatting.py,1012,process,        game.process()
+unit_tests/test_parlai_formatting.py,1066,Game(,        game = Game()
+unit_tests/test_parlai_formatting.py,1067,set_orders,"        game.set_orders(""FRANCE"", [""F BRE - MAO""])"
+unit_tests/test_parlai_formatting.py,1068,set_orders,"        game.set_orders(""RUSSIA"", [""F STP/SC - LVN""])"
+unit_tests/test_parlai_formatting.py,1069,process,        game.process()
+unit_tests/test_parlai_formatting.py,1070,set_orders,"        game.set_orders(""RUSSIA"", [""A MOS S F LVN - STP""])"
+unit_tests/test_parlai_formatting.py,1071,process,        game.process()
+unit_tests/test_parlai_formatting.py,1125,Game(,        game = Game()
+unit_tests/test_parlai_formatting.py,1126,set_orders,"        game.set_orders(""FRANCE"", [""F BRE - MAO""])"
+unit_tests/test_parlai_formatting.py,1127,process,        game.process()
+unit_tests/test_parlai_formatting.py,1128,set_orders,"        game.set_orders(""FRANCE"", [""F MAO - SPA/NC""])"
+unit_tests/test_parlai_formatting.py,1129,set_orders,"        game.set_orders(""RUSSIA"", [""A MOS S F STP - LVN""])"
+unit_tests/test_parlai_formatting.py,1130,process,        game.process()
+unit_tests/test_parlai_formatting.py,1131,process,        game.process()
+unit_tests/test_parlai_formatting.py,1185,Game(,        game = Game()
+unit_tests/test_parlai_formatting.py,1186,set_orders,"        game.set_orders(""FRANCE"", [""F BRE - MAO""])"
+unit_tests/test_parlai_formatting.py,1187,process,        game.process()
+unit_tests/test_parlai_formatting.py,1188,set_orders,"        game.set_orders(""FRANCE"", [""F MAO - SPA/NC""])"
+unit_tests/test_parlai_formatting.py,1189,set_orders,"        game.set_orders(""RUSSIA"", [""A MOS S F STP/SC""])"
+unit_tests/test_parlai_formatting.py,1190,process,        game.process()
+unit_tests/test_parlai_formatting.py,1191,process,        game.process()
+unit_tests/test_parlai_formatting.py,1245,Game(,        game = Game()
+unit_tests/test_parlai_formatting.py,1246,set_orders,"        game.set_orders(""FRANCE"", [""F BRE - MAO""])"
+unit_tests/test_parlai_formatting.py,1247,process,        game.process()
+unit_tests/test_parlai_formatting.py,1248,set_orders,"        game.set_orders(""FRANCE"", [""F MAO - SPA/NC""])"
+unit_tests/test_parlai_formatting.py,1249,set_orders,"        game.set_orders(""RUSSIA"", [""A MOS S F STP""])"
+unit_tests/test_parlai_formatting.py,1250,process,        game.process()
+unit_tests/test_parlai_formatting.py,1251,process,        game.process()
+unit_tests/test_parlai_flattener_to_unflattener.py,41,Game(,def load_game():
+unit_tests/test_parlai_flattener_to_unflattener.py,46,from_json,        game_object = Game.from_json(f.read())
+unit_tests/test_parlai_flattener_to_unflattener.py,50,set_orders,"        game_object.set_orders(pwr, orders)"
+unit_tests/test_parlai_flattener_to_unflattener.py,51,process,    game_object.process()
+unit_tests/test_parlai_flattener_to_unflattener.py,67,Game(,        self.game = load_game()
+unit_tests/test_parlai_flattener_to_unflattener.py,225,Game(,        self.game = load_game()
+unit_tests/test_parlai_all_holds_filtering.py,44,Game(,def load_game(last_phase_orders: JointAction):
+unit_tests/test_parlai_all_holds_filtering.py,47,from_json,        game_object = Game.from_json(f.read())
+unit_tests/test_parlai_all_holds_filtering.py,54,set_orders,"        game_object.set_orders(pwr, orders)"
+unit_tests/test_parlai_all_holds_filtering.py,56,process,    game_object.process()
+unit_tests/test_parlai_all_holds_filtering.py,63,Game(,        game = load_game(orders)
+unit_tests/test_order_idxs.py,35,"Game(,pydipcc.Game","def load_game(path: Union[pathlib.Path, str]) -> pydipcc.Game:"
+unit_tests/test_order_idxs.py,38,"from_json,pydipcc.Game",        game = pydipcc.Game.from_json(f.read())
+unit_tests/test_order_idxs.py,44,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_order_idxs.py,89,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_order_idxs.py,121,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_order_idxs.py,132,get_all_possible_orders,                d for ds in game.get_all_possible_orders().values() for d in ds
+unit_tests/test_order_idxs.py,315,Game(,        game_full = load_game(game_path)
+unit_tests/test_order_idxs.py,341,Game(,        game_full = load_game(game_path)
+unit_tests/test_order_idxs.py,357,Game(,        game_full = load_game(game_path)
+unit_tests/test_message_editing.py,677,Game(,    def test_filter_grounding_end_of_game(self):
+unit_tests/test_message_editing.py,717,"Game(,pydipcc.Game",        game = pydipcc.Game()
+unit_tests/test_message_editing.py,733,process,            game.process()
+unit_tests/test_draw_state_utils.py,36,Game(,def load_game() -> GameJson:
+unit_tests/test_draw_state_utils.py,68,Game(,        game_json = load_game()
+unit_tests/test_draw_state_utils.py,82,Game(,        game_json = load_game()
+fairdiplomacy/variance_reduction.py,24,Game(,        stepped_game = Game(game)
+fairdiplomacy/variance_reduction.py,25,set_orders,"        stepped_game.set_orders(power, action)"
+fairdiplomacy/variance_reduction.py,28,set_orders,"                stepped_game.set_orders(other_power, other_action)"
+fairdiplomacy/variance_reduction.py,29,process,        stepped_game.process()
+fairdiplomacy/situation_check_press.py,46,pydipcc.Game,"    test: str, game: pydipcc.Game, sender: Power, recipient: Optional[Power],"
+fairdiplomacy/situation_check_press.py,52,get_all_possible_orders,            all_poss_orders_map = game.get_all_possible_orders()
+fairdiplomacy/situation_check_press.py,53,get_orderable_locations,            orderable_locs = game.get_orderable_locations()
+fairdiplomacy/situation_check.py,108,from_json,        game = Game.from_json(f.read())
+fairdiplomacy/get_xpower_supports.py,29,from_json,        game = Game.from_json(f.read())
+fairdiplomacy/get_xpower_supports.py,143,set_orders,"                    g_cf.set_orders(power, power_orders)"
+fairdiplomacy/get_xpower_supports.py,148,set_orders,"                        g_cf.set_orders(power, [hold_order])"
+fairdiplomacy/get_xpower_supports.py,150,process,                    g_cf.process()
+fairdiplomacy/env.py,292,process,"    def process_turn(self, timeout=10):"
+fairdiplomacy/env.py,337,get_orderable_locations,            if not self.game.get_orderable_locations().get(power):
+fairdiplomacy/env.py,344,set_orders,"            self.game.set_orders(power, orders)"
+fairdiplomacy/env.py,352,process,        self.game.process()
+fairdiplomacy/env.py,374,from_json,"        self.game.from_json_inplace(state[""game""])"
+fairdiplomacy/env.py,382,process,    def process_all_turns(
+fairdiplomacy/env.py,385,process,"        """"""Process all turns until game is over"
+fairdiplomacy/env.py,392,process,"                ""Restoring eval process from checkpoint: %s"", partial_out_name + STATE_SUFFIX"
+fairdiplomacy/env.py,424,process,            self.process_turn()
+fairdiplomacy/env.py,483,add_message,"def add_messages_to_game_object(game: Game, messages: List[MessageDict]) -> None:"
+fairdiplomacy/env.py,490,add_message,        game.add_message(
+fairdiplomacy/env.py,627,process,        # We use this for processing pseudo-orders
+fairdiplomacy/env.py,719,add_message,"        add_messages_to_game_object(self.game, msg_dicts)"
+fairdiplomacy/compare_agents_array_test.py,22,"Game(,pydipcc.Game",        game = pydipcc.Game()
+fairdiplomacy/compare_agents_array.py,16,process,import subprocess
+fairdiplomacy/compare_agents_array.py,131,Game(,def _run_game(
+fairdiplomacy/compare_agents.py,8,process,import multiprocessing as mp
+fairdiplomacy/compare_agents.py,38,"from_json,pydipcc.Game",            game_obj = pydipcc.Game.from_json(stream.read())
+fairdiplomacy/compare_agents.py,43,"Game(,pydipcc.Game",        game_obj = pydipcc.Game()
+fairdiplomacy/compare_agents.py,92,process,"        scores = env.process_all_turns(max_turns=cfg.max_turns, partial_out_name=partial_out_name)"
+fairdiplomacy/compare_agents.py,118,process,def run_1v6_trial_multiprocess(
+fairdiplomacy/compare_agents.py,124,process,"    pool = mp.get_context(""spawn"").Pool(cfg.num_processes)"
+fairdiplomacy/compare_agent_population_array.py,14,process,import subprocess
+fairdiplomacy/compare_agent_population_array.py,80,from_json,            game = Game.from_json(stream.read())
+fairdiplomacy/compare_agent_population_array.py,86,Game(,def get_power_scores_from_folder_grouped_by_game(
+fairdiplomacy/compare_agent_population_array.py,141,Game(,"            get_power_scores_from_folder_grouped_by_game(game_dir, include_partial=include_partial)"
+fairdiplomacy/compare_agent_population_array.py,146,Game(,def _run_game(
+fairdiplomacy/compare_agent_population.py,38,"from_json,pydipcc.Game",            game_obj = pydipcc.Game.from_json(stream.read())
+fairdiplomacy/compare_agent_population.py,42,"Game(,pydipcc.Game",        game_obj = pydipcc.Game()
+fairdiplomacy/compare_agent_population.py,71,process,"        scores = env.process_all_turns(max_turns=cfg.max_turns, partial_out_name=partial_out_name)"
+fairdiplomacy/benchmark_agent.py,23,Game(,"def load_game(game_json: Optional[str], phase: Optional[str]) -> Game:"
+fairdiplomacy/benchmark_agent.py,25,Game(,        return Game()
+fairdiplomacy/benchmark_agent.py,28,from_json,        game = Game.from_json(f.read())
+fairdiplomacy/benchmark_agent.py,47,Game(,"    game = game_from_view_of(load_game(cfg.game_json, cfg.phase), cfg.power)"
+fairdiplomacy/action_generation_test.py,22,"Game(,pydipcc.Game",        game = pydipcc.Game()
+fairdiplomacy/action_generation_test.py,41,"Game(,pydipcc.Game",        game = pydipcc.Game()
+fairdiplomacy/action_generation_test.py,49,"Game(,pydipcc.Game",        game = pydipcc.Game()
+fairdiplomacy/action_generation_test.py,60,"Game(,pydipcc.Game",        game = pydipcc.Game()
+fairdiplomacy/action_generation_test.py,71,"Game(,pydipcc.Game",        game = pydipcc.Game()
+fairdiplomacy/action_generation_test.py,72,set_orders,"        game.set_orders(""FRANCE"", [""A MAR - BUR""])"
+fairdiplomacy/action_generation_test.py,73,process,        game.process()
+fairdiplomacy/action_generation_test.py,79,get_all_possible_orders,"        actions_no_limit = action_generation.get_all_possible_orders(game, power=""FRANCE"")"
+fairdiplomacy/action_generation_test.py,83,"Game(,pydipcc.Game",        game = pydipcc.Game()
+fairdiplomacy/action_generation_test.py,84,set_orders,"        game.set_orders(""FRANCE"", [""A MAR - SPA""])"
+fairdiplomacy/action_generation_test.py,85,process,        game.process()
+fairdiplomacy/action_generation_test.py,106,"Game(,pydipcc.Game",        game = pydipcc.Game()
+fairdiplomacy/action_generation_test.py,107,set_orders,"        game.set_orders(""FRANCE"", [""A MAR - SPA""])"
+fairdiplomacy/action_generation_test.py,108,process,        game.process()
+fairdiplomacy/action_generation_test.py,139,"from_json,pydipcc.Game",            game = pydipcc.Game.from_json(stream.read())
+fairdiplomacy/action_generation_test.py,180,"from_json,pydipcc.Game",            game = pydipcc.Game.from_json(stream.read())
+fairdiplomacy/action_generation_test.py,185,get_all_possible_orders,"            self.assertIn(loc, game.get_all_possible_orders())"
+fairdiplomacy/action_generation.py,212,get_all_possible_orders,"def get_all_possible_orders(game, power, max_actions=0):"
+fairdiplomacy/action_generation.py,335,get_all_possible_orders,    loc2orders = game.get_all_possible_orders()
+fairdiplomacy/action_generation.py,337,get_orderable_locations,    # Iterate over location in get_orderable_locations will order consistent
+fairdiplomacy/action_generation.py,340,get_orderable_locations,    for loc in game.get_orderable_locations()[power]:
+fairdiplomacy/action_generation.py,341,get_all_possible_orders,        # get_all_possible_orders returns some things that are not in the vocab
+fairdiplomacy/action_generation.py,390,get_orderable_locations,    power_locs = frozenset(game.get_orderable_locations()[power])
+fairdiplomacy/action_generation.py,427,get_orderable_locations,    good_locs = sorted(game.get_orderable_locations()[power])
+fairdiplomacy/action_generation.py,496,get_all_possible_orders,def get_all_possible_orders_fast(
+fairdiplomacy/action_generation.py,499,get_orderable_locations,    good_locs = game.get_orderable_locations()[power]
+fairdiplomacy/action_generation.py,613,pydipcc.Game,"    game: pydipcc.Game,"
+fairdiplomacy/action_generation.py,628,get_all_possible_orders,                    get_all_possible_orders_fast(
+fairdiplomacy/action_exploration.py,112,pydipcc.Game,"    game: pydipcc.Game,"
+fairdiplomacy/action_exploration.py,182,"Game(,pydipcc.Game",                    step_game = pydipcc.Game(game)
+fairdiplomacy/action_exploration.py,185,set_orders,"                            step_game.set_orders(power, action)"
+fairdiplomacy/action_exploration.py,187,set_orders,"                            step_game.set_orders(power, power_actions[i])"
+fairdiplomacy/action_exploration.py,188,process,                    step_game.process()
+fairdiplomacy/action_exploration.py,223,"Game(,pydipcc.Game",            step_game = pydipcc.Game(game)
+fairdiplomacy/action_exploration.py,224,set_orders,"            step_game.set_orders(""AUSTRIA"", aa)"
+fairdiplomacy/action_exploration.py,225,set_orders,"            step_game.set_orders(""FRANCE"", af)"
+fairdiplomacy/action_exploration.py,226,process,            step_game.process()
+fairdiplomacy/action_exploration.py,246,set_orders,    set_orders_dicts = []
+fairdiplomacy/action_exploration.py,252,set_orders,            set_orders_dicts.append(orders)
+fairdiplomacy/action_exploration.py,256,set_orders,"            game, agent_power=agent_power, set_orders_dicts=set_orders_dicts"
+fairdiplomacy/action_exploration.py,311,"Game(,pydipcc.Game",            step_game = pydipcc.Game(game)
+fairdiplomacy/action_exploration.py,312,set_orders,"            step_game.set_orders(""AUSTRIA"", a_actions[i])"
+fairdiplomacy/action_exploration.py,313,set_orders,"            step_game.set_orders(""FRANCE"", f_actions[j])"
+fairdiplomacy/action_exploration.py,314,process,            step_game.process()
+fairdiplomacy/action_exploration.py,360,set_orders,    set_orders_dicts = []
+fairdiplomacy/action_exploration.py,371,set_orders,            set_orders_dicts.append(orders)
+fairdiplomacy/action_exploration.py,376,set_orders,"            game, agent_power=None, set_orders_dicts=set_orders_dicts"
+fairdiplomacy/action_exploration.py,394,pydipcc.Game,"    game: pydipcc.Game,"
+fairdiplomacy/action_exploration.py,447,process,"            # to use inference time double oracle, since we are in the process of computing"
+fairdiplomacy/webdip/message_approval_cache_api.py,158,"from_json,pydipcc.Game",                game = pydipcc.Game.from_json(f.read())
+fairdiplomacy/webdip/message_approval_cache_api.py,552,"from_json,pydipcc.Game",            orig_game = pydipcc.Game.from_json(f.read())
+fairdiplomacy/webdip/message_approval_cache_api.py,633,pydipcc.Game,"    game: pydipcc.Game, agent_power: Power"
+fairdiplomacy/webdip/message_approval_cache_api.py,659,pydipcc.Game,"    game_fp: str, game: pydipcc.Game, agent_power: Power, db: Optional[int] = None"
+fairdiplomacy/utils/thread_pool_encoding.py,61,pydipcc.Game,"        self, game: pydipcc.Game, orders: Sequence[Order], input_version: int"
+fairdiplomacy/utils/thread_pool_encoding.py,69,pydipcc.Game,"    def encode_inputs(self, games: Sequence[pydipcc.Game], input_version: int) -> DataFields:"
+fairdiplomacy/utils/thread_pool_encoding.py,80,pydipcc.Game,"        self, games: Sequence[pydipcc.Game], input_version: int"
+fairdiplomacy/utils/thread_pool_encoding.py,92,pydipcc.Game,"        self, games: Sequence[pydipcc.Game], input_version: int"
+fairdiplomacy/utils/thread_pool_encoding.py,120,"process,pydipcc.Game","    def process_multi(self, games: Sequence[pydipcc.Game]) -> None:"
+fairdiplomacy/utils/thread_pool_encoding.py,121,process,        self.thread_pool.process_multi(games)
+fairdiplomacy/utils/parlai_multi_gpu_wrappers.py,18,process,from fairdiplomacy.utils.multiprocessing_spawn_context import get_multiprocessing_ctx
+fairdiplomacy/utils/parlai_multi_gpu_wrappers.py,22,process,mp = get_multiprocessing_ctx()
+fairdiplomacy/utils/parlai_multi_gpu_wrappers.py,36,pydipcc.Game,"        self, func_name: str, game: Optional[pydipcc.Game], *args, **kwargs"
+fairdiplomacy/utils/parlai_multi_gpu_wrappers.py,65,process,        return MultiProcessParlaiExecutor(
+fairdiplomacy/utils/parlai_multi_gpu_wrappers.py,85,pydipcc.Game,"        self, func_name: str, game: Optional[pydipcc.Game], *args, **kwargs"
+fairdiplomacy/utils/parlai_multi_gpu_wrappers.py,105,process,class MultiProcessParlaiExecutor(ParlaiExecutor):
+fairdiplomacy/utils/parlai_multi_gpu_wrappers.py,113,process,"        assert _THE_MODEL is None, ""Expected the model to be non-loaded in the main process"""
+fairdiplomacy/utils/parlai_multi_gpu_wrappers.py,120,process,"            logging.info(""Building MultiProcessParlaiExecutor for %d devices"", self._num_workers)"
+fairdiplomacy/utils/parlai_multi_gpu_wrappers.py,121,process,            self._executor = concurrent.futures.ProcessPoolExecutor(
+fairdiplomacy/utils/parlai_multi_gpu_wrappers.py,134,process,"                ""Building MultiProcessParlaiExecutor for model dispatched to device %d"", gpu_id"
+fairdiplomacy/utils/parlai_multi_gpu_wrappers.py,136,process,            self._executor = concurrent.futures.ProcessPoolExecutor(
+fairdiplomacy/utils/parlai_multi_gpu_wrappers.py,147,process,            # This means that the subprocesses were waited on inside the constructor
+fairdiplomacy/utils/parlai_multi_gpu_wrappers.py,155,pydipcc.Game,"        self, func_name: str, game: Optional[pydipcc.Game], *args, **kwargs"
+fairdiplomacy/utils/parlai_multi_gpu_wrappers.py,179,process,"        print(""Sunsetting the process pool for"", self.cfg)"
+fairdiplomacy/utils/parlai_multi_gpu_wrappers.py,189,process,"    # gets initialized. From the perspective of this process, there's just a single"
+fairdiplomacy/utils/parlai_multi_gpu_wrappers.py,196,process,"    logging.info(f""Process {os.getpid()} : Done loading"")"
+fairdiplomacy/utils/parlai_multi_gpu_wrappers.py,201,process,"    assert _THE_MODEL is not None, f""Model is not loaded in process {os.getpid()}"""
+fairdiplomacy/utils/parlai_multi_gpu_wrappers.py,207,process,"    assert _THE_MODEL is not None, f""Model is not loaded in process {os.getpid()}"""
+fairdiplomacy/utils/parlai_multi_gpu_wrappers.py,211,"from_json,pydipcc.Game",        game = pydipcc.Game.from_json(game_json)
+fairdiplomacy/utils/parlai_multi_gpu_wrappers.py,222,process,"    assert _THE_MODEL is not None, f""Model is not loaded in process {os.getpid()}"""
+fairdiplomacy/utils/order_idxs.py,364,get_orderable_locations,    orderable_locations = game.get_orderable_locations()
+fairdiplomacy/utils/order_idxs.py,365,get_all_possible_orders,    all_possible_orders = game.get_all_possible_orders()
+fairdiplomacy/utils/multiprocessing_spawn_context.py,7,process,import torch.multiprocessing as mp
+fairdiplomacy/utils/multiprocessing_spawn_context.py,12,process,def get_multiprocessing_ctx():
+fairdiplomacy/utils/multiprocessing_spawn_context.py,13,process,"    """"""Get an instance of torch.multiprocessing that uses the ""spawn"" context method."
+fairdiplomacy/utils/multiprocessing_spawn_context.py,14,process,  The instance returned is distinct from multiprocessing or torch.multiprocessing. This is to avoid clashing
+fairdiplomacy/utils/multiprocessing_spawn_context.py,16,process,"  multiprocessing to something other than ""spawn""."""""""
+fairdiplomacy/utils/jupyter.py,24,from_json,from fairdiplomacy.utils.game_scoring import get_game_result_from_json
+fairdiplomacy/utils/jupyter.py,113,from_json,            result = get_game_result_from_json(path)
+fairdiplomacy/utils/jupyter.py,144,Game(,    game = Game(game)
+fairdiplomacy/utils/jupyter.py,146,set_orders,"        game.set_orders(power, joint_action[power])"
+fairdiplomacy/utils/jupyter.py,147,process,    game.process()
+fairdiplomacy/utils/jupyter.py,151,Game(,"def load_game(path: Union[pathlib.Path, str]) -> Game:"
+fairdiplomacy/utils/jupyter.py,154,from_json,        game = Game.from_json(f.read())
+fairdiplomacy/utils/jupyter.py,160,set_orders,"        game.set_orders(power, orders)"
+fairdiplomacy/utils/h2h_sweep.py,145,process,"    def postprocess(self, data: List[Dict]):"
+fairdiplomacy/utils/h2h_sweep.py,354,process,        maybe_df_dict = self.postprocess(data)
+fairdiplomacy/utils/game_scoring.py,127,from_json,def get_game_result_from_json(game_json_path):
+fairdiplomacy/utils/game.py,31,pydipcc.Game,"def game_from_view_of(game: pydipcc.Game, power: Power) -> pydipcc.Game:"
+fairdiplomacy/utils/game.py,37,"Game(,pydipcc.Game",        return pydipcc.Game(game)
+fairdiplomacy/utils/game.py,50,"from_json,pydipcc.Game",    new_game = pydipcc.Game.from_json(json.dumps(j))
+fairdiplomacy/utils/game.py,55,"add_message,pydipcc.Game","    game: pydipcc.Game, power_one: Power, power_two: Power, *, add_message_to_all: bool = True"
+fairdiplomacy/utils/game.py,56,pydipcc.Game,) -> pydipcc.Game:
+fairdiplomacy/utils/game.py,74,add_message,        if add_message_to_all:
+fairdiplomacy/utils/game.py,86,"from_json,pydipcc.Game",    new_game = pydipcc.Game.from_json(json.dumps(j))
+fairdiplomacy/utils/game.py,90,pydipcc.Game,"def assert_game_from_view_of(game: pydipcc.Game, power: Power) -> None:"
+fairdiplomacy/utils/game.py,125,pydipcc.Game,def get_game_draw_state(game: pydipcc.Game) -> CurrentDrawState:
+fairdiplomacy/utils/game.py,141,pydipcc.Game,"    game: pydipcc.Game, a: Power, b: Power, current_phase_only: bool = False"
+fairdiplomacy/utils/game.py,155,pydipcc.Game,"    game: pydipcc.Game, power: Power, current_phase_only: bool = False"
+fairdiplomacy/utils/game.py,168,pydipcc.Game,"def is_replying_to(game: pydipcc.Game, a: Power, b: Power) -> bool:"
+fairdiplomacy/utils/game.py,175,pydipcc.Game,"    game: pydipcc.Game, order: Order, other_power: Power"
+fairdiplomacy/utils/game.py,208,pydipcc.Game,"def action_has_any_direct_attack(game: pydipcc.Game, action: Action, other_power: Power) -> bool:"
+fairdiplomacy/utils/game.py,250,pydipcc.Game,"    game: pydipcc.Game, action: Action, other_power: Power, other_power_action: Action"
+fairdiplomacy/utils/exception_handling_process.py,10,process,from fairdiplomacy.utils.multiprocessing_spawn_context import get_multiprocessing_ctx
+fairdiplomacy/utils/exception_handling_process.py,12,process,mp = get_multiprocessing_ctx()
+fairdiplomacy/utils/exception_handling_process.py,14,process,# mostly from https://stackoverflow.com/questions/19924104/python-multiprocessing-handling-child-errors-in-parent
+fairdiplomacy/utils/exception_handling_process.py,15,process,class ExceptionHandlingProcess(mp.Process):
+fairdiplomacy/utils/exception_handling_process.py,16,process,"    """"""A process that propagates exceptions back to the parent on join()."""""""
+fairdiplomacy/utils/base_strategy_model_multi_gpu_wrappers.py,15,process,from fairdiplomacy.utils.multiprocessing_spawn_context import get_multiprocessing_ctx
+fairdiplomacy/utils/base_strategy_model_multi_gpu_wrappers.py,21,process,mp = get_multiprocessing_ctx()
+fairdiplomacy/utils/base_strategy_model_multi_gpu_wrappers.py,28,process,class MultiProcessBaseStrategyModelExecutor:
+fairdiplomacy/utils/base_strategy_model_multi_gpu_wrappers.py,35,process,"        assert _THE_MODEL is None, ""Expected the model to be non-loaded in the main process"""
+fairdiplomacy/utils/base_strategy_model_multi_gpu_wrappers.py,40,process,"            logging.info(""Buillding MultiProcessParlaiExecutor for %d devices"", self._num_workers)"
+fairdiplomacy/utils/base_strategy_model_multi_gpu_wrappers.py,41,process,            self._executor = concurrent.futures.ProcessPoolExecutor(
+fairdiplomacy/utils/base_strategy_model_multi_gpu_wrappers.py,64,pydipcc.Game,"        self, func_name: str, games: List[pydipcc.Game], *args, **kwargs"
+fairdiplomacy/utils/base_strategy_model_multi_gpu_wrappers.py,74,"set_orders,pydipcc.Game","    def rollout(self, game: pydipcc.Game, agent_power, set_orders_dicts, player_rating):"
+fairdiplomacy/utils/base_strategy_model_multi_gpu_wrappers.py,76,set_orders,            player_ratings = [player_rating] * len(set_orders_dicts)
+fairdiplomacy/utils/base_strategy_model_multi_gpu_wrappers.py,87,set_orders,"                    set_orders_dicts=set_orders_dicts,"
+fairdiplomacy/utils/base_strategy_model_multi_gpu_wrappers.py,96,set_orders,"                set_orders_dicts=set_orders_dicts,"
+fairdiplomacy/utils/base_strategy_model_multi_gpu_wrappers.py,108,process,"            logging.info(f""Sunsetting the process pool for {self._model.model_path}"")"
+fairdiplomacy/utils/base_strategy_model_multi_gpu_wrappers.py,122,process,"    logging.info(f""Process {os.getpid()}: Done loading"")"
+fairdiplomacy/utils/base_strategy_model_multi_gpu_wrappers.py,127,process,"    assert _THE_MODEL is not None, f""Model is not loaded in this process ({os.getpid()})"""
+fairdiplomacy/utils/base_strategy_model_multi_gpu_wrappers.py,128,"from_json,pydipcc.Game",    games = [pydipcc.Game.from_json(game_json) for game_json in game_jsons]
+fairdiplomacy/utils/base_strategy_model_multi_gpu_wrappers.py,136,process,"    assert _THE_ROLLOUT is not None, ""Model is not loaded in this process"""
+fairdiplomacy/utils/base_strategy_model_multi_gpu_wrappers.py,137,"from_json,pydipcc.Game",    game = pydipcc.Game.from_json(game_json)
+fairdiplomacy/utils/__init__.py,8,process,from .exception_handling_process import ExceptionHandlingProcess
+fairdiplomacy/selfplay/remote_metric_logger.py,9,process,The main process should initialize MetricLoggingServer that will spawn a
+fairdiplomacy/selfplay/remote_metric_logger.py,10,process,logging process. This process will start a ZMQ server on random port.
+fairdiplomacy/selfplay/remote_metric_logger.py,28,process,from fairdiplomacy.utils.exception_handling_process import ExceptionHandlingProcess
+fairdiplomacy/selfplay/remote_metric_logger.py,103,process,        self.p = ExceptionHandlingProcess(
+fairdiplomacy/selfplay/model_server.py,17,process,from fairdiplomacy.utils.multiprocessing_spawn_context import get_multiprocessing_ctx
+fairdiplomacy/selfplay/model_server.py,20,process,mp = get_multiprocessing_ctx()
+fairdiplomacy/selfplay/exploit_test.py,51,"Game(,pydipcc.Game",        game = pydipcc.Game()
+fairdiplomacy/selfplay/exploit_test.py,135,"Game(,pydipcc.Game",        game = pydipcc.Game()
+fairdiplomacy/selfplay/exploit_test.py,141,get_orderable_locations,"        for power, locs in game.get_orderable_locations().items():"
+fairdiplomacy/selfplay/exploit_test.py,142,get_all_possible_orders,            action = tuple(game.get_all_possible_orders()[loc][0] for loc in locs)
+fairdiplomacy/selfplay/exploit_test.py,222,"Game(,pydipcc.Game",        game = pydipcc.Game()
+fairdiplomacy/selfplay/exploit_test.py,228,get_orderable_locations,"        for power, locs in game.get_orderable_locations().items():"
+fairdiplomacy/selfplay/exploit_test.py,229,get_all_possible_orders,            action = tuple(game.get_all_possible_orders()[loc][0] for loc in locs)
+fairdiplomacy/selfplay/exploit.py,49,process,from fairdiplomacy.utils.exception_handling_process import ExceptionHandlingProcess
+fairdiplomacy/selfplay/exploit.py,50,process,from fairdiplomacy.utils.multiprocessing_spawn_context import get_multiprocessing_ctx
+fairdiplomacy/selfplay/exploit.py,55,process,mp = get_multiprocessing_ctx()
+fairdiplomacy/selfplay/exploit.py,185,process,        # This constructor is called by 3 different sets of processes. See ExecutionContext
+fairdiplomacy/selfplay/exploit.py,186,process,"        # On data generation workers (additional processes directly spawned by slurm), heyhi.is_master() is false."
+fairdiplomacy/selfplay/exploit.py,209,process,"                    f""This is a training master process, rank {self.ectx.training_ddp_rank}"""
+fairdiplomacy/selfplay/exploit.py,213,process,"                    f""This is a training helper process, rank {self.ectx.training_ddp_rank}"""
+fairdiplomacy/selfplay/exploit.py,425,process,"            logging.info(f""Using {torch_ddp_init_fname} to coordinate launch of ddp processes."")"
+fairdiplomacy/selfplay/exploit.py,427,process,            torch.distributed.init_process_group(
+fairdiplomacy/selfplay/exploit.py,506,process,"        # After this returns, we're in the master process or training helper processes only."
+fairdiplomacy/selfplay/exploit.py,1250,process,                process = ExceptionHandlingProcess(
+fairdiplomacy/selfplay/exploit.py,1255,process,                process.start()
+fairdiplomacy/selfplay/exploit.py,1256,process,                training_helpers.append(process)
+fairdiplomacy/selfplay/exploit.py,1270,process,        for process in training_helpers:
+fairdiplomacy/selfplay/exploit.py,1272,process,            process.kill()
+fairdiplomacy/selfplay/execution_context.py,10,process,# Exploit trainer is called by 3 sets of processes.
+fairdiplomacy/selfplay/execution_context.py,11,process,# This class summaries the info identifying which process is which kind.
+fairdiplomacy/models/state_space.py,162,pydipcc.Game,    sorted_locs = pydipcc.Game.LOC_STRS[:]
+fairdiplomacy/models/state_space.py,182,pydipcc.Game,    locs = pydipcc.Game.LOC_STRS[:]
+fairdiplomacy/models/preprocess_adjacency.py,29,process,def preprocess_adjacency(adjacency_matrix):
+fairdiplomacy/models/consts.py,12,process,from .preprocess_adjacency import preprocess_adjacency
+fairdiplomacy/models/consts.py,14,pydipcc.Game,LOCS = pydipcc.Game.LOC_STRS[:]
+fairdiplomacy/models/consts.py,106,process,ADJACENCY_MATRIX = preprocess_adjacency(get_adjacency_matrix())
+fairdiplomacy/data/dataset_test.py,28,Game(,"        features = encoder.encode_inputs([Game()] * 6, input_version=1)"
+fairdiplomacy/data/dataset_test.py,34,Game(,"        features = encoder.encode_inputs([Game()] * 6, input_version=1)"
+fairdiplomacy/data/dataset_test.py,45,Game(,"        features = encoder.encode_inputs_all_powers([Game()], input_version=1)"
+fairdiplomacy/data/dataset.py,300,Game(,def encode_game(
+fairdiplomacy/data/dataset.py,319,from_json,        game = Game.from_json(game_json)
+fairdiplomacy/data/build_db_cache.py,71,process,        val_dataset.preprocess()
+fairdiplomacy/data/build_db_cache.py,77,process,    train_dataset.preprocess()
+fairdiplomacy/data/build_dataset.py,307,Game(,"def check_is_good_game(db, game_id) -> None:"
+fairdiplomacy/data/build_dataset.py,464,"process,Game(","def process_game(db, game_id, message_json, log_path=None):"
+fairdiplomacy/data/build_dataset.py,465,"process,Game(","    """"""Search db for moves from `game_id` and process them through a Game()"
+fairdiplomacy/data/build_dataset.py,466,process,    Return a Game object with all moves processed
+fairdiplomacy/data/build_dataset.py,476,process,        unprocessed_message_turns = list(messages_by_turn.keys())
+fairdiplomacy/data/build_dataset.py,480,process,            if turn not in unprocessed_message_turns:
+fairdiplomacy/data/build_dataset.py,488,Game(,"    game = Game(is_full_press=get_is_full_press(db, game_id))"
+fairdiplomacy/data/build_dataset.py,501,process,                unprocessed_message_turns.remove(turn)
+fairdiplomacy/data/build_dataset.py,511,process,        # process movements
+fairdiplomacy/data/build_dataset.py,516,process,"        logging.getLogger(""p"").debug(""process {}"".format(game.phase))"
+fairdiplomacy/data/build_dataset.py,517,process,        game.process()
+fairdiplomacy/data/build_dataset.py,519,process,"            ""post-process units: {}"".format(pformat(game.get_state()[""units""]))"
+fairdiplomacy/data/build_dataset.py,522,process,        # process retreat phase messages -- note that the Game object may be
+fairdiplomacy/data/build_dataset.py,529,process,        # process all retreats
+fairdiplomacy/data/build_dataset.py,535,get_orderable_locations,                loc for locs in game.get_orderable_locations().values() for loc in locs
+fairdiplomacy/data/build_dataset.py,549,process,"            # if there is a disband for this loc, process it in the retreat phase"
+fairdiplomacy/data/build_dataset.py,556,process,            # don't process if we are in the game over phase and there are no
+fairdiplomacy/data/build_dataset.py,557,process,            # orders to process this phase
+fairdiplomacy/data/build_dataset.py,559,process,"                logging.getLogger(""p"").debug(""process {}"".format(game.phase))"
+fairdiplomacy/data/build_dataset.py,560,process,                game.process()
+fairdiplomacy/data/build_dataset.py,563,process,"                ""post-process units: {}"".format(pformat(game.get_state()[""units""]))"
+fairdiplomacy/data/build_dataset.py,566,process,        # process A-phase messages -- note that the Game object may be
+fairdiplomacy/data/build_dataset.py,573,process,"        # process builds, remaining disbands"
+fairdiplomacy/data/build_dataset.py,576,process,"            logging.getLogger(""p"").debug(""process {}"".format(game.phase))"
+fairdiplomacy/data/build_dataset.py,578,process,            # don't process if we are in the game over phase and there are no
+fairdiplomacy/data/build_dataset.py,579,process,            # orders to process this phase
+fairdiplomacy/data/build_dataset.py,581,process,                game.process()
+fairdiplomacy/data/build_dataset.py,584,process,"                ""post-process units: {}"".format(pformat(game.get_state()[""units""]))"
+fairdiplomacy/data/build_dataset.py,587,process,    if message_json is not None and len(unprocessed_message_turns) > 0:
+fairdiplomacy/data/build_dataset.py,589,process,        for msg_turn in unprocessed_message_turns:
+fairdiplomacy/data/build_dataset.py,596,process,"                    f""Unprocessed message turn {msg_turn} for game {game_id} (last game turn was {turn})"""
+fairdiplomacy/data/build_dataset.py,599,process,"    game = maybe_process_dangling_retreat_phase(game, game_id=game_id)"
+fairdiplomacy/data/build_dataset.py,633,process,"def maybe_process_dangling_retreat_phase(game: Game, game_id=None) -> Game:"
+fairdiplomacy/data/build_dataset.py,636,process,"    was played, and process that phase with fake disband orders."
+fairdiplomacy/data/build_dataset.py,644,Game(,    game_bak = Game(game)
+fairdiplomacy/data/build_dataset.py,645,get_orderable_locations,"    for power, locs in game.get_orderable_locations().items():"
+fairdiplomacy/data/build_dataset.py,647,get_all_possible_orders,        orders = [game.get_all_possible_orders()[loc][-1] for loc in locs]
+fairdiplomacy/data/build_dataset.py,649,set_orders,"            game.set_orders(power, orders)"
+fairdiplomacy/data/build_dataset.py,650,process,    game.process()
+fairdiplomacy/data/build_dataset.py,655,process,"        logging.debug(f""maybe_process_dangling_retreat_phase completed {game_id}"")"
+fairdiplomacy/data/build_dataset.py,733,add_message,        game.add_message(
+fairdiplomacy/data/build_dataset.py,772,get_all_possible_orders,            possible_orders = set(game.get_all_possible_orders()[split[1]])
+fairdiplomacy/data/build_dataset.py,784,process,                    # a disband that has already been processed. This sometimes
+fairdiplomacy/data/build_dataset.py,804,get_all_possible_orders,"            assert order in game.get_all_possible_orders()[loc], ("
+fairdiplomacy/data/build_dataset.py,807,get_all_possible_orders,"                game.get_all_possible_orders()[loc],"
+fairdiplomacy/data/build_dataset.py,811,set_orders,"        game.set_orders(power, orders)"
+fairdiplomacy/data/build_dataset.py,922,"process,Game(",def process_and_save_game(
+fairdiplomacy/data/build_dataset.py,926,process,    Process and save game.
+fairdiplomacy/data/build_dataset.py,952,Game(,"        check_is_good_game(db, sql_game_id)"
+fairdiplomacy/data/build_dataset.py,954,"process,Game(","        game = process_game(db, sql_game_id, message_json, log_path=log_path)"
+fairdiplomacy/data/build_dataset.py,957,process,"            ""Exception processing game with new ID {}"".format(sql_game_id)"
+fairdiplomacy/data/build_dataset.py,1060,process,"        help=""Re-process and overwrite existing game.json files"","
+fairdiplomacy/data/build_dataset.py,1075,process,"        ""--limit-n-games"", type=int, default=None, help=""Process only the first N games found"""
+fairdiplomacy/data/build_dataset.py,1094,process,"            joblib.delayed(process_and_save_game)(sql_game_id, args.db_path, all_games_out_dir)"
+fairdiplomacy/data/build_dataset.py,1100,"process,Game(","            retval = process_and_save_game(sql_game_id, args.db_path, all_games_out_dir)"
+fairdiplomacy/data/build_dataset.py,1103,process,"    logging.info(f""Initial game processing completed. STDOUT written to file: {STDOUT}"")"
+fairdiplomacy/annotate/lie_detection.py,37,process,    # check for pre-processed cache
+fairdiplomacy/agents/the_best_agent.py,406,set_orders,"                            set_orders_dicts=joint_sampled_actions,"
+fairdiplomacy/agents/the_best_agent.py,436,get_orderable_locations,        # if early_exit_for_power and len(game.get_orderable_locations()[early_exit_for_power]) == 0:
+fairdiplomacy/agents/the_best_agent.py,511,set_orders,"                    set_orders_dicts=policy.power_action_dicts,"
+fairdiplomacy/agents/the_best_agent.py,530,set_orders,"                    set_orders_dicts=selected_power_action_dict,"
+fairdiplomacy/agents/searchbot_agent_test.py,29,Game(,        game = Game()
+fairdiplomacy/agents/searchbot_agent_test.py,38,Game(,        game = Game()
+fairdiplomacy/agents/searchbot_agent_test.py,45,Game(,        game = Game()
+fairdiplomacy/agents/searchbot_agent_test.py,53,Game(,        game = Game()
+fairdiplomacy/agents/searchbot_agent_test.py,54,set_orders,"        game.set_orders(""AUSTRIA"", [""A BUD - SER""])"
+fairdiplomacy/agents/searchbot_agent_test.py,55,process,        game.process()
+fairdiplomacy/agents/searchbot_agent_test.py,56,process,        game.process()
+fairdiplomacy/agents/searchbot_agent_test.py,73,Game(,        game = Game()
+fairdiplomacy/agents/searchbot_agent_test.py,74,set_orders,"        game.set_orders(""AUSTRIA"", [""A BUD - SER""])"
+fairdiplomacy/agents/searchbot_agent_test.py,75,process,        game.process()
+fairdiplomacy/agents/searchbot_agent_test.py,76,process,        game.process()
+fairdiplomacy/agents/searchbot_agent_test.py,98,Game(,        game = Game()
+fairdiplomacy/agents/searchbot_agent.py,34,set_orders,"    make_set_orders_dicts,"
+fairdiplomacy/agents/searchbot_agent.py,73,process,"    MultiProcessBaseStrategyModelExecutor,"
+fairdiplomacy/agents/searchbot_agent.py,480,process,            self.all_power_base_strategy_model_executor = MultiProcessBaseStrategyModelExecutor(
+fairdiplomacy/agents/searchbot_agent.py,747,get_orderable_locations,        if early_exit_for_power and len(game.get_orderable_locations()[early_exit_for_power]) == 0:
+fairdiplomacy/agents/searchbot_agent.py,803,set_orders,"                    set_orders_dicts=joint_orders,"
+fairdiplomacy/agents/searchbot_agent.py,837,set_orders,            set_orders_dicts = make_set_orders_dicts(
+fairdiplomacy/agents/searchbot_agent.py,846,set_orders,"                set_orders_dicts=set_orders_dicts,"
+fairdiplomacy/agents/searchbot_agent.py,1039,add_message,"            game, agent_power, recipient_power, add_message_to_all=False"
+fairdiplomacy/agents/searchbot_agent.py,1082,Game(,            cf_game = Game(game_2p)
+fairdiplomacy/agents/searchbot_agent.py,1083,add_message,            cf_game.add_message(
+fairdiplomacy/agents/searchbot_agent.py,1654,Game(,        game_future = Game(game)
+fairdiplomacy/agents/searchbot_agent.py,1700,process,            game_future.process()
+fairdiplomacy/agents/searchbot_agent.py,1879,set_orders,            set_orders_dicts = make_set_orders_dicts(
+fairdiplomacy/agents/searchbot_agent.py,1886,set_orders,"                set_orders_dicts=set_orders_dicts,"
+fairdiplomacy/agents/searchbot_agent.py,1966,set_orders,        set_orders_dicts = [
+fairdiplomacy/agents/searchbot_agent.py,1972,set_orders,"            game, agent_power=agent_power, set_orders_dicts=set_orders_dicts"
+fairdiplomacy/agents/searchbot_agent.py,2021,process,    def postprocess_sleep_heuristics_should_trigger(
+fairdiplomacy/agents/searchbot_agent.py,2024,process,"        logging.info(""Running postprocess_sleep_heuristics_should_trigger"")"
+fairdiplomacy/agents/searchbot_agent.py,2158,Game(,    game = Game()
+fairdiplomacy/agents/repro_agent.py,22,get_all_possible_orders,            x for lst in game.get_all_possible_orders().values() for x in lst
+fairdiplomacy/agents/random_agent.py,23,get_all_possible_orders,"            for loc, orders in game.get_all_possible_orders().items()"
+fairdiplomacy/agents/random_agent.py,24,get_orderable_locations,            if loc in game.get_orderable_locations()[power]
+fairdiplomacy/agents/press_br_agent.py,46,set_orders,        set_orders_dicts = [{} for _ in range(self.rollouts_per_plausible_order)]
+fairdiplomacy/agents/press_br_agent.py,61,set_orders,                    set_orders_dicts[i][opp_power] = action
+fairdiplomacy/agents/press_br_agent.py,65,set_orders,            random.shuffle(set_orders_dicts)
+fairdiplomacy/agents/press_br_agent.py,68,set_orders,        set_orders_dicts = [
+fairdiplomacy/agents/press_br_agent.py,70,set_orders,            for opp_dict in set_orders_dicts
+fairdiplomacy/agents/press_br_agent.py,84,set_orders,"                    set_orders_dicts=set_orders_dicts[(i * chunk_size) : ((i + 1) * chunk_size)],"
+fairdiplomacy/agents/plausible_order_sampling.py,109,pydipcc.Game,"    def get_plausible_order_limits(self, game: pydipcc.Game) -> List[int]:"
+fairdiplomacy/agents/plausible_order_sampling.py,129,pydipcc.Game,"    def log_orders(self, game: pydipcc.Game, policies: PowerPolicies, label: str = """") -> None:"
+fairdiplomacy/agents/plausible_order_sampling.py,142,pydipcc.Game,"        game: pydipcc.Game,"
+fairdiplomacy/agents/plausible_order_sampling.py,261,pydipcc.Game,"        game: pydipcc.Game,"
+fairdiplomacy/agents/plausible_order_sampling.py,395,pydipcc.Game,"        game: pydipcc.Game,"
+fairdiplomacy/agents/plausible_order_sampling.py,437,get_all_possible_orders,"                    for loc, orders in game.get_all_possible_orders().items()"
+fairdiplomacy/agents/plausible_order_sampling.py,439,get_orderable_locations,"                    if loc in game.get_orderable_locations().get(power, [])"
+fairdiplomacy/agents/plausible_order_sampling.py,470,pydipcc.Game,"        game: pydipcc.Game,"
+fairdiplomacy/agents/plausible_order_sampling.py,506,pydipcc.Game,"        game: pydipcc.Game,"
+fairdiplomacy/agents/plausible_order_sampling.py,520,pydipcc.Game,"        games: List[pydipcc.Game],"
+fairdiplomacy/agents/plausible_order_sampling.py,618,pydipcc.Game,"        game: pydipcc.Game,"
+fairdiplomacy/agents/parlai_order_handler.py,17,get_all_possible_orders,"def get_all_possible_orders_by_power(game) -> Dict[Power, List[Order]]:"
+fairdiplomacy/agents/parlai_order_handler.py,18,get_all_possible_orders,    all_possible_orders = game.get_all_possible_orders()
+fairdiplomacy/agents/parlai_order_handler.py,19,get_orderable_locations,    all_orderable_locs = game.get_orderable_locations()
+fairdiplomacy/agents/parlai_order_handler.py,103,get_all_possible_orders,        return get_all_possible_orders_by_power(game)
+fairdiplomacy/agents/parlai_message_handler.py,38,get_all_possible_orders,"    get_all_possible_orders_by_power,"
+fairdiplomacy/agents/parlai_message_handler.py,98,pydipcc.Game,"        game: pydipcc.Game,"
+fairdiplomacy/agents/parlai_message_handler.py,142,pydipcc.Game,"    def get_recipient_sleep_time(self, game: pydipcc.Game) -> Tuple[Power, Timestamp]:"
+fairdiplomacy/agents/parlai_message_handler.py,401,get_all_possible_orders,        possible_orders = get_all_possible_orders_by_power(game)
+fairdiplomacy/agents/parlai_message_handler.py,1031,Game(,    game = Game(game)
+fairdiplomacy/agents/parlai_message_handler.py,1057,add_message,"        game.add_message(m[""sender""], m[""recipient""], m[""message""], next_timestamp)"
+fairdiplomacy/agents/br_search_agent.py,45,pydipcc.Game,"    def get_orders(self, game: pydipcc.Game, power: Power, state: AgentState) -> Action:"
+fairdiplomacy/agents/br_search_agent.py,47,pydipcc.Game,"        assert isinstance(game, pydipcc.Game)"
+fairdiplomacy/agents/br_search_agent.py,62,set_orders,"            set_orders_dicts=[{power: orders} for orders in plausible_orders],"
+fairdiplomacy/agents/br_search_agent.py,72,set_orders,"        - results: List[Tuple[set_orders_dict, all_scores]], where"
+fairdiplomacy/agents/br_search_agent.py,73,set_orders,"            -> set_orders_dict: Dict[power, orders] on first turn"
+fairdiplomacy/agents/br_search_agent.py,83,set_orders,"        for set_orders_dict, all_scores in results:"
+fairdiplomacy/agents/br_search_agent.py,84,set_orders,            orders = set_orders_dict[power]
+fairdiplomacy/agents/br_corr_bilateral_search.py,31,process,"    MultiProcessBaseStrategyModelExecutor,"
+fairdiplomacy/agents/br_corr_bilateral_search.py,128,process,"    all_power_base_strategy_model: MultiProcessBaseStrategyModelExecutor,"
+fairdiplomacy/agents/br_corr_bilateral_search.py,129,pydipcc.Game,"    game: pydipcc.Game,"
+fairdiplomacy/agents/br_corr_bilateral_search.py,219,pydipcc.Game,"    game: pydipcc.Game,"
+fairdiplomacy/agents/br_corr_bilateral_search.py,302,pydipcc.Game,"    game: pydipcc.Game,"
+fairdiplomacy/agents/br_corr_bilateral_search.py,307,process,"    all_power_base_strategy_model: MultiProcessBaseStrategyModelExecutor,"
+fairdiplomacy/agents/br_corr_bilateral_search.py,359,pydipcc.Game,"    game: pydipcc.Game,"
+fairdiplomacy/agents/br_corr_bilateral_search.py,360,process,"    all_power_base_strategy_model: MultiProcessBaseStrategyModelExecutor,"
+fairdiplomacy/agents/br_corr_bilateral_search.py,452,pydipcc.Game,"    power_policies: PowerPolicies, game: pydipcc.Game"
+fairdiplomacy/agents/br_corr_bilateral_search.py,464,get_orderable_locations,    orderable_locations = game.get_orderable_locations()
+fairdiplomacy/agents/br_corr_bilateral_search.py,465,get_all_possible_orders,    all_possible_orders = game.get_all_possible_orders()
+fairdiplomacy/agents/br_corr_bilateral_search.py,518,pydipcc.Game,"    game: pydipcc.Game,"
+fairdiplomacy/agents/br_corr_bilateral_search.py,543,add_message,"            game_from_two_party_view(game, agent_power, opponent, add_message_to_all=False)"
+fairdiplomacy/agents/br_corr_bilateral_search.py,555,pydipcc.Game,"    game: pydipcc.Game,"
+fairdiplomacy/agents/br_corr_bilateral_search.py,556,process,"    all_power_base_strategy_model: MultiProcessBaseStrategyModelExecutor,"
+fairdiplomacy/agents/br_corr_bilateral_search.py,561,process,"    """"""Compute base_strategy_model rollouts on for joint_actions with MultiProcessBaseStrategyModelExecutor"
+fairdiplomacy/agents/br_corr_bilateral_search.py,579,set_orders,"                set_orders_dicts=joint_actions_per_worker,"
+fairdiplomacy/agents/bqre1p_agent_test.py,37,Game(,        game = Game()
+fairdiplomacy/agents/bqre1p_agent_test.py,55,Game(,        game = Game()
+fairdiplomacy/agents/bqre1p_agent_test.py,62,Game(,        game = Game()
+fairdiplomacy/agents/bqre1p_agent_test.py,63,set_orders,"        game.set_orders(""AUSTRIA"", [""A BUD - SER""])"
+fairdiplomacy/agents/bqre1p_agent_test.py,64,process,        game.process()
+fairdiplomacy/agents/bqre1p_agent_test.py,65,process,        game.process()
+fairdiplomacy/agents/bqre1p_agent_test.py,83,Game(,        game = Game()
+fairdiplomacy/agents/bqre1p_agent_test.py,84,set_orders,"        game.set_orders(""AUSTRIA"", [""A BUD - SER""])"
+fairdiplomacy/agents/bqre1p_agent_test.py,85,process,        game.process()
+fairdiplomacy/agents/bqre1p_agent_test.py,86,process,        game.process()
+fairdiplomacy/agents/bqre1p_agent.py,23,set_orders,"    make_set_orders_dicts,"
+fairdiplomacy/agents/bqre1p_agent.py,474,pydipcc.Game,"    def _get_scale_pow_lambdas(self, game: pydipcc.Game) -> Tuple[float, float]:"
+fairdiplomacy/agents/bqre1p_agent.py,490,pydipcc.Game,"        self, game: pydipcc.Game, agent_power: Optional[Power], agent_state: Optional[AgentState]"
+fairdiplomacy/agents/bqre1p_agent.py,504,set_orders,"            # Shape [len(set_orders_dicts), num_powers, num_value_functions]."
+fairdiplomacy/agents/bqre1p_agent.py,508,set_orders,"                set_orders_dicts=[{}] * self.dynamic_lambda_stdev_num_samples,"
+fairdiplomacy/agents/bqre1p_agent.py,546,pydipcc.Game,"        game: pydipcc.Game,"
+fairdiplomacy/agents/bqre1p_agent.py,572,pydipcc.Game,"        game: pydipcc.Game,"
+fairdiplomacy/agents/bqre1p_agent.py,585,get_orderable_locations,        if early_exit_for_power and len(game.get_orderable_locations()[early_exit_for_power]) == 0:
+fairdiplomacy/agents/bqre1p_agent.py,693,set_orders,"            set_orders_dicts = make_set_orders_dicts(plausible_orders, power_sampled_orders)"
+fairdiplomacy/agents/bqre1p_agent.py,697,set_orders,            all_set_orders_dicts = list(set_orders_dicts)
+fairdiplomacy/agents/bqre1p_agent.py,702,set_orders,"                    set_orders_dicts=set_orders_dicts,"
+fairdiplomacy/agents/bqre1p_agent.py,715,set_orders,"                pwr_set_order_dicts, all_set_orders_dicts = ("
+fairdiplomacy/agents/bqre1p_agent.py,716,set_orders,"                    all_set_orders_dicts[: len(actions)],"
+fairdiplomacy/agents/bqre1p_agent.py,717,set_orders,"                    all_set_orders_dicts[len(actions) :],"
+fairdiplomacy/agents/bqre1p_agent.py,832,pydipcc.Game,"        game: pydipcc.Game,"
+fairdiplomacy/agents/bqre1p_agent.py,850,get_orderable_locations,        if early_exit_for_power and len(game.get_orderable_locations()[early_exit_for_power]) == 0:
+fairdiplomacy/agents/bqre1p_agent.py,1043,pydipcc.Game,"        game: pydipcc.Game,"
+fairdiplomacy/agents/bqre1p_agent.py,1056,get_orderable_locations,        if early_exit_for_power and len(game.get_orderable_locations()[early_exit_for_power]) == 0:
+fairdiplomacy/agents/bqre1p_agent.py,1211,pydipcc.Game,"        game: pydipcc.Game,"
+fairdiplomacy/agents/bqre1p_agent.py,1294,"Game(,pydipcc.Game",    game = pydipcc.Game()
+fairdiplomacy/agents/bilateral_stats.py,62,pydipcc.Game,"        self, game: pydipcc.Game, agent_power: Power, plausible_orders: PlausibleOrders,"
+fairdiplomacy/agents/base_strategy_model_wrapper_test.py,21,get_orderable_locations,        locs = game.get_orderable_locations()[power]
+fairdiplomacy/agents/base_strategy_model_wrapper_test.py,25,get_all_possible_orders,                tuple(random.choice(game.get_all_possible_orders()[loc]) for loc in locs)
+fairdiplomacy/agents/base_strategy_model_wrapper_test.py,40,"Game(,pydipcc.Game",    game = pydipcc.Game()
+fairdiplomacy/agents/base_strategy_model_wrapper_test.py,75,get_orderable_locations,        locs = game.get_orderable_locations()[power]
+fairdiplomacy/agents/base_strategy_model_wrapper_test.py,79,get_all_possible_orders,                tuple(random.choice(game.get_all_possible_orders()[loc]) for loc in locs)
+fairdiplomacy/agents/base_strategy_model_wrapper_test.py,95,"Game(,pydipcc.Game",    game = pydipcc.Game()
+fairdiplomacy/agents/base_strategy_model_wrapper.py,90,pydipcc.Game,"        games: Sequence[pydipcc.Game],"
+fairdiplomacy/agents/base_strategy_model_wrapper.py,183,pydipcc.Game,"        games: Sequence[pydipcc.Game],"
+fairdiplomacy/agents/base_strategy_model_wrapper.py,229,pydipcc.Game,"        games: Sequence[pydipcc.Game],"
+fairdiplomacy/agents/base_strategy_model_wrapper.py,370,pydipcc.Game,"        self, game: pydipcc.Game, *, has_press: bool, agent_power: Optional[Power]"
+fairdiplomacy/agents/base_strategy_model_wrapper.py,627,pydipcc.Game,"    game: pydipcc.Game,"
+fairdiplomacy/agents/base_strategy_model_wrapper.py,645,process,    sorted internally before processing. This means that arbitrarly human-typed
+fairdiplomacy/agents/base_strategy_model_wrapper.py,667,get_all_possible_orders,    possible_orders = [d for ds in game.get_all_possible_orders().values() for d in ds]
+fairdiplomacy/agents/base_strategy_model_rollouts.py,96,set_orders,"        set_orders_dicts: List[JointAction],"
+fairdiplomacy/agents/base_strategy_model_rollouts.py,107,set_orders,"            set_orders_dicts=set_orders_dicts,"
+fairdiplomacy/agents/base_strategy_model_rollouts.py,117,set_orders,"                (set_orders_dict, dict(zip(POWERS, scores_array)))"
+fairdiplomacy/agents/base_strategy_model_rollouts.py,118,set_orders,"                for set_orders_dict, scores_array in zip(set_orders_dicts, scores)"
+fairdiplomacy/agents/base_strategy_model_rollouts.py,129,set_orders,"        set_orders_dicts: List[JointAction],"
+fairdiplomacy/agents/base_strategy_model_rollouts.py,141,set_orders,"        Returns array of shape [len(set_orders_dicts), num_powers, num_value_functions]."
+fairdiplomacy/agents/base_strategy_model_rollouts.py,153,"Game(,pydipcc.Game",                game_init = pydipcc.Game(game_init)
+fairdiplomacy/agents/base_strategy_model_rollouts.py,156,set_orders,            games = game_init.clone_n_times(len(set_orders_dicts) * self.average_n_rollouts)
+fairdiplomacy/agents/base_strategy_model_rollouts.py,161,set_orders,"            for game, set_orders_dict in zip("
+fairdiplomacy/agents/base_strategy_model_rollouts.py,162,set_orders,"                games, repeat(set_orders_dicts, self.average_n_rollouts)"
+fairdiplomacy/agents/base_strategy_model_rollouts.py,164,set_orders,"                for power, orders in set_orders_dict.items():"
+fairdiplomacy/agents/base_strategy_model_rollouts.py,165,set_orders,"                    game.set_orders(power, list(orders))"
+fairdiplomacy/agents/base_strategy_model_rollouts.py,170,set_orders,                game.game_id: frozenset(p for p in POWERS if p not in set_orders_dict)
+fairdiplomacy/agents/base_strategy_model_rollouts.py,171,set_orders,"                for game, set_orders_dict in zip("
+fairdiplomacy/agents/base_strategy_model_rollouts.py,172,set_orders,"                    games, repeat(set_orders_dicts, self.average_n_rollouts)"
+fairdiplomacy/agents/base_strategy_model_rollouts.py,179,set_orders,                assert len(set_orders_dicts) == len(player_ratings)
+fairdiplomacy/agents/base_strategy_model_rollouts.py,230,process,"            # step games together at the pace of the slowest game, e.g. process"
+fairdiplomacy/agents/base_strategy_model_rollouts.py,237,process,            # Processing the spring movement phase of a year
+fairdiplomacy/agents/base_strategy_model_rollouts.py,275,set_orders,"                with timings(""env.set_orders""):"
+fairdiplomacy/agents/base_strategy_model_rollouts.py,281,set_orders,"                            game.set_orders(power, list(orders))"
+fairdiplomacy/agents/base_strategy_model_rollouts.py,284,process,                self.feature_encoder.process_multi([game for game in games_to_step])
+fairdiplomacy/agents/base_strategy_model_rollouts.py,353,set_orders,"                (len(set_orders_dicts), -1, len(POWERS), len(all_value_functions))"
+fairdiplomacy/agents/base_strategy_model_rollouts.py,368,pydipcc.Game,"        game: pydipcc.Game,"
+fairdiplomacy/agents/base_strategy_model_rollouts.py,371,set_orders,"        set_orders_dicts: List[JointAction],"
+fairdiplomacy/agents/base_strategy_model_rollouts.py,379,set_orders,"            set_orders_dicts: List[JointAction],"
+fairdiplomacy/agents/base_strategy_model_rollouts.py,384,set_orders,                player_ratings = [player_rating] * len(set_orders_dicts)
+fairdiplomacy/agents/base_strategy_model_rollouts.py,390,set_orders,"                set_orders_dicts=set_orders_dicts,"
+fairdiplomacy/agents/base_strategy_model_rollouts.py,399,set_orders,"            cache.get(set_orders_dicts, on_miss)"
+fairdiplomacy/agents/base_strategy_model_rollouts.py,401,set_orders,            else on_miss(set_orders_dicts)
+fairdiplomacy/agents/base_strategy_model_rollouts.py,408,pydipcc.Game,"        game: pydipcc.Game,"
+fairdiplomacy/agents/base_strategy_model_rollouts.py,411,set_orders,"        set_orders_dicts: List[JointAction],"
+fairdiplomacy/agents/base_strategy_model_rollouts.py,419,set_orders,        def on_miss(set_orders_dicts: List[JointAction]) -> torch.Tensor:
+fairdiplomacy/agents/base_strategy_model_rollouts.py,422,set_orders,                player_ratings = [player_rating] * len(set_orders_dicts)
+fairdiplomacy/agents/base_strategy_model_rollouts.py,428,set_orders,"                set_orders_dicts=set_orders_dicts,"
+fairdiplomacy/agents/base_strategy_model_rollouts.py,441,set_orders,"            cache.get_multi(set_orders_dicts, on_miss)"
+fairdiplomacy/agents/base_strategy_model_rollouts.py,443,set_orders,            else on_miss(set_orders_dicts)
+fairdiplomacy/agents/base_strategy_model_rollouts.py,474,set_orders,"        set_orders_dicts: List[JointAction],"
+fairdiplomacy/agents/base_strategy_model_rollouts.py,477,set_orders,        joint_actions = tuple(frozenset(d.items()) for d in set_orders_dicts)
+fairdiplomacy/agents/base_strategy_model_rollouts.py,482,set_orders,            set_orders_dicts[i]
+fairdiplomacy/agents/base_strategy_model_rollouts.py,497,set_orders,"        set_orders_dicts: List[JointAction],"
+fairdiplomacy/agents/base_strategy_model_rollouts.py,500,set_orders,"        return self._get(set_orders_dicts, onmiss_fn)"
+fairdiplomacy/agents/base_strategy_model_rollouts.py,504,set_orders,"        set_orders_dicts: List[JointAction],"
+fairdiplomacy/agents/base_strategy_model_rollouts.py,507,set_orders,"        return torch.stack(self._get(set_orders_dicts, onmiss_fn), 0)"
+fairdiplomacy/agents/base_strategy_model_agent.py,37,get_orderable_locations,"        if len(game.get_orderable_locations().get(power, [])) == 0:"
+fairdiplomacy/agents/base_search_agent.py,189,set_orders,def make_set_orders_dicts(
+fairdiplomacy/agents/base_search_agent.py,195,set_orders,"    Construct a list of set_orders dicts for CFR traversal, that can be"
+fairdiplomacy/agents/base_agent.py,135,process,    def postprocess_sleep_heuristics_should_trigger(
+fairdiplomacy/agents/base_agent.py,139,process,        Does post-processing checks on whether a message should be force-sent
+fairdiplomacy/viz/meta_annotations/api_test.py,38,"Game(,pydipcc.Game",        game = pydipcc.Game()
+fairdiplomacy/viz/meta_annotations/api_test.py,47,Game(,"    def test_follow_the_game(self, outpath):"
+fairdiplomacy/viz/meta_annotations/api_test.py,48,"Game(,pydipcc.Game",        game = pydipcc.Game()
+fairdiplomacy/viz/meta_annotations/api_test.py,50,add_message,"            game.add_message(""FRANCE"", ""AUSTRIA"", ""Hello!"", Timestamp.from_seconds(123))"
+fairdiplomacy/viz/meta_annotations/api_test.py,52,add_message,"            game.add_message(""AUSTRIA"", ""FRANCE"", ""Sup?"", Timestamp.from_seconds(124))"
+fairdiplomacy/viz/meta_annotations/api_test.py,54,process,            game.process()
+fairdiplomacy/viz/meta_annotations/api_test.py,63,"Game(,pydipcc.Game",        game = pydipcc.Game()
+fairdiplomacy/viz/meta_annotations/api_test.py,66,add_message,"            game.add_message(""FRANCE"", ""AUSTRIA"", ""Hello!"", Timestamp.from_seconds(123))"
+fairdiplomacy/viz/meta_annotations/api_test.py,68,process,            game.process()
+fairdiplomacy/viz/meta_annotations/api_test.py,80,"Game(,pydipcc.Game",        game = pydipcc.Game()
+fairdiplomacy/viz/meta_annotations/api_test.py,85,add_message,"            game.add_message(""FRANCE"", ""AUSTRIA"", ""Hello!"", Timestamp.from_seconds(123))"
+fairdiplomacy/viz/meta_annotations/api_test.py,87,process,            game.process()
+fairdiplomacy/viz/meta_annotations/api_test.py,100,"Game(,pydipcc.Game",        game = pydipcc.Game()
+fairdiplomacy/viz/meta_annotations/api_test.py,105,add_message,"            game.add_message(""FRANCE"", ""AUSTRIA"", ""Hello!"", Timestamp.from_seconds(123))"
+fairdiplomacy/viz/meta_annotations/api_test.py,107,process,            game.process()
+fairdiplomacy/viz/meta_annotations/api_test.py,120,"Game(,pydipcc.Game",        game = pydipcc.Game()
+fairdiplomacy/viz/meta_annotations/api_test.py,125,add_message,"            game.add_message(""FRANCE"", ""AUSTRIA"", ""Hello!"", Timestamp.from_seconds(123))"
+fairdiplomacy/viz/meta_annotations/api_test.py,127,process,            game.process()
+fairdiplomacy/viz/meta_annotations/api_test.py,138,"Game(,pydipcc.Game",        game = pydipcc.Game()
+fairdiplomacy/viz/meta_annotations/api_test.py,143,add_message,"            game.add_message(""FRANCE"", ""AUSTRIA"", ""Hello!"", Timestamp.from_seconds(123))"
+fairdiplomacy/viz/meta_annotations/api_test.py,145,process,            game.process()
+fairdiplomacy/viz/meta_annotations/api_test.py,155,"Game(,pydipcc.Game",        game = pydipcc.Game()
+fairdiplomacy/viz/meta_annotations/api_test.py,159,process,            game.process()
+fairdiplomacy/viz/meta_annotations/api_test.py,162,add_message,"            game.add_message(""FRANCE"", ""AUSTRIA"", ""Hello!"", Timestamp.from_seconds(123))"
+fairdiplomacy/viz/meta_annotations/api_test.py,164,process,            game.process()
+fairdiplomacy/viz/meta_annotations/api_test.py,179,"Game(,pydipcc.Game",        game = pydipcc.Game()
+fairdiplomacy/viz/meta_annotations/api_test.py,182,add_message,"        game.add_message(""FRANCE"", ""AUSTRIA"", ""Hello!"", Timestamp.from_seconds(123))"
+fairdiplomacy/viz/meta_annotations/api_test.py,187,"Game(,pydipcc.Game",        game = pydipcc.Game()
+fairdiplomacy/viz/meta_annotations/api_test.py,189,add_message,"        game.add_message(""FRANCE"", ""AUSTRIA"", ""Hello!"", Timestamp.from_seconds(124))"
+fairdiplomacy/viz/meta_annotations/api_test.py,205,"Game(,pydipcc.Game",        game = pydipcc.Game()
+fairdiplomacy/viz/meta_annotations/api_test.py,208,add_message,"        game.add_message(""FRANCE"", ""AUSTRIA"", ""Hello!"", Timestamp.from_seconds(123))"
+fairdiplomacy/viz/meta_annotations/api_test.py,212,"Game(,pydipcc.Game",        game = pydipcc.Game()
+fairdiplomacy/viz/meta_annotations/api_test.py,215,add_message,"        game.add_message(""FRANCE"", ""AUSTRIA"", ""Hello!"", Timestamp.from_seconds(124))"
+fairdiplomacy/viz/meta_annotations/api_test.py,230,"Game(,pydipcc.Game",        game = pydipcc.Game()
+fairdiplomacy/viz/meta_annotations/api_test.py,233,add_message,"        game.add_message(""FRANCE"", ""AUSTRIA"", ""Hello!"", Timestamp.from_seconds(123))"
+fairdiplomacy/viz/meta_annotations/api_test.py,240,add_message,"        game.add_message(""FRANCE"", ""AUSTRIA"", ""Hello!"", Timestamp.from_seconds(124))"
+fairdiplomacy/viz/meta_annotations/api.py,76,pydipcc.Game,"def start_global_annotation(game: pydipcc.Game, outpath: pathlib.Path) -> annotator.MetaAnnotator:"
+fairdiplomacy/viz/meta_annotations/api.py,84,pydipcc.Game,def stop_global_annotation_and_commit(game: pydipcc.Game) -> None:
+fairdiplomacy/viz/meta_annotations/api.py,92,pydipcc.Game,"def maybe_kickoff_annotations(game: pydipcc.Game, outpath: Optional[pathlib.Path]):"
+fairdiplomacy/viz/meta_annotations/api.py,105,pydipcc.Game,def after_new_phase(game: pydipcc.Game):
+fairdiplomacy/viz/meta_annotations/api.py,110,pydipcc.Game,def after_last_message_add(game: pydipcc.Game):
+fairdiplomacy/viz/meta_annotations/api.py,125,pydipcc.Game,def commit_annotations(game: pydipcc.Game) -> None:
+fairdiplomacy/viz/meta_annotations/annotator.py,84,pydipcc.Game,"        game: pydipcc.Game,"
+fairdiplomacy/viz/meta_annotations/annotator.py,118,pydipcc.Game,"    def after_new_phase(self, game: pydipcc.Game):"
+fairdiplomacy/viz/meta_annotations/annotator.py,122,process,"        ), f""Expected to be called right after game.process_orders(). Found orders: {game.get_orders()}"""
+fairdiplomacy/viz/meta_annotations/annotator.py,152,pydipcc.Game,"    def _assert_game_in_sync(self, game: pydipcc.Game) -> None:"
+fairdiplomacy/viz/meta_annotations/annotator.py,163,pydipcc.Game,"    def commit(self, game: pydipcc.Game) -> None:"
+fairdiplomacy/selfplay/search/search_utils_test.py,26,"from_json,pydipcc.Game",        game_full = pydipcc.Game.from_json(stream.read())
+fairdiplomacy/selfplay/search/rollout.py,22,process,import torch.multiprocessing as mp_module
+fairdiplomacy/selfplay/search/rollout.py,99,pydipcc.Game,def _load_game_with_phase(path: str) -> pydipcc.Game:
+fairdiplomacy/selfplay/search/rollout.py,106,"from_json,pydipcc.Game",    game = pydipcc.Game.from_json(game_serialized)
+fairdiplomacy/selfplay/search/rollout.py,112,Game(,def yield_game(
+fairdiplomacy/selfplay/search/rollout.py,148,"Game(,pydipcc.Game",            game = pydipcc.Game()
+fairdiplomacy/selfplay/search/rollout.py,200,process,    This method can safely be called in a subprocess
+fairdiplomacy/selfplay/search/rollout.py,287,Game(,        yield_game(
+fairdiplomacy/selfplay/search/rollout.py,323,pydipcc.Game,            game.set_scoring_system(pydipcc.Game.SCORING_DSS)
+fairdiplomacy/selfplay/search/rollout.py,660,set_orders,"                game.set_orders(power, orders)"
+fairdiplomacy/selfplay/search/rollout.py,664,process,            game.process()
+fairdiplomacy/selfplay/search/rollout.py,787,process,            # torch.distributed.init_process_group
+fairdiplomacy/selfplay/search/rollout.py,845,pydipcc.Game,"    game: pydipcc.Game,"
+fairdiplomacy/selfplay/search/data_loader.py,32,process,from fairdiplomacy.utils.multiprocessing_spawn_context import get_multiprocessing_ctx
+fairdiplomacy/selfplay/search/data_loader.py,35,process,mp = get_multiprocessing_ctx()
+fairdiplomacy/selfplay/search/data_loader.py,103,"from_json,pydipcc.Game",                    pydipcc.Game.from_json(stream.read())
+fairdiplomacy/selfplay/search/data_loader.py,350,process,"            logging.info(""Starting situation check process. Logs: %s"", log_file)"
+fairdiplomacy/selfplay/pg/rollout.py,30,process,from fairdiplomacy.utils.exception_handling_process import ExceptionHandlingProcess
+fairdiplomacy/selfplay/pg/rollout.py,34,process,from fairdiplomacy.utils.multiprocessing_spawn_context import get_multiprocessing_ctx
+fairdiplomacy/selfplay/pg/rollout.py,36,process,mp = get_multiprocessing_ctx()
+fairdiplomacy/selfplay/pg/rollout.py,136,process,                server = ExceptionHandlingProcess(
+fairdiplomacy/selfplay/pg/rollout.py,229,process,    This method can safely be called in a subprocess
+fairdiplomacy/selfplay/pg/rollout.py,272,Game(,    def yield_game():
+fairdiplomacy/selfplay/pg/rollout.py,278,Game(,                yield Game()
+fairdiplomacy/selfplay/pg/rollout.py,283,from_json,                    yield Game.from_json(stream.read())
+fairdiplomacy/selfplay/pg/rollout.py,285,Game(,    game_selector = yield_game()
+fairdiplomacy/selfplay/pg/rollout.py,363,"set_orders,process",                # set_orders and process
+fairdiplomacy/selfplay/pg/rollout.py,366,set_orders,"                        game.set_orders(power, list(orders))"
+fairdiplomacy/selfplay/pg/rollout.py,370,process,                        game.process()
+fairdiplomacy/selfplay/pg/data_loader.py,24,process,from fairdiplomacy.utils.exception_handling_process import ExceptionHandlingProcess
+fairdiplomacy/selfplay/pg/data_loader.py,35,process,from fairdiplomacy.utils.multiprocessing_spawn_context import get_multiprocessing_ctx
+fairdiplomacy/selfplay/pg/data_loader.py,38,process,mp = get_multiprocessing_ctx()
+fairdiplomacy/selfplay/pg/data_loader.py,276,process,            ExceptionHandlingProcess(
+fairdiplomacy/selfplay/pg/data_loader.py,290,process,                psutil.Process(p.pid).cpu_affinity(cores)
+fairdiplomacy/selfplay/pg/data_loader.py,311,process,"        logging.info(""Killing eval processes"")"
+fairdiplomacy/selfplay/pg/data_loader.py,317,process,"    """"""Starts rollout processes and inference servers to generate impala data."
+fairdiplomacy/selfplay/pg/data_loader.py,436,process,        if rollout_cfg.num_rollout_processes > 0:
+fairdiplomacy/selfplay/pg/data_loader.py,441,process,                ExceptionHandlingProcess(
+fairdiplomacy/selfplay/pg/data_loader.py,447,process,                for i in range(rollout_cfg.num_rollout_processes)
+fairdiplomacy/selfplay/pg/data_loader.py,455,process,                    psutil.Process(p.pid).cpu_affinity(self.cores)
+fairdiplomacy/selfplay/pg/data_loader.py,469,process,        if not self.rollout_cfg.selfplay or self.rollout_cfg.num_eval_rollout_processes == 0:
+fairdiplomacy/selfplay/pg/data_loader.py,475,process,"                num_procs=self.rollout_cfg.num_eval_rollout_processes,"
+fairdiplomacy/selfplay/pg/data_loader.py,494,process,"            logging.info(""Killing rollout processes"")"
+fairdiplomacy/selfplay/search/jobs/selfplay_evaler.py,14,process,import torch.multiprocessing as mp_module
+fairdiplomacy/selfplay/search/jobs/selfplay_evaler.py,23,process,from fairdiplomacy.utils.exception_handling_process import ExceptionHandlingProcess
+fairdiplomacy/selfplay/search/jobs/selfplay_evaler.py,24,process,from fairdiplomacy.utils.multiprocessing_spawn_context import get_multiprocessing_ctx
+fairdiplomacy/selfplay/search/jobs/selfplay_evaler.py,26,process,mp = get_multiprocessing_ctx()
+fairdiplomacy/selfplay/search/jobs/selfplay_evaler.py,35,process,"    """"""A group of processes that run eval selfplay on one GPU."""""""
+fairdiplomacy/selfplay/search/jobs/selfplay_evaler.py,72,process,"                f""Eval Rollout process {i} will write logs to {log_path} at level %s"","
+fairdiplomacy/selfplay/search/jobs/selfplay_evaler.py,78,process,                ExceptionHandlingProcess(
+fairdiplomacy/selfplay/search/jobs/selfplay_evaler.py,84,process,            ExceptionHandlingProcess(
+fairdiplomacy/selfplay/search/jobs/selfplay_evaler.py,103,process,                psutil.Process(p.pid).cpu_affinity(list(cores))
+fairdiplomacy/selfplay/search/jobs/selfplay_evaler.py,116,process,"        def process_metrics(epoch, game_json):"
+fairdiplomacy/selfplay/search/jobs/selfplay_evaler.py,133,"from_json,pydipcc.Game",            game = pydipcc.Game.from_json(game_json)
+fairdiplomacy/selfplay/search/jobs/selfplay_evaler.py,159,process,"            process_metrics(epoch, game_json)"
+fairdiplomacy/selfplay/search/jobs/selfplay_evaler.py,163,Game(,                save_game(
+fairdiplomacy/selfplay/search/jobs/selfplay_evaler.py,174,process,"        logging.info(""Killing eval processes"")"
+fairdiplomacy/selfplay/search/jobs/rollouter.py,31,process,from fairdiplomacy.utils.exception_handling_process import ExceptionHandlingProcess
+fairdiplomacy/selfplay/search/jobs/rollouter.py,32,process,from fairdiplomacy.utils.multiprocessing_spawn_context import get_multiprocessing_ctx
+fairdiplomacy/selfplay/search/jobs/rollouter.py,35,process,mp = get_multiprocessing_ctx()
+fairdiplomacy/selfplay/search/jobs/rollouter.py,39,process,"    """"""A supervisor for a group of processes that are doing rollouts."
+fairdiplomacy/selfplay/search/jobs/rollouter.py,47,process,    launching any processes. In this case the client is expected to pass
+fairdiplomacy/selfplay/search/jobs/rollouter.py,105,process,"            logging.info(""Killing collector process"")"
+fairdiplomacy/selfplay/search/jobs/rollouter.py,108,process,"            logging.info(""Killing rollout processes"")"
+fairdiplomacy/selfplay/search/jobs/rollouter.py,211,process,"                    f""Rollout process {i} will write logs to {log_path} at level %s"","
+fairdiplomacy/selfplay/search/jobs/rollouter.py,215,process,                ExceptionHandlingProcess(
+fairdiplomacy/selfplay/search/jobs/rollouter.py,225,process,                psutil.Process(p.pid).cpu_affinity(list(self._cores))
+fairdiplomacy/selfplay/search/jobs/rollouter.py,250,process,            # The master may be unresponsive while spawning and joining on training helper processes from
+fairdiplomacy/selfplay/search/jobs/rollouter.py,251,process,"            # the multiprocessing module, or on torch.distributed.init_process_group"
+fairdiplomacy/selfplay/search/jobs/rollouter.py,259,process,"        """"""Run communication loop in the current process. Never returns."""""""
+fairdiplomacy/selfplay/search/jobs/rollouter.py,270,process,"        """"""Starts a process that reads rollout_iterator and pushes into the buffer."""""""
+fairdiplomacy/selfplay/search/jobs/rollouter.py,273,process,"                ""Not starting communcator process as no rollouts procs on this machine"""
+fairdiplomacy/selfplay/search/jobs/rollouter.py,278,process,        self._communicator_proc = ExceptionHandlingProcess(
+fairdiplomacy/selfplay/search/jobs/h2h_evaler.py,18,process,import torch.multiprocessing as mp_module
+fairdiplomacy/selfplay/search/jobs/h2h_evaler.py,31,process,from fairdiplomacy.utils.exception_handling_process import ExceptionHandlingProcess
+fairdiplomacy/selfplay/search/jobs/h2h_evaler.py,32,process,from fairdiplomacy.utils.multiprocessing_spawn_context import get_multiprocessing_ctx
+fairdiplomacy/selfplay/search/jobs/h2h_evaler.py,35,process,mp = get_multiprocessing_ctx()
+fairdiplomacy/selfplay/search/jobs/h2h_evaler.py,79,process,"                f""H2H Rollout process {h2h_cfg.tag}/{i} will write logs to {log_path} at level %s"","
+fairdiplomacy/selfplay/search/jobs/h2h_evaler.py,83,process,"                ExceptionHandlingProcess(target=self.eval_worker, kwargs=kwargs, daemon=True)"
+fairdiplomacy/selfplay/search/jobs/h2h_evaler.py,87,process,            ExceptionHandlingProcess(
+fairdiplomacy/selfplay/search/jobs/h2h_evaler.py,105,process,                psutil.Process(p.pid).cpu_affinity(list(cores))
+fairdiplomacy/selfplay/search/jobs/h2h_evaler.py,167,Game(,"        for game_id, game in yield_game("
+fairdiplomacy/selfplay/search/jobs/h2h_evaler.py,205,get_orderable_locations,                    if not game.get_orderable_locations().get(power):
+fairdiplomacy/selfplay/search/jobs/h2h_evaler.py,207,set_orders,"                    game.set_orders(power, orders)"
+fairdiplomacy/selfplay/search/jobs/h2h_evaler.py,209,process,                game.process()
+fairdiplomacy/selfplay/search/jobs/h2h_evaler.py,245,process,"        def process_metrics(epoch, game_json, power):"
+fairdiplomacy/selfplay/search/jobs/h2h_evaler.py,263,"from_json,pydipcc.Game",            game = pydipcc.Game.from_json(game_json)
+fairdiplomacy/selfplay/search/jobs/h2h_evaler.py,291,process,"            process_metrics(epoch, data[""game_json""], data[""agent_one_power""])"
+fairdiplomacy/selfplay/search/jobs/h2h_evaler.py,295,Game(,                save_game(
+fairdiplomacy/selfplay/search/jobs/h2h_evaler.py,306,process,"        logging.info(""Killing H2H processes"")"
+fairdiplomacy/selfplay/search/jobs/game_situations_evaler.py,23,process,from fairdiplomacy.utils.exception_handling_process import ExceptionHandlingProcess
+fairdiplomacy/selfplay/search/jobs/game_situations_evaler.py,24,process,from fairdiplomacy.utils.multiprocessing_spawn_context import get_multiprocessing_ctx
+fairdiplomacy/selfplay/search/jobs/game_situations_evaler.py,26,process,mp = get_multiprocessing_ctx()
+fairdiplomacy/selfplay/search/jobs/game_situations_evaler.py,30,process,"    """"""A process that run situation_check on a single GPU."""""""
+fairdiplomacy/selfplay/search/jobs/game_situations_evaler.py,34,process,        self.p = ExceptionHandlingProcess(
+fairdiplomacy/selfplay/search/jobs/common.py,29,Game(,def save_game(
+fairdiplomacy/models/base_strategy_model/train_sl.py,11,process,import subprocess
+fairdiplomacy/models/base_strategy_model/train_sl.py,21,process,import torch.multiprocessing
+fairdiplomacy/models/base_strategy_model/train_sl.py,63,process,def process_batch(
+fairdiplomacy/models/base_strategy_model/train_sl.py,413,process,            ) = process_batch(
+fairdiplomacy/models/base_strategy_model/train_sl.py,671,process,                ) = process_batch(
+fairdiplomacy/models/base_strategy_model/train_sl.py,834,process,        hostnames = subprocess.check_output(
+fairdiplomacy/models/base_strategy_model/train_sl.py,848,process,"    torch.distributed.init_process_group(""nccl"", rank=rank, world_size=world_size)"
+fairdiplomacy/models/base_strategy_model/train_sl.py,854,process,    torch.distributed.destroy_process_group()
+fairdiplomacy/models/base_strategy_model/train_sl.py,913,process,"        torch.multiprocessing.set_start_method(""spawn"")"
+fairdiplomacy/models/base_strategy_model/train_sl.py,920,process,        torch.multiprocessing.spawn(  # type:ignore
+fairdiplomacy/models/base_strategy_model/mock_base_strategy_model_test.py,24,Game(,        game = Game()
+fairdiplomacy/models/base_strategy_model/mock_base_strategy_model_test.py,46,set_orders,"        game.set_orders(""AUSTRIA"", [""A BUD - SER""])"
+fairdiplomacy/models/base_strategy_model/mock_base_strategy_model_test.py,47,process,        game.process()
+fairdiplomacy/models/base_strategy_model/mock_base_strategy_model_test.py,55,process,        game.process()
+fairdiplomacy/models/base_strategy_model/mock_base_strategy_model_test.py,71,Game(,        game = Game()
+fairdiplomacy/models/base_strategy_model/mock_base_strategy_model_test.py,81,Game(,        game = Game()
+fairdiplomacy/models/base_strategy_model/encoding.py,21,from_json,"        return pydipcc.encode_board_state_from_json(json.dumps(phase.state), input_version)"
+fairdiplomacy/models/base_strategy_model/decoders.py,72,process,        # Order pre-processing.
+fairdiplomacy/models/base_strategy_model/base_strategy_model_test.py,25,Game(,        game = Game()
+fairdiplomacy/models/base_strategy_model/base_strategy_model_test.py,36,Game(,        game = Game()
+fairdiplomacy/models/base_strategy_model/base_strategy_model_test.py,50,Game(,        game = Game()
+fairdiplomacy/models/base_strategy_model/base_strategy_model_test.py,64,Game(,        game = Game()
+fairdiplomacy/models/base_strategy_model/base_strategy_model_test.py,78,Game(,        game = Game()
+fairdiplomacy/models/base_strategy_model/base_strategy_model_test.py,92,Game(,        game = Game()
+fairdiplomacy/models/base_strategy_model/base_strategy_model_test.py,107,Game(,        game = Game()
+fairdiplomacy/models/base_strategy_model/base_strategy_model_test.py,122,Game(,    game = Game()
+fairdiplomacy/models/base_strategy_model/base_strategy_model.py,118,process,        # parallel processes and not share seeds.
+fairdiplomacy/models/base_strategy_model/base_strategy_model.py,674,process,        # parallel processes and not share seeds.

@@ -1,0 +1,83 @@
+{
+  "notebook_build": "latent-reservations-notebook07c-native-format-scalar-boundary-v1",
+  "run_id": "20260814T110150Z",
+  "environment": "LLM-Deliberation",
+  "subject_model": "Qwen/Qwen2.5-7B-Instruct",
+  "upstream_commit": "78e11e04ba89b9d888cb006f57bad696584a32f1",
+  "source_notebook07b_run": "/workspace/latent-reservations/notebook_outputs/07b_llm_deliberation_scalar_acceptance_boundary/20260814T103440Z",
+  "parent_states": 30,
+  "candidate_branches": 490,
+  "behavioral_validity_gate": {
+    "decision_parse_valid_rate": 1.0,
+    "format_retry_rate": 0.01020408163265306,
+    "zero_legal_states": [],
+    "below_minimum_accept_count": 10,
+    "maximum_score_accept_rate": 1.0,
+    "uncensored_state_rate": 1.0,
+    "state_monotonicity_violation_rate": 0.3,
+    "thresholds": {
+      "decision_parse_valid_rate_min": 0.95,
+      "format_retry_rate_max": 0.1,
+      "below_minimum_accept_count_max": 0,
+      "maximum_score_accept_rate_min": 0.8,
+      "uncensored_state_rate_min": 0.6666666666666666,
+      "state_monotonicity_violation_rate_max": 0.2
+    },
+    "passed": false
+  },
+  "auditor_valid_rate": 1.0,
+  "primary_target": "native-format revealed scalar acceptance boundary",
+  "method_mae": {
+    "activation": 0.05476871309280396,
+    "matched_auditor": 0.019733333333333346,
+    "trained_text": 0.02244973578801748,
+    "assigned_threshold": 0.011050000000000008,
+    "structured": 0.007501102998929086,
+    "constant": 0.10380000000000002,
+    "shuffled_activation": 0.1358776217222214
+  },
+  "primary_h1": {
+    "delta_auditor_minus_activation": -0.03503537975947062,
+    "best_text_method": "assigned_threshold",
+    "delta_best_text_minus_activation": -0.04371871309280395,
+    "best_nonactivation_method": "structured",
+    "delta_best_nonactivation_minus_activation": -0.047267610093874875,
+    "bootstrap": {
+      "matched_auditor_delta": {
+        "mean": -0.03505307030678192,
+        "ci95": [
+          -0.052546563235918664,
+          -0.020799066829681377
+        ],
+        "fraction_positive": 0.0
+      },
+      "best_text_suite_delta": {
+        "mean": -0.04373835697344859,
+        "ci95": [
+          -0.05983020052115122,
+          -0.030482400163014716
+        ],
+        "fraction_positive": 0.0
+      },
+      "best_nonactivation_suite_delta": {
+        "mean": -0.04736781126460839,
+        "ci95": [
+          -0.06558741552447743,
+          -0.031749657250249974
+        ],
+        "fraction_positive": 0.0
+      }
+    }
+  },
+  "secondary_continuation_premium": {
+    "activation_mae": 0.008838461873556185,
+    "trained_text_mae": 0.008580963501756604,
+    "zero_premium_mae": 0.011050000000000008,
+    "delta_zero_minus_activation": 0.002211538126443823,
+    "delta_text_minus_activation": -0.0002574983717995808
+  },
+  "positive_control": {
+    "assigned_threshold_activation_decode_mae": 0.04650724405050278
+  },
+  "interpretation_policy": "Primary boundary interpretation requires the native-format behavioral gate. The continuation-premium result is secondary and cannot replace the raw-boundary H1."
+}

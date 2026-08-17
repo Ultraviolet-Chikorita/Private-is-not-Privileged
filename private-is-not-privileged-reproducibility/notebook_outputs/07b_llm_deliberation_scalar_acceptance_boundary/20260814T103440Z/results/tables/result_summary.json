@@ -1,0 +1,92 @@
+{
+  "notebook_build": "latent-reservations-notebook07b-scalar-acceptance-boundary-v2",
+  "run_id": "20260814T103440Z",
+  "environment": "LLM-Deliberation",
+  "subject_model": "Qwen/Qwen2.5-7B-Instruct",
+  "upstream_commit": "78e11e04ba89b9d888cb006f57bad696584a32f1",
+  "source_notebook07_run": "/workspace/latent-reservations/notebook_outputs/07_llm_deliberation_acceptance_boundary/20260814T095251Z",
+  "parent_states": 30,
+  "source_trajectories": 5,
+  "candidate_branches": 490,
+  "format_retry": {
+    "used_count": 423,
+    "rate": 0.863265306122449,
+    "zero_legal_state_count_after_retry": 0
+  },
+  "behavioral_validity_gate": {
+    "choice_valid_rate": 1.0,
+    "retry_used_count": 423,
+    "retry_rate": 0.863265306122449,
+    "zero_legal_state_count": 0,
+    "zero_legal_states": [],
+    "below_minimum_accept_count": 0,
+    "maximum_score_accept_rate": 0.9333333333333333,
+    "uncensored_state_rate": 0.9666666666666667,
+    "state_monotonicity_violation_rate": 0.2,
+    "thresholds": {
+      "decision_token_valid_rate_min": 0.95,
+      "per_state_legal_choice_count_min": 1,
+      "below_minimum_accept_count_max": 0,
+      "maximum_score_accept_rate_min": 0.8,
+      "uncensored_state_rate_min": 0.6666666666666666,
+      "state_monotonicity_violation_rate_max": 0.2
+    },
+    "passed": true
+  },
+  "auditor_valid_rate": 1.0,
+  "target": {
+    "name": "state-conditioned scalar continuation-value acceptance boundary",
+    "scale": "normalized legal private-score range [0,1]",
+    "parent_activation_timing": "before candidate private score is revealed",
+    "candidate_interface": "verified scalar private score; no issue composition or score arithmetic"
+  },
+  "method_mae": {
+    "activation": 0.09059111818472546,
+    "matched_auditor": 0.057033333333333346,
+    "matched_auditor_valid_only": 0.057033333333333346,
+    "trained_text": 0.08805625263322957,
+    "assigned_threshold": 0.05386666666666667,
+    "structured": 0.10651757666033873,
+    "constant_median": 0.12530000000000002,
+    "shuffled_activation": 0.17199936251640321
+  },
+  "h1": {
+    "delta_matched_auditor_minus_activation": -0.03355778485139211,
+    "best_text_method": "assigned_threshold",
+    "delta_best_text_minus_activation": -0.03672445151805879,
+    "best_nonactivation_method": "assigned_threshold",
+    "delta_best_nonactivation_minus_activation": -0.03672445151805879,
+    "trajectory_cluster_bootstrap": {
+      "reps": 10000,
+      "cluster_unit": "source trajectory",
+      "matched_auditor_delta": {
+        "mean": -0.03348798337862651,
+        "ci95": [
+          -0.05285424731572468,
+          -0.014246437470118209
+        ],
+        "fraction_positive": 0.0001
+      },
+      "best_text_suite_delta": {
+        "mean": -0.03680652615484819,
+        "ci95": [
+          -0.05850707529385882,
+          -0.015094655720392855
+        ],
+        "fraction_positive": 0.0
+      },
+      "best_nonactivation_suite_delta": {
+        "mean": -0.03680652615484819,
+        "ci95": [
+          -0.05850707529385882,
+          -0.015094655720392855
+        ],
+        "fraction_positive": 0.0
+      }
+    }
+  },
+  "positive_control": {
+    "assigned_threshold_activation_decode_mae": 0.04650724405050278
+  },
+  "interpretation_policy": "Boundary/H1 interpretation requires the preregistered behavioral-validity gate. A matched-auditor win alone is insufficient; activation must remain competitive with the fixed strong text, threshold, structured, and constant controls."
+}

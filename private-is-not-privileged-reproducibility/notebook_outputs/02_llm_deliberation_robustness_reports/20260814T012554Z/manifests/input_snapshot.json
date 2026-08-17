@@ -1,0 +1,201 @@
+{
+  "notebook_build": "latent-reservations-notebook02-robustness-reports-run-all-v1",
+  "notebook01_run": "/workspace/latent-reservations/notebook_outputs/01_llm_deliberation_pilot/20260813T235230Z",
+  "pilot_delta_latent": -11.115956624348957,
+  "locked_layer": 12,
+  "locked_alpha": 0.1,
+  "subject_model": "Qwen/Qwen2.5-7B-Instruct",
+  "upstream_commit": "78e11e04ba89b9d888cb006f57bad696584a32f1",
+  "files": [
+    {
+      "path": "actions.jsonl",
+      "sha256": "28d7191ee20de95172201b3f00ffd11e645d586d0dd14bffdab9f2cca47df200",
+      "bytes": 46849
+    },
+    {
+      "path": "auditor.jsonl",
+      "sha256": "17126e0b1a0a4f9e2f5f6251e7dd9fd2781e091cd07b76c0accb96dc2c61e651",
+      "bytes": 10703
+    },
+    {
+      "path": "first_real_state_replay.json",
+      "sha256": "cc6e0185b0216c782874d33436bb511f4fb43959eaa963aec13611e0db822841",
+      "bytes": 1958
+    },
+    {
+      "path": "notebook01_manifest.json",
+      "sha256": "25161888b4936e6906f2a13972654ea097d913393e80719c19e5de4e178e9884",
+      "bytes": 2386
+    },
+    {
+      "path": "pilot_all_layers.safetensors",
+      "sha256": "c2cb64773d5bf57062a1297f6be288e1aa6f79c0f10fe9e7eca774adffec64f7",
+      "bytes": 6021208
+    },
+    {
+      "path": "pilot_all_layers_index.json",
+      "sha256": "e4e3d12806da0b18b77546936e8aec4656f64bd45927b307bb8ee7b36c1c9b4d",
+      "bytes": 3631
+    },
+    {
+      "path": "pilot_summary.json",
+      "sha256": "c1b56bcfd0b4c32214f0f72401a3e51f6c6fbbc42629a087f40a9ffaac63bf05",
+      "bytes": 1031
+    },
+    {
+      "path": "splits.json",
+      "sha256": "5d3f35022f0aec8e4811116d82656e87bf7da83f080ff8a122c936d3961fde04",
+      "bytes": 1854
+    },
+    {
+      "path": "states/ld_000_trajectory_000_department_of_tourism.json",
+      "sha256": "02bb1bee83baca2d57446d7e094155a73ec4d09d80e8b6408c19c6a13559618b",
+      "bytes": 20570
+    },
+    {
+      "path": "states/ld_001_trajectory_000_environmental_league.json",
+      "sha256": "49300498f29137fe896195ea99cc01876d50d300631894d6cf278d311065a04e",
+      "bytes": 17682
+    },
+    {
+      "path": "states/ld_002_trajectory_000_local_labour_union.json",
+      "sha256": "ad806b7d63b42e68283ea42d0f3b05b5b5dfdcd0b1a90accb7c57bf1fb5db636",
+      "bytes": 21888
+    },
+    {
+      "path": "states/ld_003_trajectory_000_mayor.json",
+      "sha256": "9df80f875f1cf3438f5d8581fef2151b8f494e564891bbca1e6906ace2a2e054",
+      "bytes": 22108
+    },
+    {
+      "path": "states/ld_004_trajectory_000_other_cities.json",
+      "sha256": "acf48d64c2074e1abd29316cedf87b60b6effa12eccd7982da8f6280cb16df29",
+      "bytes": 21066
+    },
+    {
+      "path": "states/ld_005_trajectory_000_sportco.json",
+      "sha256": "78781cb2aee18acf67c78068f81b8350bce46093cd72ffcb8fe81fc9a08c152a",
+      "bytes": 20376
+    },
+    {
+      "path": "states/ld_006_trajectory_001_department_of_tourism.json",
+      "sha256": "72afd0c3646761c843f132940c712ee26a4e22230f3668b5dbef6f97a1b73726",
+      "bytes": 22559
+    },
+    {
+      "path": "states/ld_007_trajectory_001_environmental_league.json",
+      "sha256": "d016b816d3081994190664de8920bf5e5b0c5d2f7a34882c2dfa63021af36980",
+      "bytes": 20509
+    },
+    {
+      "path": "states/ld_008_trajectory_001_local_labour_union.json",
+      "sha256": "217e74e3661afd40fdeab95656cbf937eaf31bf4e861f5891f9cd54499781ed6",
+      "bytes": 23231
+    },
+    {
+      "path": "states/ld_009_trajectory_001_mayor.json",
+      "sha256": "8f8b5654af8621f23302f8f5f4634d2b3d36025cb5c3381cbd35483697e4f814",
+      "bytes": 22783
+    },
+    {
+      "path": "states/ld_010_trajectory_001_other_cities.json",
+      "sha256": "e49b1532923f68277626e8286cf5671b2bb1e47342dbc0fad4582b2474d42bf8",
+      "bytes": 23386
+    },
+    {
+      "path": "states/ld_011_trajectory_001_sportco.json",
+      "sha256": "9d5faf5f334265fc565bc52108822022d82024d5f484463d18fe1db1a22f7ecc",
+      "bytes": 21536
+    },
+    {
+      "path": "states/ld_012_trajectory_002_department_of_tourism.json",
+      "sha256": "a0d40a07f72da309ada831a4b5710ae8c50734b050ee4c834db545812025916f",
+      "bytes": 20882
+    },
+    {
+      "path": "states/ld_013_trajectory_002_environmental_league.json",
+      "sha256": "69ba8ee4a9a0878dc4044acbbeddb7d24f13e5900f6393a069a8343bd24cb7d4",
+      "bytes": 18786
+    },
+    {
+      "path": "states/ld_014_trajectory_002_local_labour_union.json",
+      "sha256": "ddaba0e5abdf0f33c7c25c8ff401cc26e12eaa1cdd43dc8a5e2f452049bac53f",
+      "bytes": 20719
+    },
+    {
+      "path": "states/ld_015_trajectory_002_mayor.json",
+      "sha256": "d80ad0e02f4b65855a03650d47e6318afaeee0076b9d6bf28d498f22f71763a1",
+      "bytes": 21074
+    },
+    {
+      "path": "states/ld_016_trajectory_002_other_cities.json",
+      "sha256": "05f91dea42322a0ff7df603af69973407b53a3e7b4c25ecb91821ac2d03ca65c",
+      "bytes": 21829
+    },
+    {
+      "path": "states/ld_017_trajectory_002_sportco.json",
+      "sha256": "faa2097eb86ffa4632bab2f13e51a2029090712e0f9f522e73410ed182670524",
+      "bytes": 20224
+    },
+    {
+      "path": "states/ld_018_trajectory_003_department_of_tourism.json",
+      "sha256": "4ed4fba06f92341c03942b82ab77d6eb842278894002736ece31ca5270f6e9b2",
+      "bytes": 18920
+    },
+    {
+      "path": "states/ld_019_trajectory_003_environmental_league.json",
+      "sha256": "54031350983d317a50ef390638ce588dc62a4ab3884c2934a178b737b5d92dd3",
+      "bytes": 18328
+    },
+    {
+      "path": "states/ld_020_trajectory_003_local_labour_union.json",
+      "sha256": "b5097544bb574e8ad603d85396bbaba8d1cf992d211dbbed0ff17f9d46a8385f",
+      "bytes": 21050
+    },
+    {
+      "path": "states/ld_021_trajectory_003_mayor.json",
+      "sha256": "977e95aff63fdd2e2c0d7d41f898a1fb4bf2eab9e82e7b699b7a0c521f1d0268",
+      "bytes": 21081
+    },
+    {
+      "path": "states/ld_022_trajectory_003_other_cities.json",
+      "sha256": "bb6544909a193624dccd79723620b3634a4c95583be78b6f71f7172efb7317e5",
+      "bytes": 21183
+    },
+    {
+      "path": "states/ld_023_trajectory_003_sportco.json",
+      "sha256": "cdd0456c6ec3bdaae5a8ee20f0bb3a16a74bb1b85f0e8bdd739315dd9c4c4d11",
+      "bytes": 20080
+    },
+    {
+      "path": "states/ld_024_trajectory_004_department_of_tourism.json",
+      "sha256": "644046a322d66a2dc3541c1c4093465b56b128f214c8c374a13049f2151a1e68",
+      "bytes": 20218
+    },
+    {
+      "path": "states/ld_025_trajectory_004_environmental_league.json",
+      "sha256": "dba1ad25a40eef64257674e9e914807a2dd19b708e0d9dc712b25963d005d277",
+      "bytes": 20034
+    },
+    {
+      "path": "states/ld_026_trajectory_004_local_labour_union.json",
+      "sha256": "82eea1f96dc4d34a2614c4b9e94f9314071eb47d5d4b93d85351a9d7d23952ba",
+      "bytes": 21734
+    },
+    {
+      "path": "states/ld_027_trajectory_004_mayor.json",
+      "sha256": "2a04586cd3f9f7d3347fc20ff1772221b8a81d920968f3a85a600c9ad5719cab",
+      "bytes": 22502
+    },
+    {
+      "path": "states/ld_028_trajectory_004_other_cities.json",
+      "sha256": "9903bd707f353d670f82bfa039f2138762049b16a3bf2a1933c332aa84e157b9",
+      "bytes": 19889
+    },
+    {
+      "path": "states/ld_029_trajectory_004_sportco.json",
+      "sha256": "92aa9382d4d72f0dd7a40d873a757a0bcc529d9a8964d973d83c76461d8a5bf9",
+      "bytes": 19335
+    }
+  ]
+}

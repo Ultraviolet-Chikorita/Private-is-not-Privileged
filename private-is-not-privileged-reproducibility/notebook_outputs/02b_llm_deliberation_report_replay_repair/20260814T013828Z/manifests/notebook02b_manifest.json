@@ -1,0 +1,12 @@
+{
+  "notebook_build": "latent-reservations-notebook02b-report-replay-repair-run-all-v1",
+  "run_id": "20260814T013828Z",
+  "run_output_dir": "/workspace/latent-reservations/notebook_outputs/02b_llm_deliberation_report_replay_repair/20260814T013828Z",
+  "notebook02_input_run": "/workspace/latent-reservations/notebook_outputs/02_llm_deliberation_robustness_reports/20260814T012554Z",
+  "repair_summary": "/workspace/latent-reservations/notebook_outputs/02b_llm_deliberation_report_replay_repair/20260814T013828Z/results/tables/repair_summary.json",
+  "nested_loto": "/workspace/latent-reservations/notebook_outputs/02b_llm_deliberation_report_replay_repair/20260814T013828Z/results/tables/nested_loto_summary.json",
+  "reparsed_repeat": "/workspace/latent-reservations/notebook_outputs/02b_llm_deliberation_report_replay_repair/20260814T013828Z/results/tables/reparsed_exact_repeat_summary.json",
+  "repaired_report_summary": "/workspace/latent-reservations/notebook_outputs/02b_llm_deliberation_report_replay_repair/20260814T013828Z/results/tables/repaired_report_summary.json",
+  "repaired_report_table": "/workspace/latent-reservations/notebook_outputs/02b_llm_deliberation_report_replay_repair/20260814T013828Z/results/tables/repaired_report_state_table.csv",
+  "report_order_control": "/workspace/latent-reservations/notebook_outputs/02b_llm_deliberation_report_replay_repair/20260814T013828Z/results/tables/report_order_control.csv"
+}

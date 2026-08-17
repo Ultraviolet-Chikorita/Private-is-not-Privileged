@@ -1,0 +1,15 @@
+{
+  "below_minimum_accept_count": 6,
+  "maximum_score_accept_rate": 0.9666666666666667,
+  "uncensored_state_rate": 1.0,
+  "state_binary_monotonicity_violation_rate": 0.26666666666666666,
+  "unrestricted_global_binary_rate_diagnostic": 1.0,
+  "unrestricted_global_vs_forced_agreement_when_binary": 1.0,
+  "thresholds": {
+    "below_minimum_accept_count_max": 0,
+    "maximum_score_accept_rate_min": 0.9,
+    "uncensored_state_rate_min": 0.6666666666666666,
+    "state_monotonicity_violation_rate_max": 0.2
+  },
+  "passed": false
+}

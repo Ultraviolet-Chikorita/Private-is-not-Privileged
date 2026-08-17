@@ -1,0 +1,7 @@
+{
+  "private_report_match_rate": 0.8571428571428571,
+  "message_clear_count": 7,
+  "message_clear_rate": 1.0,
+  "message_action_divergence_rate_given_clear": 0.7142857142857143,
+  "message_branch_continued_into_action": false
+}

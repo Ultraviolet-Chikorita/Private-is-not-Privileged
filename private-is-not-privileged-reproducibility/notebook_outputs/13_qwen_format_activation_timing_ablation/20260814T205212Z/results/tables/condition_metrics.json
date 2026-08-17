@@ -1,0 +1,110 @@
+{
+  "raw_direct_t0": {
+    "interpretable": false
+  },
+  "compact_direct_t0": {
+    "interpretable": false
+  },
+  "raw_reason_t0": {
+    "interpretable": false
+  },
+  "compact_reason_t0": {
+    "interpretable": true,
+    "n": 40,
+    "metrics": {
+      "activation": {
+        "brier": 0.3018327291239767,
+        "accuracy": 0.575,
+        "auroc": 0.5973333333333334
+      },
+      "matched_auditor": {
+        "brier": 0.2625,
+        "accuracy": 0.6,
+        "auroc": 0.6066666666666667
+      },
+      "trained_text": {
+        "brier": 0.2672332085971553,
+        "accuracy": 0.625,
+        "auroc": 0.3626666666666667
+      },
+      "structured": {
+        "brier": 0.2580929226186139,
+        "accuracy": 0.65,
+        "auroc": 0.528
+      },
+      "constant": {
+        "brier": 0.2484375,
+        "accuracy": 0.625,
+        "auroc": 0.32933333333333337
+      }
+    },
+    "delta_auditor_minus_activation_brier": -0.03933272912397667,
+    "delta_text_minus_activation_brier": -0.03459952052682136
+  },
+  "raw_deliberate_t1": {
+    "interpretable": true,
+    "n": 39,
+    "metrics": {
+      "activation": {
+        "brier": 0.09224444698344356,
+        "accuracy": 0.8974358974358975,
+        "auroc": 0.9862068965517242
+      },
+      "matched_auditor": {
+        "brier": 0.025576923076923073,
+        "accuracy": 1.0,
+        "auroc": 1.0
+      },
+      "trained_text": {
+        "brier": 0.19970448415524564,
+        "accuracy": 0.717948717948718,
+        "auroc": 0.5827586206896552
+      },
+      "structured": {
+        "brier": 0.22541185964070004,
+        "accuracy": 0.717948717948718,
+        "auroc": 0.36551724137931035
+      },
+      "constant": {
+        "brier": 0.19822934176472157,
+        "accuracy": 0.7435897435897436,
+        "auroc": 0.3413793103448276
+      }
+    },
+    "delta_auditor_minus_activation_brier": -0.06666752390652048,
+    "delta_text_minus_activation_brier": 0.10746003717180208
+  },
+  "compact_deliberate_t1": {
+    "interpretable": true,
+    "n": 40,
+    "metrics": {
+      "activation": {
+        "brier": 0.10251083029330846,
+        "accuracy": 0.85,
+        "auroc": 1.0
+      },
+      "matched_auditor": {
+        "brier": 0.028250000000000004,
+        "accuracy": 1.0,
+        "auroc": 1.0
+      },
+      "trained_text": {
+        "brier": 0.19957390657343682,
+        "accuracy": 0.75,
+        "auroc": 0.38
+      },
+      "structured": {
+        "brier": 0.20360136590512026,
+        "accuracy": 0.75,
+        "auroc": 0.5533333333333333
+      },
+      "constant": {
+        "brier": 0.19453125,
+        "accuracy": 0.75,
+        "auroc": 0.33999999999999997
+      }
+    },
+    "delta_auditor_minus_activation_brier": -0.07426083029330846,
+    "delta_text_minus_activation_brier": 0.09706307628012836
+  }
+}

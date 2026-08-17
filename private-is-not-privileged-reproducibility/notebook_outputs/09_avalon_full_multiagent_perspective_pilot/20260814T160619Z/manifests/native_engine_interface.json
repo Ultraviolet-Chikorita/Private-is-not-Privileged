@@ -1,0 +1,14 @@
+{
+  "from_presets": "(presets: Dict) -> 'AvalonGameEnvironment'",
+  "get_role": "(self, player)",
+  "get_roles": "(self)",
+  "get_partial_sides": "(self, player)",
+  "get_phase": "(self)",
+  "get_quest_leader": "(self)",
+  "get_team_size": "(self)",
+  "choose_quest_team": "(self, team: frozenset, leader)",
+  "get_current_quest_team": "(self)",
+  "gather_team_votes": "(self, votes: List)",
+  "gather_quest_votes": "(self, votes: List)",
+  "choose_assassination_target": "(self, player, target)"
+}

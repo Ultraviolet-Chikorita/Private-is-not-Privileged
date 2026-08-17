@@ -1,0 +1,53 @@
+{
+  "notebook_build": "latent-reservations-notebook05-coopeval-travellers-pilot-v1",
+  "run_id": "20260814T070203Z",
+  "environment": "CoopEval",
+  "game": "Traveler's Dilemma",
+  "mechanism": "No Mechanism",
+  "coopeval_commit": "8559e858b5cc33e0a29ac592c0b21eab007feb57",
+  "subject_model": "Qwen/Qwen2.5-7B-Instruct",
+  "states": 100,
+  "source_families": 20,
+  "split": {
+    "train_states": 60,
+    "validation_states": 20,
+    "test_states": 20,
+    "train_families": 12,
+    "validation_families": 4,
+    "test_families": 4
+  },
+  "native_smoke_passed": true,
+  "subject_valid_rate": 1.0,
+  "auditor_valid_rate": 1.0,
+  "deterministic_repeat_match_rate": 1.0,
+  "behavioral_utility_sensitivity": {
+    "fraction_families_negative_bonus_claim_rho": 0.1,
+    "mean_bonus_claim_rho": 0.24930972607761842,
+    "unique_claims": 18,
+    "unique_claim_positions": 9
+  },
+  "h1": {
+    "primary_target": "continuous claim",
+    "primary_error": "per-state normalized absolute error",
+    "selected_activation_layer": 27,
+    "selected_activation_alpha": 0.01,
+    "activation_test_mean_normalized_abs_error": 0.4651935970783234,
+    "auditor_test_mean_normalized_abs_error": 0.2225,
+    "trained_text_test_mean_normalized_abs_error": 0.36608309334119615,
+    "structured_test_mean_normalized_abs_error": 0.12989719688429463,
+    "delta_latent_auditor_minus_activation": -0.24269359707832341,
+    "cluster_bootstrap_95ci": [
+      -0.8562154992421469,
+      0.14165234208106994
+    ],
+    "bootstrap_fraction_positive": 0.2524
+  },
+  "positive_control": {
+    "target": "official bonus ratio",
+    "selected_layer": 17,
+    "selected_alpha": 100.0,
+    "test_mae": 0.5456208467483521
+  },
+  "shuffled_label_control_test_mean_normalized_abs_error": 1.9194687275886533,
+  "interpretation_policy": "Independent pilot only. Preserve the observed sign. Do not weaken the auditor or redefine the target after test inspection."
+}
