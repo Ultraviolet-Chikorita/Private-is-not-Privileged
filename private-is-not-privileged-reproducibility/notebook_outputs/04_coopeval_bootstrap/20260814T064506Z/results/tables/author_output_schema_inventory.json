@@ -1,0 +1,174 @@
+[
+  {
+    "path": "outputs/judge/full_gpt5.2/raw/judgement_summary.json",
+    "schema": {
+      "kind": "json_dict",
+      "keys": [
+        "agent_type_filter",
+        "discovered_runs",
+        "dry_run",
+        "game_counts",
+        "generated_at_utc",
+        "judge_package_path",
+        "label_counts",
+        "max_items",
+        "max_workers",
+        "mean_confidence",
+        "mechanism_counts",
+        "min_response_chars",
+        "model_counts",
+        "output_file",
+        "processing_counters",
+        "rows",
+        "script",
+        "text_mode",
+        "unique_trace_ids"
+      ]
+    }
+  },
+  {
+    "path": "outputs/judge/full_gpt5.2/raw/judgement.jsonl",
+    "schema": {
+      "kind": "jsonl",
+      "first_keys": [
+        "action",
+        "agent_type",
+        "batch_name",
+        "classification_confidence",
+        "classification_explanation",
+        "classification_justification",
+        "classification_labels",
+        "dry_run",
+        "game",
+        "judge_input_chars",
+        "judge_model",
+        "judge_provider",
+        "mechanism",
+        "mediated",
+        "model",
+        "player",
+        "player_id",
+        "points",
+        "processed_at_utc",
+        "record_line",
+        "response_chars",
+        "response_source",
+        "run_dir",
+        "run_name",
+        "taxonomy_path",
+        "trace_id"
+      ]
+    }
+  },
+  {
+    "path": "outputs/judge/full_gpt5.2/normalized/normalized.summary.json",
+    "schema": {
+      "kind": "json_dict",
+      "keys": [
+        "game_row_counts",
+        "input_file",
+        "mapping_stats",
+        "mean_confidence",
+        "mechanism_row_counts",
+        "model_row_counts",
+        "normalized_label_counts",
+        "normalized_output_file",
+        "output_files",
+        "raw_label_counts",
+        "rows",
+        "unique_trace_ids"
+      ]
+    }
+  },
+  {
+    "path": "outputs/judge/full_gpt5.2/normalized/normalized.label_map.json",
+    "schema": {
+      "kind": "json_dict",
+      "keys": [
+        "alias_to_canonical",
+        "canonical_labels"
+      ]
+    }
+  },
+  {
+    "path": "outputs/judge/full_gpt5.2/normalized/normalized.jsonl",
+    "schema": {
+      "kind": "jsonl",
+      "first_keys": [
+        "action",
+        "agent_type",
+        "batch_name",
+        "classification_confidence",
+        "classification_explanation",
+        "classification_has_unmapped",
+        "classification_justification",
+        "classification_justification_normalized",
+        "classification_labels",
+        "classification_labels_normalized",
+        "classification_labels_raw",
+        "classification_unmapped_labels",
+        "dry_run",
+        "game",
+        "judge_input_chars",
+        "judge_model",
+        "judge_provider",
+        "mechanism",
+        "mediated",
+        "model",
+        "player",
+        "player_id",
+        "points",
+        "processed_at_utc",
+        "record_line",
+        "response_chars",
+        "response_source",
+        "run_dir",
+        "run_name",
+        "taxonomy_path",
+        "trace_id"
+      ]
+    }
+  },
+  {
+    "path": "outputs/judge/full_gpt5.2/normalized/normalized.counts_overall.csv",
+    "schema": {
+      "kind": "csv",
+      "header": "group,label,count,share_of_group_pct"
+    }
+  },
+  {
+    "path": "outputs/judge/full_gpt5.2/normalized/normalized.counts_by_model.csv",
+    "schema": {
+      "kind": "csv",
+      "header": "group,label,count,share_of_group_pct"
+    }
+  },
+  {
+    "path": "outputs/judge/full_gpt5.2/normalized/normalized.counts_by_mechanism.csv",
+    "schema": {
+      "kind": "csv",
+      "header": "group,label,count,share_of_group_pct"
+    }
+  },
+  {
+    "path": "outputs/judge/full_gpt5.2/normalized/normalized.counts_by_game.csv",
+    "schema": {
+      "kind": "csv",
+      "header": "group,label,count,share_of_group_pct"
+    }
+  },
+  {
+    "path": "outputs/judge/full_gpt5.2/dataset/taxonomy_by_game_mechanism_model_player.share_pct.csv",
+    "schema": {
+      "kind": "csv",
+      "header": "game,mechanism,model,player,label,share_pct,group_count"
+    }
+  },
+  {
+    "path": "outputs/judge/full_gpt5.2/dataset/taxonomy_by_game_mechanism_model_player.counts.csv",
+    "schema": {
+      "kind": "csv",
+      "header": "game,mechanism,model,player,label,count"
+    }
+  }
+]

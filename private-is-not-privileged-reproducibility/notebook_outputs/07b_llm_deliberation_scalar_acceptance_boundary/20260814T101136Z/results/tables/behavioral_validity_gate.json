@@ -1,0 +1,15 @@
+{
+  "choice_valid_rate": 0.13673469387755102,
+  "below_minimum_accept_count": 0,
+  "maximum_score_accept_rate": 0.1,
+  "uncensored_state_rate": 0.13333333333333333,
+  "state_monotonicity_violation_rate": 0.06666666666666667,
+  "thresholds": {
+    "decision_token_valid_rate_min": 0.95,
+    "below_minimum_accept_count_max": 0,
+    "maximum_score_accept_rate_min": 0.8,
+    "uncensored_state_rate_min": 0.6666666666666666,
+    "state_monotonicity_violation_rate_max": 0.2
+  },
+  "passed": false
+}

@@ -1,0 +1,366 @@
+{
+  "source_run": "/workspace/latent-reservations/notebook_outputs/07c_llm_deliberation_native_format_scalar_boundary/20260814T110150Z",
+  "source_label": "07c_llm_deliberation_native_format_scalar_boundary",
+  "files": [
+    {
+      "kind": "parent_state",
+      "name": "ld_000_trajectory_000_department_of_tourism.json",
+      "sha256": "02bb1bee83baca2d57446d7e094155a73ec4d09d80e8b6408c19c6a13559618b",
+      "size": 20570
+    },
+    {
+      "kind": "parent_state",
+      "name": "ld_001_trajectory_000_environmental_league.json",
+      "sha256": "49300498f29137fe896195ea99cc01876d50d300631894d6cf278d311065a04e",
+      "size": 17682
+    },
+    {
+      "kind": "parent_state",
+      "name": "ld_002_trajectory_000_local_labour_union.json",
+      "sha256": "ad806b7d63b42e68283ea42d0f3b05b5b5dfdcd0b1a90accb7c57bf1fb5db636",
+      "size": 21888
+    },
+    {
+      "kind": "parent_state",
+      "name": "ld_003_trajectory_000_mayor.json",
+      "sha256": "9df80f875f1cf3438f5d8581fef2151b8f494e564891bbca1e6906ace2a2e054",
+      "size": 22108
+    },
+    {
+      "kind": "parent_state",
+      "name": "ld_004_trajectory_000_other_cities.json",
+      "sha256": "acf48d64c2074e1abd29316cedf87b60b6effa12eccd7982da8f6280cb16df29",
+      "size": 21066
+    },
+    {
+      "kind": "parent_state",
+      "name": "ld_005_trajectory_000_sportco.json",
+      "sha256": "78781cb2aee18acf67c78068f81b8350bce46093cd72ffcb8fe81fc9a08c152a",
+      "size": 20376
+    },
+    {
+      "kind": "parent_state",
+      "name": "ld_006_trajectory_001_department_of_tourism.json",
+      "sha256": "72afd0c3646761c843f132940c712ee26a4e22230f3668b5dbef6f97a1b73726",
+      "size": 22559
+    },
+    {
+      "kind": "parent_state",
+      "name": "ld_007_trajectory_001_environmental_league.json",
+      "sha256": "d016b816d3081994190664de8920bf5e5b0c5d2f7a34882c2dfa63021af36980",
+      "size": 20509
+    },
+    {
+      "kind": "parent_state",
+      "name": "ld_008_trajectory_001_local_labour_union.json",
+      "sha256": "217e74e3661afd40fdeab95656cbf937eaf31bf4e861f5891f9cd54499781ed6",
+      "size": 23231
+    },
+    {
+      "kind": "parent_state",
+      "name": "ld_009_trajectory_001_mayor.json",
+      "sha256": "8f8b5654af8621f23302f8f5f4634d2b3d36025cb5c3381cbd35483697e4f814",
+      "size": 22783
+    },
+    {
+      "kind": "parent_state",
+      "name": "ld_010_trajectory_001_other_cities.json",
+      "sha256": "e49b1532923f68277626e8286cf5671b2bb1e47342dbc0fad4582b2474d42bf8",
+      "size": 23386
+    },
+    {
+      "kind": "parent_state",
+      "name": "ld_011_trajectory_001_sportco.json",
+      "sha256": "9d5faf5f334265fc565bc52108822022d82024d5f484463d18fe1db1a22f7ecc",
+      "size": 21536
+    },
+    {
+      "kind": "parent_state",
+      "name": "ld_012_trajectory_002_department_of_tourism.json",
+      "sha256": "a0d40a07f72da309ada831a4b5710ae8c50734b050ee4c834db545812025916f",
+      "size": 20882
+    },
+    {
+      "kind": "parent_state",
+      "name": "ld_013_trajectory_002_environmental_league.json",
+      "sha256": "69ba8ee4a9a0878dc4044acbbeddb7d24f13e5900f6393a069a8343bd24cb7d4",
+      "size": 18786
+    },
+    {
+      "kind": "parent_state",
+      "name": "ld_014_trajectory_002_local_labour_union.json",
+      "sha256": "ddaba0e5abdf0f33c7c25c8ff401cc26e12eaa1cdd43dc8a5e2f452049bac53f",
+      "size": 20719
+    },
+    {
+      "kind": "parent_state",
+      "name": "ld_015_trajectory_002_mayor.json",
+      "sha256": "d80ad0e02f4b65855a03650d47e6318afaeee0076b9d6bf28d498f22f71763a1",
+      "size": 21074
+    },
+    {
+      "kind": "parent_state",
+      "name": "ld_016_trajectory_002_other_cities.json",
+      "sha256": "05f91dea42322a0ff7df603af69973407b53a3e7b4c25ecb91821ac2d03ca65c",
+      "size": 21829
+    },
+    {
+      "kind": "parent_state",
+      "name": "ld_017_trajectory_002_sportco.json",
+      "sha256": "faa2097eb86ffa4632bab2f13e51a2029090712e0f9f522e73410ed182670524",
+      "size": 20224
+    },
+    {
+      "kind": "parent_state",
+      "name": "ld_018_trajectory_003_department_of_tourism.json",
+      "sha256": "4ed4fba06f92341c03942b82ab77d6eb842278894002736ece31ca5270f6e9b2",
+      "size": 18920
+    },
+    {
+      "kind": "parent_state",
+      "name": "ld_019_trajectory_003_environmental_league.json",
+      "sha256": "54031350983d317a50ef390638ce588dc62a4ab3884c2934a178b737b5d92dd3",
+      "size": 18328
+    },
+    {
+      "kind": "parent_state",
+      "name": "ld_020_trajectory_003_local_labour_union.json",
+      "sha256": "b5097544bb574e8ad603d85396bbaba8d1cf992d211dbbed0ff17f9d46a8385f",
+      "size": 21050
+    },
+    {
+      "kind": "parent_state",
+      "name": "ld_021_trajectory_003_mayor.json",
+      "sha256": "977e95aff63fdd2e2c0d7d41f898a1fb4bf2eab9e82e7b699b7a0c521f1d0268",
+      "size": 21081
+    },
+    {
+      "kind": "parent_state",
+      "name": "ld_022_trajectory_003_other_cities.json",
+      "sha256": "bb6544909a193624dccd79723620b3634a4c95583be78b6f71f7172efb7317e5",
+      "size": 21183
+    },
+    {
+      "kind": "parent_state",
+      "name": "ld_023_trajectory_003_sportco.json",
+      "sha256": "cdd0456c6ec3bdaae5a8ee20f0bb3a16a74bb1b85f0e8bdd739315dd9c4c4d11",
+      "size": 20080
+    },
+    {
+      "kind": "parent_state",
+      "name": "ld_024_trajectory_004_department_of_tourism.json",
+      "sha256": "644046a322d66a2dc3541c1c4093465b56b128f214c8c374a13049f2151a1e68",
+      "size": 20218
+    },
+    {
+      "kind": "parent_state",
+      "name": "ld_025_trajectory_004_environmental_league.json",
+      "sha256": "dba1ad25a40eef64257674e9e914807a2dd19b708e0d9dc712b25963d005d277",
+      "size": 20034
+    },
+    {
+      "kind": "parent_state",
+      "name": "ld_026_trajectory_004_local_labour_union.json",
+      "sha256": "82eea1f96dc4d34a2614c4b9e94f9314071eb47d5d4b93d85351a9d7d23952ba",
+      "size": 21734
+    },
+    {
+      "kind": "parent_state",
+      "name": "ld_027_trajectory_004_mayor.json",
+      "sha256": "2a04586cd3f9f7d3347fc20ff1772221b8a81d920968f3a85a600c9ad5719cab",
+      "size": 22502
+    },
+    {
+      "kind": "parent_state",
+      "name": "ld_028_trajectory_004_other_cities.json",
+      "sha256": "9903bd707f353d670f82bfa039f2138762049b16a3bf2a1933c332aa84e157b9",
+      "size": 19889
+    },
+    {
+      "kind": "parent_state",
+      "name": "ld_029_trajectory_004_sportco.json",
+      "sha256": "92aa9382d4d72f0dd7a40d873a757a0bcc529d9a8964d973d83c76461d8a5bf9",
+      "size": 19335
+    },
+    {
+      "kind": "candidate_bank",
+      "name": "ld_000_trajectory_000_department_of_tourism.json",
+      "sha256": "edfa52b830cadb759c1a3e6219df942410e1916c1711384970e68d2ef028b0b1",
+      "size": 5468
+    },
+    {
+      "kind": "candidate_bank",
+      "name": "ld_001_trajectory_000_environmental_league.json",
+      "sha256": "8e1026eeb36bc6b1f7fbd97a06279c2ea1fdd7355698d248eeb2a34da67202f5",
+      "size": 2857
+    },
+    {
+      "kind": "candidate_bank",
+      "name": "ld_002_trajectory_000_local_labour_union.json",
+      "sha256": "eae57fbac5551777aa26c644ce9bca2c10cc950d90b803a7f5ceff02c05f6def",
+      "size": 5409
+    },
+    {
+      "kind": "candidate_bank",
+      "name": "ld_003_trajectory_000_mayor.json",
+      "sha256": "eeb7e021409b63adfcb9dcfe6841c2e88f96eb6cb745a66421321d5c6ee28012",
+      "size": 4889
+    },
+    {
+      "kind": "candidate_bank",
+      "name": "ld_004_trajectory_000_other_cities.json",
+      "sha256": "8d818ce170b6ef20ff095cba1a58a29fde16417a72c3e99693d1da8c5de7f29e",
+      "size": 5577
+    },
+    {
+      "kind": "candidate_bank",
+      "name": "ld_005_trajectory_000_sportco.json",
+      "sha256": "e84e0ce19cfb1d9bcc0b8083e1f31044614f70d0c970dea4ba6af2494ddadf31",
+      "size": 4928
+    },
+    {
+      "kind": "candidate_bank",
+      "name": "ld_006_trajectory_001_department_of_tourism.json",
+      "sha256": "15b05480509f5ae0abde195980fad9a3a570b188435f3c81c96209706a3443b6",
+      "size": 5468
+    },
+    {
+      "kind": "candidate_bank",
+      "name": "ld_007_trajectory_001_environmental_league.json",
+      "sha256": "89cae85becb5fc8756b9891fea6710b8efb716659c7c0ab17a910b9016d9782d",
+      "size": 2857
+    },
+    {
+      "kind": "candidate_bank",
+      "name": "ld_008_trajectory_001_local_labour_union.json",
+      "sha256": "f2c9af2222cded47c3ee98d1dc150e6ecc5a57575ef04cf82794b5c4c5125da8",
+      "size": 5409
+    },
+    {
+      "kind": "candidate_bank",
+      "name": "ld_009_trajectory_001_mayor.json",
+      "sha256": "2add07f2ed5a6b86a20e6f2c2b7ff63a6ed66342a7917fc32d6f2698ed27c511",
+      "size": 4889
+    },
+    {
+      "kind": "candidate_bank",
+      "name": "ld_010_trajectory_001_other_cities.json",
+      "sha256": "eac1addbbc6108249e18f0ef5f9124afe98c7c81eb2745bc28c9d485e657e620",
+      "size": 5577
+    },
+    {
+      "kind": "candidate_bank",
+      "name": "ld_011_trajectory_001_sportco.json",
+      "sha256": "77afbc8c4bcd93fa520c27912ba97a869590f4c59356c09b4657275149084a41",
+      "size": 4928
+    },
+    {
+      "kind": "candidate_bank",
+      "name": "ld_012_trajectory_002_department_of_tourism.json",
+      "sha256": "e8f37fff606f7b51df4ab37fd8fe00cae21e539bece732ecd2353a9107e2e757",
+      "size": 5468
+    },
+    {
+      "kind": "candidate_bank",
+      "name": "ld_013_trajectory_002_environmental_league.json",
+      "sha256": "e258d19902b33154085130405889c48d413eccfd9f1eefe57e914fa8241ae3e0",
+      "size": 2857
+    },
+    {
+      "kind": "candidate_bank",
+      "name": "ld_014_trajectory_002_local_labour_union.json",
+      "sha256": "3e037e30c1cc0394e866254ee2f9d902cdcaf7f357610b5aaeff2f5096bd8ae8",
+      "size": 5409
+    },
+    {
+      "kind": "candidate_bank",
+      "name": "ld_015_trajectory_002_mayor.json",
+      "sha256": "8d01eeb7e7adfa5628d59fad443c3adb997c9d172d84c6a4f3066a28fa28e508",
+      "size": 4889
+    },
+    {
+      "kind": "candidate_bank",
+      "name": "ld_016_trajectory_002_other_cities.json",
+      "sha256": "c11b44862b9c7ef09d67c12042fa6da515ede4db47ca7b6dace2917ba6313f8e",
+      "size": 5577
+    },
+    {
+      "kind": "candidate_bank",
+      "name": "ld_017_trajectory_002_sportco.json",
+      "sha256": "a6bf3b42fbb6851f39ea1b8b88e45e58b5e5ce975c18e33beca839aca90c7bb6",
+      "size": 4928
+    },
+    {
+      "kind": "candidate_bank",
+      "name": "ld_018_trajectory_003_department_of_tourism.json",
+      "sha256": "8c149ac5517ef8e983ca5b3bf0dababdc34213a76805688cc84c5fda131bdcdd",
+      "size": 5468
+    },
+    {
+      "kind": "candidate_bank",
+      "name": "ld_019_trajectory_003_environmental_league.json",
+      "sha256": "568d92146988979394cb5c8d19e137fb963acd95cab66346dbc8ce03086c80a8",
+      "size": 2857
+    },
+    {
+      "kind": "candidate_bank",
+      "name": "ld_020_trajectory_003_local_labour_union.json",
+      "sha256": "758305d7b1d72e140a41ab5bb4d8e6ecb0543ebf7daf1ca480f3cd0c4778c7cf",
+      "size": 5409
+    },
+    {
+      "kind": "candidate_bank",
+      "name": "ld_021_trajectory_003_mayor.json",
+      "sha256": "7785ae7c6c4fb4248dcc1ccf841cb4f086f2e138cfc30de0699942123dc84a03",
+      "size": 4889
+    },
+    {
+      "kind": "candidate_bank",
+      "name": "ld_022_trajectory_003_other_cities.json",
+      "sha256": "89fccdda097b604b97954a381345e07f832ea1254404539c4212471a441a91c2",
+      "size": 5577
+    },
+    {
+      "kind": "candidate_bank",
+      "name": "ld_023_trajectory_003_sportco.json",
+      "sha256": "bb7f8efa9396dc8337e7b0039f1f011ac820c59e12c8b0d6a6e3ba7e406ff287",
+      "size": 4928
+    },
+    {
+      "kind": "candidate_bank",
+      "name": "ld_024_trajectory_004_department_of_tourism.json",
+      "sha256": "9104fea9c0edcc2cffbf839447776da0040b6fdd8bed4e5d0aecb348cbbbf18a",
+      "size": 5468
+    },
+    {
+      "kind": "candidate_bank",
+      "name": "ld_025_trajectory_004_environmental_league.json",
+      "sha256": "c8394c409ca853c021a834228eaee48124cb615efb6df425dbbef4f456311c71",
+      "size": 2857
+    },
+    {
+      "kind": "candidate_bank",
+      "name": "ld_026_trajectory_004_local_labour_union.json",
+      "sha256": "d184d9f6ac558ca73dd153db41b50e379ce36dbf2a453279d5fff6899a1c1701",
+      "size": 5409
+    },
+    {
+      "kind": "candidate_bank",
+      "name": "ld_027_trajectory_004_mayor.json",
+      "sha256": "e50da288cad2f8f5660f8c57d206289929c2f549ca387d5649444bd713770c94",
+      "size": 4889
+    },
+    {
+      "kind": "candidate_bank",
+      "name": "ld_028_trajectory_004_other_cities.json",
+      "sha256": "25d58853f64e9bf2e4501b81c9223967fb77ea13e0b269a7357122567b2fec18",
+      "size": 5577
+    },
+    {
+      "kind": "candidate_bank",
+      "name": "ld_029_trajectory_004_sportco.json",
+      "sha256": "0ecdb7bc97cab811f1ab57a9c3e405e862a8038c6c41f9cc3293ae90968b8a3e",
+      "size": 4928
+    }
+  ]
+}

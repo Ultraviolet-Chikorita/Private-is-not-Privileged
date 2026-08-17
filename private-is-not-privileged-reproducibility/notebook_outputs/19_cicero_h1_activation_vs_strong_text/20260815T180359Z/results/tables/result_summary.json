@@ -1,0 +1,130 @@
+{
+  "notebook_build": "latent-reservations-notebook19-cicero-h1-activation-vs-strong-text-v4-streamed-fast-state-selection",
+  "native_runtime_isolation": "Notebook14 Python3.7/Torch1.7.1 subprocess only",
+  "run_id": "20260815T180359Z",
+  "environment": "CICERO-derived full-press Diplomacy",
+  "subject_model": "Qwen/Qwen2.5-7B-Instruct",
+  "subject_revision_requested": "main",
+  "subject_revision_resolved": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "cicero_commit": "e85afeddb34f5b7c1ea0827203b425a0f7e68ead",
+  "protocol": {
+    "hypothesis": "H1: source-game-held-out Brier(strong matched text) - Brier(activation) > 0",
+    "environment": "CICERO-derived full-press Diplomacy released states",
+    "subject_model_default": "Qwen/Qwen2.5-7B-Instruct",
+    "behavioral_target": "revealed consequential choice of option B versus option A",
+    "state_target_count": 80,
+    "max_states_per_source_game": 2,
+    "minimum_usable_states": 60,
+    "minimum_source_games": 30,
+    "state_selection_uses_subject_outcome": false,
+    "distinct_parent_hash_within_game": true,
+    "prompt_format": "compact",
+    "subject_mode": "natural_reasoning_t0",
+    "activation_timing": "final prompt token before any subject output",
+    "auditor_generated_before_subject_action": true,
+    "auditor_receives_exact_subject_action_prompt": true,
+    "auditor_receives_future_subject_output": false,
+    "auditor_receives_activation": false,
+    "outer_split_unit": "source game",
+    "outer_folds": 5,
+    "fold_assignment": "game_index modulo 5",
+    "activation_layer_selection": "inner grouped folds only",
+    "regularization_selection": "inner grouped folds only",
+    "strong_text_candidates": [
+      "matched_generative_qwen",
+      "trained_exact_prompt_tfidf"
+    ],
+    "strong_text_method_selection": "inner grouped folds only; one method fixed per outer fold",
+    "primary_metric": "paired Brier-score difference",
+    "primary_effect": "delta_latent = se_strong_text - se_activation, averaged by source game",
+    "uncertainty": "95% source-game cluster bootstrap",
+    "h1_support_rule": "valid run AND bootstrap CI low > 0 AND activation beats shuffled-label control",
+    "no_test_fold_tuning": true
+  },
+  "readiness": {
+    "selected_state_count": 78,
+    "selected_source_games": 40,
+    "action_validity": 0.9743589743589743,
+    "auditor_validity": 1.0,
+    "usable_same_state_count": 76,
+    "usable_source_games": 40,
+    "label_A_count": 29,
+    "label_B_count": 47,
+    "minimum_usable_states_pass": true,
+    "minimum_source_games_pass": true,
+    "action_validity_pass": true,
+    "auditor_validity_pass": true,
+    "minimum_each_label_pass": true,
+    "split_purity_pass": true,
+    "all_auditors_generated_before_action": true,
+    "activation_action_prompt_hash_match": true,
+    "auditor_contains_exact_rendered_subject_text": true,
+    "activation_rows_align": true,
+    "h1_analysis_allowed": true,
+    "activation_beats_shuffled_label_control": false,
+    "all_heldout_predictions_complete": true,
+    "experiment_valid_for_h1_inference": true,
+    "h1_supported": false,
+    "h1_decision": "H1_not_supported_valid_direct_test",
+    "manual_parser_audit_sample_rows": 50,
+    "manual_parser_audit_required_before_manuscript_claim": true
+  },
+  "h1_result": {
+    "valid_states": 76,
+    "source_games": 40,
+    "label_A": 29,
+    "label_B": 47,
+    "metrics": {
+      "activation": {
+        "brier": 0.3364877773082724,
+        "accuracy": 0.5526315789473685,
+        "auroc": 0.549523110785033
+      },
+      "strong_text": {
+        "brier": 0.24069465053041061,
+        "accuracy": 0.618421052631579,
+        "auroc": 0.4680851063829787
+      },
+      "matched_auditor": {
+        "brier": 0.2857565526315921,
+        "accuracy": 0.5789473684210527,
+        "auroc": 0.5520909757887014
+      },
+      "trained_text": {
+        "brier": 0.24069465053041061,
+        "accuracy": 0.618421052631579,
+        "auroc": 0.4680851063829787
+      },
+      "structured": {
+        "brier": 0.23328142337441415,
+        "accuracy": 0.6447368421052632,
+        "auroc": 0.607483492296405
+      },
+      "constant": {
+        "brier": 0.2376644694148255,
+        "accuracy": 0.618421052631579,
+        "auroc": 0.4365370506236244
+      },
+      "shuffled_activation": {
+        "brier": 0.3240091300626679,
+        "accuracy": 0.5394736842105263,
+        "auroc": 0.5333822450476888
+      }
+    },
+    "primary_delta_latent_strong_text_minus_activation": -0.08708470096092143,
+    "secondary_delta_matched_auditor_minus_activation": -0.043582901242949,
+    "secondary_delta_trained_text_minus_activation": -0.08708470096092143,
+    "cluster_bootstrap": {
+      "reps": 20000,
+      "mean": -0.08723175000724896,
+      "ci95_low": -0.16618828692352244,
+      "ci95_high": -0.011212143794179431,
+      "fraction_positive": 0.0117
+    },
+    "activation_beats_shuffled_label_control": false,
+    "h1_supported": false,
+    "h1_decision": "H1_not_supported_valid_direct_test",
+    "interpretation": "Positive Delta_latent means lower held-out Brier error for the activation reader than the fold-selected strong text comparator. H1 support additionally requires the source-game-cluster bootstrap lower 95% bound to exceed zero."
+  },
+  "claim_boundary": "This notebook directly tests the original activation-vs-matched-text H1 for the local Qwen subject on CICERO-derived strategic states. It does not claim to decode Meta CICERO's own hidden neural activations, and it does not convert planner-object visibility into activation evidence."
+}

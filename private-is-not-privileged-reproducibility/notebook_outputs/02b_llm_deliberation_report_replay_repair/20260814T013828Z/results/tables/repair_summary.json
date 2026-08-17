@@ -1,0 +1,109 @@
+{
+  "notebook_build": "latent-reservations-notebook02b-report-replay-repair-run-all-v1",
+  "run_id": "20260814T013828Z",
+  "notebook02_run": "/workspace/latent-reservations/notebook_outputs/02_llm_deliberation_robustness_reports/20260814T012554Z",
+  "subject_model": "Qwen/Qwen2.5-7B-Instruct",
+  "upstream_commit": "78e11e04ba89b9d888cb006f57bad696584a32f1",
+  "notebook02_locked_h1": {
+    "activation_loto_mae": 24.89508310953776,
+    "auditor_loto_mae": 10.4,
+    "delta_auditor_minus_activation": -14.495083109537761,
+    "cluster_bootstrap_95ci": [
+      -25.31763687133789,
+      -7.303814188639323
+    ]
+  },
+  "nested_activation_robustness": {
+    "activation_nested_loto_mae": 19.483488987558953,
+    "auditor_mae": 10.4,
+    "delta_auditor_minus_activation": -9.083488987558953,
+    "alpha_grid": [
+      0.001,
+      0.01,
+      0.1,
+      1.0,
+      10.0,
+      100.0,
+      1000.0
+    ],
+    "outer_folds": [
+      {
+        "heldout_trajectory": "trajectory_000",
+        "inner_validation_mae": 13.685825685783813,
+        "selected_layer": 10,
+        "selected_alpha": 100.0,
+        "activation_mae": 21.39404444307191,
+        "auditor_mae": 12.833333333333334,
+        "delta_auditor_minus_activation": -8.560711109738575
+      },
+      {
+        "heldout_trajectory": "trajectory_001",
+        "inner_validation_mae": 17.905881920191476,
+        "selected_layer": 19,
+        "selected_alpha": 1000.0,
+        "activation_mae": 13.858556617248523,
+        "auditor_mae": 8.166666666666666,
+        "delta_auditor_minus_activation": -5.6918899505818565
+      },
+      {
+        "heldout_trajectory": "trajectory_002",
+        "inner_validation_mae": 15.589295041674475,
+        "selected_layer": 9,
+        "selected_alpha": 1000.0,
+        "activation_mae": 15.357781765569854,
+        "auditor_mae": 7.666666666666667,
+        "delta_auditor_minus_activation": -7.691115098903187
+      },
+      {
+        "heldout_trajectory": "trajectory_003",
+        "inner_validation_mae": 15.118803549489805,
+        "selected_layer": 18,
+        "selected_alpha": 100.0,
+        "activation_mae": 18.790443149883693,
+        "auditor_mae": 8.333333333333334,
+        "delta_auditor_minus_activation": -10.457109816550359
+      },
+      {
+        "heldout_trajectory": "trajectory_004",
+        "inner_validation_mae": 12.557754352626608,
+        "selected_layer": 6,
+        "selected_alpha": 0.001,
+        "activation_mae": 28.01661896202079,
+        "auditor_mae": 15.0,
+        "delta_auditor_minus_activation": -13.01661896202079
+      }
+    ],
+    "interpretation": "secondary nested robustness; does not replace the predeclared locked-layer result"
+  },
+  "reparsed_exact_repeat": {
+    "n": 5,
+    "legal_rate": 1.0,
+    "deal_match_rate": 1.0,
+    "score_match_rate": 1.0,
+    "method": "reparse existing Notebook 02 raw generations; no regeneration"
+  },
+  "repaired_reports": {
+    "private_valid_rate": 1.0,
+    "public_valid_rate": 1.0,
+    "private_unique_proposal_levels": 4,
+    "public_unique_proposal_levels": 4,
+    "private_behavior_bin_mae_all": 1.0333333333333334,
+    "private_behavior_bin_mae_public_subset": 0.8,
+    "public_behavior_bin_mae": 0.8,
+    "h3_public_minus_private_error_gap": 0.0,
+    "h3_cluster_bootstrap_95ci": [
+      0.0,
+      0.0
+    ],
+    "private_behavior_spearman": 0.19545826852242557,
+    "public_behavior_spearman": 0.6256296648304468,
+    "private_threshold_bin_mae": 0.5,
+    "public_threshold_bin_mae": 0.4,
+    "order_control_proposal_match_rate": 0.8,
+    "order_control_minimum_match_rate": 1.0
+  },
+  "supersedes": {
+    "notebook02_report_branch": "superseded because the filled numeric response example anchored all reports to the same stance values",
+    "notebook02_repeat_match_rates": "superseded because the saved parser used invalid regex boundary characters"
+  }
+}

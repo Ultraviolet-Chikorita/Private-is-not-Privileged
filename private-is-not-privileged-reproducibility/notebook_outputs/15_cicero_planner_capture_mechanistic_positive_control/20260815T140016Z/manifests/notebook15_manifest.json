@@ -1,0 +1,16 @@
+{
+  "notebook_build": "latent-reservations-notebook15-cicero-planner-capture-v2",
+  "run_id": "20260815T140016Z",
+  "run_output_dir": "/workspace/latent-reservations/notebook_outputs/15_cicero_planner_capture_mechanistic_positive_control/20260815T140016Z",
+  "preflight": "/workspace/latent-reservations/notebook_outputs/15_cicero_planner_capture_mechanistic_positive_control/20260815T140016Z/results/tables/preflight.json",
+  "runtime_signatures": "/workspace/latent-reservations/notebook_outputs/15_cicero_planner_capture_mechanistic_positive_control/20260815T140016Z/results/tables/runtime_signatures.json",
+  "instrumentation_source": "/workspace/latent-reservations/notebook_outputs/15_cicero_planner_capture_mechanistic_positive_control/20260815T140016Z/data/instrumentation/sitecustomize.py",
+  "instrumentation_probe": "/workspace/latent-reservations/notebook_outputs/15_cicero_planner_capture_mechanistic_positive_control/20260815T140016Z/data/runtime/instrumentation_probe.txt",
+  "full_agent_log": "/workspace/latent-reservations/notebook_outputs/15_cicero_planner_capture_mechanistic_positive_control/20260815T140016Z/data/runtime/full_agent_capture.log",
+  "capture_event_directory": "/workspace/latent-reservations/notebook_outputs/15_cicero_planner_capture_mechanistic_positive_control/20260815T140016Z/data/planner_capture_events",
+  "capture_events_merged": "/workspace/latent-reservations/notebook_outputs/15_cicero_planner_capture_mechanistic_positive_control/20260815T140016Z/data/runtime/capture_events_merged.json",
+  "planner_capture": "/workspace/latent-reservations/notebook_outputs/15_cicero_planner_capture_mechanistic_positive_control/20260815T140016Z/results/tables/planner_capture.json",
+  "mechanistic_target_candidates": "/workspace/latent-reservations/notebook_outputs/15_cicero_planner_capture_mechanistic_positive_control/20260815T140016Z/results/tables/mechanistic_target_candidates.json",
+  "readiness": "/workspace/latent-reservations/notebook_outputs/15_cicero_planner_capture_mechanistic_positive_control/20260815T140016Z/results/tables/readiness.json",
+  "result_summary": "/workspace/latent-reservations/notebook_outputs/15_cicero_planner_capture_mechanistic_positive_control/20260815T140016Z/results/tables/result_summary.json"
+}

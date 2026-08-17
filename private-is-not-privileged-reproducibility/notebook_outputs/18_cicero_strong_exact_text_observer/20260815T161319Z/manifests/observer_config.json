@@ -1,0 +1,15 @@
+{
+  "observer_model": "Qwen/Qwen2.5-7B-Instruct",
+  "observer_revision_requested": null,
+  "local_files_only": true,
+  "do_sample": false,
+  "temperature": 0.0,
+  "max_new_tokens": 192,
+  "max_retries_parse_only": 1,
+  "training_on_nb17_episodes": false,
+  "target_candidates_provided": false,
+  "recipient_injected": false,
+  "future_message_provided": false,
+  "planner_fields_provided": false,
+  "text_visible_threshold_inherited_from_nb17": 0.8
+}

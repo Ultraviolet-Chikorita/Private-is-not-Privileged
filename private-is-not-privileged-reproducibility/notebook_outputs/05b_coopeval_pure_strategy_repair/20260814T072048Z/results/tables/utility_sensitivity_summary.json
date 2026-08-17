@@ -1,0 +1,11 @@
+{
+  "families": 20,
+  "finite_rho_families": 6,
+  "fraction_all_families_negative_rho": 0.15,
+  "fraction_finite_families_negative_rho": 0.5,
+  "mean_finite_rho": -0.2448864708695242,
+  "fraction_families_high_bonus_lower_than_low_bonus": 0.15,
+  "mean_endpoint_shift_high_minus_low": -0.03333333333333333,
+  "unique_claims": 15,
+  "unique_actions": 5
+}

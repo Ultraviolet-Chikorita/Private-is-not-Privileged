@@ -1,0 +1,7 @@
+state_id,agent,trajectory_id,actual_score,activation_pred,auditor_pred,trained_text_pred
+ld_024_trajectory_004_department_of_tourism,Department of Tourism,trajectory_004,70.0,92.11796569824219,95.0,70.67571298595789
+ld_025_trajectory_004_environmental_league,Environmental League,trajectory_004,45.0,94.72418212890625,77.0,79.63477867391174
+ld_026_trajectory_004_local_labour_union,Local Labour Union,trajectory_004,71.0,82.4765853881836,71.0,72.6088890769563
+ld_027_trajectory_004_mayor,Mayor,trajectory_004,62.0,70.22662353515625,66.0,70.76616451565825
+ld_028_trajectory_004_other_cities,Other cities,trajectory_004,48.0,74.95255279541016,65.0,65.99694148905603
+ld_029_trajectory_004_sportco,SportCo,trajectory_004,51.0,89.19783020019531,63.0,75.60016772933363

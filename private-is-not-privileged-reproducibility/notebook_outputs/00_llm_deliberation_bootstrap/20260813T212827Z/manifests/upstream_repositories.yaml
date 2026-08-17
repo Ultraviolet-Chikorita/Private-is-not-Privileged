@@ -1,0 +1,87 @@
+{
+  "llm_deliberation": {
+    "notebook_slug": "00_llm_deliberation_bootstrap",
+    "run_id": "20260813T212827Z",
+    "run_output_dir": "/workspace/latent-reservations/notebook_outputs/00_llm_deliberation_bootstrap/20260813T212827Z",
+    "url": "https://github.com/S-Abdelnabi/LLM-Deliberation.git",
+    "commit": "78e11e04ba89b9d888cb006f57bad696584a32f1",
+    "branch": "main",
+    "verified_at_utc": "2026-08-13T21:28:31.892263+00:00",
+    "license_file": "/workspace/latent-reservations/vendor/llm-deliberation/LICENSE",
+    "license_sha256": "3d640399532779b3f67b2641d079869b094408a452db6fb72868a5abe317458b",
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "torch_cuda": "12.8",
+    "subject_model": "Qwen/Qwen2.5-7B-Instruct",
+    "subject_revision": "main",
+    "hf_cache_dir": "/workspace/.cache/huggingface",
+    "auto_configured_game_dir": "/workspace/latent-reservations/notebook_outputs/00_llm_deliberation_bootstrap/20260813T212827Z/data/generated_games/base_78e11e04ba89_Qwen_Qwen2.5-7B-Instruct",
+    "agents_num": 6,
+    "issues_num": 5,
+    "rounds_num": 24,
+    "native_temperature": 0.7,
+    "native_smoke_command": "/usr/local/bin/python main.py --exp_name latent_reservations_smoke_20260813T212827Z --agents_num 6 --issues_num 5 --window_size 6 --game_dir /workspace/latent-reservations/notebook_outputs/00_llm_deliberation_bootstrap/20260813T212827Z/data/generated_games/base_78e11e04ba89_Qwen_Qwen2.5-7B-Instruct --rounds_num 24 --temp 0.7 --hf_home /workspace/.cache/huggingface",
+    "native_smoke_passed": true,
+    "native_smoke_record": "/workspace/latent-reservations/notebook_outputs/00_llm_deliberation_bootstrap/20260813T212827Z/manifests/llm_deliberation_native_smoke_20260813T212827Z.json",
+    "repo_shape": {
+      "main.py": true,
+      "agent.py": true,
+      "initial_prompts.py": true,
+      "prompt_utils.py": true,
+      "rounds.py": true,
+      "save_utils.py": true,
+      "games_descriptions": true,
+      "evaluation/evaluate_deals.ipynb": true,
+      "evaluation/score_leakage.py": true
+    },
+    "bootstrap_install_record": {
+      "enabled": true,
+      "python": "3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]",
+      "commands": [
+        {
+          "cmd": [
+            "/usr/local/bin/python",
+            "-m",
+            "pip",
+            "install",
+            "-U",
+            "pip",
+            "setuptools",
+            "wheel"
+          ],
+          "returncode": 0
+        },
+        {
+          "cmd": [
+            "/usr/local/bin/python",
+            "-m",
+            "pip",
+            "install",
+            "-U",
+            "transformers>=4.45,<5",
+            "accelerate>=0.30,<2",
+            "google-cloud-aiplatform>=1.49,<2",
+            "openai>=1,<3",
+            "safetensors>=0.4",
+            "sentencepiece>=0.2",
+            "numpy<2",
+            "pandas>=2,<3",
+            "scipy>=1.12,<2",
+            "scikit-learn>=1.4,<2",
+            "matplotlib>=3.8,<4",
+            "tqdm>=4.66",
+            "pyyaml>=6",
+            "huggingface_hub>=0.24,<1"
+          ],
+          "returncode": 0
+        }
+      ],
+      "torch_fallback_used": false
+    },
+    "notes": [
+      "Upstream checkout is not modified; local model config lives in the project-owned generated game copy.",
+      "Do not mark scientifically verified from checkout/import alone.",
+      "Scientific gate requires state -> exact prompt -> generation -> legal parsed action -> score -> immutable state -> replay."
+    ]
+  }
+}

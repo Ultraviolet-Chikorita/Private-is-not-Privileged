@@ -1,0 +1,15 @@
+{
+  "output_isolated_by_notebook": true,
+  "run_output_dir": "/workspace/latent-reservations/notebook_outputs/00_llm_deliberation_bootstrap/20260813T212827Z",
+  "environment_recorded": true,
+  "upstream_repo_present": true,
+  "upstream_commit_recorded": true,
+  "native_smoke_passed": true,
+  "subject_model_smoke_passed": true,
+  "immutable_state_schema_ready": true,
+  "matched_information_assertion_ready": true,
+  "pilot_ledger_ready": true,
+  "first_real_state_validated": false,
+  "20_30_state_pilot_complete": false,
+  "h1_pilot_estimate_complete": false
+}

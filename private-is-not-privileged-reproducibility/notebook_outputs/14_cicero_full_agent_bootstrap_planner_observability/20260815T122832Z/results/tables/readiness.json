@@ -1,0 +1,17 @@
+{
+  "frozen_cicero_commit": true,
+  "released_model_files_present": true,
+  "legacy_python37_present": true,
+  "standard_virtual_environment_present": true,
+  "pip_stack_marker_present": true,
+  "legacy_full_agent_imports_pass": true,
+  "legacy_gpu_visible": true,
+  "run_py_entrypoint_pass": true,
+  "source_BQRE1PAgent_found": true,
+  "source_run_search_found": true,
+  "runtime_BQRE1PAgent_found": true,
+  "runtime_run_search_found": true,
+  "full_agent_reached_native_search": true,
+  "planner_observable_policy_found": true,
+  "ready_for_notebook15_cicero_planner_capture": true
+}

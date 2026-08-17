@@ -1,0 +1,87 @@
+{
+  "notebook_build": "latent-reservations-notebook07b-scalar-acceptance-boundary-v2",
+  "source_notebook07_run": "/workspace/latent-reservations/notebook_outputs/07_llm_deliberation_acceptance_boundary/20260814T095251Z",
+  "parent_states": 30,
+  "trajectory_folds": {
+    "trajectory_to_fold": {
+      "trajectory_000": 0,
+      "trajectory_001": 1,
+      "trajectory_002": 2,
+      "trajectory_003": 3,
+      "trajectory_004": 4
+    },
+    "outer_folds": {
+      "0": {
+        "test_fold": 0,
+        "validation_fold": 1,
+        "inner_train_folds": [
+          2,
+          3,
+          4
+        ]
+      },
+      "1": {
+        "test_fold": 1,
+        "validation_fold": 2,
+        "inner_train_folds": [
+          0,
+          3,
+          4
+        ]
+      },
+      "2": {
+        "test_fold": 2,
+        "validation_fold": 3,
+        "inner_train_folds": [
+          0,
+          1,
+          4
+        ]
+      },
+      "3": {
+        "test_fold": 3,
+        "validation_fold": 4,
+        "inner_train_folds": [
+          0,
+          1,
+          2
+        ]
+      },
+      "4": {
+        "test_fold": 4,
+        "validation_fold": 0,
+        "inner_train_folds": [
+          1,
+          2,
+          3
+        ]
+      }
+    }
+  },
+  "candidate_scores": "exactly the pre-outcome score grids frozen by Notebook 07",
+  "candidate_interface": "verified scalar private score only; score is complete controlled-branch payoff; all other parties automatically approve; no additional bonuses",
+  "parent_activation_timing": "after scalar-replay rule and before candidate score is revealed",
+  "action": "global next-token argmax; 1=ACCEPT, 0=REJECT; if the initial global argmax is malformed, make exactly one deterministic format-only retry with unchanged decision semantics",
+  "behavioral_gates": {
+    "decision_token_valid_rate_min": 0.95,
+    "per_state_legal_choice_count_min": 1,
+    "below_minimum_accept_count_max": 0,
+    "maximum_score_accept_rate_min": 0.8,
+    "uncensored_state_rate_min": 0.6666666666666666,
+    "state_monotonicity_violation_rate_max": 0.2
+  },
+  "primary_target": "isotonic binary-choice boundary normalized to legal private-score range",
+  "primary_delta": "matched generative auditor MAE - activation MAE",
+  "conservative_text_suite": [
+    "matched generative auditor",
+    "trained character-TFIDF",
+    "assigned-threshold baseline"
+  ],
+  "conservative_nonactivation_suite": [
+    "matched generative auditor",
+    "trained character-TFIDF",
+    "assigned-threshold baseline",
+    "structured state",
+    "fold-wise constant median"
+  ]
+}

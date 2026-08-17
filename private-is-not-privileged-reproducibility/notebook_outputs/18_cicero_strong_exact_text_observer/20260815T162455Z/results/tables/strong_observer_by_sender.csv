@@ -1,0 +1,7 @@
+sender,episodes,strong_exact_rate,strong_mean_jaccard,nb17_exact_rate,parse_rate
+AUSTRIA,2,0.5,0.5,1.0,0.5
+ENGLAND,1,0.0,0.0,1.0,0.0
+FRANCE,5,0.2,0.48,0.2,1.0
+GERMANY,4,0.75,0.75,1.0,0.75
+ITALY,4,1.0,1.0,1.0,1.0
+TURKEY,2,1.0,1.0,1.0,1.0

@@ -1,0 +1,18 @@
+{
+  "decision_parse_valid_rate": 1.0,
+  "format_retry_rate": 0.01020408163265306,
+  "zero_legal_states": [],
+  "below_minimum_accept_count": 10,
+  "maximum_score_accept_rate": 1.0,
+  "uncensored_state_rate": 1.0,
+  "state_monotonicity_violation_rate": 0.3,
+  "thresholds": {
+    "decision_parse_valid_rate_min": 0.95,
+    "format_retry_rate_max": 0.1,
+    "below_minimum_accept_count_max": 0,
+    "maximum_score_accept_rate_min": 0.8,
+    "uncensored_state_rate_min": 0.6666666666666666,
+    "state_monotonicity_violation_rate_max": 0.2
+  },
+  "passed": false
+}

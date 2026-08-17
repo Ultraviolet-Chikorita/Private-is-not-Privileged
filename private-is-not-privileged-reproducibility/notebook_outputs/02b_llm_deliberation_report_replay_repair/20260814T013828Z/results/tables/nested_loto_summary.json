@@ -1,0 +1,62 @@
+{
+  "activation_nested_loto_mae": 19.483488987558953,
+  "auditor_mae": 10.4,
+  "delta_auditor_minus_activation": -9.083488987558953,
+  "alpha_grid": [
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0,
+    1000.0
+  ],
+  "outer_folds": [
+    {
+      "heldout_trajectory": "trajectory_000",
+      "inner_validation_mae": 13.685825685783813,
+      "selected_layer": 10,
+      "selected_alpha": 100.0,
+      "activation_mae": 21.39404444307191,
+      "auditor_mae": 12.833333333333334,
+      "delta_auditor_minus_activation": -8.560711109738575
+    },
+    {
+      "heldout_trajectory": "trajectory_001",
+      "inner_validation_mae": 17.905881920191476,
+      "selected_layer": 19,
+      "selected_alpha": 1000.0,
+      "activation_mae": 13.858556617248523,
+      "auditor_mae": 8.166666666666666,
+      "delta_auditor_minus_activation": -5.6918899505818565
+    },
+    {
+      "heldout_trajectory": "trajectory_002",
+      "inner_validation_mae": 15.589295041674475,
+      "selected_layer": 9,
+      "selected_alpha": 1000.0,
+      "activation_mae": 15.357781765569854,
+      "auditor_mae": 7.666666666666667,
+      "delta_auditor_minus_activation": -7.691115098903187
+    },
+    {
+      "heldout_trajectory": "trajectory_003",
+      "inner_validation_mae": 15.118803549489805,
+      "selected_layer": 18,
+      "selected_alpha": 100.0,
+      "activation_mae": 18.790443149883693,
+      "auditor_mae": 8.333333333333334,
+      "delta_auditor_minus_activation": -10.457109816550359
+    },
+    {
+      "heldout_trajectory": "trajectory_004",
+      "inner_validation_mae": 12.557754352626608,
+      "selected_layer": 6,
+      "selected_alpha": 0.001,
+      "activation_mae": 28.01661896202079,
+      "auditor_mae": 15.0,
+      "delta_auditor_minus_activation": -13.01661896202079
+    }
+  ],
+  "interpretation": "secondary nested robustness; does not replace the predeclared locked-layer result"
+}

@@ -1,0 +1,20 @@
+{
+  "states": 30,
+  "trajectories": [
+    "trajectory_000",
+    "trajectory_001",
+    "trajectory_002",
+    "trajectory_003",
+    "trajectory_004"
+  ],
+  "activation_shape": [
+    30,
+    28,
+    3584
+  ],
+  "action_validity": 1.0,
+  "auditor_validity": 1.0,
+  "score_min": 33.0,
+  "score_max": 100.0,
+  "score_mean": 69.0
+}

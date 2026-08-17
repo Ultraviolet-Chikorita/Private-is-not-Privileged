@@ -1,0 +1,16 @@
+{
+  "upstream_commit": "78e11e04ba89b9d888cb006f57bad696584a32f1",
+  "expected_commit": "78e11e04ba89b9d888cb006f57bad696584a32f1",
+  "tracked_changed": [],
+  "critical_tracked_changes": [],
+  "noncritical_tracked_changes": [],
+  "untracked": [
+    "__pycache__/agent.cpython-312.pyc",
+    "__pycache__/initial_prompts.cpython-312.pyc",
+    "__pycache__/prompt_utils.cpython-312.pyc",
+    "__pycache__/rounds.cpython-312.pyc",
+    "__pycache__/save_utils.cpython-312.pyc",
+    "__pycache__/utils.cpython-312.pyc"
+  ],
+  "policy": "commit must match; tracked .py or games_descriptions changes block; other tracked/untracked files are recorded but do not block"
+}

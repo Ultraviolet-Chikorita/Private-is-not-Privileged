@@ -1,0 +1,7 @@
+{
+  "requirements_lines": 49,
+  "setup_present": true,
+  "dipcc_present": true,
+  "fairdiplomacy_present": true,
+  "installation_policy": "Notebook 10 performs source/data discovery only; no full CICERO environment install."
+}

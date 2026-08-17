@@ -1,0 +1,16 @@
+{
+  "private_n": 30,
+  "paired_public_n": 15,
+  "private_behavior_mae_all": 1.0333333333333334,
+  "private_behavior_mae_paired": 0.8,
+  "public_behavior_mae_paired": 0.8,
+  "public_minus_private_error_gap": 0.0,
+  "cluster_bootstrap_95ci": [
+    0.0,
+    0.0
+  ],
+  "paired_substantive_identity_rate": 1.0,
+  "mean_public_minus_private_confidence": 0.3333333333333333,
+  "nonzero_confidence_difference_pairs": 4,
+  "interpretation": "null public/private stance effect under this manipulation"
+}

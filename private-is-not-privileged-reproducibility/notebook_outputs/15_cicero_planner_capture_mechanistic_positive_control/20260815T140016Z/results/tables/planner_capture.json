@@ -1,0 +1,3009 @@
+{
+  "run_id": "20260815T140016Z",
+  "planner_method": "run_bilateral_search_with_conditional_evs",
+  "planner_event": {
+    "event": "run_bilateral_search_with_conditional_evs_result",
+    "payload": {
+      "elapsed_seconds": 0.1463476979988627,
+      "inputs": {
+        "agent_power": "ITALY",
+        "agent_state": {
+          "__repr__": "<fairdiplomacy.agents.bqre1p_agent.BayesAgentState object at 0x738a218728d0>",
+          "__selected_state__": {
+            "_last_pseudo_orders": {},
+            "_last_search_result": {},
+            "_value_table_cache": {
+              "S1901M | S1901M": {
+                "AUSTRIA": {
+                  "__summary__": "{\"('F NAP - ION', 'A ROM - APU', 'A VEN H') | ('A VIE - GAL', 'F TRI - ALB', 'A BUD - SER')\": {'__type__': 'torch.Tensor', 'shape': [7, 1], 'dtype': 'torch.float32', 'numel': 7, 'values': [[0.10713596642017365], [0.10494308173656464], [0.16394272446632385], [0.22044067084789276], [0.14996337890625], [0.149617001414299], [0.10395736992359161]]}, \"('F NAP - ION', 'A ROM - APU', 'A VEN H') | ('A VIE - TRI', 'F TRI - ALB', 'A BUD - SER')\": {'__type__': 'torch.Tensor', 'shape': [7, 1], 'dtype': 'torc",
+                  "__type__": "builtins.dict"
+                },
+                "ENGLAND": {
+                  "__summary__": "{\"('F NAP - ION', 'A ROM - APU', 'A VEN H') | ('F EDI - NWG', 'F LON - NTH', 'A LVP - EDI')\": {'__type__': 'torch.Tensor', 'shape': [7, 1], 'dtype': 'torch.float32', 'numel': 7, 'values': [[0.14042511582374573], [0.12287292629480362], [0.1499679535627365], [0.2135772705078125], [0.12268982082605362], [0.1492156982421875], [0.10128326714038849]]}, \"('F NAP - ION', 'A ROM - APU', 'A VEN H') | ('F EDI - NWG', 'F LON - NTH', 'A LVP - YOR')\": {'__type__': 'torch.Tensor', 'shape': [7, 1], 'dtype': 'to",
+                  "__type__": "builtins.dict"
+                },
+                "FRANCE": {
+                  "__summary__": "{\"('F NAP - ION', 'A ROM - APU', 'A VEN H') | ('F BRE - MAO', 'A PAR - BUR', 'A MAR S A PAR - BUR')\": {'__type__': 'torch.Tensor', 'shape': [7, 1], 'dtype': 'torch.float32', 'numel': 7, 'values': [[0.12628822028636932], [0.079798124730587], [0.19282837212085724], [0.21129150688648224], [0.1375579833984375], [0.1449127197265625], [0.10731277614831924]]}, \"('F NAP - ION', 'A ROM - APU', 'A VEN H') | ('F BRE - MAO', 'A PAR - BUR', 'A MAR - SPA')\": {'__type__': 'torch.Tensor', 'shape': [7, 1], 'dtyp",
+                  "__type__": "builtins.dict"
+                },
+                "GERMANY": {
+                  "__summary__": "{\"('F NAP - ION', 'A ROM - APU', 'A VEN H') | ('F KIE - DEN', 'A MUN - RUH', 'A BER - KIE')\": {'__type__': 'torch.Tensor', 'shape': [7, 1], 'dtype': 'torch.float32', 'numel': 7, 'values': [[0.11397285759449005], [0.11160049587488174], [0.1499282866716385], [0.2294921875], [0.1572418212890625], [0.12760619819164276], [0.11015548557043076]]}, \"('F NAP - ION', 'A ROM - APU', 'A VEN H') | ('F KIE - DEN', 'A MUN - BUR', 'A BER - KIE')\": {'__type__': 'torch.Tensor', 'shape': [7, 1], 'dtype': 'torch.fl",
+                  "__type__": "builtins.dict"
+                },
+                "RUSSIA": {
+                  "__summary__": "{\"('F NAP - ION', 'A ROM - APU', 'A VEN H') | ('F STP/SC - BOT', 'A MOS - UKR', 'A WAR - GAL', 'F SEV - BLA')\": {'__type__': 'torch.Tensor', 'shape': [7, 1], 'dtype': 'torch.float32', 'numel': 7, 'values': [[0.1273677796125412], [0.1390235871076584], [0.11509551852941513], [0.22406616806983948], [0.12074127048254013], [0.15413054823875427], [0.11957702785730362]]}, \"('F NAP - ION', 'A ROM - APU', 'A VEN H') | ('F STP/SC - FIN', 'A MOS - UKR', 'A WAR - GAL', 'F SEV - BLA')\": {'__type__': 'torch.T",
+                  "__type__": "builtins.dict"
+                },
+                "TURKEY": {
+                  "__summary__": "{\"('F NAP - ION', 'A ROM - APU', 'A VEN H') | ('F ANK - BLA', 'A SMY - CON', 'A CON - BUL')\": {'__type__': 'torch.Tensor', 'shape': [7, 1], 'dtype': 'torch.float32', 'numel': 7, 'values': [[0.13606110215187073], [0.09847106784582138], [0.13913345336914062], [0.22542114555835724], [0.12972411513328552], [0.16454163193702698], [0.10668029636144638]]}, \"('F NAP - ION', 'A ROM - APU', 'A VEN H') | ('F ANK - BLA', 'A SMY - ARM', 'A CON - BUL')\": {'__type__': 'torch.Tensor', 'shape': [7, 1], 'dtype': ",
+                  "__type__": "builtins.dict"
+                }
+              }
+            },
+            "belief_state": {
+              "__repr__": "<fairdiplomacy.agents.bqre1p_agent.BeliefState object at 0x738a218729d0>",
+              "__selected_state__": {
+                "beliefs": {
+                  "__summary__": "{'AUSTRIA': {'__type__': 'numpy.ndarray', 'shape': [6], 'dtype': 'float64', 'size': 6, 'values': [0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666]}, 'ENGLAND': {'__type__': 'numpy.ndarray', 'shape': [6], 'dtype': 'float64', 'size': 6, 'values': [0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666]}, 'FRANCE': {'__type__': 'numpy.ndarray', 'shape': ",
+                  "__type__": "builtins.dict"
+                },
+                "player_types": {
+                  "__summary__": "[0, 1, 2, 3, 4, 5]",
+                  "__type__": "builtins.list"
+                }
+              },
+              "__type__": "fairdiplomacy.agents.bqre1p_agent.BeliefState"
+            },
+            "pseudo_orders_cache": {
+              "__repr__": "<fairdiplomacy.agents.parlai_message_handler.ParlaiMessagePseudoOrdersCache object at 0x738a21872990>",
+              "__selected_state__": {
+                "cached_pseudo": {
+                  "__summary__": "None",
+                  "__type__": "builtins.NoneType"
+                }
+              },
+              "__type__": "fairdiplomacy.agents.parlai_message_handler.ParlaiMessagePseudoOrdersCache"
+            }
+          },
+          "__type__": "fairdiplomacy.agents.bqre1p_agent.BayesAgentState"
+        },
+        "bp_policy": {
+          "AUSTRIA": {
+            "A VIE - BUD | F TRI - ALB | A BUD - SER": 0.033838758176960027,
+            "A VIE - BUD | F TRI H | A BUD - SER": 0.0037050376122437045,
+            "A VIE - GAL | F TRI - ALB | A BUD - RUM": 0.0069020725642891185,
+            "A VIE - GAL | F TRI - ALB | A BUD - SER": 0.7439239920687246,
+            "A VIE - GAL | F TRI - VEN | A BUD - SER": 0.04469431915288962,
+            "A VIE - GAL | F TRI H | A BUD - SER": 0.014691918447262349,
+            "A VIE - GAL | F TRI S A VEN | A BUD - SER": 0.014278134473883326,
+            "A VIE - TRI | F TRI - ALB | A BUD - RUM": 0.006538856039581946,
+            "A VIE - TRI | F TRI - ALB | A BUD - SER": 0.12053631713329456,
+            "A VIE - TYR | F TRI - ALB | A BUD - SER": 0.00882880855846034,
+            "A VIE H | F TRI - ALB | A BUD - SER": 0.002061785772410301
+          },
+          "ENGLAND": {
+            "": 1.0
+          },
+          "FRANCE": {
+            "": 1.0
+          },
+          "GERMANY": {
+            "": 1.0
+          },
+          "ITALY": {
+            "F NAP - ION | A ROM - APU | A VEN - PIE": 0.13937205451954998,
+            "F NAP - ION | A ROM - APU | A VEN - TRI": 0.042761268245734625,
+            "F NAP - ION | A ROM - APU | A VEN - TYR": 0.019778559641765912,
+            "F NAP - ION | A ROM - APU | A VEN H": 0.3122514439329085,
+            "F NAP - ION | A ROM - APU | A VEN S F TRI": 0.1703915834906473,
+            "F NAP - ION | A ROM - NAP | A VEN H": 0.010483792523445216,
+            "F NAP - ION | A ROM - VEN | A VEN - PIE": 0.04079135018213005,
+            "F NAP - ION | A ROM - VEN | A VEN - TRI": 0.0367676746583051,
+            "F NAP - ION | A ROM - VEN | A VEN - TYR": 0.21558705454561736,
+            "F NAP - TYS | A ROM - TUS | A VEN - PIE": 0.004876288944222969,
+            "F NAP - TYS | A ROM - VEN | A VEN - PIE": 0.006938929315673043
+          },
+          "RUSSIA": {
+            "": 1.0
+          },
+          "TURKEY": {
+            "": 1.0
+          }
+        },
+        "conditional_evs": {
+          "__content_omitted__": true,
+          "__len__": 121,
+          "__type__": "builtins.dict"
+        },
+        "early_exit_for_power": null,
+        "extra_plausible_orders": null,
+        "game": {
+          "__type__": "fairdiplomacy.pydipcc.Game",
+          "current_short_phase": "S1901M",
+          "current_year": 1901,
+          "get_state": {
+            "builds": {
+              "AUSTRIA": {
+                "count": {
+                  "__summary__": "0",
+                  "__type__": "builtins.int"
+                },
+                "homes": {
+                  "__summary__": "[]",
+                  "__type__": "builtins.list"
+                }
+              },
+              "ENGLAND": {
+                "count": {
+                  "__summary__": "0",
+                  "__type__": "builtins.int"
+                },
+                "homes": {
+                  "__summary__": "[]",
+                  "__type__": "builtins.list"
+                }
+              },
+              "FRANCE": {
+                "count": {
+                  "__summary__": "0",
+                  "__type__": "builtins.int"
+                },
+                "homes": {
+                  "__summary__": "[]",
+                  "__type__": "builtins.list"
+                }
+              },
+              "GERMANY": {
+                "count": {
+                  "__summary__": "0",
+                  "__type__": "builtins.int"
+                },
+                "homes": {
+                  "__summary__": "[]",
+                  "__type__": "builtins.list"
+                }
+              },
+              "ITALY": {
+                "count": {
+                  "__summary__": "0",
+                  "__type__": "builtins.int"
+                },
+                "homes": {
+                  "__summary__": "[]",
+                  "__type__": "builtins.list"
+                }
+              },
+              "RUSSIA": {
+                "count": {
+                  "__summary__": "0",
+                  "__type__": "builtins.int"
+                },
+                "homes": {
+                  "__summary__": "[]",
+                  "__type__": "builtins.list"
+                }
+              },
+              "TURKEY": {
+                "count": {
+                  "__summary__": "0",
+                  "__type__": "builtins.int"
+                },
+                "homes": {
+                  "__summary__": "[]",
+                  "__type__": "builtins.list"
+                }
+              }
+            },
+            "centers": {
+              "AUSTRIA": [
+                {
+                  "__summary__": "'VIE'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'TRI'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'BUD'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "ENGLAND": [
+                {
+                  "__summary__": "'EDI'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'LON'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'LVP'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "FRANCE": [
+                {
+                  "__summary__": "'BRE'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'PAR'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'MAR'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "GERMANY": [
+                {
+                  "__summary__": "'KIE'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'MUN'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'BER'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "ITALY": [
+                {
+                  "__summary__": "'NAP'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'ROM'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'VEN'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "RUSSIA": [
+                {
+                  "__summary__": "'STP'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'MOS'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'WAR'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'SEV'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "TURKEY": [
+                {
+                  "__summary__": "'ANK'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'SMY'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'CON'",
+                  "__type__": "builtins.str"
+                }
+              ]
+            },
+            "homes": {
+              "AUSTRIA": [
+                {
+                  "__summary__": "'BUD'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'TRI'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'VIE'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "ENGLAND": [
+                {
+                  "__summary__": "'EDI'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'LON'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'LVP'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "FRANCE": [
+                {
+                  "__summary__": "'BRE'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'MAR'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'PAR'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "GERMANY": [
+                {
+                  "__summary__": "'BER'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'KIE'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'MUN'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "ITALY": [
+                {
+                  "__summary__": "'NAP'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'ROM'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'VEN'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "RUSSIA": [
+                {
+                  "__summary__": "'MOS'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'SEV'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'STP'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'WAR'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "TURKEY": [
+                {
+                  "__summary__": "'ANK'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'CON'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'SMY'",
+                  "__type__": "builtins.str"
+                }
+              ]
+            },
+            "influence": {
+              "AUSTRIA": [
+                {
+                  "__summary__": "'VIE'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'TRI'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'BUD'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "ENGLAND": [
+                {
+                  "__summary__": "'EDI'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'LON'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'LVP'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "FRANCE": [
+                {
+                  "__summary__": "'BRE'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'PAR'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'MAR'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "GERMANY": [
+                {
+                  "__summary__": "'KIE'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'MUN'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'BER'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "ITALY": [
+                {
+                  "__summary__": "'NAP'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'ROM'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'VEN'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "RUSSIA": [
+                {
+                  "__summary__": "'STP/SC'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'MOS'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'WAR'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'SEV'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "TURKEY": [
+                {
+                  "__summary__": "'ANK'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'SMY'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'CON'",
+                  "__type__": "builtins.str"
+                }
+              ]
+            },
+            "name": "S1901M",
+            "retreats": {
+              "AUSTRIA": {},
+              "ENGLAND": {},
+              "FRANCE": {},
+              "GERMANY": {},
+              "ITALY": {},
+              "RUSSIA": {},
+              "TURKEY": {}
+            },
+            "units": {
+              "AUSTRIA": [
+                {
+                  "__summary__": "'A VIE'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'F TRI'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'A BUD'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "ENGLAND": [
+                {
+                  "__summary__": "'F EDI'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'F LON'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'A LVP'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "FRANCE": [
+                {
+                  "__summary__": "'F BRE'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'A PAR'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'A MAR'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "GERMANY": [
+                {
+                  "__summary__": "'F KIE'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'A MUN'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'A BER'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "ITALY": [
+                {
+                  "__summary__": "'F NAP'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'A ROM'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'A VEN'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "RUSSIA": [
+                {
+                  "__summary__": "'F STP/SC'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'A MOS'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'A WAR'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'F SEV'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "TURKEY": [
+                {
+                  "__summary__": "'F ANK'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'A SMY'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'A CON'",
+                  "__type__": "builtins.str"
+                }
+              ]
+            }
+          }
+        },
+        "other_power": "AUSTRIA",
+        "pre_rescored_bp": {
+          "AUSTRIA": {
+            "A VIE - BUD | F TRI - ALB | A BUD - SER": 0.033838758176960027,
+            "A VIE - BUD | F TRI H | A BUD - SER": 0.003705037612243705,
+            "A VIE - GAL | F TRI - ALB | A BUD - RUM": 0.0069020725642891185,
+            "A VIE - GAL | F TRI - ALB | A BUD - SER": 0.7439239920687247,
+            "A VIE - GAL | F TRI - VEN | A BUD - SER": 0.04469431915288962,
+            "A VIE - GAL | F TRI H | A BUD - SER": 0.01469191844726235,
+            "A VIE - GAL | F TRI S A VEN | A BUD - SER": 0.014278134473883328,
+            "A VIE - TRI | F TRI - ALB | A BUD - RUM": 0.006538856039581947,
+            "A VIE - TRI | F TRI - ALB | A BUD - SER": 0.12053631713329457,
+            "A VIE - TYR | F TRI - ALB | A BUD - SER": 0.00882880855846034,
+            "A VIE H | F TRI - ALB | A BUD - SER": 0.0020617857724103015
+          },
+          "ENGLAND": {
+            "F EDI - NTH | F LON - ENG | A LVP - EDI": 0.003176111841230261,
+            "F EDI - NTH | F LON - ENG | A LVP - WAL": 0.07153267270459632,
+            "F EDI - NTH | F LON - ENG | A LVP - YOR": 0.19423508111513726,
+            "F EDI - NTH | F LON H | A LVP - YOR": 0.0002724036775578005,
+            "F EDI - NWG | F LON - ENG | A LVP - EDI": 0.0019142949080462005,
+            "F EDI - NWG | F LON - ENG | A LVP - WAL": 0.00038879325158403205,
+            "F EDI - NWG | F LON - ENG | A LVP - YOR": 0.0010422163579492927,
+            "F EDI - NWG | F LON - NTH | A LVP - EDI": 0.38032882723907213,
+            "F EDI - NWG | F LON - NTH | A LVP - WAL": 0.004836175296281178,
+            "F EDI - NWG | F LON - NTH | A LVP - YOR": 0.34227342360854546
+          },
+          "FRANCE": {
+            "F BRE - ENG | A PAR - BUR | A MAR - SPA": 0.052007390494370115,
+            "F BRE - ENG | A PAR - BUR | A MAR S A PAR - BUR": 0.038661851379698575,
+            "F BRE - ENG | A PAR - GAS | A MAR - SPA": 0.012961500244720653,
+            "F BRE - ENG | A PAR - PIC | A MAR - SPA": 0.018324595070699227,
+            "F BRE - MAO | A PAR - BUR | A MAR - SPA": 0.23806522423672158,
+            "F BRE - MAO | A PAR - BUR | A MAR S A PAR - BUR": 0.3743527046160173,
+            "F BRE - MAO | A PAR - GAS | A MAR - BUR": 0.08457081121544247,
+            "F BRE - MAO | A PAR - GAS | A MAR - SPA": 0.01629975554587499,
+            "F BRE - MAO | A PAR - PIC | A MAR - BUR": 0.08785750936933316,
+            "F BRE - MAO | A PAR - PIC | A MAR - SPA": 0.06663698644561065,
+            "F BRE - MAO | A PAR - PIC | A MAR H": 0.0102616713815114
+          },
+          "GERMANY": {
+            "F KIE - DEN | A MUN - BUR | A BER - KIE": 0.12383048945209962,
+            "F KIE - DEN | A MUN - RUH | A BER - KIE": 0.7544350885533736,
+            "F KIE - DEN | A MUN - RUH | A BER - MUN": 0.0062066340930766704,
+            "F KIE - DEN | A MUN - RUH | A BER - SIL": 0.003877774768695672,
+            "F KIE - DEN | A MUN - SIL | A BER - PRU": 0.004269073284528636,
+            "F KIE - DEN | A MUN - TYR | A BER - KIE": 0.0037707682634176504,
+            "F KIE - DEN | A MUN H | A BER - KIE": 0.006468897274027552,
+            "F KIE - DEN | A MUN S A PAR - BUR | A BER - KIE": 0.006219400909214643,
+            "F KIE - HOL | A MUN - BUR | A BER - KIE": 0.008415805344410842,
+            "F KIE - HOL | A MUN - RUH | A BER - KIE": 0.0811776379895629,
+            "F KIE - HOL | A MUN H | A BER - KIE": 0.0013284300675922313
+          },
+          "ITALY": {
+            "F NAP - ION | A ROM - APU | A VEN - PIE": 0.13937205451954993,
+            "F NAP - ION | A ROM - APU | A VEN - TRI": 0.04276126824573462,
+            "F NAP - ION | A ROM - APU | A VEN - TYR": 0.01977855964176591,
+            "F NAP - ION | A ROM - APU | A VEN H": 0.31225144393290843,
+            "F NAP - ION | A ROM - APU | A VEN S F TRI": 0.17039158349064729,
+            "F NAP - ION | A ROM - NAP | A VEN H": 0.010483792523445215,
+            "F NAP - ION | A ROM - VEN | A VEN - PIE": 0.040791350182130044,
+            "F NAP - ION | A ROM - VEN | A VEN - TRI": 0.03676767465830509,
+            "F NAP - ION | A ROM - VEN | A VEN - TYR": 0.21558705454561733,
+            "F NAP - TYS | A ROM - TUS | A VEN - PIE": 0.004876288944222968,
+            "F NAP - TYS | A ROM - VEN | A VEN - PIE": 0.006938929315673043
+          },
+          "RUSSIA": {
+            "F STP/SC - BOT | A MOS - SEV | A WAR - GAL | F SEV - RUM": 0.0026110364832858486,
+            "F STP/SC - BOT | A MOS - SEV | A WAR - UKR | F SEV - ARM": 0.002584374078608354,
+            "F STP/SC - BOT | A MOS - SEV | A WAR - UKR | F SEV - BLA": 0.0011036105723186012,
+            "F STP/SC - BOT | A MOS - SEV | A WAR - UKR | F SEV - RUM": 0.004635539310922508,
+            "F STP/SC - BOT | A MOS - STP | A WAR - GAL | F SEV - BLA": 0.028501302409632022,
+            "F STP/SC - BOT | A MOS - STP | A WAR - GAL | F SEV - RUM": 0.00338986203072513,
+            "F STP/SC - BOT | A MOS - STP | A WAR - UKR | F SEV - BLA": 0.04484095216701837,
+            "F STP/SC - BOT | A MOS - STP | A WAR - UKR | F SEV - RUM": 0.006563408437168463,
+            "F STP/SC - BOT | A MOS - UKR | A WAR - GAL | F SEV - BLA": 0.8117064405558672,
+            "F STP/SC - BOT | A MOS - UKR | A WAR - GAL | F SEV - RUM": 0.03519317450908844,
+            "F STP/SC - BOT | A MOS - UKR | A WAR - LVN | F SEV - BLA": 0.0011038568813043132,
+            "F STP/SC - BOT | A MOS - UKR | A WAR H | F SEV - BLA": 0.0057576481174517365,
+            "F STP/SC - FIN | A MOS - STP | A WAR - UKR | F SEV - BLA": 0.00223177294437438,
+            "F STP/SC - FIN | A MOS - UKR | A WAR - GAL | F SEV - BLA": 0.049777021502234696
+          },
+          "TURKEY": {
+            "F ANK - ARM | A SMY - CON | A CON - BUL": 0.0011068549906822136,
+            "F ANK - BLA | A SMY - ANK | A CON - BUL": 0.0025634426578512158,
+            "F ANK - BLA | A SMY - ARM | A CON - BUL": 0.12817407623901708,
+            "F ANK - BLA | A SMY - CON | A CON - BUL": 0.8158948694117357,
+            "F ANK - BLA | A SMY H | A CON - BUL": 0.002134083534566156,
+            "F ANK - CON | A SMY - ANK | A CON - BUL": 0.03465762676118312,
+            "F ANK - CON | A SMY - ARM | A CON - BUL": 0.009491170703966807,
+            "F ANK - CON | A SMY H | A CON - BUL": 0.004069601606199052,
+            "F ANK H | A SMY - CON | A CON - BUL": 0.001888194269437285,
+            "F ANK S A SMY - ARM | A SMY - ARM | A CON - BUL": 2.0079825361376028e-05
+          }
+        }
+      },
+      "planner_method": "run_bilateral_search_with_conditional_evs",
+      "result": {
+        "beliefs": {
+          "AUSTRIA": {
+            "__type__": "numpy.ndarray",
+            "dtype": "float64",
+            "shape": [
+              6
+            ],
+            "size": 6,
+            "values": [
+              0.16666666666666666,
+              0.16666666666666666,
+              0.16666666666666666,
+              0.16666666666666666,
+              0.16666666666666666,
+              0.16666666666666666
+            ]
+          },
+          "ENGLAND": {
+            "__type__": "numpy.ndarray",
+            "dtype": "float64",
+            "shape": [
+              6
+            ],
+            "size": 6,
+            "values": [
+              0.16666666666666666,
+              0.16666666666666666,
+              0.16666666666666666,
+              0.16666666666666666,
+              0.16666666666666666,
+              0.16666666666666666
+            ]
+          },
+          "FRANCE": {
+            "__type__": "numpy.ndarray",
+            "dtype": "float64",
+            "shape": [
+              6
+            ],
+            "size": 6,
+            "values": [
+              0.16666666666666666,
+              0.16666666666666666,
+              0.16666666666666666,
+              0.16666666666666666,
+              0.16666666666666666,
+              0.16666666666666666
+            ]
+          },
+          "GERMANY": {
+            "__type__": "numpy.ndarray",
+            "dtype": "float64",
+            "shape": [
+              6
+            ],
+            "size": 6,
+            "values": [
+              0.16666666666666666,
+              0.16666666666666666,
+              0.16666666666666666,
+              0.16666666666666666,
+              0.16666666666666666,
+              0.16666666666666666
+            ]
+          },
+          "ITALY": {
+            "__type__": "numpy.ndarray",
+            "dtype": "float64",
+            "shape": [
+              6
+            ],
+            "size": 6,
+            "values": [
+              0.16666666666666666,
+              0.16666666666666666,
+              0.16666666666666666,
+              0.16666666666666666,
+              0.16666666666666666,
+              0.16666666666666666
+            ]
+          },
+          "RUSSIA": {
+            "__type__": "numpy.ndarray",
+            "dtype": "float64",
+            "shape": [
+              6
+            ],
+            "size": 6,
+            "values": [
+              0.16666666666666666,
+              0.16666666666666666,
+              0.16666666666666666,
+              0.16666666666666666,
+              0.16666666666666666,
+              0.16666666666666666
+            ]
+          },
+          "TURKEY": {
+            "__type__": "numpy.ndarray",
+            "dtype": "float64",
+            "shape": [
+              6
+            ],
+            "size": 6,
+            "values": [
+              0.16666666666666666,
+              0.16666666666666666,
+              0.16666666666666666,
+              0.16666666666666666,
+              0.16666666666666666,
+              0.16666666666666666
+            ]
+          }
+        },
+        "method_outputs": {
+          "get_agent_policy": {
+            "AUSTRIA": {
+              "A VIE - BUD | F TRI - ALB | A BUD - SER": 0.043201165211387595,
+              "A VIE - BUD | F TRI H | A BUD - SER": 0.00396862124486182,
+              "A VIE - GAL | F TRI - ALB | A BUD - RUM": 0.007536279565319003,
+              "A VIE - GAL | F TRI - ALB | A BUD - SER": 0.6954002017102994,
+              "A VIE - GAL | F TRI - VEN | A BUD - SER": 0.056396402677043427,
+              "A VIE - GAL | F TRI H | A BUD - SER": 0.014351435279685193,
+              "A VIE - GAL | F TRI S A VEN | A BUD - SER": 0.014356869806053035,
+              "A VIE - TRI | F TRI - ALB | A BUD - RUM": 0.00771762061163399,
+              "A VIE - TRI | F TRI - ALB | A BUD - SER": 0.1442039603612347,
+              "A VIE - TYR | F TRI - ALB | A BUD - SER": 0.010573967785550791,
+              "A VIE H | F TRI - ALB | A BUD - SER": 0.0022934757469310293
+            },
+            "ENGLAND": {
+              "": 1.0
+            },
+            "FRANCE": {
+              "": 1.0
+            },
+            "GERMANY": {
+              "": 1.0
+            },
+            "ITALY": {
+              "F NAP - ION | A ROM - APU | A VEN - PIE": 0.09259343662156214,
+              "F NAP - ION | A ROM - APU | A VEN - TRI": 0.028209198667887857,
+              "F NAP - ION | A ROM - APU | A VEN - TYR": 0.012072371427124551,
+              "F NAP - ION | A ROM - APU | A VEN H": 0.48836307231417025,
+              "F NAP - ION | A ROM - APU | A VEN S F TRI": 0.15244281690536435,
+              "F NAP - ION | A ROM - NAP | A VEN H": 0.007872034246053795,
+              "F NAP - ION | A ROM - VEN | A VEN - PIE": 0.020923945596520218,
+              "F NAP - ION | A ROM - VEN | A VEN - TRI": 0.02421737673887424,
+              "F NAP - ION | A ROM - VEN | A VEN - TYR": 0.16539491359290226,
+              "F NAP - TYS | A ROM - TUS | A VEN - PIE": 0.003865549102957533,
+              "F NAP - TYS | A ROM - VEN | A VEN - PIE": 0.004045284786582756
+            },
+            "RUSSIA": {
+              "": 1.0
+            },
+            "TURKEY": {
+              "": 1.0
+            }
+          },
+          "get_bp_policy": {
+            "AUSTRIA": {
+              "A VIE - BUD | F TRI - ALB | A BUD - SER": 0.033838758176960027,
+              "A VIE - BUD | F TRI H | A BUD - SER": 0.0037050376122437045,
+              "A VIE - GAL | F TRI - ALB | A BUD - RUM": 0.0069020725642891185,
+              "A VIE - GAL | F TRI - ALB | A BUD - SER": 0.7439239920687246,
+              "A VIE - GAL | F TRI - VEN | A BUD - SER": 0.04469431915288962,
+              "A VIE - GAL | F TRI H | A BUD - SER": 0.014691918447262349,
+              "A VIE - GAL | F TRI S A VEN | A BUD - SER": 0.014278134473883326,
+              "A VIE - TRI | F TRI - ALB | A BUD - RUM": 0.006538856039581946,
+              "A VIE - TRI | F TRI - ALB | A BUD - SER": 0.12053631713329456,
+              "A VIE - TYR | F TRI - ALB | A BUD - SER": 0.00882880855846034,
+              "A VIE H | F TRI - ALB | A BUD - SER": 0.002061785772410301
+            },
+            "ENGLAND": {
+              "": 1.0
+            },
+            "FRANCE": {
+              "": 1.0
+            },
+            "GERMANY": {
+              "": 1.0
+            },
+            "ITALY": {
+              "F NAP - ION | A ROM - APU | A VEN - PIE": 0.13937205451954998,
+              "F NAP - ION | A ROM - APU | A VEN - TRI": 0.042761268245734625,
+              "F NAP - ION | A ROM - APU | A VEN - TYR": 0.019778559641765912,
+              "F NAP - ION | A ROM - APU | A VEN H": 0.3122514439329085,
+              "F NAP - ION | A ROM - APU | A VEN S F TRI": 0.1703915834906473,
+              "F NAP - ION | A ROM - NAP | A VEN H": 0.010483792523445216,
+              "F NAP - ION | A ROM - VEN | A VEN - PIE": 0.04079135018213005,
+              "F NAP - ION | A ROM - VEN | A VEN - TRI": 0.0367676746583051,
+              "F NAP - ION | A ROM - VEN | A VEN - TYR": 0.21558705454561736,
+              "F NAP - TYS | A ROM - TUS | A VEN - PIE": 0.004876288944222969,
+              "F NAP - TYS | A ROM - VEN | A VEN - PIE": 0.006938929315673043
+            },
+            "RUSSIA": {
+              "": 1.0
+            },
+            "TURKEY": {
+              "": 1.0
+            }
+          },
+          "get_population_policy": {
+            "AUSTRIA": {
+              "A VIE - BUD | F TRI - ALB | A BUD - SER": 0.04174261266146893,
+              "A VIE - BUD | F TRI H | A BUD - SER": 0.0038677435582962563,
+              "A VIE - GAL | F TRI - ALB | A BUD - RUM": 0.007322661485195969,
+              "A VIE - GAL | F TRI - ALB | A BUD - SER": 0.7047819996066451,
+              "A VIE - GAL | F TRI - VEN | A BUD - SER": 0.05448140760000102,
+              "A VIE - GAL | F TRI H | A BUD - SER": 0.014310633740891516,
+              "A VIE - GAL | F TRI S A VEN | A BUD - SER": 0.014201846401784306,
+              "A VIE - TRI | F TRI - ALB | A BUD - RUM": 0.007437520921421707,
+              "A VIE - TRI | F TRI - ALB | A BUD - SER": 0.1394438602551822,
+              "A VIE - TYR | F TRI - ALB | A BUD - SER": 0.01018957859787668,
+              "A VIE H | F TRI - ALB | A BUD - SER": 0.0022201351712361392
+            },
+            "ENGLAND": {
+              "": 0.9999999999999999
+            },
+            "FRANCE": {
+              "": 0.9999999999999999
+            },
+            "GERMANY": {
+              "": 0.9999999999999999
+            },
+            "ITALY": {
+              "F NAP - ION | A ROM - APU | A VEN - PIE": 0.10902356157404387,
+              "F NAP - ION | A ROM - APU | A VEN - TRI": 0.03337931472306239,
+              "F NAP - ION | A ROM - APU | A VEN - TYR": 0.01504116012532166,
+              "F NAP - ION | A ROM - APU | A VEN H": 0.43667004052920466,
+              "F NAP - ION | A ROM - APU | A VEN S F TRI": 0.15150700928762256,
+              "F NAP - ION | A ROM - NAP | A VEN H": 0.008605132453750117,
+              "F NAP - ION | A ROM - VEN | A VEN - PIE": 0.029456754131798123,
+              "F NAP - ION | A ROM - VEN | A VEN - TRI": 0.028686779600315945,
+              "F NAP - ION | A ROM - VEN | A VEN - TYR": 0.1783282594796775,
+              "F NAP - TYS | A ROM - TUS | A VEN - PIE": 0.004099326046971545,
+              "F NAP - TYS | A ROM - VEN | A VEN - PIE": 0.00520266204823164
+            },
+            "RUSSIA": {
+              "": 0.9999999999999999
+            },
+            "TURKEY": {
+              "": 0.9999999999999999
+            }
+          },
+          "is_early_exit": false
+        },
+        "repr": "<fairdiplomacy.agents.bqre1p_agent.BRMResult object at 0x73937d91e110>",
+        "selected_state": {
+          "__repr__": "<fairdiplomacy.agents.bqre1p_agent.BRMResult object at 0x73937d91e110>",
+          "__selected_state__": {
+            "beliefs": {
+              "AUSTRIA": {
+                "__type__": {
+                  "__summary__": "'numpy.ndarray'",
+                  "__type__": "builtins.str"
+                },
+                "dtype": {
+                  "__summary__": "'float64'",
+                  "__type__": "builtins.str"
+                },
+                "shape": {
+                  "__summary__": "[6]",
+                  "__type__": "builtins.list"
+                },
+                "size": {
+                  "__summary__": "6",
+                  "__type__": "builtins.int"
+                },
+                "values": {
+                  "__summary__": "[0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666]",
+                  "__type__": "builtins.list"
+                }
+              },
+              "ENGLAND": {
+                "__type__": {
+                  "__summary__": "'numpy.ndarray'",
+                  "__type__": "builtins.str"
+                },
+                "dtype": {
+                  "__summary__": "'float64'",
+                  "__type__": "builtins.str"
+                },
+                "shape": {
+                  "__summary__": "[6]",
+                  "__type__": "builtins.list"
+                },
+                "size": {
+                  "__summary__": "6",
+                  "__type__": "builtins.int"
+                },
+                "values": {
+                  "__summary__": "[0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666]",
+                  "__type__": "builtins.list"
+                }
+              },
+              "FRANCE": {
+                "__type__": {
+                  "__summary__": "'numpy.ndarray'",
+                  "__type__": "builtins.str"
+                },
+                "dtype": {
+                  "__summary__": "'float64'",
+                  "__type__": "builtins.str"
+                },
+                "shape": {
+                  "__summary__": "[6]",
+                  "__type__": "builtins.list"
+                },
+                "size": {
+                  "__summary__": "6",
+                  "__type__": "builtins.int"
+                },
+                "values": {
+                  "__summary__": "[0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666]",
+                  "__type__": "builtins.list"
+                }
+              },
+              "GERMANY": {
+                "__type__": {
+                  "__summary__": "'numpy.ndarray'",
+                  "__type__": "builtins.str"
+                },
+                "dtype": {
+                  "__summary__": "'float64'",
+                  "__type__": "builtins.str"
+                },
+                "shape": {
+                  "__summary__": "[6]",
+                  "__type__": "builtins.list"
+                },
+                "size": {
+                  "__summary__": "6",
+                  "__type__": "builtins.int"
+                },
+                "values": {
+                  "__summary__": "[0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666]",
+                  "__type__": "builtins.list"
+                }
+              },
+              "ITALY": {
+                "__type__": {
+                  "__summary__": "'numpy.ndarray'",
+                  "__type__": "builtins.str"
+                },
+                "dtype": {
+                  "__summary__": "'float64'",
+                  "__type__": "builtins.str"
+                },
+                "shape": {
+                  "__summary__": "[6]",
+                  "__type__": "builtins.list"
+                },
+                "size": {
+                  "__summary__": "6",
+                  "__type__": "builtins.int"
+                },
+                "values": {
+                  "__summary__": "[0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666]",
+                  "__type__": "builtins.list"
+                }
+              },
+              "RUSSIA": {
+                "__type__": {
+                  "__summary__": "'numpy.ndarray'",
+                  "__type__": "builtins.str"
+                },
+                "dtype": {
+                  "__summary__": "'float64'",
+                  "__type__": "builtins.str"
+                },
+                "shape": {
+                  "__summary__": "[6]",
+                  "__type__": "builtins.list"
+                },
+                "size": {
+                  "__summary__": "6",
+                  "__type__": "builtins.int"
+                },
+                "values": {
+                  "__summary__": "[0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666]",
+                  "__type__": "builtins.list"
+                }
+              },
+              "TURKEY": {
+                "__type__": {
+                  "__summary__": "'numpy.ndarray'",
+                  "__type__": "builtins.str"
+                },
+                "dtype": {
+                  "__summary__": "'float64'",
+                  "__type__": "builtins.str"
+                },
+                "shape": {
+                  "__summary__": "[6]",
+                  "__type__": "builtins.list"
+                },
+                "size": {
+                  "__summary__": "6",
+                  "__type__": "builtins.int"
+                },
+                "values": {
+                  "__summary__": "[0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666]",
+                  "__type__": "builtins.list"
+                }
+              }
+            },
+            "ptype_avg_policies": {
+              "0": {
+                "AUSTRIA": {
+                  "__summary__": "{'A VIE - GAL | F TRI - ALB | A BUD - SER': 0.5793863597836183, 'A VIE - TRI | F TRI - ALB | A BUD - SER': 0.1996827382639577, 'A VIE - GAL | F TRI - VEN | A BUD - SER': 0.086570454709914, 'A VIE - BUD | F TRI - ALB | A BUD - SER': 0.06779995938595919, 'A VIE - TYR | F TRI - ALB | A BUD - SER': 0.01444807033503694, 'A VIE - GAL | F TRI S A VEN | A BUD - SER': 0.013652234069448016, 'A VIE - GAL | F TRI H | A BUD - SER': 0.01285151359878318, 'A VIE - TRI | F TRI - ALB | A BUD - RUM': 0.01020267607",
+                  "__type__": "builtins.dict"
+                },
+                "ENGLAND": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "FRANCE": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "GERMANY": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "ITALY": {
+                  "__summary__": "{'F NAP - ION | A ROM - APU | A VEN H': 0.8048265197769875, 'F NAP - ION | A ROM - APU | A VEN S F TRI': 0.07953191749491402, 'F NAP - ION | A ROM - VEN | A VEN - TYR': 0.06286816713803135, 'F NAP - ION | A ROM - APU | A VEN - PIE': 0.026145685953586233, 'F NAP - ION | A ROM - APU | A VEN - TRI': 0.007944508895721134, 'F NAP - ION | A ROM - VEN | A VEN - TRI': 0.006812242994439752, 'F NAP - ION | A ROM - VEN | A VEN - PIE': 0.0035076174414671595, 'F NAP - ION | A ROM - NAP | A VEN H': 0.00293194",
+                  "__type__": "builtins.dict"
+                },
+                "RUSSIA": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "TURKEY": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                }
+              },
+              "1": {
+                "AUSTRIA": {
+                  "__summary__": "{'A VIE - GAL | F TRI - ALB | A BUD - SER': 0.6954002017102994, 'A VIE - TRI | F TRI - ALB | A BUD - SER': 0.1442039603612347, 'A VIE - GAL | F TRI - VEN | A BUD - SER': 0.056396402677043427, 'A VIE - BUD | F TRI - ALB | A BUD - SER': 0.043201165211387595, 'A VIE - GAL | F TRI S A VEN | A BUD - SER': 0.014356869806053035, 'A VIE - GAL | F TRI H | A BUD - SER': 0.014351435279685193, 'A VIE - TYR | F TRI - ALB | A BUD - SER': 0.010573967785550791, 'A VIE - TRI | F TRI - ALB | A BUD - RUM': 0.00771",
+                  "__type__": "builtins.dict"
+                },
+                "ENGLAND": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "FRANCE": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "GERMANY": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "ITALY": {
+                  "__summary__": "{'F NAP - ION | A ROM - APU | A VEN H': 0.48836307231417025, 'F NAP - ION | A ROM - VEN | A VEN - TYR': 0.16539491359290226, 'F NAP - ION | A ROM - APU | A VEN S F TRI': 0.15244281690536435, 'F NAP - ION | A ROM - APU | A VEN - PIE': 0.09259343662156214, 'F NAP - ION | A ROM - APU | A VEN - TRI': 0.028209198667887857, 'F NAP - ION | A ROM - VEN | A VEN - TRI': 0.02421737673887424, 'F NAP - ION | A ROM - VEN | A VEN - PIE': 0.020923945596520218, 'F NAP - ION | A ROM - APU | A VEN - TYR': 0.012072",
+                  "__type__": "builtins.dict"
+                },
+                "RUSSIA": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "TURKEY": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                }
+              },
+              "2": {
+                "AUSTRIA": {
+                  "__summary__": "{'A VIE - GAL | F TRI - ALB | A BUD - SER': 0.7289165569453712, 'A VIE - TRI | F TRI - ALB | A BUD - SER': 0.12787427401425502, 'A VIE - GAL | F TRI - VEN | A BUD - SER': 0.04824966820309438, 'A VIE - BUD | F TRI - ALB | A BUD - SER': 0.03667216733372456, 'A VIE - GAL | F TRI H | A BUD - SER': 0.014611464681722489, 'A VIE - GAL | F TRI S A VEN | A BUD - SER': 0.014332585350473003, 'A VIE - TYR | F TRI - ALB | A BUD - SER': 0.009376186604200957, 'A VIE - GAL | F TRI - ALB | A BUD - RUM': 0.007116",
+                  "__type__": "builtins.dict"
+                },
+                "ENGLAND": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "FRANCE": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "GERMANY": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "ITALY": {
+                  "__summary__": "{'F NAP - ION | A ROM - APU | A VEN H': 0.3661943591480749, 'F NAP - ION | A ROM - VEN | A VEN - TYR': 0.2011604842163875, 'F NAP - ION | A ROM - APU | A VEN S F TRI': 0.16702212669146257, 'F NAP - ION | A ROM - APU | A VEN - PIE': 0.12417040816456651, 'F NAP - ION | A ROM - APU | A VEN - TRI': 0.03799753332254957, 'F NAP - ION | A ROM - VEN | A VEN - PIE': 0.03343589645074543, 'F NAP - ION | A ROM - VEN | A VEN - TRI': 0.03265315957982296, 'F NAP - ION | A ROM - APU | A VEN - TYR': 0.0171393088",
+                  "__type__": "builtins.dict"
+                },
+                "RUSSIA": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "TURKEY": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                }
+              },
+              "3": {
+                "AUSTRIA": {
+                  "__summary__": "{'A VIE - GAL | F TRI - ALB | A BUD - SER': 0.739169265675061, 'A VIE - TRI | F TRI - ALB | A BUD - SER': 0.12285626024330973, 'A VIE - GAL | F TRI - VEN | A BUD - SER': 0.04581236077858711, 'A VIE - BUD | F TRI - ALB | A BUD - SER': 0.034729059996855466, 'A VIE - GAL | F TRI H | A BUD - SER': 0.014670521547205547, 'A VIE - GAL | F TRI S A VEN | A BUD - SER': 0.014299878009636726, 'A VIE - TYR | F TRI - ALB | A BUD - SER': 0.009004018549146111, 'A VIE - GAL | F TRI - ALB | A BUD - RUM': 0.006973",
+                  "__type__": "builtins.dict"
+                },
+                "ENGLAND": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "FRANCE": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "GERMANY": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "ITALY": {
+                  "__summary__": "{'F NAP - ION | A ROM - APU | A VEN H': 0.3291005362754668, 'F NAP - ION | A ROM - VEN | A VEN - TYR': 0.21119547822709842, 'F NAP - ION | A ROM - APU | A VEN S F TRI': 0.16957304512776572, 'F NAP - ION | A ROM - APU | A VEN - PIE': 0.13452845585513543, 'F NAP - ION | A ROM - APU | A VEN - TRI': 0.04124046558326341, 'F NAP - ION | A ROM - VEN | A VEN - PIE': 0.038337737061189016, 'F NAP - ION | A ROM - VEN | A VEN - TRI': 0.035453630773380075, 'F NAP - ION | A ROM - APU | A VEN - TYR': 0.0189230",
+                  "__type__": "builtins.dict"
+                },
+                "RUSSIA": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "TURKEY": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                }
+              },
+              "4": {
+                "AUSTRIA": {
+                  "__summary__": "{'A VIE - GAL | F TRI - ALB | A BUD - SER': 0.7423966508791608, 'A VIE - TRI | F TRI - ALB | A BUD - SER': 0.12127456006062719, 'A VIE - GAL | F TRI - VEN | A BUD - SER': 0.04505061885420379, 'A VIE - BUD | F TRI - ALB | A BUD - SER': 0.034122786992575205, 'A VIE - GAL | F TRI H | A BUD - SER': 0.014686936141457815, 'A VIE - GAL | F TRI S A VEN | A BUD - SER': 0.014286947000888032, 'A VIE - TYR | F TRI - ALB | A BUD - SER': 0.008886348948236405, 'A VIE - GAL | F TRI - ALB | A BUD - RUM': 0.00692",
+                  "__type__": "builtins.dict"
+                },
+                "ENGLAND": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "FRANCE": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "GERMANY": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "ITALY": {
+                  "__summary__": "{'F NAP - ION | A ROM - APU | A VEN H': 0.3175880072963974, 'F NAP - ION | A ROM - VEN | A VEN - TYR': 0.2142051531239722, 'F NAP - ION | A ROM - APU | A VEN S F TRI': 0.17015506628586716, 'F NAP - ION | A ROM - APU | A VEN - PIE': 0.13782605691109623, 'F NAP - ION | A ROM - APU | A VEN - TRI': 0.042276711145109315, 'F NAP - ION | A ROM - VEN | A VEN - PIE': 0.039997666248800974, 'F NAP - ION | A ROM - VEN | A VEN - TRI': 0.03634917310156602, 'F NAP - ION | A ROM - APU | A VEN - TYR': 0.01950542",
+                  "__type__": "builtins.dict"
+                },
+                "RUSSIA": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "TURKEY": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                }
+              },
+              "5": {
+                "AUSTRIA": {
+                  "__summary__": "{'A VIE - GAL | F TRI - ALB | A BUD - SER': 0.7434229626463604, 'A VIE - TRI | F TRI - ALB | A BUD - SER': 0.120771368587709, 'A VIE - GAL | F TRI - VEN | A BUD - SER': 0.04480894037716338, 'A VIE - BUD | F TRI - ALB | A BUD - SER': 0.033930537048311525, 'A VIE - GAL | F TRI H | A BUD - SER': 0.014691931196494878, 'A VIE - GAL | F TRI S A VEN | A BUD - SER': 0.01428256417420702, 'A VIE - TYR | F TRI - ALB | A BUD - SER': 0.008848879365088875, 'A VIE - GAL | F TRI - ALB | A BUD - RUM': 0.00691166",
+                  "__type__": "builtins.dict"
+                },
+                "ENGLAND": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "FRANCE": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "GERMANY": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "ITALY": {
+                  "__summary__": "{'F NAP - ION | A ROM - APU | A VEN H': 0.31394774836413086, 'F NAP - ION | A ROM - VEN | A VEN - TYR': 0.21514536057967332, 'F NAP - ION | A ROM - APU | A VEN S F TRI': 0.17031708322036154, 'F NAP - ION | A ROM - APU | A VEN - PIE': 0.13887732593831673, 'F NAP - ION | A ROM - APU | A VEN - TRI': 0.04260747072384307, 'F NAP - ION | A ROM - VEN | A VEN - PIE': 0.04053766199206595, 'F NAP - ION | A ROM - VEN | A VEN - TRI': 0.036635094413812644, 'F NAP - ION | A ROM - APU | A VEN - TYR': 0.0196926",
+                  "__type__": "builtins.dict"
+                },
+                "RUSSIA": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "TURKEY": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                }
+              }
+            },
+            "ptype_final_policies": {
+              "0": {
+                "AUSTRIA": {
+                  "__summary__": "{'A VIE - GAL | F TRI - ALB | A BUD - SER': 0.5630038507302915, 'A VIE - TRI | F TRI - ALB | A BUD - SER': 0.21506875166423806, 'A VIE - GAL | F TRI - VEN | A BUD - SER': 0.08814505085613135, 'A VIE - BUD | F TRI - ALB | A BUD - SER': 0.0680217670817172, 'A VIE - TYR | F TRI - ALB | A BUD - SER': 0.014338273980283492, 'A VIE - GAL | F TRI S A VEN | A BUD - SER': 0.01314520177061778, 'A VIE - GAL | F TRI H | A BUD - SER': 0.01239419478608095, 'A VIE - TRI | F TRI - ALB | A BUD - RUM': 0.010229564",
+                  "__type__": "builtins.dict"
+                },
+                "ENGLAND": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "FRANCE": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "GERMANY": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "ITALY": {
+                  "__summary__": "{'F NAP - ION | A ROM - APU | A VEN H': 0.8174431051257437, 'F NAP - ION | A ROM - APU | A VEN S F TRI': 0.07614268943860127, 'F NAP - ION | A ROM - VEN | A VEN - TYR': 0.05702676497023148, 'F NAP - ION | A ROM - APU | A VEN - PIE': 0.02462515119520287, 'F NAP - ION | A ROM - APU | A VEN - TRI': 0.007347264961097963, 'F NAP - ION | A ROM - VEN | A VEN - TRI': 0.006359415589803714, 'F NAP - ION | A ROM - VEN | A VEN - PIE': 0.003236405567250996, 'F NAP - ION | A ROM - APU | A VEN - TYR': 0.002738",
+                  "__type__": "builtins.dict"
+                },
+                "RUSSIA": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "TURKEY": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                }
+              },
+              "1": {
+                "AUSTRIA": {
+                  "__summary__": "{'A VIE - GAL | F TRI - ALB | A BUD - SER': 0.6912535446341652, 'A VIE - TRI | F TRI - ALB | A BUD - SER': 0.14809612611328718, 'A VIE - GAL | F TRI - VEN | A BUD - SER': 0.05679027545346521, 'A VIE - BUD | F TRI - ALB | A BUD - SER': 0.04327800917837916, 'A VIE - GAL | F TRI H | A BUD - SER': 0.014210021706137213, 'A VIE - GAL | F TRI S A VEN | A BUD - SER': 0.014205715533038734, 'A VIE - TYR | F TRI - ALB | A BUD - SER': 0.010557913361947323, 'A VIE - TRI | F TRI - ALB | A BUD - RUM': 0.007728",
+                  "__type__": "builtins.dict"
+                },
+                "ENGLAND": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "FRANCE": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "GERMANY": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "ITALY": {
+                  "__summary__": "{'F NAP - ION | A ROM - APU | A VEN H': 0.4939230875827466, 'F NAP - ION | A ROM - VEN | A VEN - TYR': 0.1621411730859424, 'F NAP - ION | A ROM - APU | A VEN S F TRI': 0.1518103378172079, 'F NAP - ION | A ROM - APU | A VEN - PIE': 0.09189271656499216, 'F NAP - ION | A ROM - APU | A VEN - TRI': 0.027873909952784826, 'F NAP - ION | A ROM - VEN | A VEN - TRI': 0.02401120211874839, 'F NAP - ION | A ROM - VEN | A VEN - PIE': 0.020698521915268393, 'F NAP - ION | A ROM - APU | A VEN - TYR': 0.012002583",
+                  "__type__": "builtins.dict"
+                },
+                "RUSSIA": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "TURKEY": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                }
+              },
+              "2": {
+                "AUSTRIA": {
+                  "__summary__": "{'A VIE - GAL | F TRI - ALB | A BUD - SER': 0.7277346039886687, 'A VIE - TRI | F TRI - ALB | A BUD - SER': 0.12900551651674375, 'A VIE - GAL | F TRI - VEN | A BUD - SER': 0.04835951025281077, 'A VIE - BUD | F TRI - ALB | A BUD - SER': 0.03669170317118261, 'A VIE - GAL | F TRI H | A BUD - SER': 0.014565395925887889, 'A VIE - GAL | F TRI S A VEN | A BUD - SER': 0.014284259892153338, 'A VIE - TYR | F TRI - ALB | A BUD - SER': 0.009370453992787369, 'A VIE - GAL | F TRI - ALB | A BUD - RUM': 0.007127",
+                  "__type__": "builtins.dict"
+                },
+                "ENGLAND": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "FRANCE": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "GERMANY": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "ITALY": {
+                  "__summary__": "{'F NAP - ION | A ROM - APU | A VEN H': 0.3677860675532165, 'F NAP - ION | A ROM - VEN | A VEN - TYR': 0.20008580688797523, 'F NAP - ION | A ROM - APU | A VEN S F TRI': 0.16695413954433486, 'F NAP - ION | A ROM - APU | A VEN - PIE': 0.12399666341410279, 'F NAP - ION | A ROM - APU | A VEN - TRI': 0.03789507276295814, 'F NAP - ION | A ROM - VEN | A VEN - PIE': 0.03336112255823349, 'F NAP - ION | A ROM - VEN | A VEN - TRI': 0.03260170516204304, 'F NAP - ION | A ROM - APU | A VEN - TYR': 0.017127657",
+                  "__type__": "builtins.dict"
+                },
+                "RUSSIA": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "TURKEY": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                }
+              },
+              "3": {
+                "AUSTRIA": {
+                  "__summary__": "{'A VIE - GAL | F TRI - ALB | A BUD - SER': 0.7388185106993872, 'A VIE - TRI | F TRI - ALB | A BUD - SER': 0.12320680317667806, 'A VIE - GAL | F TRI - VEN | A BUD - SER': 0.045844928242456916, 'A VIE - BUD | F TRI - ALB | A BUD - SER': 0.034733662849844756, 'A VIE - GAL | F TRI H | A BUD - SER': 0.014654290490828538, 'A VIE - GAL | F TRI S A VEN | A BUD - SER': 0.014283012920456533, 'A VIE - TYR | F TRI - ALB | A BUD - SER': 0.009000574962250475, 'A VIE - GAL | F TRI - ALB | A BUD - RUM': 0.0069",
+                  "__type__": "builtins.dict"
+                },
+                "ENGLAND": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "FRANCE": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "GERMANY": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "ITALY": {
+                  "__summary__": "{'F NAP - ION | A ROM - APU | A VEN H': 0.3295839545578813, 'F NAP - ION | A ROM - VEN | A VEN - TYR': 0.21085514406122866, 'F NAP - ION | A ROM - APU | A VEN S F TRI': 0.16956660546275393, 'F NAP - ION | A ROM - APU | A VEN - PIE': 0.13448146589378374, 'F NAP - ION | A ROM - APU | A VEN - TRI': 0.04120812308636668, 'F NAP - ION | A ROM - VEN | A VEN - PIE': 0.03831354548495855, 'F NAP - ION | A ROM - VEN | A VEN - TRI': 0.0354384325830818, 'F NAP - ION | A ROM - APU | A VEN - TYR': 0.0189196544",
+                  "__type__": "builtins.dict"
+                },
+                "RUSSIA": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "TURKEY": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                }
+              },
+              "4": {
+                "AUSTRIA": {
+                  "__summary__": "{'A VIE - GAL | F TRI - ALB | A BUD - SER': 0.7422994422209168, 'A VIE - TRI | F TRI - ALB | A BUD - SER': 0.12138601650891115, 'A VIE - GAL | F TRI - VEN | A BUD - SER': 0.045059909001426625, 'A VIE - BUD | F TRI - ALB | A BUD - SER': 0.03412302909024474, 'A VIE - GAL | F TRI H | A BUD - SER': 0.014680179373712871, 'A VIE - GAL | F TRI S A VEN | A BUD - SER': 0.01427998906048628, 'A VIE - TYR | F TRI - ALB | A BUD - SER': 0.008883558754538208, 'A VIE - GAL | F TRI - ALB | A BUD - RUM': 0.006925",
+                  "__type__": "builtins.dict"
+                },
+                "ENGLAND": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "FRANCE": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "GERMANY": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "ITALY": {
+                  "__summary__": "{'F NAP - ION | A ROM - APU | A VEN H': 0.3177437831807398, 'F NAP - ION | A ROM - VEN | A VEN - TYR': 0.21409914607743197, 'F NAP - ION | A ROM - APU | A VEN S F TRI': 0.17015600778887116, 'F NAP - ION | A ROM - APU | A VEN - PIE': 0.13781287467555103, 'F NAP - ION | A ROM - APU | A VEN - TRI': 0.042265543627127714, 'F NAP - ION | A ROM - VEN | A VEN - PIE': 0.03998900524690022, 'F NAP - ION | A ROM - VEN | A VEN - TRI': 0.03634345746640926, 'F NAP - ION | A ROM - APU | A VEN - TYR': 0.01950305",
+                  "__type__": "builtins.dict"
+                },
+                "RUSSIA": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "TURKEY": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                }
+              },
+              "5": {
+                "AUSTRIA": {
+                  "__summary__": "{'A VIE - GAL | F TRI - ALB | A BUD - SER': 0.7434055447795094, 'A VIE - TRI | F TRI - ALB | A BUD - SER': 0.12080747971640907, 'A VIE - GAL | F TRI - VEN | A BUD - SER': 0.04481093685635366, 'A VIE - BUD | F TRI - ALB | A BUD - SER': 0.03392942897988555, 'A VIE - GAL | F TRI H | A BUD - SER': 0.014688196087609998, 'A VIE - GAL | F TRI S A VEN | A BUD - SER': 0.014278757246016785, 'A VIE - TYR | F TRI - ALB | A BUD - SER': 0.008846290719993348, 'A VIE - GAL | F TRI - ALB | A BUD - RUM': 0.006909",
+                  "__type__": "builtins.dict"
+                },
+                "ENGLAND": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "FRANCE": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "GERMANY": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "ITALY": {
+                  "__summary__": "{'F NAP - ION | A ROM - APU | A VEN H': 0.3140017660410613, 'F NAP - ION | A ROM - VEN | A VEN - TYR': 0.2151140838444374, 'F NAP - ION | A ROM - APU | A VEN S F TRI': 0.17031916493513805, 'F NAP - ION | A ROM - APU | A VEN - PIE': 0.13887420241758827, 'F NAP - ION | A ROM - APU | A VEN - TRI': 0.04260292335470536, 'F NAP - ION | A ROM - VEN | A VEN - PIE': 0.04053386939003378, 'F NAP - ION | A ROM - VEN | A VEN - TRI': 0.03663217520121832, 'F NAP - ION | A ROM - APU | A VEN - TYR': 0.0196904172",
+                  "__type__": "builtins.dict"
+                },
+                "RUSSIA": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                },
+                "TURKEY": {
+                  "__summary__": "{'': 1.0}",
+                  "__type__": "builtins.dict"
+                }
+              }
+            }
+          },
+          "__type__": "fairdiplomacy.agents.bqre1p_agent.BRMResult"
+        },
+        "type": "fairdiplomacy.agents.bqre1p_agent.BRMResult",
+        "utility_outputs": {
+          "avg_utility_by_power": {
+            "AUSTRIA": 0.12924657290040462,
+            "ENGLAND": NaN,
+            "FRANCE": NaN,
+            "GERMANY": NaN,
+            "ITALY": 0.13669823675639492,
+            "RUSSIA": NaN,
+            "TURKEY": NaN
+          },
+          "top_action_utility_by_power": {
+            "AUSTRIA": [
+              {
+                "action": {
+                  "__summary__": "['A VIE - GAL', 'F TRI - ALB', 'A BUD - SER']",
+                  "__type__": "builtins.list"
+                },
+                "avg_action_utility": {
+                  "__summary__": "0.12557180750501656",
+                  "__type__": "builtins.float"
+                },
+                "policy_probability": {
+                  "__summary__": "0.6954002017102994",
+                  "__type__": "builtins.float"
+                }
+              },
+              {
+                "action": {
+                  "__summary__": "['A VIE - TRI', 'F TRI - ALB', 'A BUD - SER']",
+                  "__type__": "builtins.list"
+                },
+                "avg_action_utility": {
+                  "__summary__": "0.13923066389846614",
+                  "__type__": "builtins.float"
+                },
+                "policy_probability": {
+                  "__summary__": "0.1442039603612347",
+                  "__type__": "builtins.float"
+                }
+              },
+              {
+                "action": {
+                  "__summary__": "['A VIE - GAL', 'F TRI - VEN', 'A BUD - SER']",
+                  "__type__": "builtins.list"
+                },
+                "avg_action_utility": {
+                  "__summary__": "0.14060091716988612",
+                  "__type__": "builtins.float"
+                },
+                "policy_probability": {
+                  "__summary__": "0.056396402677043427",
+                  "__type__": "builtins.float"
+                }
+              },
+              {
+                "action": {
+                  "__summary__": "['A VIE - BUD', 'F TRI - ALB', 'A BUD - SER']",
+                  "__type__": "builtins.list"
+                },
+                "avg_action_utility": {
+                  "__summary__": "0.1408364063272681",
+                  "__type__": "builtins.float"
+                },
+                "policy_probability": {
+                  "__summary__": "0.043201165211387595",
+                  "__type__": "builtins.float"
+                }
+              },
+              {
+                "action": {
+                  "__summary__": "['A VIE - GAL', 'F TRI S A VEN', 'A BUD - SER']",
+                  "__type__": "builtins.list"
+                },
+                "avg_action_utility": {
+                  "__summary__": "0.12767476692265892",
+                  "__type__": "builtins.float"
+                },
+                "policy_probability": {
+                  "__summary__": "0.014356869806053035",
+                  "__type__": "builtins.float"
+                }
+              },
+              {
+                "action": {
+                  "__summary__": "['A VIE - GAL', 'F TRI H', 'A BUD - SER']",
+                  "__type__": "builtins.list"
+                },
+                "avg_action_utility": {
+                  "__summary__": "0.12623774812704067",
+                  "__type__": "builtins.float"
+                },
+                "policy_probability": {
+                  "__summary__": "0.014351435279685193",
+                  "__type__": "builtins.float"
+                }
+              },
+              {
+                "action": {
+                  "__summary__": "['A VIE - TYR', 'F TRI - ALB', 'A BUD - SER']",
+                  "__type__": "builtins.list"
+                },
+                "avg_action_utility": {
+                  "__summary__": "0.13692229128459635",
+                  "__type__": "builtins.float"
+                },
+                "policy_probability": {
+                  "__summary__": "0.010573967785550791",
+                  "__type__": "builtins.float"
+                }
+              },
+              {
+                "action": {
+                  "__summary__": "['A VIE - TRI', 'F TRI - ALB', 'A BUD - RUM']",
+                  "__type__": "builtins.list"
+                },
+                "avg_action_utility": {
+                  "__summary__": "0.13621752217154928",
+                  "__type__": "builtins.float"
+                },
+                "policy_probability": {
+                  "__summary__": "0.00771762061163399",
+                  "__type__": "builtins.float"
+                }
+              },
+              {
+                "action": {
+                  "__summary__": "['A VIE - GAL', 'F TRI - ALB', 'A BUD - RUM']",
+                  "__type__": "builtins.list"
+                },
+                "avg_action_utility": {
+                  "__summary__": "0.13246751472986434",
+                  "__type__": "builtins.float"
+                },
+                "policy_probability": {
+                  "__summary__": "0.007536279565319003",
+                  "__type__": "builtins.float"
+                }
+              },
+              {
+                "action": {
+                  "__summary__": "['A VIE - BUD', 'F TRI H', 'A BUD - SER']",
+                  "__type__": "builtins.list"
+                },
+                "avg_action_utility": {
+                  "__summary__": "0.13155502450587817",
+                  "__type__": "builtins.float"
+                },
+                "policy_probability": {
+                  "__summary__": "0.00396862124486182",
+                  "__type__": "builtins.float"
+                }
+              },
+              {
+                "action": {
+                  "__summary__": "['A VIE H', 'F TRI - ALB', 'A BUD - SER']",
+                  "__type__": "builtins.list"
+                },
+                "avg_action_utility": {
+                  "__summary__": "0.1325656710356146",
+                  "__type__": "builtins.float"
+                },
+                "policy_probability": {
+                  "__summary__": "0.0022934757469310293",
+                  "__type__": "builtins.float"
+                }
+              }
+            ],
+            "ENGLAND": [
+              {
+                "action": {
+                  "__summary__": "[]",
+                  "__type__": "builtins.list"
+                },
+                "avg_action_utility": {
+                  "__summary__": "nan",
+                  "__type__": "builtins.float"
+                },
+                "policy_probability": {
+                  "__summary__": "1.0",
+                  "__type__": "builtins.float"
+                }
+              }
+            ],
+            "FRANCE": [
+              {
+                "action": {
+                  "__summary__": "[]",
+                  "__type__": "builtins.list"
+                },
+                "avg_action_utility": {
+                  "__summary__": "nan",
+                  "__type__": "builtins.float"
+                },
+                "policy_probability": {
+                  "__summary__": "1.0",
+                  "__type__": "builtins.float"
+                }
+              }
+            ],
+            "GERMANY": [
+              {
+                "action": {
+                  "__summary__": "[]",
+                  "__type__": "builtins.list"
+                },
+                "avg_action_utility": {
+                  "__summary__": "nan",
+                  "__type__": "builtins.float"
+                },
+                "policy_probability": {
+                  "__summary__": "1.0",
+                  "__type__": "builtins.float"
+                }
+              }
+            ],
+            "ITALY": [
+              {
+                "action": {
+                  "__summary__": "['F NAP - ION', 'A ROM - APU', 'A VEN H']",
+                  "__type__": "builtins.list"
+                },
+                "avg_action_utility": {
+                  "__summary__": "0.14660194354549413",
+                  "__type__": "builtins.float"
+                },
+                "policy_probability": {
+                  "__summary__": "0.48836307231417025",
+                  "__type__": "builtins.float"
+                }
+              },
+              {
+                "action": {
+                  "__summary__": "['F NAP - ION', 'A ROM - VEN', 'A VEN - TYR']",
+                  "__type__": "builtins.list"
+                },
+                "avg_action_utility": {
+                  "__summary__": "0.12962136970615862",
+                  "__type__": "builtins.float"
+                },
+                "policy_probability": {
+                  "__summary__": "0.16539491359290226",
+                  "__type__": "builtins.float"
+                }
+              },
+              {
+                "action": {
+                  "__summary__": "['F NAP - ION', 'A ROM - APU', 'A VEN S F TRI']",
+                  "__type__": "builtins.list"
+                },
+                "avg_action_utility": {
+                  "__summary__": "0.13346496494699375",
+                  "__type__": "builtins.float"
+                },
+                "policy_probability": {
+                  "__summary__": "0.15244281690536435",
+                  "__type__": "builtins.float"
+                }
+              },
+              {
+                "action": {
+                  "__summary__": "['F NAP - ION', 'A ROM - APU', 'A VEN - PIE']",
+                  "__type__": "builtins.list"
+                },
+                "avg_action_utility": {
+                  "__summary__": "0.12658473536546186",
+                  "__type__": "builtins.float"
+                },
+                "policy_probability": {
+                  "__summary__": "0.09259343662156214",
+                  "__type__": "builtins.float"
+                }
+              },
+              {
+                "action": {
+                  "__summary__": "['F NAP - ION', 'A ROM - APU', 'A VEN - TRI']",
+                  "__type__": "builtins.list"
+                },
+                "avg_action_utility": {
+                  "__summary__": "0.12622786903748728",
+                  "__type__": "builtins.float"
+                },
+                "policy_probability": {
+                  "__summary__": "0.028209198667887857",
+                  "__type__": "builtins.float"
+                }
+              },
+              {
+                "action": {
+                  "__summary__": "['F NAP - ION', 'A ROM - VEN', 'A VEN - TRI']",
+                  "__type__": "builtins.list"
+                },
+                "avg_action_utility": {
+                  "__summary__": "0.12625754362658326",
+                  "__type__": "builtins.float"
+                },
+                "policy_probability": {
+                  "__summary__": "0.02421737673887424",
+                  "__type__": "builtins.float"
+                }
+              },
+              {
+                "action": {
+                  "__summary__": "['F NAP - ION', 'A ROM - VEN', 'A VEN - PIE']",
+                  "__type__": "builtins.list"
+                },
+                "avg_action_utility": {
+                  "__summary__": "0.12051365149626023",
+                  "__type__": "builtins.float"
+                },
+                "policy_probability": {
+                  "__summary__": "0.020923945596520218",
+                  "__type__": "builtins.float"
+                }
+              },
+              {
+                "action": {
+                  "__summary__": "['F NAP - ION', 'A ROM - APU', 'A VEN - TYR']",
+                  "__type__": "builtins.list"
+                },
+                "avg_action_utility": {
+                  "__summary__": "0.12453391882450247",
+                  "__type__": "builtins.float"
+                },
+                "policy_probability": {
+                  "__summary__": "0.012072371427124551",
+                  "__type__": "builtins.float"
+                }
+              },
+              {
+                "action": {
+                  "__summary__": "['F NAP - ION', 'A ROM - NAP', 'A VEN H']",
+                  "__type__": "builtins.list"
+                },
+                "avg_action_utility": {
+                  "__summary__": "0.1291384381673835",
+                  "__type__": "builtins.float"
+                },
+                "policy_probability": {
+                  "__summary__": "0.007872034246053795",
+                  "__type__": "builtins.float"
+                }
+              },
+              {
+                "action": {
+                  "__summary__": "['F NAP - TYS', 'A ROM - VEN', 'A VEN - PIE']",
+                  "__type__": "builtins.list"
+                },
+                "avg_action_utility": {
+                  "__summary__": "0.12333624850228067",
+                  "__type__": "builtins.float"
+                },
+                "policy_probability": {
+                  "__summary__": "0.004045284786582756",
+                  "__type__": "builtins.float"
+                }
+              },
+              {
+                "action": {
+                  "__summary__": "['F NAP - TYS', 'A ROM - TUS', 'A VEN - PIE']",
+                  "__type__": "builtins.list"
+                },
+                "avg_action_utility": {
+                  "__summary__": "0.13031487702424926",
+                  "__type__": "builtins.float"
+                },
+                "policy_probability": {
+                  "__summary__": "0.003865549102957533",
+                  "__type__": "builtins.float"
+                }
+              }
+            ],
+            "RUSSIA": [
+              {
+                "action": {
+                  "__summary__": "[]",
+                  "__type__": "builtins.list"
+                },
+                "avg_action_utility": {
+                  "__summary__": "nan",
+                  "__type__": "builtins.float"
+                },
+                "policy_probability": {
+                  "__summary__": "1.0",
+                  "__type__": "builtins.float"
+                }
+              }
+            ],
+            "TURKEY": [
+              {
+                "action": {
+                  "__summary__": "[]",
+                  "__type__": "builtins.list"
+                },
+                "avg_action_utility": {
+                  "__summary__": "nan",
+                  "__type__": "builtins.float"
+                },
+                "policy_probability": {
+                  "__summary__": "1.0",
+                  "__type__": "builtins.float"
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "pid": 205556,
+    "ppid": 205017,
+    "time_unix": 1786802817.2570777,
+    "_capture_file": "/workspace/latent-reservations/notebook_outputs/15_cicero_planner_capture_mechanistic_positive_control/20260815T140016Z/data/planner_capture_events/205556.jsonl",
+    "_capture_line": 3
+  },
+  "outward_event": {
+    "event": "generate_message_result",
+    "payload": {
+      "elapsed_seconds": 16.83135642198613,
+      "inputs": {
+        "game": {
+          "__type__": "fairdiplomacy.pydipcc.Game",
+          "current_short_phase": "S1901M",
+          "current_year": 1901,
+          "get_state": {
+            "builds": {
+              "AUSTRIA": {
+                "count": {
+                  "__summary__": "0",
+                  "__type__": "builtins.int"
+                },
+                "homes": {
+                  "__summary__": "[]",
+                  "__type__": "builtins.list"
+                }
+              },
+              "ENGLAND": {
+                "count": {
+                  "__summary__": "0",
+                  "__type__": "builtins.int"
+                },
+                "homes": {
+                  "__summary__": "[]",
+                  "__type__": "builtins.list"
+                }
+              },
+              "FRANCE": {
+                "count": {
+                  "__summary__": "0",
+                  "__type__": "builtins.int"
+                },
+                "homes": {
+                  "__summary__": "[]",
+                  "__type__": "builtins.list"
+                }
+              },
+              "GERMANY": {
+                "count": {
+                  "__summary__": "0",
+                  "__type__": "builtins.int"
+                },
+                "homes": {
+                  "__summary__": "[]",
+                  "__type__": "builtins.list"
+                }
+              },
+              "ITALY": {
+                "count": {
+                  "__summary__": "0",
+                  "__type__": "builtins.int"
+                },
+                "homes": {
+                  "__summary__": "[]",
+                  "__type__": "builtins.list"
+                }
+              },
+              "RUSSIA": {
+                "count": {
+                  "__summary__": "0",
+                  "__type__": "builtins.int"
+                },
+                "homes": {
+                  "__summary__": "[]",
+                  "__type__": "builtins.list"
+                }
+              },
+              "TURKEY": {
+                "count": {
+                  "__summary__": "0",
+                  "__type__": "builtins.int"
+                },
+                "homes": {
+                  "__summary__": "[]",
+                  "__type__": "builtins.list"
+                }
+              }
+            },
+            "centers": {
+              "AUSTRIA": [
+                {
+                  "__summary__": "'VIE'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'TRI'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'BUD'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "ENGLAND": [
+                {
+                  "__summary__": "'EDI'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'LON'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'LVP'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "FRANCE": [
+                {
+                  "__summary__": "'BRE'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'PAR'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'MAR'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "GERMANY": [
+                {
+                  "__summary__": "'KIE'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'MUN'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'BER'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "ITALY": [
+                {
+                  "__summary__": "'NAP'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'ROM'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'VEN'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "RUSSIA": [
+                {
+                  "__summary__": "'STP'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'MOS'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'WAR'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'SEV'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "TURKEY": [
+                {
+                  "__summary__": "'ANK'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'SMY'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'CON'",
+                  "__type__": "builtins.str"
+                }
+              ]
+            },
+            "homes": {
+              "AUSTRIA": [
+                {
+                  "__summary__": "'BUD'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'TRI'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'VIE'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "ENGLAND": [
+                {
+                  "__summary__": "'EDI'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'LON'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'LVP'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "FRANCE": [
+                {
+                  "__summary__": "'BRE'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'MAR'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'PAR'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "GERMANY": [
+                {
+                  "__summary__": "'BER'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'KIE'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'MUN'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "ITALY": [
+                {
+                  "__summary__": "'NAP'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'ROM'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'VEN'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "RUSSIA": [
+                {
+                  "__summary__": "'MOS'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'SEV'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'STP'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'WAR'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "TURKEY": [
+                {
+                  "__summary__": "'ANK'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'CON'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'SMY'",
+                  "__type__": "builtins.str"
+                }
+              ]
+            },
+            "influence": {
+              "AUSTRIA": [
+                {
+                  "__summary__": "'VIE'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'TRI'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'BUD'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "ENGLAND": [
+                {
+                  "__summary__": "'EDI'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'LON'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'LVP'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "FRANCE": [
+                {
+                  "__summary__": "'BRE'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'PAR'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'MAR'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "GERMANY": [
+                {
+                  "__summary__": "'KIE'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'MUN'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'BER'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "ITALY": [
+                {
+                  "__summary__": "'NAP'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'ROM'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'VEN'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "RUSSIA": [
+                {
+                  "__summary__": "'STP/SC'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'MOS'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'WAR'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'SEV'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "TURKEY": [
+                {
+                  "__summary__": "'ANK'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'SMY'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'CON'",
+                  "__type__": "builtins.str"
+                }
+              ]
+            },
+            "name": "S1901M",
+            "retreats": {
+              "AUSTRIA": {},
+              "ENGLAND": {},
+              "FRANCE": {},
+              "GERMANY": {},
+              "ITALY": {},
+              "RUSSIA": {},
+              "TURKEY": {}
+            },
+            "units": {
+              "AUSTRIA": [
+                {
+                  "__summary__": "'A VIE'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'F TRI'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'A BUD'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "ENGLAND": [
+                {
+                  "__summary__": "'F EDI'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'F LON'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'A LVP'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "FRANCE": [
+                {
+                  "__summary__": "'F BRE'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'A PAR'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'A MAR'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "GERMANY": [
+                {
+                  "__summary__": "'F KIE'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'A MUN'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'A BER'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "ITALY": [
+                {
+                  "__summary__": "'F NAP'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'A ROM'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'A VEN'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "RUSSIA": [
+                {
+                  "__summary__": "'F STP/SC'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'A MOS'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'A WAR'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'F SEV'",
+                  "__type__": "builtins.str"
+                }
+              ],
+              "TURKEY": [
+                {
+                  "__summary__": "'F ANK'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'A SMY'",
+                  "__type__": "builtins.str"
+                },
+                {
+                  "__summary__": "'A CON'",
+                  "__type__": "builtins.str"
+                }
+              ]
+            }
+          }
+        },
+        "power": "ITALY",
+        "pseudo_orders": null,
+        "recipient": null,
+        "state": {
+          "__repr__": "<fairdiplomacy.agents.bqre1p_agent.BayesAgentState object at 0x738a218728d0>",
+          "__selected_state__": {
+            "_last_pseudo_orders": {},
+            "_last_search_result": {},
+            "_value_table_cache": {},
+            "belief_state": {
+              "__repr__": "<fairdiplomacy.agents.bqre1p_agent.BeliefState object at 0x738a218729d0>",
+              "__selected_state__": {
+                "beliefs": {
+                  "__summary__": "{'AUSTRIA': {'__type__': 'numpy.ndarray', 'shape': [6], 'dtype': 'float64', 'size': 6, 'values': [0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666]}, 'ENGLAND': {'__type__': 'numpy.ndarray', 'shape': [6], 'dtype': 'float64', 'size': 6, 'values': [0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666]}, 'FRANCE': {'__type__': 'numpy.ndarray', 'shape': ",
+                  "__type__": "builtins.dict"
+                },
+                "player_types": {
+                  "__summary__": "[0, 1, 2, 3, 4, 5]",
+                  "__type__": "builtins.list"
+                }
+              },
+              "__type__": "fairdiplomacy.agents.bqre1p_agent.BeliefState"
+            },
+            "pseudo_orders_cache": {
+              "__repr__": "<fairdiplomacy.agents.parlai_message_handler.ParlaiMessagePseudoOrdersCache object at 0x738a21872990>",
+              "__selected_state__": {
+                "cached_pseudo": {
+                  "__summary__": "None",
+                  "__type__": "builtins.NoneType"
+                }
+              },
+              "__type__": "fairdiplomacy.agents.parlai_message_handler.ParlaiMessagePseudoOrdersCache"
+            }
+          },
+          "__type__": "fairdiplomacy.agents.bqre1p_agent.BayesAgentState"
+        },
+        "timestamp": 60201
+      },
+      "output": {
+        "message": "Hey Austria! Just wanted to check in and let you know I'm interested in working together. Do you have any preferences as to how we start?",
+        "phase": "S1901M",
+        "recipient": "AUSTRIA",
+        "sender": "ITALY",
+        "time_sent": 60201
+      }
+    },
+    "pid": 205556,
+    "ppid": 205017,
+    "time_unix": 1786802822.3349113,
+    "_capture_file": "/workspace/latent-reservations/notebook_outputs/15_cicero_planner_capture_mechanistic_positive_control/20260815T140016Z/data/planner_capture_events/205556.jsonl",
+    "_capture_line": 14
+  },
+  "method_outputs": {
+    "get_agent_policy": {
+      "AUSTRIA": {
+        "A VIE - BUD | F TRI - ALB | A BUD - SER": 0.043201165211387595,
+        "A VIE - BUD | F TRI H | A BUD - SER": 0.00396862124486182,
+        "A VIE - GAL | F TRI - ALB | A BUD - RUM": 0.007536279565319003,
+        "A VIE - GAL | F TRI - ALB | A BUD - SER": 0.6954002017102994,
+        "A VIE - GAL | F TRI - VEN | A BUD - SER": 0.056396402677043427,
+        "A VIE - GAL | F TRI H | A BUD - SER": 0.014351435279685193,
+        "A VIE - GAL | F TRI S A VEN | A BUD - SER": 0.014356869806053035,
+        "A VIE - TRI | F TRI - ALB | A BUD - RUM": 0.00771762061163399,
+        "A VIE - TRI | F TRI - ALB | A BUD - SER": 0.1442039603612347,
+        "A VIE - TYR | F TRI - ALB | A BUD - SER": 0.010573967785550791,
+        "A VIE H | F TRI - ALB | A BUD - SER": 0.0022934757469310293
+      },
+      "ENGLAND": {
+        "": 1.0
+      },
+      "FRANCE": {
+        "": 1.0
+      },
+      "GERMANY": {
+        "": 1.0
+      },
+      "ITALY": {
+        "F NAP - ION | A ROM - APU | A VEN - PIE": 0.09259343662156214,
+        "F NAP - ION | A ROM - APU | A VEN - TRI": 0.028209198667887857,
+        "F NAP - ION | A ROM - APU | A VEN - TYR": 0.012072371427124551,
+        "F NAP - ION | A ROM - APU | A VEN H": 0.48836307231417025,
+        "F NAP - ION | A ROM - APU | A VEN S F TRI": 0.15244281690536435,
+        "F NAP - ION | A ROM - NAP | A VEN H": 0.007872034246053795,
+        "F NAP - ION | A ROM - VEN | A VEN - PIE": 0.020923945596520218,
+        "F NAP - ION | A ROM - VEN | A VEN - TRI": 0.02421737673887424,
+        "F NAP - ION | A ROM - VEN | A VEN - TYR": 0.16539491359290226,
+        "F NAP - TYS | A ROM - TUS | A VEN - PIE": 0.003865549102957533,
+        "F NAP - TYS | A ROM - VEN | A VEN - PIE": 0.004045284786582756
+      },
+      "RUSSIA": {
+        "": 1.0
+      },
+      "TURKEY": {
+        "": 1.0
+      }
+    },
+    "get_bp_policy": {
+      "AUSTRIA": {
+        "A VIE - BUD | F TRI - ALB | A BUD - SER": 0.033838758176960027,
+        "A VIE - BUD | F TRI H | A BUD - SER": 0.0037050376122437045,
+        "A VIE - GAL | F TRI - ALB | A BUD - RUM": 0.0069020725642891185,
+        "A VIE - GAL | F TRI - ALB | A BUD - SER": 0.7439239920687246,
+        "A VIE - GAL | F TRI - VEN | A BUD - SER": 0.04469431915288962,
+        "A VIE - GAL | F TRI H | A BUD - SER": 0.014691918447262349,
+        "A VIE - GAL | F TRI S A VEN | A BUD - SER": 0.014278134473883326,
+        "A VIE - TRI | F TRI - ALB | A BUD - RUM": 0.006538856039581946,
+        "A VIE - TRI | F TRI - ALB | A BUD - SER": 0.12053631713329456,
+        "A VIE - TYR | F TRI - ALB | A BUD - SER": 0.00882880855846034,
+        "A VIE H | F TRI - ALB | A BUD - SER": 0.002061785772410301
+      },
+      "ENGLAND": {
+        "": 1.0
+      },
+      "FRANCE": {
+        "": 1.0
+      },
+      "GERMANY": {
+        "": 1.0
+      },
+      "ITALY": {
+        "F NAP - ION | A ROM - APU | A VEN - PIE": 0.13937205451954998,
+        "F NAP - ION | A ROM - APU | A VEN - TRI": 0.042761268245734625,
+        "F NAP - ION | A ROM - APU | A VEN - TYR": 0.019778559641765912,
+        "F NAP - ION | A ROM - APU | A VEN H": 0.3122514439329085,
+        "F NAP - ION | A ROM - APU | A VEN S F TRI": 0.1703915834906473,
+        "F NAP - ION | A ROM - NAP | A VEN H": 0.010483792523445216,
+        "F NAP - ION | A ROM - VEN | A VEN - PIE": 0.04079135018213005,
+        "F NAP - ION | A ROM - VEN | A VEN - TRI": 0.0367676746583051,
+        "F NAP - ION | A ROM - VEN | A VEN - TYR": 0.21558705454561736,
+        "F NAP - TYS | A ROM - TUS | A VEN - PIE": 0.004876288944222969,
+        "F NAP - TYS | A ROM - VEN | A VEN - PIE": 0.006938929315673043
+      },
+      "RUSSIA": {
+        "": 1.0
+      },
+      "TURKEY": {
+        "": 1.0
+      }
+    },
+    "get_population_policy": {
+      "AUSTRIA": {
+        "A VIE - BUD | F TRI - ALB | A BUD - SER": 0.04174261266146893,
+        "A VIE - BUD | F TRI H | A BUD - SER": 0.0038677435582962563,
+        "A VIE - GAL | F TRI - ALB | A BUD - RUM": 0.007322661485195969,
+        "A VIE - GAL | F TRI - ALB | A BUD - SER": 0.7047819996066451,
+        "A VIE - GAL | F TRI - VEN | A BUD - SER": 0.05448140760000102,
+        "A VIE - GAL | F TRI H | A BUD - SER": 0.014310633740891516,
+        "A VIE - GAL | F TRI S A VEN | A BUD - SER": 0.014201846401784306,
+        "A VIE - TRI | F TRI - ALB | A BUD - RUM": 0.007437520921421707,
+        "A VIE - TRI | F TRI - ALB | A BUD - SER": 0.1394438602551822,
+        "A VIE - TYR | F TRI - ALB | A BUD - SER": 0.01018957859787668,
+        "A VIE H | F TRI - ALB | A BUD - SER": 0.0022201351712361392
+      },
+      "ENGLAND": {
+        "": 0.9999999999999999
+      },
+      "FRANCE": {
+        "": 0.9999999999999999
+      },
+      "GERMANY": {
+        "": 0.9999999999999999
+      },
+      "ITALY": {
+        "F NAP - ION | A ROM - APU | A VEN - PIE": 0.10902356157404387,
+        "F NAP - ION | A ROM - APU | A VEN - TRI": 0.03337931472306239,
+        "F NAP - ION | A ROM - APU | A VEN - TYR": 0.01504116012532166,
+        "F NAP - ION | A ROM - APU | A VEN H": 0.43667004052920466,
+        "F NAP - ION | A ROM - APU | A VEN S F TRI": 0.15150700928762256,
+        "F NAP - ION | A ROM - NAP | A VEN H": 0.008605132453750117,
+        "F NAP - ION | A ROM - VEN | A VEN - PIE": 0.029456754131798123,
+        "F NAP - ION | A ROM - VEN | A VEN - TRI": 0.028686779600315945,
+        "F NAP - ION | A ROM - VEN | A VEN - TYR": 0.1783282594796775,
+        "F NAP - TYS | A ROM - TUS | A VEN - PIE": 0.004099326046971545,
+        "F NAP - TYS | A ROM - VEN | A VEN - PIE": 0.00520266204823164
+      },
+      "RUSSIA": {
+        "": 0.9999999999999999
+      },
+      "TURKEY": {
+        "": 0.9999999999999999
+      }
+    },
+    "is_early_exit": false
+  },
+  "utility_outputs": {
+    "avg_utility_by_power": {
+      "AUSTRIA": 0.12924657290040462,
+      "ENGLAND": NaN,
+      "FRANCE": NaN,
+      "GERMANY": NaN,
+      "ITALY": 0.13669823675639492,
+      "RUSSIA": NaN,
+      "TURKEY": NaN
+    },
+    "top_action_utility_by_power": {
+      "AUSTRIA": [
+        {
+          "action": {
+            "__summary__": "['A VIE - GAL', 'F TRI - ALB', 'A BUD - SER']",
+            "__type__": "builtins.list"
+          },
+          "avg_action_utility": {
+            "__summary__": "0.12557180750501656",
+            "__type__": "builtins.float"
+          },
+          "policy_probability": {
+            "__summary__": "0.6954002017102994",
+            "__type__": "builtins.float"
+          }
+        },
+        {
+          "action": {
+            "__summary__": "['A VIE - TRI', 'F TRI - ALB', 'A BUD - SER']",
+            "__type__": "builtins.list"
+          },
+          "avg_action_utility": {
+            "__summary__": "0.13923066389846614",
+            "__type__": "builtins.float"
+          },
+          "policy_probability": {
+            "__summary__": "0.1442039603612347",
+            "__type__": "builtins.float"
+          }
+        },
+        {
+          "action": {
+            "__summary__": "['A VIE - GAL', 'F TRI - VEN', 'A BUD - SER']",
+            "__type__": "builtins.list"
+          },
+          "avg_action_utility": {
+            "__summary__": "0.14060091716988612",
+            "__type__": "builtins.float"
+          },
+          "policy_probability": {
+            "__summary__": "0.056396402677043427",
+            "__type__": "builtins.float"
+          }
+        },
+        {
+          "action": {
+            "__summary__": "['A VIE - BUD', 'F TRI - ALB', 'A BUD - SER']",
+            "__type__": "builtins.list"
+          },
+          "avg_action_utility": {
+            "__summary__": "0.1408364063272681",
+            "__type__": "builtins.float"
+          },
+          "policy_probability": {
+            "__summary__": "0.043201165211387595",
+            "__type__": "builtins.float"
+          }
+        },
+        {
+          "action": {
+            "__summary__": "['A VIE - GAL', 'F TRI S A VEN', 'A BUD - SER']",
+            "__type__": "builtins.list"
+          },
+          "avg_action_utility": {
+            "__summary__": "0.12767476692265892",
+            "__type__": "builtins.float"
+          },
+          "policy_probability": {
+            "__summary__": "0.014356869806053035",
+            "__type__": "builtins.float"
+          }
+        },
+        {
+          "action": {
+            "__summary__": "['A VIE - GAL', 'F TRI H', 'A BUD - SER']",
+            "__type__": "builtins.list"
+          },
+          "avg_action_utility": {
+            "__summary__": "0.12623774812704067",
+            "__type__": "builtins.float"
+          },
+          "policy_probability": {
+            "__summary__": "0.014351435279685193",
+            "__type__": "builtins.float"
+          }
+        },
+        {
+          "action": {
+            "__summary__": "['A VIE - TYR', 'F TRI - ALB', 'A BUD - SER']",
+            "__type__": "builtins.list"
+          },
+          "avg_action_utility": {
+            "__summary__": "0.13692229128459635",
+            "__type__": "builtins.float"
+          },
+          "policy_probability": {
+            "__summary__": "0.010573967785550791",
+            "__type__": "builtins.float"
+          }
+        },
+        {
+          "action": {
+            "__summary__": "['A VIE - TRI', 'F TRI - ALB', 'A BUD - RUM']",
+            "__type__": "builtins.list"
+          },
+          "avg_action_utility": {
+            "__summary__": "0.13621752217154928",
+            "__type__": "builtins.float"
+          },
+          "policy_probability": {
+            "__summary__": "0.00771762061163399",
+            "__type__": "builtins.float"
+          }
+        },
+        {
+          "action": {
+            "__summary__": "['A VIE - GAL', 'F TRI - ALB', 'A BUD - RUM']",
+            "__type__": "builtins.list"
+          },
+          "avg_action_utility": {
+            "__summary__": "0.13246751472986434",
+            "__type__": "builtins.float"
+          },
+          "policy_probability": {
+            "__summary__": "0.007536279565319003",
+            "__type__": "builtins.float"
+          }
+        },
+        {
+          "action": {
+            "__summary__": "['A VIE - BUD', 'F TRI H', 'A BUD - SER']",
+            "__type__": "builtins.list"
+          },
+          "avg_action_utility": {
+            "__summary__": "0.13155502450587817",
+            "__type__": "builtins.float"
+          },
+          "policy_probability": {
+            "__summary__": "0.00396862124486182",
+            "__type__": "builtins.float"
+          }
+        },
+        {
+          "action": {
+            "__summary__": "['A VIE H', 'F TRI - ALB', 'A BUD - SER']",
+            "__type__": "builtins.list"
+          },
+          "avg_action_utility": {
+            "__summary__": "0.1325656710356146",
+            "__type__": "builtins.float"
+          },
+          "policy_probability": {
+            "__summary__": "0.0022934757469310293",
+            "__type__": "builtins.float"
+          }
+        }
+      ],
+      "ENGLAND": [
+        {
+          "action": {
+            "__summary__": "[]",
+            "__type__": "builtins.list"
+          },
+          "avg_action_utility": {
+            "__summary__": "nan",
+            "__type__": "builtins.float"
+          },
+          "policy_probability": {
+            "__summary__": "1.0",
+            "__type__": "builtins.float"
+          }
+        }
+      ],
+      "FRANCE": [
+        {
+          "action": {
+            "__summary__": "[]",
+            "__type__": "builtins.list"
+          },
+          "avg_action_utility": {
+            "__summary__": "nan",
+            "__type__": "builtins.float"
+          },
+          "policy_probability": {
+            "__summary__": "1.0",
+            "__type__": "builtins.float"
+          }
+        }
+      ],
+      "GERMANY": [
+        {
+          "action": {
+            "__summary__": "[]",
+            "__type__": "builtins.list"
+          },
+          "avg_action_utility": {
+            "__summary__": "nan",
+            "__type__": "builtins.float"
+          },
+          "policy_probability": {
+            "__summary__": "1.0",
+            "__type__": "builtins.float"
+          }
+        }
+      ],
+      "ITALY": [
+        {
+          "action": {
+            "__summary__": "['F NAP - ION', 'A ROM - APU', 'A VEN H']",
+            "__type__": "builtins.list"
+          },
+          "avg_action_utility": {
+            "__summary__": "0.14660194354549413",
+            "__type__": "builtins.float"
+          },
+          "policy_probability": {
+            "__summary__": "0.48836307231417025",
+            "__type__": "builtins.float"
+          }
+        },
+        {
+          "action": {
+            "__summary__": "['F NAP - ION', 'A ROM - VEN', 'A VEN - TYR']",
+            "__type__": "builtins.list"
+          },
+          "avg_action_utility": {
+            "__summary__": "0.12962136970615862",
+            "__type__": "builtins.float"
+          },
+          "policy_probability": {
+            "__summary__": "0.16539491359290226",
+            "__type__": "builtins.float"
+          }
+        },
+        {
+          "action": {
+            "__summary__": "['F NAP - ION', 'A ROM - APU', 'A VEN S F TRI']",
+            "__type__": "builtins.list"
+          },
+          "avg_action_utility": {
+            "__summary__": "0.13346496494699375",
+            "__type__": "builtins.float"
+          },
+          "policy_probability": {
+            "__summary__": "0.15244281690536435",
+            "__type__": "builtins.float"
+          }
+        },
+        {
+          "action": {
+            "__summary__": "['F NAP - ION', 'A ROM - APU', 'A VEN - PIE']",
+            "__type__": "builtins.list"
+          },
+          "avg_action_utility": {
+            "__summary__": "0.12658473536546186",
+            "__type__": "builtins.float"
+          },
+          "policy_probability": {
+            "__summary__": "0.09259343662156214",
+            "__type__": "builtins.float"
+          }
+        },
+        {
+          "action": {
+            "__summary__": "['F NAP - ION', 'A ROM - APU', 'A VEN - TRI']",
+            "__type__": "builtins.list"
+          },
+          "avg_action_utility": {
+            "__summary__": "0.12622786903748728",
+            "__type__": "builtins.float"
+          },
+          "policy_probability": {
+            "__summary__": "0.028209198667887857",
+            "__type__": "builtins.float"
+          }
+        },
+        {
+          "action": {
+            "__summary__": "['F NAP - ION', 'A ROM - VEN', 'A VEN - TRI']",
+            "__type__": "builtins.list"
+          },
+          "avg_action_utility": {
+            "__summary__": "0.12625754362658326",
+            "__type__": "builtins.float"
+          },
+          "policy_probability": {
+            "__summary__": "0.02421737673887424",
+            "__type__": "builtins.float"
+          }
+        },
+        {
+          "action": {
+            "__summary__": "['F NAP - ION', 'A ROM - VEN', 'A VEN - PIE']",
+            "__type__": "builtins.list"
+          },
+          "avg_action_utility": {
+            "__summary__": "0.12051365149626023",
+            "__type__": "builtins.float"
+          },
+          "policy_probability": {
+            "__summary__": "0.020923945596520218",
+            "__type__": "builtins.float"
+          }
+        },
+        {
+          "action": {
+            "__summary__": "['F NAP - ION', 'A ROM - APU', 'A VEN - TYR']",
+            "__type__": "builtins.list"
+          },
+          "avg_action_utility": {
+            "__summary__": "0.12453391882450247",
+            "__type__": "builtins.float"
+          },
+          "policy_probability": {
+            "__summary__": "0.012072371427124551",
+            "__type__": "builtins.float"
+          }
+        },
+        {
+          "action": {
+            "__summary__": "['F NAP - ION', 'A ROM - NAP', 'A VEN H']",
+            "__type__": "builtins.list"
+          },
+          "avg_action_utility": {
+            "__summary__": "0.1291384381673835",
+            "__type__": "builtins.float"
+          },
+          "policy_probability": {
+            "__summary__": "0.007872034246053795",
+            "__type__": "builtins.float"
+          }
+        },
+        {
+          "action": {
+            "__summary__": "['F NAP - TYS', 'A ROM - VEN', 'A VEN - PIE']",
+            "__type__": "builtins.list"
+          },
+          "avg_action_utility": {
+            "__summary__": "0.12333624850228067",
+            "__type__": "builtins.float"
+          },
+          "policy_probability": {
+            "__summary__": "0.004045284786582756",
+            "__type__": "builtins.float"
+          }
+        },
+        {
+          "action": {
+            "__summary__": "['F NAP - TYS', 'A ROM - TUS', 'A VEN - PIE']",
+            "__type__": "builtins.list"
+          },
+          "avg_action_utility": {
+            "__summary__": "0.13031487702424926",
+            "__type__": "builtins.float"
+          },
+          "policy_probability": {
+            "__summary__": "0.003865549102957533",
+            "__type__": "builtins.float"
+          }
+        }
+      ],
+      "RUSSIA": [
+        {
+          "action": {
+            "__summary__": "[]",
+            "__type__": "builtins.list"
+          },
+          "avg_action_utility": {
+            "__summary__": "nan",
+            "__type__": "builtins.float"
+          },
+          "policy_probability": {
+            "__summary__": "1.0",
+            "__type__": "builtins.float"
+          }
+        }
+      ],
+      "TURKEY": [
+        {
+          "action": {
+            "__summary__": "[]",
+            "__type__": "builtins.list"
+          },
+          "avg_action_utility": {
+            "__summary__": "nan",
+            "__type__": "builtins.float"
+          },
+          "policy_probability": {
+            "__summary__": "1.0",
+            "__type__": "builtins.float"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "notebook_build": "latent-reservations-notebook08-avalon-bootstrap-interface-discovery-v1",
+  "run_id": "20260814T134313Z",
+  "environment": "AvalonBench",
+  "role": "bootstrap_and_interface_discovery",
+  "avalon_commit": "2439c6b50df7b45bae4cfcaa67e1d973e4dd8fa5",
+  "official_engine_test_passed": false,
+  "runtime_engine_import_passed": false,
+  "subject_model": "Qwen/Qwen2.5-7B-Instruct",
+  "model_smoke": {
+    "subject_model": "Qwen/Qwen2.5-7B-Instruct",
+    "subject_revision": "main",
+    "layer_path": "model.layers",
+    "layers": 28,
+    "hidden_size": 3584,
+    "prompt_tokens": 85,
+    "activation_shape": [
+      28,
+      3584
+    ],
+    "activation_dtype": "torch.float16",
+    "next_token_id": 45578,
+    "next_token_text": "READY",
+    "capture_time": "final prompt position before first generated token"
+  },
+  "readiness": {
+    "repo_frozen": true,
+    "tracked_checkout_clean": true,
+    "official_engine_test_passed": false,
+    "standalone_engine_runtime_import_passed": false,
+    "runtime_environment_class_found": false,
+    "mission_or_quest_interface_found_in_source": true,
+    "role_interface_found_in_source": true,
+    "vote_interface_found_in_source": true,
+    "qwen_all_layer_capture_passed": true,
+    "ready_for_pilot": false,
+    "pilot_target_if_ready": "evil-on-mission-team hidden SABOTAGE vs PASS",
+    "required_next_gap_if_not_ready": "repair only the standalone native-engine/API integration discovered here; do not build a synthetic Avalon replacement"
+  },
+  "scientific_target_frozen": {
+    "primary": "evil-on-active-mission hidden SABOTAGE vs PASS",
+    "positive_control": "hidden good/evil alignment; exact role secondary",
+    "sibling_branches": [
+      "hidden consequential mission action",
+      "private intended-action report",
+      "strategic public declaration",
+      "matched text-only auditor"
+    ],
+    "split_unit": "source Avalon game/trajectory before branches"
+  },
+  "interpretation_policy": "Notebook 08 establishes native interface validity only. Do not report an activation-vs-auditor scientific effect from this notebook."
+}

@@ -1,0 +1,31 @@
+state_id,trajectory_id,agent,incentive,round_index,rho_norm,rho_score,rho_probability_diagnostic_norm,rho_probability_diagnostic_score,assigned_threshold_norm,assigned_threshold_score,continuation_premium,uncensored,adjacent_binary_violations,score_min,score_max,score_span
+ld_000_trajectory_000_department_of_tourism,trajectory_000,Department of Tourism,greedy,3,0.645,64.5,0.64575,64.575,0.65,65.0,-0.0050000000000000044,True,0,0.0,100.0,100.0
+ld_001_trajectory_000_environmental_league,trajectory_000,Environmental League,greedy,1,0.6627500000000001,66.275,0.67475,67.475,0.55,55.0,0.11275000000000002,True,1,0.0,100.0,100.0
+ld_002_trajectory_000_local_labour_union,trajectory_000,Local Labour Union,cooperative,5,0.4945,49.45,0.495,49.5,0.5,50.0,-0.005500000000000005,True,1,0.0,100.0,100.0
+ld_003_trajectory_000_mayor,trajectory_000,Mayor,cooperative,6,0.33,33.0,0.31,31.0,0.3,30.0,0.030000000000000027,True,0,0.0,100.0,100.0
+ld_004_trajectory_000_other_cities,trajectory_000,Other cities,cooperative,2,0.305,30.5,0.3075,30.75,0.31,31.0,-0.0050000000000000044,True,0,0.0,100.0,100.0
+ld_005_trajectory_000_sportco,trajectory_000,SportCo,greedy,4,0.555,55.50000000000001,0.552,55.2,0.55,55.0,0.0050000000000000044,True,0,0.0,100.0,100.0
+ld_006_trajectory_001_department_of_tourism,trajectory_001,Department of Tourism,greedy,7,0.645,64.5,0.645,64.5,0.65,65.0,-0.0050000000000000044,True,0,0.0,100.0,100.0
+ld_007_trajectory_001_environmental_league,trajectory_001,Environmental League,greedy,8,0.51,51.0,0.51225,51.225,0.55,55.0,-0.040000000000000036,True,0,0.0,100.0,100.0
+ld_008_trajectory_001_local_labour_union,trajectory_001,Local Labour Union,cooperative,11,0.495,49.5,0.495,49.5,0.5,50.0,-0.0050000000000000044,True,0,0.0,100.0,100.0
+ld_009_trajectory_001_mayor,trajectory_001,Mayor,cooperative,12,0.3,30.0,0.2965,29.65,0.3,30.0,0.0,True,2,0.0,100.0,100.0
+ld_010_trajectory_001_other_cities,trajectory_001,Other cities,cooperative,10,0.315,31.5,0.3135,31.35,0.31,31.0,0.0050000000000000044,True,0,0.0,100.0,100.0
+ld_011_trajectory_001_sportco,trajectory_001,SportCo,greedy,9,0.555,55.50000000000001,0.55475,55.474999999999994,0.55,55.0,0.0050000000000000044,True,0,0.0,100.0,100.0
+ld_012_trajectory_002_department_of_tourism,trajectory_002,Department of Tourism,greedy,16,0.645,64.5,0.6465,64.64999999999999,0.65,65.0,-0.0050000000000000044,True,0,0.0,100.0,100.0
+ld_013_trajectory_002_environmental_league,trajectory_002,Environmental League,greedy,14,0.51,51.0,0.516,51.6,0.55,55.0,-0.040000000000000036,True,0,0.0,100.0,100.0
+ld_014_trajectory_002_local_labour_union,trajectory_002,Local Labour Union,cooperative,13,0.4945,49.45,0.49475,49.475,0.5,50.0,-0.005500000000000005,True,1,0.0,100.0,100.0
+ld_015_trajectory_002_mayor,trajectory_002,Mayor,cooperative,18,0.295,29.5,0.29875,29.875,0.3,30.0,-0.0050000000000000044,True,0,0.0,100.0,100.0
+ld_016_trajectory_002_other_cities,trajectory_002,Other cities,cooperative,15,0.305,30.5,0.30675,30.675,0.31,31.0,-0.0050000000000000044,True,0,0.0,100.0,100.0
+ld_017_trajectory_002_sportco,trajectory_002,SportCo,greedy,17,0.555,55.50000000000001,0.55475,55.474999999999994,0.55,55.0,0.0050000000000000044,True,0,0.0,100.0,100.0
+ld_018_trajectory_003_department_of_tourism,trajectory_003,Department of Tourism,greedy,24,0.645,64.5,0.6465,64.64999999999999,0.65,65.0,-0.0050000000000000044,True,0,0.0,100.0,100.0
+ld_019_trajectory_003_environmental_league,trajectory_003,Environmental League,greedy,21,0.51,51.0,0.50975,50.975,0.55,55.0,-0.040000000000000036,True,0,0.0,100.0,100.0
+ld_020_trajectory_003_local_labour_union,trajectory_003,Local Labour Union,cooperative,20,0.5,50.0,0.5,50.0,0.5,50.0,0.0,True,1,0.0,100.0,100.0
+ld_021_trajectory_003_mayor,trajectory_003,Mayor,cooperative,19,0.385,38.5,0.38575,38.574999999999996,0.3,30.0,0.08500000000000002,True,0,0.0,100.0,100.0
+ld_022_trajectory_003_other_cities,trajectory_003,Other cities,cooperative,23,0.305,30.5,0.3075,30.75,0.31,31.0,-0.0050000000000000044,True,0,0.0,100.0,100.0
+ld_023_trajectory_003_sportco,trajectory_003,SportCo,greedy,22,0.555,55.50000000000001,0.55475,55.474999999999994,0.55,55.0,0.0050000000000000044,True,0,0.0,100.0,100.0
+ld_024_trajectory_004_department_of_tourism,trajectory_004,Department of Tourism,greedy,3,0.645,64.5,0.645,64.5,0.65,65.0,-0.0050000000000000044,True,0,0.0,100.0,100.0
+ld_025_trajectory_004_environmental_league,trajectory_004,Environmental League,greedy,5,0.55,55.00000000000001,0.5455,54.55,0.55,55.0,0.0,True,1,0.0,100.0,100.0
+ld_026_trajectory_004_local_labour_union,trajectory_004,Local Labour Union,cooperative,4,0.495,49.5,0.49525,49.525000000000006,0.5,50.0,-0.0050000000000000044,True,0,0.0,100.0,100.0
+ld_027_trajectory_004_mayor,trajectory_004,Mayor,cooperative,6,0.293,29.299999999999997,0.2985,29.849999999999998,0.3,30.0,-0.007000000000000006,True,1,0.0,100.0,100.0
+ld_028_trajectory_004_other_cities,trajectory_004,Other cities,cooperative,1,0.32,32.0,0.31925000000000003,31.925000000000004,0.31,31.0,0.010000000000000009,True,1,0.0,100.0,100.0
+ld_029_trajectory_004_sportco,trajectory_004,SportCo,greedy,2,0.555,55.50000000000001,0.55275,55.275,0.55,55.0,0.0050000000000000044,True,0,0.0,100.0,100.0

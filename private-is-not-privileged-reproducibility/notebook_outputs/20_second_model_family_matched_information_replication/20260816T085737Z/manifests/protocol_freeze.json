@@ -1,0 +1,29 @@
+{
+  "experiment": "second-model-family replication",
+  "source_state_bank_sha256": "e21a88ae614279e2bde67554e8f788d28a7c6891b1ffb5cfd281a3bc23280900",
+  "source_state_count": 78,
+  "source_games": 40,
+  "subject_model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "subject_revision_requested": "main",
+  "behavioral_target": "model-specific consequential choice of frozen option B versus option A",
+  "prompt_format": "identical compact prompt text before chat-template rendering",
+  "activation_timing": "final rendered prompt token before any subject output",
+  "split_unit": "source game",
+  "folds": "frozen source-state folds",
+  "activation_reader": "all-layer linear logistic, nested grouped layer and C selection",
+  "strong_text_candidates": [
+    "same-model matched generative observer",
+    "trained exact-prompt TF-IDF"
+  ],
+  "strong_text_selection": "inner grouped folds only",
+  "controls": [
+    "structured",
+    "constant",
+    "shuffled-label activation"
+  ],
+  "primary_metric": "Brier score",
+  "primary_effect": "source-game mean squared-error(strong text) - squared-error(activation)",
+  "uncertainty": "20,000-replicate source-game cluster bootstrap",
+  "support_rule": "valid run AND delta > 0 AND bootstrap CI low > 0 AND activation beats shuffled-label control",
+  "no_test_fold_tuning": true
+}

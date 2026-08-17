@@ -1,0 +1,15 @@
+{
+  "notebook_build": "latent-reservations-notebook08b-avalon-native-engine-repair-v2",
+  "run_id": "20260814T141443Z",
+  "run_output_dir": "/workspace/latent-reservations/notebook_outputs/08b_avalon_native_engine_repair/20260814T141443Z",
+  "source_notebook08_run": "/workspace/latent-reservations/notebook_outputs/08_avalon_bootstrap_interface_discovery/20260814T134313Z",
+  "avalon_commit": "2439c6b50df7b45bae4cfcaa67e1d973e4dd8fa5",
+  "native_engine_source": "/workspace/latent-reservations/vendor/avalon-llm/src/server/tasks/avalon/engine.py",
+  "engine_runtime_interface": "/workspace/latent-reservations/notebook_outputs/08b_avalon_native_engine_repair/20260814T141443Z/data/engine/runtime_interface.json",
+  "native_private_information": "/workspace/latent-reservations/notebook_outputs/08b_avalon_native_engine_repair/20260814T141443Z/results/tables/native_private_information.csv",
+  "frozen_parent": "/workspace/latent-reservations/notebook_outputs/08b_avalon_native_engine_repair/20260814T141443Z/data/states/avalon_dev0_mission_parent_player0.json",
+  "branch_smoke": "/workspace/latent-reservations/notebook_outputs/08b_avalon_native_engine_repair/20260814T141443Z/results/tables/mission_branch_smoke.csv",
+  "activation": "/workspace/latent-reservations/notebook_outputs/08b_avalon_native_engine_repair/20260814T141443Z/data/states/avalon_dev0_mission_parent_player0_parent_activation.safetensors",
+  "readiness": "/workspace/latent-reservations/notebook_outputs/08b_avalon_native_engine_repair/20260814T141443Z/results/tables/readiness.json",
+  "result_summary": "/workspace/latent-reservations/notebook_outputs/08b_avalon_native_engine_repair/20260814T141443Z/results/tables/result_summary.json"
+}

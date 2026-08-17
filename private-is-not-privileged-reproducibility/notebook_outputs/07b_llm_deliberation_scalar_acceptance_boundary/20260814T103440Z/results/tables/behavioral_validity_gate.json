@@ -1,0 +1,20 @@
+{
+  "choice_valid_rate": 1.0,
+  "retry_used_count": 423,
+  "retry_rate": 0.863265306122449,
+  "zero_legal_state_count": 0,
+  "zero_legal_states": [],
+  "below_minimum_accept_count": 0,
+  "maximum_score_accept_rate": 0.9333333333333333,
+  "uncensored_state_rate": 0.9666666666666667,
+  "state_monotonicity_violation_rate": 0.2,
+  "thresholds": {
+    "decision_token_valid_rate_min": 0.95,
+    "per_state_legal_choice_count_min": 1,
+    "below_minimum_accept_count_max": 0,
+    "maximum_score_accept_rate_min": 0.8,
+    "uncensored_state_rate_min": 0.6666666666666666,
+    "state_monotonicity_violation_rate_max": 0.2
+  },
+  "passed": true
+}

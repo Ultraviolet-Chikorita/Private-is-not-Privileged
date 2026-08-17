@@ -1,0 +1,31 @@
+state_id,trajectory_id,agent,rho_norm,rho_score,assigned_threshold_norm,assigned_threshold_score,continuation_premium,uncensored,adjacent_monotonicity_violations,score_min,score_max,score_span
+ld_000_trajectory_000_department_of_tourism,trajectory_000,Department of Tourism,0.64475,64.47500000000001,0.65,65.0,-0.005249999999999977,True,1,0.0,100.0,100.0
+ld_001_trajectory_000_environmental_league,trajectory_000,Environmental League,0.55,55.00000000000001,0.55,55.0,0.0,True,1,0.0,100.0,100.0
+ld_002_trajectory_000_local_labour_union,trajectory_000,Local Labour Union,0.495,49.5,0.5,50.0,-0.0050000000000000044,True,0,0.0,100.0,100.0
+ld_003_trajectory_000_mayor,trajectory_000,Mayor,0.295,29.5,0.3,30.0,-0.0050000000000000044,True,0,0.0,100.0,100.0
+ld_004_trajectory_000_other_cities,trajectory_000,Other cities,0.305,30.5,0.31,31.0,-0.0050000000000000044,True,0,0.0,100.0,100.0
+ld_005_trajectory_000_sportco,trajectory_000,SportCo,0.545,54.50000000000001,0.55,55.0,-0.0050000000000000044,True,0,0.0,100.0,100.0
+ld_006_trajectory_001_department_of_tourism,trajectory_001,Department of Tourism,0.644,64.4,0.65,65.0,-0.006000000000000005,True,1,0.0,100.0,100.0
+ld_007_trajectory_001_environmental_league,trajectory_001,Environmental League,0.51,51.0,0.55,55.0,-0.040000000000000036,True,0,0.0,100.0,100.0
+ld_008_trajectory_001_local_labour_union,trajectory_001,Local Labour Union,0.495,49.5,0.5,50.0,-0.0050000000000000044,True,0,0.0,100.0,100.0
+ld_009_trajectory_001_mayor,trajectory_001,Mayor,0.295,29.5,0.3,30.0,-0.0050000000000000044,True,0,0.0,100.0,100.0
+ld_010_trajectory_001_other_cities,trajectory_001,Other cities,0.305,30.5,0.31,31.0,-0.0050000000000000044,True,0,0.0,100.0,100.0
+ld_011_trajectory_001_sportco,trajectory_001,SportCo,0.5545,55.45,0.55,55.0,0.0044999999999999485,True,1,0.0,100.0,100.0
+ld_012_trajectory_002_department_of_tourism,trajectory_002,Department of Tourism,0.65475,65.47500000000001,0.65,65.0,0.004750000000000032,True,1,0.0,100.0,100.0
+ld_013_trajectory_002_environmental_league,trajectory_002,Environmental League,0.51,51.0,0.55,55.0,-0.040000000000000036,True,0,0.0,100.0,100.0
+ld_014_trajectory_002_local_labour_union,trajectory_002,Local Labour Union,0.48,48.0,0.5,50.0,-0.020000000000000018,True,1,0.0,100.0,100.0
+ld_015_trajectory_002_mayor,trajectory_002,Mayor,0.295,29.5,0.3,30.0,-0.0050000000000000044,True,0,0.0,100.0,100.0
+ld_016_trajectory_002_other_cities,trajectory_002,Other cities,0.305,30.5,0.31,31.0,-0.0050000000000000044,True,0,0.0,100.0,100.0
+ld_017_trajectory_002_sportco,trajectory_002,SportCo,0.555,55.50000000000001,0.55,55.0,0.0050000000000000044,True,0,0.0,100.0,100.0
+ld_018_trajectory_003_department_of_tourism,trajectory_003,Department of Tourism,0.655,65.5,0.65,65.0,0.0050000000000000044,True,0,0.0,100.0,100.0
+ld_019_trajectory_003_environmental_league,trajectory_003,Environmental League,0.51,51.0,0.55,55.0,-0.040000000000000036,True,0,0.0,100.0,100.0
+ld_020_trajectory_003_local_labour_union,trajectory_003,Local Labour Union,0.485,48.5,0.5,50.0,-0.015000000000000013,True,0,0.0,100.0,100.0
+ld_021_trajectory_003_mayor,trajectory_003,Mayor,0.295,29.5,0.3,30.0,-0.0050000000000000044,True,0,0.0,100.0,100.0
+ld_022_trajectory_003_other_cities,trajectory_003,Other cities,0.3045,30.45,0.31,31.0,-0.005500000000000005,True,1,0.0,100.0,100.0
+ld_023_trajectory_003_sportco,trajectory_003,SportCo,0.545,54.50000000000001,0.55,55.0,-0.0050000000000000044,True,0,0.0,100.0,100.0
+ld_024_trajectory_004_department_of_tourism,trajectory_004,Department of Tourism,0.635,63.5,0.65,65.0,-0.015000000000000013,True,0,0.0,100.0,100.0
+ld_025_trajectory_004_environmental_league,trajectory_004,Environmental League,0.5,50.0,0.55,55.0,-0.050000000000000044,True,1,0.0,100.0,100.0
+ld_026_trajectory_004_local_labour_union,trajectory_004,Local Labour Union,0.4945,49.45,0.5,50.0,-0.005500000000000005,True,1,0.0,100.0,100.0
+ld_027_trajectory_004_mayor,trajectory_004,Mayor,0.295,29.5,0.3,30.0,-0.0050000000000000044,True,0,0.0,100.0,100.0
+ld_028_trajectory_004_other_cities,trajectory_004,Other cities,0.305,30.5,0.31,31.0,-0.0050000000000000044,True,0,0.0,100.0,100.0
+ld_029_trajectory_004_sportco,trajectory_004,SportCo,0.545,54.50000000000001,0.55,55.0,-0.0050000000000000044,True,0,0.0,100.0,100.0

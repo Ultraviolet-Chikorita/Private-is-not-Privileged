@@ -1,0 +1,7 @@
+{
+  "n": 5,
+  "legal_rate": 1.0,
+  "deal_match_rate": 1.0,
+  "score_match_rate": 1.0,
+  "method": "reparse existing Notebook 02 raw generations; no regeneration"
+}

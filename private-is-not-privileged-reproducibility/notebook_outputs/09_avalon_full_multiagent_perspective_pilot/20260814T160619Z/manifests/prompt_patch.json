@@ -1,0 +1,8 @@
+{
+  "source_file": "src/server/tasks/avalon/prompts.py",
+  "source_commit": "2439c6b50df7b45bae4cfcaa67e1d973e4dd8fa5",
+  "exact_original": "3 players are evil",
+  "exact_replacement": "2 players are evil",
+  "original_sha256": "a4e24cefde5e3b6e237e3ccc0e588f49eaa534524203dcc4aa95e6073d8b685d",
+  "validated_sha256": "72084b21bae2c76b2890d318ee513456d4a335cd000955fcf7355511fae67d40"
+}

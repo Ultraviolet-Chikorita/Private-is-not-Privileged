@@ -1,0 +1,29 @@
+{
+  "reps": 10000,
+  "cluster_unit": "source trajectory",
+  "cluster_count": 5,
+  "matched_auditor_delta": {
+    "mean": 0.16607575181957235,
+    "ci95": [
+      0.08337502716382333,
+      0.2360532910346984
+    ],
+    "fraction_positive": 1.0
+  },
+  "best_text_suite_delta": {
+    "mean": -0.11836780776276082,
+    "ci95": [
+      -0.18271628794068104,
+      -0.05454789292363246
+    ],
+    "fraction_positive": 0.0
+  },
+  "best_nonactivation_suite_delta": {
+    "mean": -0.13887834087611015,
+    "ci95": [
+      -0.2140063213825226,
+      -0.08411009220458371
+    ],
+    "fraction_positive": 0.0
+  }
+}

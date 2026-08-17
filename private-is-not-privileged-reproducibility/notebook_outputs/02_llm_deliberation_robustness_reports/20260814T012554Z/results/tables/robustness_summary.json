@@ -1,0 +1,48 @@
+{
+  "notebook_build": "latent-reservations-notebook02-robustness-reports-run-all-v1",
+  "run_id": "20260814T012554Z",
+  "notebook01_run": "/workspace/latent-reservations/notebook_outputs/01_llm_deliberation_pilot/20260813T235230Z",
+  "subject_model": "Qwen/Qwen2.5-7B-Instruct",
+  "upstream_commit": "78e11e04ba89b9d888cb006f57bad696584a32f1",
+  "pilot_delta_latent": -11.115956624348957,
+  "locked_activation_layer": 12,
+  "locked_activation_alpha": 0.1,
+  "locked_activation_loto_mae": 24.89508310953776,
+  "auditor_loto_mae": 10.4,
+  "fixed_text_loto_mae": 14.672144218398909,
+  "fixed_structured_loto_mae": 18.310422954572427,
+  "loto_delta_latent_auditor_minus_activation": -14.495083109537761,
+  "loto_delta_cluster_bootstrap_95ci": [
+    -25.31763687133789,
+    -7.303814188639323
+  ],
+  "per_trajectory_delta": {
+    "trajectory_000": -12.326798756917318,
+    "trajectory_001": -5.586263020833334,
+    "trajectory_002": -7.433483123779296,
+    "trajectory_003": -36.01291529337565,
+    "trajectory_004": -11.115955352783203
+  },
+  "exploratory_best_layer": 18,
+  "exploratory_best_layer_loto_mae": 14.966946029663086,
+  "exploratory_best_layer_delta_vs_auditor": -4.566946029663086,
+  "private_public_report": {
+    "private_valid_rate": 1.0,
+    "public_valid_rate": 1.0,
+    "private_behavior_bin_mae_all": 2.466666666666667,
+    "private_behavior_bin_mae_public_subset": 2.533333333333333,
+    "public_behavior_bin_mae": 2.533333333333333,
+    "h3_public_minus_private_error_gap": 0.0,
+    "h3_cluster_bootstrap_95ci": [
+      0.0,
+      0.0
+    ],
+    "private_behavior_spearman": null,
+    "public_behavior_spearman": null,
+    "private_threshold_bin_mae": 1.1666666666666667,
+    "public_threshold_bin_mae": 1.2
+  },
+  "exact_repeat_deal_match_rate": 0.0,
+  "exact_repeat_score_match_rate": 0.0,
+  "interpretation_policy": "Preserve null/negative H1; do not weaken auditor or retroactively select a new primary layer."
+}

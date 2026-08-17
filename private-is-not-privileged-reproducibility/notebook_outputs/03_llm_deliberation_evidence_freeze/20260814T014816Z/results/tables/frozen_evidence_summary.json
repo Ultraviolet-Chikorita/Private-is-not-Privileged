@@ -1,0 +1,61 @@
+{
+  "notebook_build": "latent-reservations-notebook03-evidence-freeze-run-all-v1",
+  "run_id": "20260814T014816Z",
+  "source_notebook02b_run": "/workspace/latent-reservations/notebook_outputs/02b_llm_deliberation_report_replay_repair/20260814T013828Z",
+  "sample": {
+    "states": 30,
+    "trajectories": 5,
+    "public_report_pairs": 15
+  },
+  "h1_primary": {
+    "locked_layer": 12,
+    "locked_alpha": 0.1,
+    "activation_loto_mae": 24.89508310953776,
+    "auditor_loto_mae": 10.4,
+    "delta_latent_auditor_minus_activation": -14.495083109537761,
+    "cluster_bootstrap_95ci": [
+      -25.559805552164715,
+      -7.303814188639323
+    ],
+    "bootstrap_fraction_positive": 0.0,
+    "outcome": "negative/null: activation reader does not beat the matched auditor"
+  },
+  "h1_secondary_nested": {
+    "activation_nested_loto_mae": 19.483488987558953,
+    "auditor_mae": 10.4,
+    "delta_auditor_minus_activation": -9.083488987558953
+  },
+  "positive_control": {
+    "threshold_test_mae": 3.2392349243164062,
+    "threshold_layer": 18
+  },
+  "h3_reports": {
+    "private_n": 30,
+    "paired_public_n": 15,
+    "private_behavior_mae_all": 1.0333333333333334,
+    "private_behavior_mae_paired": 0.8,
+    "public_behavior_mae_paired": 0.8,
+    "public_minus_private_error_gap": 0.0,
+    "cluster_bootstrap_95ci": [
+      0.0,
+      0.0
+    ],
+    "paired_substantive_identity_rate": 1.0,
+    "mean_public_minus_private_confidence": 0.3333333333333333,
+    "nonzero_confidence_difference_pairs": 4,
+    "interpretation": "null public/private stance effect under this manipulation"
+  },
+  "controls": {
+    "exact_repeat_legal_rate": 1.0,
+    "exact_repeat_deal_match_rate": 1.0,
+    "exact_repeat_score_match_rate": 1.0,
+    "report_order_proposal_match_rate": 0.8,
+    "report_order_minimum_match_rate": 1.0
+  },
+  "interpretation_policy": [
+    "Preserve the negative/null H1 result.",
+    "Do not weaken the auditor.",
+    "Do not retroactively select a new primary layer.",
+    "Treat H3 as null under the tested public/private report manipulation."
+  ]
+}

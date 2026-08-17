@@ -1,0 +1,11 @@
+{
+  "repo_frozen_clean": true,
+  "released_games_found": true,
+  "movement_phases_found": true,
+  "structural_candidate_states_found": true,
+  "candidate_game_count": 40,
+  "candidate_game_count_at_least_3": true,
+  "game_reconstruction_source_interfaces_found": true,
+  "qwen_released_state_activation_capture_passed": true,
+  "ready_for_notebook11_engine_integration": true
+}

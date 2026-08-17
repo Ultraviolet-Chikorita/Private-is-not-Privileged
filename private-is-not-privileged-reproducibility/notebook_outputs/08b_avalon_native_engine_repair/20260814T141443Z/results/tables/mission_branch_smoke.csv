@@ -1,0 +1,3 @@
+state_id,parent_snapshot_hash,branch,subject_action,anonymous_votes,native_result,mission_succeeded,num_fails
+avalon_dev0_mission_parent_player0,fc79d197c0e65a766185921db9ac9d64550e6b754b8765d6abe68a56c1301dd2,PASS,PASS,"[True, True]","[0, False, True, 0]",True,0
+avalon_dev0_mission_parent_player0,fc79d197c0e65a766185921db9ac9d64550e6b754b8765d6abe68a56c1301dd2,SABOTAGE,SABOTAGE,"[False, True]","[0, False, False, 1]",False,1

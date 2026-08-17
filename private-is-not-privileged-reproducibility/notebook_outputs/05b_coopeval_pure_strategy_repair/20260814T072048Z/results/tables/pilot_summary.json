@@ -1,0 +1,58 @@
+{
+  "notebook_build": "latent-reservations-notebook05b-coopeval-pure-strategy-repair-v1",
+  "run_id": "20260814T072048Z",
+  "environment": "CoopEval",
+  "game": "Traveler's Dilemma",
+  "mechanism": "No Mechanism",
+  "action_semantics": "deterministic pure strategy: probability 1 on one official action",
+  "coopeval_commit": "8559e858b5cc33e0a29ac592c0b21eab007feb57",
+  "subject_model": "Qwen/Qwen2.5-7B-Instruct",
+  "source_notebook05_run": "/workspace/latent-reservations/notebook_outputs/05_coopeval_travellers_pilot/20260814T070203Z",
+  "native_smoke_inherited_pass": true,
+  "states": 100,
+  "source_families": 20,
+  "split": {
+    "train_states": 60,
+    "validation_states": 20,
+    "test_states": 20,
+    "train_families": 12,
+    "validation_families": 4,
+    "test_families": 4
+  },
+  "subject_valid_rate": 1.0,
+  "auditor_valid_rate": 0.98,
+  "deterministic_repeat_match_rate": 1.0,
+  "utility_sensitivity": {
+    "families": 20,
+    "finite_rho_families": 6,
+    "fraction_all_families_negative_rho": 0.15,
+    "fraction_finite_families_negative_rho": 0.5,
+    "mean_finite_rho": -0.2448864708695242,
+    "fraction_families_high_bonus_lower_than_low_bonus": 0.15,
+    "mean_endpoint_shift_high_minus_low": -0.03333333333333333,
+    "unique_claims": 15,
+    "unique_actions": 5
+  },
+  "h1": {
+    "selected_activation_layer": 20,
+    "selected_activation_alpha": 0.01,
+    "activation_test_mean_normalized_abs_error": 0.6307424111366271,
+    "auditor_test_mean_normalized_abs_error": 0.09166666666666667,
+    "trained_text_test_mean_normalized_abs_error": 0.7202814591285993,
+    "structured_test_mean_normalized_abs_error": 0.13828000911842328,
+    "delta_latent_auditor_minus_activation": -0.5390757444699604,
+    "cluster_bootstrap_95ci": [
+      -0.8322456002235412,
+      -0.2980561113357544
+    ],
+    "bootstrap_fraction_positive": 0.0
+  },
+  "positive_control": {
+    "target": "official bonus ratio",
+    "selected_layer": 19,
+    "selected_alpha": 0.1,
+    "test_mae": 0.49035202860832217
+  },
+  "shuffled_label_control_test_mean_normalized_abs_error": 3.090625105222066,
+  "interpretation_policy": "Action semantics repaired before this run. Preserve the observed H1 and utility-sensitivity signs. Do not weaken the auditor or change the frozen family split after test inspection."
+}

@@ -1,0 +1,22 @@
+{
+  "notebook_build": "latent-reservations-notebook07-llm-deliberation-acceptance-boundary-v1",
+  "run_id": "20260814T095251Z",
+  "run_output_dir": "/workspace/latent-reservations/notebook_outputs/07_llm_deliberation_acceptance_boundary/20260814T095251Z",
+  "source_state_dir": "/workspace/latent-reservations/notebook_outputs/01_llm_deliberation_pilot/20260813T235230Z/data/states",
+  "protocol_freeze": "/workspace/latent-reservations/notebook_outputs/07_llm_deliberation_acceptance_boundary/20260814T095251Z/manifests/protocol_freeze.json",
+  "trajectory_folds": "/workspace/latent-reservations/notebook_outputs/07_llm_deliberation_acceptance_boundary/20260814T095251Z/data/derived/trajectory_folds.json",
+  "parent_states": "/workspace/latent-reservations/notebook_outputs/07_llm_deliberation_acceptance_boundary/20260814T095251Z/data/parent_states",
+  "candidate_banks": "/workspace/latent-reservations/notebook_outputs/07_llm_deliberation_acceptance_boundary/20260814T095251Z/data/candidate_banks",
+  "parent_activations": "/workspace/latent-reservations/notebook_outputs/07_llm_deliberation_acceptance_boundary/20260814T095251Z/data/parent_activations/parent_all_layers.safetensors",
+  "candidate_choices": "/workspace/latent-reservations/notebook_outputs/07_llm_deliberation_acceptance_boundary/20260814T095251Z/data/branches/candidate_choices",
+  "auditor": "/workspace/latent-reservations/notebook_outputs/07_llm_deliberation_acceptance_boundary/20260814T095251Z/data/branches/auditor",
+  "boundaries": "/workspace/latent-reservations/notebook_outputs/07_llm_deliberation_acceptance_boundary/20260814T095251Z/results/tables/revealed_acceptance_boundaries.csv",
+  "predictions": "/workspace/latent-reservations/notebook_outputs/07_llm_deliberation_acceptance_boundary/20260814T095251Z/results/tables/heldout_boundary_predictions.csv",
+  "result_summary": "/workspace/latent-reservations/notebook_outputs/07_llm_deliberation_acceptance_boundary/20260814T095251Z/results/tables/result_summary.json",
+  "figures": [
+    "/workspace/latent-reservations/notebook_outputs/07_llm_deliberation_acceptance_boundary/20260814T095251Z/results/figures/acceptance_curves.png",
+    "/workspace/latent-reservations/notebook_outputs/07_llm_deliberation_acceptance_boundary/20260814T095251Z/results/figures/boundary_delta_by_trajectory.png",
+    "/workspace/latent-reservations/notebook_outputs/07_llm_deliberation_acceptance_boundary/20260814T095251Z/results/figures/boundary_method_comparison.png",
+    "/workspace/latent-reservations/notebook_outputs/07_llm_deliberation_acceptance_boundary/20260814T095251Z/results/figures/threshold_vs_revealed_boundary.png"
+  ]
+}

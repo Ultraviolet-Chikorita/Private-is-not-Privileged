@@ -1,0 +1,14 @@
+{
+  "0": {
+    "digit": 0,
+    "text_form": "0",
+    "token_id": 15,
+    "decoded": "0"
+  },
+  "1": {
+    "digit": 1,
+    "text_form": "1",
+    "token_id": 16,
+    "decoded": "1"
+  }
+}

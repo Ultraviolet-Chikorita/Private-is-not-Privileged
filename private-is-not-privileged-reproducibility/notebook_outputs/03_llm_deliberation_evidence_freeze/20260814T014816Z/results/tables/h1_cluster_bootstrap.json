@@ -1,0 +1,10 @@
+{
+  "reps": 10000,
+  "delta_latent": -14.495083109537761,
+  "ci95": [
+    -25.559805552164715,
+    -7.303814188639323
+  ],
+  "fraction_positive": 0.0,
+  "cluster_unit": "source trajectory"
+}

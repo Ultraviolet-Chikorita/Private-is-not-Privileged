@@ -1,0 +1,8 @@
+{
+  "cicero_commit": "e85afeddb34f5b7c1ea0827203b425a0f7e68ead",
+  "notebook16_run_id": "20260815T143203Z",
+  "notebook16_ready": true,
+  "notebook16_fatal_capture_error_events_absent": true,
+  "expected_dialogue_task": "message_history_orderhistorysincelastmovementphase_shortstate_pseudoorder_dialogue_chunk",
+  "dialogue_task_source": "/workspace/latent-reservations/notebook_outputs/16_cicero_planner_intent_behavior_measurement/20260815T143203Z/data/runtime/full_agent_measurement.log"
+}

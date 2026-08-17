@@ -1,0 +1,28 @@
+{
+  "traveler_game_config": "configs/games/travellers_dilemma.yaml",
+  "no_mechanism_config": "configs/mechanisms/no_mechanism.yaml",
+  "agent_configs": [
+    "configs/agents/cheap_llms_3.yaml",
+    "configs/agents/few_strong_llms.yaml",
+    "configs/agents/sota_llms.yaml",
+    "configs/agents/test_agents_3.yaml",
+    "configs/agents/test_agents_6.yaml"
+  ],
+  "evaluation_configs": [
+    "configs/evaluation/default_evaluation.yaml",
+    "configs/evaluation/no_deviation_ratings.yaml"
+  ],
+  "traveler_config_data": {
+    "type": "TravellersDilemma",
+    "kwargs": {
+      "min_claim": 2,
+      "num_actions": 4,
+      "claim_spacing": 1,
+      "bonus": 2.0
+    }
+  },
+  "no_mechanism_config_data": {
+    "type": "NoMechanism",
+    "kwargs": {}
+  }
+}

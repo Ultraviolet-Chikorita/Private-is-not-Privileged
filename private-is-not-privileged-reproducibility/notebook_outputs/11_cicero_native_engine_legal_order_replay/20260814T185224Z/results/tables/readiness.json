@@ -1,0 +1,15 @@
+{
+  "cicero_commit_frozen_clean": true,
+  "official_pydipcc_loaded": true,
+  "required_engine_methods_present": true,
+  "exact_reconstruction_source_games": 3,
+  "at_least_three_source_games_reconstructed": true,
+  "released_board_state_match": true,
+  "legal_focal_orders_enumerated": true,
+  "two_legal_choices_selected_preoutcome": true,
+  "identical_native_parent": true,
+  "native_post_states_diverge": true,
+  "released_focal_messages_preserved": true,
+  "historical_orders_excluded_from_subject_text": true,
+  "ready_for_notebook12_full_press_order_pilot": true
+}

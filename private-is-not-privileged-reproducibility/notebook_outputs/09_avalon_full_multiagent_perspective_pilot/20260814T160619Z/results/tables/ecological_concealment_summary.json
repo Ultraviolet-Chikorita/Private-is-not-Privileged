@@ -1,0 +1,6 @@
+{
+  "private_report_match_rate": 0.7428571428571429,
+  "concealment_compatible_rate_given_sabotage": 0.0,
+  "definition": "hidden SABOTAGE + public APPROVE + SUPPORT-coded immediately preceding public discussion",
+  "same_parent_public_report_claim": false
+}

@@ -1,0 +1,5 @@
+{
+  "source_run": "/workspace/latent-reservations/notebook_outputs/19_cicero_h1_activation_vs_strong_text/20260815T180359Z",
+  "predictions": "/workspace/latent-reservations/notebook_outputs/21_nonlinear_activation_reader_robustness/20260816T085822Z/results/tables/nonlinear_heldout_predictions.csv",
+  "result": "/workspace/latent-reservations/notebook_outputs/21_nonlinear_activation_reader_robustness/20260816T085822Z/results/tables/nonlinear_result.json"
+}

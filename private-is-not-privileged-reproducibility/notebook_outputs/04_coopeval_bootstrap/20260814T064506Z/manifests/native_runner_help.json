@@ -1,0 +1,11 @@
+{
+  "cmd": [
+    "/usr/local/bin/python",
+    "/workspace/latent-reservations/vendor/coopeval/scripts/experiments/run_experiment.py",
+    "--help"
+  ],
+  "returncode": 0,
+  "elapsed_s": 4.153,
+  "log": "/workspace/latent-reservations/notebook_outputs/04_coopeval_bootstrap/20260814T064506Z/logs/run_experiment_help.log",
+  "output_tail": "usage: run_experiment.py [-h] --config CONFIG [--wandb]\n                         [--matchup-payoffs MATCHUP_PAYOFFS]\n                         [--output-dir OUTPUT_DIR]\n                         [--experiment-name EXPERIMENT_NAME] [--seed SEED]\n\nRun game-theoretic experiments with configurable evaluations\n\noptions:\n  -h, --help            show this help message and exit\n  --config CONFIG       Config YAML file name\n  --wandb               Enable Weights & Biases figure saving\n  --matchup-payoffs MATCHUP_PAYOFFS\n                        Path to a JSON file containing precomputed matchup\n                        payoffs.\n  --output-dir OUTPUT_DIR\n                        Custom output directory for this experiment (overrides\n                        default timestamped directory)\n  --experiment-name EXPERIMENT_NAME\n                        Name for this experiment (used as subdirectory under\n                        output-dir)\n  --seed SEED           Random seed for reproducibility (default: 42)\n"
+}

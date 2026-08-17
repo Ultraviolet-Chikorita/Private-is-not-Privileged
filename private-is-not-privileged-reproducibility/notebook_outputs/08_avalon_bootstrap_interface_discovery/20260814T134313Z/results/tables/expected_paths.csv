@@ -1,0 +1,11 @@
+name,path,exists,is_file,is_dir
+readme,/workspace/latent-reservations/vendor/avalon-llm/README.md,True,True,False
+requirements,/workspace/latent-reservations/vendor/avalon-llm/requirements.txt,True,True,False
+dev_data,/workspace/latent-reservations/vendor/avalon-llm/data/avalon/dev.json,True,True,False
+task_config,/workspace/latent-reservations/vendor/avalon-llm/configs/tasks/avalon.yaml,True,True,False
+engine_dir,/workspace/latent-reservations/vendor/avalon-llm/avalonbench_dev/avalon,True,False,True
+engine,/workspace/latent-reservations/vendor/avalon-llm/avalonbench_dev/avalon/engine.py,True,True,False
+engine_test,/workspace/latent-reservations/vendor/avalon-llm/avalonbench_dev/avalon/test_engine.py,True,True,False
+prompt,/workspace/latent-reservations/vendor/avalon-llm/src/server/tasks/avalon/prompts.py,True,True,False
+wrapper,/workspace/latent-reservations/vendor/avalon-llm/src/server/tasks/avalon/wrapper.py,True,True,False
+agents_dir,/workspace/latent-reservations/vendor/avalon-llm/src/server/tasks/avalon/agents,True,False,True

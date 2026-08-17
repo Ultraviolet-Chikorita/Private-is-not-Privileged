@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "subject_model": "Qwen/Qwen2.5-7B-Instruct",
+  "passed": true,
+  "layer_container": "model.layers",
+  "num_layers": 28,
+  "captured_layer": 14,
+  "prompt_tokens": 21,
+  "captured_shape": [
+    1,
+    3584
+  ],
+  "captured_dtype": "torch.float16",
+  "generated_first_token_text": " A"
+}

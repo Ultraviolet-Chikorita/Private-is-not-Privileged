@@ -1,0 +1,14 @@
+{
+  "repo_frozen": true,
+  "tracked_checkout_clean": true,
+  "official_engine_test_passed": false,
+  "standalone_engine_runtime_import_passed": false,
+  "runtime_environment_class_found": false,
+  "mission_or_quest_interface_found_in_source": true,
+  "role_interface_found_in_source": true,
+  "vote_interface_found_in_source": true,
+  "qwen_all_layer_capture_passed": true,
+  "ready_for_pilot": false,
+  "pilot_target_if_ready": "evil-on-mission-team hidden SABOTAGE vs PASS",
+  "required_next_gap_if_not_ready": "repair only the standalone native-engine/API integration discovered here; do not build a synthetic Avalon replacement"
+}

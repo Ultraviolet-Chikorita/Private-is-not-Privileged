@@ -1,0 +1,24 @@
+{
+  "notebook_build": "latent-reservations-notebook07c-native-format-scalar-boundary-v1",
+  "source_notebook07b_run": "/workspace/latent-reservations/notebook_outputs/07b_llm_deliberation_scalar_acceptance_boundary/20260814T103440Z",
+  "parent_states": 30,
+  "candidate_scores": "same frozen score banks as Notebooks 07/07b",
+  "parent_activation": "exact 07b pre-candidate representation, reused without outcome labels",
+  "candidate_interface": "verified scalar private score; native scratchpad plus <ANSWER>ACCEPT|REJECT</ANSWER>",
+  "candidate_generation": {
+    "do_sample": false,
+    "max_new_tokens": 128,
+    "parser_retry_max": 1
+  },
+  "behavioral_gates": {
+    "decision_parse_valid_rate_min": 0.95,
+    "format_retry_rate_max": 0.1,
+    "below_minimum_accept_count_max": 0,
+    "maximum_score_accept_rate_min": 0.8,
+    "uncensored_state_rate_min": 0.6666666666666666,
+    "state_monotonicity_violation_rate_max": 0.2
+  },
+  "primary_target": "raw revealed scalar boundary normalized to legal private-score range",
+  "secondary_target": "continuation premium = revealed boundary - explicit minimum",
+  "primary_delta": "matched generative auditor MAE - activation MAE"
+}

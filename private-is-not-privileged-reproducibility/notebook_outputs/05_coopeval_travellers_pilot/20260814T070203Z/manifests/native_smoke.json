@@ -1,0 +1,18 @@
+{
+  "cmd": [
+    "/usr/local/bin/python",
+    "/workspace/latent-reservations/vendor/coopeval/scripts/experiments/run_experiment.py",
+    "--config",
+    "/workspace/latent-reservations/notebook_outputs/05_coopeval_travellers_pilot/20260814T070203Z/data/native_smoke/experiment.yaml",
+    "--output-dir",
+    "/workspace/latent-reservations/notebook_outputs/05_coopeval_travellers_pilot/20260814T070203Z/data/native_smoke/output",
+    "--experiment-name",
+    "smoke_20260814T070203Z",
+    "--seed",
+    "4205"
+  ],
+  "returncode": 0,
+  "elapsed_s": 4.621,
+  "log": "/workspace/latent-reservations/notebook_outputs/05_coopeval_travellers_pilot/20260814T070203Z/logs/native_smoke.log",
+  "tail": "Random seed set to: 4205\nLogging to: /workspace/latent-reservations/notebook_outputs/05_coopeval_travellers_pilot/20260814T070203Z/data/native_smoke/output/smoke_20260814T070203Z\nRunning TravellersDilemma with mechanism NoMechanism.\n\nNo precomputed matchup payoff provided; running tournament...\n\n============================================================\nAGENT AVERAGE PAYOFFS\n============================================================\n  test-1(CoT): 3.1667\n  test-2(CoT): 1.8333\n  test-3(CoT): 2.3333\n============================================================\n\n\n============================================================\nRUNNING EVOLUTIONARY DYNAMICS\n============================================================\n\n\nEvolution Steps:   0%|          | 0/1000 [00:00<?, ?it/s]Step 1: Population fitness is {'test-1(CoT)': 3.166666666666666, 'test-2(CoT)': 1.833333333333333, 'test-3(CoT)': 2.333333333333333}\nStep 100: Population fitness is {'test-1(CoT)': 2.201443061583821, 'test-2(CoT)': 2.2996042744584706, 'test-3(CoT)': 1.798790006053344}\nStep 200: Population fitness is {'test-1(CoT)': 2.245792158241997, 'test-2(CoT)': 2.254248698912559, 'test-3(CoT)': 1.9828962519376179}\nStep 300: Population fitness is {'test-1(CoT)': 2.2496543459864244, 'test-2(CoT)': 2.2503488014313984, 'test-3(CoT)': 1.998596401160214}\nStep 400: Population fitness is {'test-1(CoT)': 2.2499716606106452, 'test-2(CoT)': 2.250028596400237, 'test-3(CoT)': 1.999884929036697}\nStep 500: Population fitness is {'test-1(CoT)': 2.2499976767617333, 'test-2(CoT)': 2.2500023443259787, 'test-3(CoT)': 1.9999905664621886}\nStep 600: Population fitness is {'test-1(CoT)': 2.249999809537761, 'test-2(CoT)': 2.2500001921931627, 'test-3(CoT)': 1.9999992266115514}\nStep 700: Population fitness is {'test-1(CoT)': 2.249999984385068, 'test-2(CoT)': 2.2500000157570152, 'test-3(CoT)': 1.999999936593054}\nStep 800: Population fitness is {'test-1(CoT)': 2.249999998719772, 'test-2(CoT)': 2.2500000012918906, 'test-3(CoT)': 1.9999999948013363}\nStep 900: Population fitness is {'test-1(CoT)': 2.249999999895034, 'test-2(CoT)': 2.2500000001059233, 'test-3(CoT)': 1.9999999995737534}\nStep 1000: Population fitness is {'test-1(CoT)': 2.2499999999913936, 'test-2(CoT)': 2.250000000008685, 'test-3(CoT)': 1.9999999999650506}\n\nEvolution Steps: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 1000/1000 [00:00<00:00, 28245.99it/s]\n\n============================================================\n\n"
+}

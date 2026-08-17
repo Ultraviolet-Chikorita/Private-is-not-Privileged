@@ -1,0 +1,16 @@
+{
+  "frozen_cicero_commit": true,
+  "accepted_notebook15_handoff": true,
+  "legacy_runtime_preflight_pass": true,
+  "instrumentation_probe_pass": true,
+  "capture_target_reached": true,
+  "planner_results_present": true,
+  "message_exact_pair_count_at_least_4": true,
+  "message_exact_pair_rate_at_least_0_8": true,
+  "message_distinct_recipients_at_least_2": true,
+  "order_episode_count_at_least_target": true,
+  "order_planner_pair_rate_at_least_0_8": true,
+  "order_agent_policy_support_rate_at_least_0_8": true,
+  "capture_error_events_absent": false,
+  "ready_for_notebook17_exact_dialogue_observer": false
+}

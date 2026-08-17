@@ -1,0 +1,9 @@
+game_index,game_id,seed,initial_quest_leader,role_names_json,fold
+0,avalon_full_000,914207,0,"[""Servant"", ""Merlin"", ""Assassin"", ""Minion"", ""Servant""]",0
+1,avalon_full_001,914208,1,"[""Servant"", ""Minion"", ""Merlin"", ""Assassin"", ""Servant""]",1
+2,avalon_full_002,914209,2,"[""Assassin"", ""Servant"", ""Merlin"", ""Minion"", ""Servant""]",2
+3,avalon_full_003,914210,3,"[""Merlin"", ""Servant"", ""Servant"", ""Minion"", ""Assassin""]",3
+4,avalon_full_004,914211,4,"[""Servant"", ""Minion"", ""Servant"", ""Assassin"", ""Merlin""]",4
+5,avalon_full_005,914212,0,"[""Assassin"", ""Minion"", ""Servant"", ""Servant"", ""Merlin""]",0
+6,avalon_full_006,914213,1,"[""Minion"", ""Servant"", ""Servant"", ""Merlin"", ""Assassin""]",1
+7,avalon_full_007,914214,2,"[""Merlin"", ""Assassin"", ""Minion"", ""Servant"", ""Servant""]",2

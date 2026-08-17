@@ -1,0 +1,21 @@
+{
+  "captured_message_episode_count": 21,
+  "primary_evaluable_episode_count": 18,
+  "distinct_senders_primary": 6,
+  "distinct_recipients_primary": 7,
+  "dialogue_model_output_to_final_message_match_rate": 0.8571428571428571,
+  "planner_exact_pair_rate_at_input_boundary": 1.0,
+  "exact_input_pseudoorder_parse_rate": 1.0,
+  "exact_input_observer_planner_top_exact_match_rate": 0.7777777777777778,
+  "exact_input_observer_planner_top_mean_jaccard": 0.8555555555555555,
+  "planner_top_all_orders_visible_anywhere_in_exact_input_rate": 0.7777777777777778,
+  "exact_input_observer_blueprint_top_exact_match_rate": 0.7777777777777778,
+  "agent_vs_blueprint_top_disagreement_episode_count": 0,
+  "observer_matches_agent_on_disagreement_rate": null,
+  "observer_matches_blueprint_on_disagreement_rate": null,
+  "planner_top_all_orders_literal_in_final_message_rate": 0.0,
+  "future_final_message_found_in_input_rate": 0.0,
+  "text_visible_threshold": 0.8,
+  "branch_decision": "planner_top_action_not_directly_text_visible_at_predeclared_threshold",
+  "inferential_status": "descriptive mechanistic matched-information audit only; repeated messages from a shared self-play game/phase are not independent H1 units"
+}

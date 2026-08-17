@@ -1,0 +1,22 @@
+{
+  "notebook_build": "latent-reservations-notebook16-cicero-planner-intent-behavior-v1",
+  "run_id": "20260815T143203Z",
+  "run_output_dir": "/workspace/latent-reservations/notebook_outputs/16_cicero_planner_intent_behavior_measurement/20260815T143203Z",
+  "source_notebook15_run": "/workspace/latent-reservations/notebook_outputs/15_cicero_planner_capture_mechanistic_positive_control/20260815T140016Z",
+  "instrumentation_source": "/workspace/latent-reservations/notebook_outputs/16_cicero_planner_intent_behavior_measurement/20260815T143203Z/data/instrumentation/sitecustomize.py",
+  "instrumentation_probe": "/workspace/latent-reservations/notebook_outputs/16_cicero_planner_intent_behavior_measurement/20260815T143203Z/data/runtime/instrumentation_probe.txt",
+  "full_agent_log": "/workspace/latent-reservations/notebook_outputs/16_cicero_planner_intent_behavior_measurement/20260815T143203Z/data/runtime/full_agent_measurement.log",
+  "capture_event_directory": "/workspace/latent-reservations/notebook_outputs/16_cicero_planner_intent_behavior_measurement/20260815T143203Z/data/planner_behavior_events",
+  "capture_events_merged": "/workspace/latent-reservations/notebook_outputs/16_cicero_planner_intent_behavior_measurement/20260815T143203Z/data/runtime/capture_events_merged.json",
+  "planner_message_episodes": "/workspace/latent-reservations/notebook_outputs/16_cicero_planner_intent_behavior_measurement/20260815T143203Z/results/tables/planner_message_episodes.csv",
+  "planner_order_episodes": "/workspace/latent-reservations/notebook_outputs/16_cicero_planner_intent_behavior_measurement/20260815T143203Z/results/tables/planner_order_episodes.csv",
+  "policy_fidelity_summary": "/workspace/latent-reservations/notebook_outputs/16_cicero_planner_intent_behavior_measurement/20260815T143203Z/results/tables/policy_fidelity_summary.json",
+  "pairing_audit": "/workspace/latent-reservations/notebook_outputs/16_cicero_planner_intent_behavior_measurement/20260815T143203Z/results/tables/pairing_audit.json",
+  "readiness": "/workspace/latent-reservations/notebook_outputs/16_cicero_planner_intent_behavior_measurement/20260815T143203Z/results/tables/readiness.json",
+  "result_summary": "/workspace/latent-reservations/notebook_outputs/16_cicero_planner_intent_behavior_measurement/20260815T143203Z/results/tables/result_summary.json",
+  "checksums": "/workspace/latent-reservations/notebook_outputs/16_cicero_planner_intent_behavior_measurement/20260815T143203Z/checksums.json",
+  "figures": [
+    "/workspace/latent-reservations/notebook_outputs/16_cicero_planner_intent_behavior_measurement/20260815T143203Z/results/figures/message_planner_snapshot_diagnostics.png",
+    "/workspace/latent-reservations/notebook_outputs/16_cicero_planner_intent_behavior_measurement/20260815T143203Z/results/figures/submitted_order_policy_probability.png"
+  ]
+}

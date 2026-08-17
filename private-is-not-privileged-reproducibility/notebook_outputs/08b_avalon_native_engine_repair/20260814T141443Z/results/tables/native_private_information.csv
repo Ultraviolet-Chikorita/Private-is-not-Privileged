@@ -1,0 +1,6 @@
+player,role_id,role_name,is_good,partial_sides_json
+0,7,Assassin,False,"[false, true, true, true, false]"
+1,5,Servant,True,"[-1, 1, -1, -1, -1]"
+2,5,Servant,True,"[-1, -1, 1, -1, -1]"
+3,0,Merlin,True,"[false, true, true, true, false]"
+4,6,Minion,False,"[false, true, true, true, false]"

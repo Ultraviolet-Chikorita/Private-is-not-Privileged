@@ -1,0 +1,27 @@
+{
+  "captured_at_utc": "2026-08-13T21:28:27.402512+00:00",
+  "hostname": "66ac93e5f2e7",
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "python": "3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]",
+  "python_executable": "/usr/local/bin/python",
+  "torch": "2.8.0+cu128",
+  "cuda_available": true,
+  "torch_cuda": "12.8",
+  "gpu_name": "NVIDIA L40S",
+  "gpu_capability": [
+    8,
+    9
+  ],
+  "gpu_memory_bytes": 47665709056,
+  "nvidia_smi": {
+    "cmd": [
+      "nvidia-smi",
+      "--query-gpu=name,memory.total,driver_version",
+      "--format=csv,noheader"
+    ],
+    "returncode": 0,
+    "stdout": "NVIDIA L40S, 46068 MiB, 580.159.04\n",
+    "stderr": "",
+    "elapsed_s": 0.027
+  }
+}

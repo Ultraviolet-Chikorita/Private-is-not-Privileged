@@ -1,0 +1,7 @@
+condition,states,source_games,action_validity,auditor_validity,count_A,count_B,gate_passed,mean_action_prompt_tokens,action_ceiling_hits,auditor_ceiling_hits,deliberation_validity
+raw_direct_t0,40,40,1.0,1.0,40,0,False,1184.9,0,0,
+compact_direct_t0,40,40,1.0,1.0,39,1,False,1029.55,0,0,
+raw_reason_t0,40,40,0.925,1.0,14,23,False,1195.9,0,0,
+compact_reason_t0,40,40,1.0,1.0,15,25,True,1040.55,0,0,
+raw_deliberate_t1,40,40,0.975,1.0,10,29,True,1589.475,0,0,1.0
+compact_deliberate_t1,40,40,1.0,1.0,10,30,True,1413.675,0,0,1.0

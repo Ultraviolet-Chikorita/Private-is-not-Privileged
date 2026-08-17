@@ -1,0 +1,122 @@
+{
+  "notebook_build": "latent-reservations-p3-private-deliberation-information-decomposition-v1",
+  "run_id": "20260816T085830Z",
+  "source_run": "/workspace/latent-reservations/notebook_outputs/13_qwen_format_activation_timing_ablation/20260814T205212Z",
+  "subject_model": "Qwen/Qwen2.5-7B-Instruct",
+  "subject_revision_resolved": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "protocol": {
+    "states": "exact frozen one-state-per-game bank from accepted timing experiment",
+    "state_bank_sha256": "d29ad1d616fae9c8f6ddf04983fba6421249c544afc767ea33be1d746e21b389",
+    "format": "compact only",
+    "subject_model": "Qwen/Qwen2.5-7B-Instruct",
+    "action_target": "single final consequential A/B order after generated private deliberation",
+    "T0": "activation and observer before any deliberation output, predicting later final action",
+    "T1_private": "post-deliberation activation versus T0 observer; intentionally information-asymmetric diagnostic",
+    "T1_matched": "same post-deliberation activation versus observer given identical final prompt including frozen deliberation",
+    "action_generation": "one shared deterministic final action per state; not regenerated across observer comparisons",
+    "outer_split_unit": "source game",
+    "activation_reader": "nested grouped linear all-layer reader",
+    "text_reader": "generative observer plus trained exact-prompt TF-IDF, fold-selected",
+    "primary_metrics": [
+      "observer exposure gain",
+      "post-vs-pre activation timing gain",
+      "T1 matched-information delta"
+    ],
+    "bootstrap": "source-game paired 20,000 reps",
+    "claim_boundary": "No claim of silent latent computation; generated deliberation is new private textual information until deliberately exposed to the observer."
+  },
+  "readiness": {
+    "states": 40,
+    "valid_rows": 40,
+    "source_games": 40,
+    "deliberation_validity": 1.0,
+    "pre_observer_validity": 1.0,
+    "exposed_observer_validity": 1.0,
+    "action_validity": 1.0,
+    "label_A": 10,
+    "label_B": 30,
+    "minimum_each_label_pass": true,
+    "all_validity_rates_pass": true,
+    "all_40_source_games": true,
+    "matched_exposed_text_contract": true,
+    "observers_before_action": true,
+    "analysis_allowed": true
+  },
+  "result": {
+    "metrics": {
+      "pre_activation": {
+        "brier": 0.2519524760315834,
+        "accuracy": 0.625,
+        "auroc": 0.7666666666666666
+      },
+      "post_activation": {
+        "brier": 0.10251083029330846,
+        "accuracy": 0.85,
+        "auroc": 1.0
+      },
+      "pre_strong_text": {
+        "brier": 0.2309672003859641,
+        "accuracy": 0.7,
+        "auroc": 0.3283333333333333
+      },
+      "exposed_strong_text": {
+        "brier": 0.033312500000025,
+        "accuracy": 0.975,
+        "auroc": 1.0
+      },
+      "pre_generative": {
+        "brier": 0.207125,
+        "accuracy": 0.725,
+        "auroc": 0.6683333333333333
+      },
+      "exposed_generative": {
+        "brier": 0.033312500000025,
+        "accuracy": 0.975,
+        "auroc": 1.0
+      },
+      "pre_tfidf": {
+        "brier": 0.19650215744105493,
+        "accuracy": 0.75,
+        "auroc": 0.27
+      },
+      "exposed_tfidf": {
+        "brier": 0.19947427843930177,
+        "accuracy": 0.75,
+        "auroc": 0.37666666666666665
+      }
+    },
+    "bootstrap": {
+      "private_information_advantage": {
+        "observed": 0.12845637009265565,
+        "mean": 0.12817710013179426,
+        "ci95_low": 0.010324636615009347,
+        "ci95_high": 0.2426369715874055,
+        "fraction_positive": 0.9842
+      },
+      "matched_information_advantage": {
+        "observed": -0.06919833029330844,
+        "mean": -0.06958089734869394,
+        "ci95_low": -0.1467396487099543,
+        "ci95_high": -0.0009484810234358087,
+        "fraction_positive": 0.0227
+      },
+      "observer_exposure_gain": {
+        "observed": 0.19765470038596408,
+        "mean": 0.19790462295783967,
+        "ci95_low": 0.12128503019195006,
+        "ci95_high": 0.28142307715709824,
+        "fraction_positive": 1.0
+      },
+      "activation_timing_gain": {
+        "observed": 0.14944164573827495,
+        "mean": 0.14935338068440546,
+        "ci95_low": 0.04875274581056952,
+        "ci95_high": 0.25286939754893345,
+        "fraction_positive": 0.99815
+      }
+    },
+    "information_asymmetry_pattern_supported": true,
+    "interpretation": "If private_information_advantage is positive while matched_information_advantage is not, and observer_exposure_gain is positive, the apparent T1 advantage is attributable to the newly generated deliberation being withheld from the observer rather than to an advantage under matched information."
+  },
+  "claim_boundary": "T1-private is intentionally information-asymmetric and cannot by itself establish privileged neural access. Only T1-matched addresses the matched-information question."
+}

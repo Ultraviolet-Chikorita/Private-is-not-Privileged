@@ -1,0 +1,2 @@
+candidate_id,location,order_a,order_b,pair_score,identical_parent,post_states_diverge
+cicero_g000_p000_ENGLAND,EDI,F EDI - NTH,F EDI S F LON - NTH,132,True,True

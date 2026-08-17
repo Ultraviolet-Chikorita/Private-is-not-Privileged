@@ -1,0 +1,20 @@
+{
+  "notebook_build": "latent-reservations-notebook05b-coopeval-pure-strategy-repair-v1",
+  "run_id": "20260814T072048Z",
+  "run_output_dir": "/workspace/latent-reservations/notebook_outputs/05b_coopeval_pure_strategy_repair/20260814T072048Z",
+  "source_notebook05_run": "/workspace/latent-reservations/notebook_outputs/05_coopeval_travellers_pilot/20260814T070203Z",
+  "coopeval_commit": "8559e858b5cc33e0a29ac592c0b21eab007feb57",
+  "family_split": "/workspace/latent-reservations/notebook_outputs/05b_coopeval_pure_strategy_repair/20260814T072048Z/data/derived/family_split.json",
+  "states_dir": "/workspace/latent-reservations/notebook_outputs/05b_coopeval_pure_strategy_repair/20260814T072048Z/data/states",
+  "actions_dir": "/workspace/latent-reservations/notebook_outputs/05b_coopeval_pure_strategy_repair/20260814T072048Z/data/branches/actions",
+  "auditor_dir": "/workspace/latent-reservations/notebook_outputs/05b_coopeval_pure_strategy_repair/20260814T072048Z/data/branches/auditor",
+  "activations": "/workspace/latent-reservations/notebook_outputs/05b_coopeval_pure_strategy_repair/20260814T072048Z/data/activations/pure_strategy_all_layers.safetensors",
+  "heldout_predictions": "/workspace/latent-reservations/notebook_outputs/05b_coopeval_pure_strategy_repair/20260814T072048Z/results/tables/heldout_predictions.csv",
+  "pilot_summary": "/workspace/latent-reservations/notebook_outputs/05b_coopeval_pure_strategy_repair/20260814T072048Z/results/tables/pilot_summary.json",
+  "figures": [
+    "/workspace/latent-reservations/notebook_outputs/05b_coopeval_pure_strategy_repair/20260814T072048Z/results/figures/activation_probe_by_layer.png",
+    "/workspace/latent-reservations/notebook_outputs/05b_coopeval_pure_strategy_repair/20260814T072048Z/results/figures/behavior_vs_bonus_ratio.png",
+    "/workspace/latent-reservations/notebook_outputs/05b_coopeval_pure_strategy_repair/20260814T072048Z/results/figures/h1_delta_by_test_family.png",
+    "/workspace/latent-reservations/notebook_outputs/05b_coopeval_pure_strategy_repair/20260814T072048Z/results/figures/heldout_method_comparison.png"
+  ]
+}

@@ -1,0 +1,6 @@
+outer_test_fold,inner_validation_fold,selected_layer,selected_alpha,inner_validation_mae,outer_test_mae,test_families
+0,1,26,100.0,0.1255086133877436,0.2418433114886284,"['scale10_actions4', 'scale1_actions5', 'scale2_actions4', 'scale3_actions6']"
+1,2,1,0.1,0.1214850015938282,0.21674851713081203,"['scale10_actions7', 'scale3_actions4', 'scale5_actions4', 'scale5_actions7']"
+2,3,4,1000.0,0.0861042174200217,0.13664974384009837,"['scale10_actions5', 'scale1_actions4', 'scale3_actions5', 'scale3_actions7']"
+3,4,7,1000.0,0.10006828476985294,0.08141127713024617,"['scale1_actions7', 'scale2_actions6', 'scale5_actions5', 'scale5_actions6']"
+4,0,0,100.0,0.15718932785093784,0.11314675678809483,"['scale10_actions6', 'scale1_actions6', 'scale2_actions5', 'scale2_actions7']"

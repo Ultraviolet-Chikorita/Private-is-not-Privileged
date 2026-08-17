@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/workspace/latent-reservations/.venvs/cicero_full_agent_py37_source_v5/bin/python",
+    "run.py",
+    "--adhoc",
+    "--cfg",
+    "conf/c01_ag_cmp/cmp.prototxt",
+    "Iagent_one=agents/cicero.prototxt",
+    "use_shared_agent=1",
+    "power_one=TURKEY"
+  ],
+  "planner_search_observed": true,
+  "process_exited_before_search": false,
+  "returncode_after_stop": 1,
+  "log_path": "/workspace/latent-reservations/notebook_outputs/14_cicero_full_agent_bootstrap_planner_observability/20260815T122832Z/data/runtime/full_agent_startup.log"
+}

@@ -1,0 +1,311 @@
+{
+  "notebook_build": "latent-reservations-notebook13-qwen-format-timing-ablation-v1",
+  "run_id": "20260814T205212Z",
+  "environment": "CICERO-style full-press Diplomacy",
+  "subject_model": "Qwen/Qwen2.5-7B-Instruct",
+  "cicero_commit": "e85afeddb34f5b7c1ea0827203b425a0f7e68ead",
+  "source_state_bank": {
+    "states": 40,
+    "source_games": 40,
+    "powers": [
+      "AUSTRIA",
+      "ENGLAND",
+      "FRANCE",
+      "GERMANY",
+      "ITALY",
+      "RUSSIA",
+      "TURKEY"
+    ]
+  },
+  "subject_output": {
+    "actual_order_string": true,
+    "arbitrary_A_B_output_removed": true,
+    "analysis_target": "hash-swapped option B membership"
+  },
+  "conditions": [
+    "raw_direct_t0",
+    "compact_direct_t0",
+    "raw_reason_t0",
+    "compact_reason_t0",
+    "raw_deliberate_t1",
+    "compact_deliberate_t1"
+  ],
+  "condition_gates": [
+    {
+      "condition": "raw_direct_t0",
+      "states": 40,
+      "source_games": 40,
+      "action_validity": 1.0,
+      "auditor_validity": 1.0,
+      "count_A": 40,
+      "count_B": 0,
+      "gate_passed": false,
+      "mean_action_prompt_tokens": 1184.9,
+      "action_ceiling_hits": 0,
+      "auditor_ceiling_hits": 0,
+      "deliberation_validity": NaN
+    },
+    {
+      "condition": "compact_direct_t0",
+      "states": 40,
+      "source_games": 40,
+      "action_validity": 1.0,
+      "auditor_validity": 1.0,
+      "count_A": 39,
+      "count_B": 1,
+      "gate_passed": false,
+      "mean_action_prompt_tokens": 1029.55,
+      "action_ceiling_hits": 0,
+      "auditor_ceiling_hits": 0,
+      "deliberation_validity": NaN
+    },
+    {
+      "condition": "raw_reason_t0",
+      "states": 40,
+      "source_games": 40,
+      "action_validity": 0.925,
+      "auditor_validity": 1.0,
+      "count_A": 14,
+      "count_B": 23,
+      "gate_passed": false,
+      "mean_action_prompt_tokens": 1195.9,
+      "action_ceiling_hits": 0,
+      "auditor_ceiling_hits": 0,
+      "deliberation_validity": NaN
+    },
+    {
+      "condition": "compact_reason_t0",
+      "states": 40,
+      "source_games": 40,
+      "action_validity": 1.0,
+      "auditor_validity": 1.0,
+      "count_A": 15,
+      "count_B": 25,
+      "gate_passed": true,
+      "mean_action_prompt_tokens": 1040.55,
+      "action_ceiling_hits": 0,
+      "auditor_ceiling_hits": 0,
+      "deliberation_validity": NaN
+    },
+    {
+      "condition": "raw_deliberate_t1",
+      "states": 40,
+      "source_games": 40,
+      "action_validity": 0.975,
+      "auditor_validity": 1.0,
+      "count_A": 10,
+      "count_B": 29,
+      "gate_passed": true,
+      "mean_action_prompt_tokens": 1589.475,
+      "action_ceiling_hits": 0,
+      "auditor_ceiling_hits": 0,
+      "deliberation_validity": 1.0
+    },
+    {
+      "condition": "compact_deliberate_t1",
+      "states": 40,
+      "source_games": 40,
+      "action_validity": 1.0,
+      "auditor_validity": 1.0,
+      "count_A": 10,
+      "count_B": 30,
+      "gate_passed": true,
+      "mean_action_prompt_tokens": 1413.675,
+      "action_ceiling_hits": 0,
+      "auditor_ceiling_hits": 0,
+      "deliberation_validity": 1.0
+    }
+  ],
+  "interpretable_conditions": [
+    "compact_reason_t0",
+    "raw_deliberate_t1",
+    "compact_deliberate_t1"
+  ],
+  "condition_metrics": {
+    "raw_direct_t0": {
+      "interpretable": false
+    },
+    "compact_direct_t0": {
+      "interpretable": false
+    },
+    "raw_reason_t0": {
+      "interpretable": false
+    },
+    "compact_reason_t0": {
+      "interpretable": true,
+      "n": 40,
+      "metrics": {
+        "activation": {
+          "brier": 0.3018327291239767,
+          "accuracy": 0.575,
+          "auroc": 0.5973333333333334
+        },
+        "matched_auditor": {
+          "brier": 0.2625,
+          "accuracy": 0.6,
+          "auroc": 0.6066666666666667
+        },
+        "trained_text": {
+          "brier": 0.2672332085971553,
+          "accuracy": 0.625,
+          "auroc": 0.3626666666666667
+        },
+        "structured": {
+          "brier": 0.2580929226186139,
+          "accuracy": 0.65,
+          "auroc": 0.528
+        },
+        "constant": {
+          "brier": 0.2484375,
+          "accuracy": 0.625,
+          "auroc": 0.32933333333333337
+        }
+      },
+      "delta_auditor_minus_activation_brier": -0.03933272912397667,
+      "delta_text_minus_activation_brier": -0.03459952052682136
+    },
+    "raw_deliberate_t1": {
+      "interpretable": true,
+      "n": 39,
+      "metrics": {
+        "activation": {
+          "brier": 0.09224444698344356,
+          "accuracy": 0.8974358974358975,
+          "auroc": 0.9862068965517242
+        },
+        "matched_auditor": {
+          "brier": 0.025576923076923073,
+          "accuracy": 1.0,
+          "auroc": 1.0
+        },
+        "trained_text": {
+          "brier": 0.19970448415524564,
+          "accuracy": 0.717948717948718,
+          "auroc": 0.5827586206896552
+        },
+        "structured": {
+          "brier": 0.22541185964070004,
+          "accuracy": 0.717948717948718,
+          "auroc": 0.36551724137931035
+        },
+        "constant": {
+          "brier": 0.19822934176472157,
+          "accuracy": 0.7435897435897436,
+          "auroc": 0.3413793103448276
+        }
+      },
+      "delta_auditor_minus_activation_brier": -0.06666752390652048,
+      "delta_text_minus_activation_brier": 0.10746003717180208
+    },
+    "compact_deliberate_t1": {
+      "interpretable": true,
+      "n": 40,
+      "metrics": {
+        "activation": {
+          "brier": 0.10251083029330846,
+          "accuracy": 0.85,
+          "auroc": 1.0
+        },
+        "matched_auditor": {
+          "brier": 0.028250000000000004,
+          "accuracy": 1.0,
+          "auroc": 1.0
+        },
+        "trained_text": {
+          "brier": 0.19957390657343682,
+          "accuracy": 0.75,
+          "auroc": 0.38
+        },
+        "structured": {
+          "brier": 0.20360136590512026,
+          "accuracy": 0.75,
+          "auroc": 0.5533333333333333
+        },
+        "constant": {
+          "brier": 0.19453125,
+          "accuracy": 0.75,
+          "auroc": 0.33999999999999997
+        }
+      },
+      "delta_auditor_minus_activation_brier": -0.07426083029330846,
+      "delta_text_minus_activation_brier": 0.09706307628012836
+    }
+  },
+  "choice_consistency": [
+    {
+      "left_condition": "raw_direct_t0",
+      "right_condition": "compact_direct_t0",
+      "paired_states": 40,
+      "choice_agreement": 0.975,
+      "left_B_rate": 0.0,
+      "right_B_rate": 0.025
+    },
+    {
+      "left_condition": "raw_reason_t0",
+      "right_condition": "compact_reason_t0",
+      "paired_states": 37,
+      "choice_agreement": 0.5945945945945946,
+      "left_B_rate": 0.6216216216216216,
+      "right_B_rate": 0.6486486486486487
+    },
+    {
+      "left_condition": "raw_deliberate_t1",
+      "right_condition": "compact_deliberate_t1",
+      "paired_states": 39,
+      "choice_agreement": 0.6923076923076923,
+      "left_B_rate": 0.7435897435897436,
+      "right_B_rate": 0.7435897435897436
+    },
+    {
+      "left_condition": "raw_direct_t0",
+      "right_condition": "raw_reason_t0",
+      "paired_states": 37,
+      "choice_agreement": 0.3783783783783784,
+      "left_B_rate": 0.0,
+      "right_B_rate": 0.6216216216216216
+    },
+    {
+      "left_condition": "compact_direct_t0",
+      "right_condition": "compact_reason_t0",
+      "paired_states": 40,
+      "choice_agreement": 0.4,
+      "left_B_rate": 0.025,
+      "right_B_rate": 0.625
+    },
+    {
+      "left_condition": "raw_reason_t0",
+      "right_condition": "raw_deliberate_t1",
+      "paired_states": 36,
+      "choice_agreement": 0.6666666666666666,
+      "left_B_rate": 0.6111111111111112,
+      "right_B_rate": 0.7222222222222222
+    },
+    {
+      "left_condition": "compact_reason_t0",
+      "right_condition": "compact_deliberate_t1",
+      "paired_states": 40,
+      "choice_agreement": 0.725,
+      "left_B_rate": 0.625,
+      "right_B_rate": 0.75
+    }
+  ],
+  "paired_delta_contrasts": [
+    {
+      "comparison": "format_deliberate",
+      "left_condition": "raw_deliberate_t1",
+      "right_condition": "compact_deliberate_t1",
+      "paired_states": 39,
+      "mean_change_auditor_minus_activation": -0.005900847251130129,
+      "mean_change_text_minus_activation": -0.004936015979878605
+    },
+    {
+      "comparison": "t1_vs_reason_t0_compact",
+      "left_condition": "compact_reason_t0",
+      "right_condition": "compact_deliberate_t1",
+      "paired_states": 40,
+      "mean_change_auditor_minus_activation": -0.034928101169331774,
+      "mean_change_text_minus_activation": 0.1316625968069497
+    }
+  ],
+  "interpretation_policy": "This experiment diagnoses Qwen interface formatting and activation timing. A favorable T1 result is evidence that deliberation timing matters, not a population-level claim. A compact-format improvement is evidence that machine-oriented state formatting was a material nuisance variable. The matched observer always receives the exact final action prompt, including frozen deliberation in T1."
+}

@@ -1,0 +1,32 @@
+{
+  "notebook_build": "latent-reservations-notebook10-cicero-full-press-bootstrap-v1",
+  "cicero_commit": "e85afeddb34f5b7c1ea0827203b425a0f7e68ead",
+  "source_environment": "CICERO released full-press Diplomacy games",
+  "local_subject": "Qwen/Qwen2.5-7B-Instruct",
+  "historical_orders_are_local_subject_labels": false,
+  "candidate_selection": {
+    "movement_phase": true,
+    "focal_power_has_historical_orders": true,
+    "released_outgoing_private_message_min": 1,
+    "released_incoming_private_message_min": 1,
+    "bilateral_counterpart_min": 1,
+    "uses_local_subject_outcome": false
+  },
+  "eventual_primary_target": "binary focal legal order choice from a frozen full-press state",
+  "legal_order_requirement": "both candidate focal orders must be verified legal by the reconstructed game engine",
+  "preferred_semantics": [
+    "honor vs defect from a discussed support commitment",
+    "support/cooperate vs oppose",
+    "enter contested province vs avoid",
+    "support partner vs alternative move/hold"
+  ],
+  "sibling_branches": [
+    "consequential focal order",
+    "private intended-order report",
+    "outward bilateral message",
+    "matched same-text auditor"
+  ],
+  "parent_activation": "all-layer residual final parent-prompt position before any branch-specific instruction",
+  "split_unit": "released source game before sibling branches",
+  "headline_claim_guardrail": "Diplomacy tests latent strategic intent/plans versus communication, not hidden terminal reward."
+}

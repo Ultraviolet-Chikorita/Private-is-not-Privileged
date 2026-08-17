@@ -1,0 +1,3 @@
+episode_id,sender,recipient,phase,strong_observer_orders,agent_top_orders,agent_top_probability,strong_observer_exact_planner_match,strong_observer_planner_jaccard,nb17_deterministic_exact_planner_match,nb17_deterministic_planner_jaccard,rescued_vs_nb17_deterministic,regressed_vs_nb17_deterministic,strong_observer_confidence,retry_count
+nb17_0006_cfdb5f03f32b33b7,AUSTRIA,RUSSIA,S1901M,A BUD SER | A VIE TRI | F TRI ALB,A BUD - SER | A VIE - GAL | F TRI - ALB,0.88250883751103,False,0.5,True,1.0,False,True,0.0,0
+nb17_0008_98eee2071d1daed4,TURKEY,ITALY,S1901M,A ANK BUL | A CON BUL | A SMY CON,A CON - BUL | A SMY - CON | F ANK - BLA,0.7859761976088667,False,0.5,True,1.0,False,True,0.0,0

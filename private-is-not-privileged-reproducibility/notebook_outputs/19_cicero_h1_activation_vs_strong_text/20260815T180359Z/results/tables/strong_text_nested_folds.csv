@@ -1,0 +1,6 @@
+outer_fold,selected_strong_text_method,tfidf_selected_C,tfidf_inner_brier,matched_auditor_inner_brier
+0,trained_exact_prompt_tfidf,1.0,0.23411189062835408,0.2838426339285714
+1,trained_exact_prompt_tfidf,1.0,0.23239183135039368,0.2734259672619047
+2,trained_exact_prompt_tfidf,0.1,0.23918349755151422,0.29072284226190476
+3,trained_exact_prompt_tfidf,1.0,0.2417261608258614,0.28999739583333334
+4,trained_exact_prompt_tfidf,0.1,0.23996258541889479,0.2927150297619048

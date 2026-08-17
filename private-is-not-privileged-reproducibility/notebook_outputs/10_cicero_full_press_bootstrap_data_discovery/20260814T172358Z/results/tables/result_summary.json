@@ -1,0 +1,71 @@
+{
+  "notebook_build": "latent-reservations-notebook10-cicero-full-press-bootstrap-v1",
+  "run_id": "20260814T172358Z",
+  "environment": "CICERO-style full-press Diplomacy",
+  "repo_commit": "e85afeddb34f5b7c1ea0827203b425a0f7e68ead",
+  "released_game_records": 40,
+  "released_phase_count": 1484,
+  "structural_candidate_states": 1165,
+  "candidate_source_games": 40,
+  "subject_model": "Qwen/Qwen2.5-7B-Instruct",
+  "activation_smoke": {
+    "candidate_id": "cicero_g000_p000_ENGLAND",
+    "subject_model": "Qwen/Qwen2.5-7B-Instruct",
+    "subject_revision": "main",
+    "layers": 28,
+    "hidden_size": 3584,
+    "prompt_tokens": 870,
+    "activation_shape": [
+      28,
+      3584
+    ],
+    "activation_dtype": "torch.float16",
+    "parent_text_sha256": "1486ff20751866ba167a3cf7ee3f718d5c7da6a547191444e8a8c206edb29876",
+    "capture_time": "released full-press parent before any branch-specific order/report/message instruction",
+    "full_sequence_logits_avoided": true
+  },
+  "readiness": {
+    "repo_frozen_clean": true,
+    "released_games_found": true,
+    "movement_phases_found": true,
+    "structural_candidate_states_found": true,
+    "candidate_game_count": 40,
+    "candidate_game_count_at_least_3": true,
+    "game_reconstruction_source_interfaces_found": true,
+    "qwen_released_state_activation_capture_passed": true,
+    "ready_for_notebook11_engine_integration": true
+  },
+  "scientific_protocol": {
+    "notebook_build": "latent-reservations-notebook10-cicero-full-press-bootstrap-v1",
+    "cicero_commit": "e85afeddb34f5b7c1ea0827203b425a0f7e68ead",
+    "source_environment": "CICERO released full-press Diplomacy games",
+    "local_subject": "Qwen/Qwen2.5-7B-Instruct",
+    "historical_orders_are_local_subject_labels": false,
+    "candidate_selection": {
+      "movement_phase": true,
+      "focal_power_has_historical_orders": true,
+      "released_outgoing_private_message_min": 1,
+      "released_incoming_private_message_min": 1,
+      "bilateral_counterpart_min": 1,
+      "uses_local_subject_outcome": false
+    },
+    "eventual_primary_target": "binary focal legal order choice from a frozen full-press state",
+    "legal_order_requirement": "both candidate focal orders must be verified legal by the reconstructed game engine",
+    "preferred_semantics": [
+      "honor vs defect from a discussed support commitment",
+      "support/cooperate vs oppose",
+      "enter contested province vs avoid",
+      "support partner vs alternative move/hold"
+    ],
+    "sibling_branches": [
+      "consequential focal order",
+      "private intended-order report",
+      "outward bilateral message",
+      "matched same-text auditor"
+    ],
+    "parent_activation": "all-layer residual final parent-prompt position before any branch-specific instruction",
+    "split_unit": "released source game before sibling branches",
+    "headline_claim_guardrail": "Diplomacy tests latent strategic intent/plans versus communication, not hidden terminal reward."
+  },
+  "interpretation_policy": "Notebook 10 does not use historical CICERO orders as local-subject labels and does not estimate activation-vs-auditor H1."
+}

@@ -1,0 +1,244 @@
+{
+  "message_pairing_modes": {
+    "exact_sender_recipient_phase": 129
+  },
+  "order_pairing_modes": {
+    "get_orders_cached_state_after": 3
+  },
+  "message_phase_counts": {
+    "S1901M": 129
+  },
+  "message_recipient_counts": {
+    "AUSTRIA": 16,
+    "GERMANY": 14,
+    "ITALY": 24,
+    "ENGLAND": 12,
+    "RUSSIA": 25,
+    "TURKEY": 15,
+    "FRANCE": 23
+  },
+  "order_phase_counts": {
+    "S1901M": 3
+  },
+  "order_power_counts": {
+    "AUSTRIA": 1,
+    "ENGLAND": 1,
+    "FRANCE": 1
+  },
+  "capture_error_events": [
+    {
+      "event": "get_orders_error",
+      "sequence": 3588,
+      "pid": 206556,
+      "payload": {
+        "call_id": "get_orders-206556-1865",
+        "elapsed_seconds": 0.5823643420008011,
+        "error": "KeyboardInterrupt()",
+        "inputs": {
+          "game": {
+            "game_json_bytes": 6393,
+            "game_json_sha256": "6d868e8f637c69ea75aea81565f31a37bda433328a5a8e10342960fcd7974551",
+            "phase": "S1901M",
+            "state": {
+              "builds": {
+                "AUSTRIA": {
+                  "count": 0,
+                  "homes": []
+                },
+                "ENGLAND": {
+                  "count": 0,
+                  "homes": []
+                },
+                "FRANCE": {
+                  "count": 0,
+                  "homes": []
+                },
+                "GERMANY": {
+                  "count": 0,
+                  "homes": []
+                },
+                "ITALY": {
+                  "count": 0,
+                  "homes": []
+                },
+                "RUSSIA": {
+                  "count": 0,
+                  "homes": []
+                },
+                "TURKEY": {
+                  "count": 0,
+                  "homes": []
+                }
+              },
+              "centers": {
+                "AUSTRIA": [
+                  "VIE",
+                  "TRI",
+                  "BUD"
+                ],
+                "ENGLAND": [
+                  "EDI",
+                  "LON",
+                  "LVP"
+                ],
+                "FRANCE": [
+                  "BRE",
+                  "PAR",
+                  "MAR"
+                ],
+                "GERMANY": [
+                  "KIE",
+                  "MUN",
+                  "BER"
+                ],
+                "ITALY": [
+                  "NAP",
+                  "ROM",
+                  "VEN"
+                ],
+                "RUSSIA": [
+                  "STP",
+                  "MOS",
+                  "WAR",
+                  "SEV"
+                ],
+                "TURKEY": [
+                  "ANK",
+                  "SMY",
+                  "CON"
+                ]
+              },
+              "homes": {
+                "AUSTRIA": [
+                  "BUD",
+                  "TRI",
+                  "VIE"
+                ],
+                "ENGLAND": [
+                  "EDI",
+                  "LON",
+                  "LVP"
+                ],
+                "FRANCE": [
+                  "BRE",
+                  "MAR",
+                  "PAR"
+                ],
+                "GERMANY": [
+                  "BER",
+                  "KIE",
+                  "MUN"
+                ],
+                "ITALY": [
+                  "NAP",
+                  "ROM",
+                  "VEN"
+                ],
+                "RUSSIA": [
+                  "MOS",
+                  "SEV",
+                  "STP",
+                  "WAR"
+                ],
+                "TURKEY": [
+                  "ANK",
+                  "CON",
+                  "SMY"
+                ]
+              },
+              "influence": {
+                "AUSTRIA": [
+                  "VIE",
+                  "TRI",
+                  "BUD"
+                ],
+                "ENGLAND": [
+                  "EDI",
+                  "LON",
+                  "LVP"
+                ],
+                "FRANCE": [
+                  "BRE",
+                  "PAR",
+                  "MAR"
+                ],
+                "GERMANY": [
+                  "KIE",
+                  "MUN",
+                  "BER"
+                ],
+                "ITALY": [
+                  "NAP",
+                  "ROM",
+                  "VEN"
+                ],
+                "RUSSIA": [
+                  "STP/SC",
+                  "MOS",
+                  "WAR",
+                  "SEV"
+                ],
+                "TURKEY": [
+                  "ANK",
+                  "SMY",
+                  "CON"
+                ]
+              },
+              "name": "S1901M",
+              "retreats": {
+                "AUSTRIA": {},
+                "ENGLAND": {},
+                "FRANCE": {},
+                "GERMANY": {},
+                "ITALY": {},
+                "RUSSIA": {},
+                "TURKEY": {}
+              },
+              "units": {
+                "AUSTRIA": [
+                  "A VIE",
+                  "F TRI",
+                  "A BUD"
+                ],
+                "ENGLAND": [
+                  "F EDI",
+                  "F LON",
+                  "A LVP"
+                ],
+                "FRANCE": [
+                  "F BRE",
+                  "A PAR",
+                  "A MAR"
+                ],
+                "GERMANY": [
+                  "F KIE",
+                  "A MUN",
+                  "A BER"
+                ],
+                "ITALY": [
+                  "F NAP",
+                  "A ROM",
+                  "A VEN"
+                ],
+                "RUSSIA": [
+                  "F STP/SC",
+                  "A MOS",
+                  "A WAR",
+                  "F SEV"
+                ],
+                "TURKEY": [
+                  "F ANK",
+                  "A SMY",
+                  "A CON"
+                ]
+              }
+            },
+            "year": 1901
+          },
+          "power": "GERMANY"
+        },
+        "traceback": "Traceback (most recent call last):\n  File \"/workspace/latent-reservations/notebook_outputs/16_cicero_planner_intent_behavior_measurement/20260815T143203Z/data/instrumentation/sitecustomize.py\", line 313, in wrapper\n    result = original(self, *args, **kwargs)\n  File \"/workspace/latent-reservations/vendor/diplomacy_cicero/fairdiplomacy/agents/searchbot_agent.py\", line 587, in get_orders\n    bp_policy = self.maybe_get_incremental_bp(game, agent_power=power, agent_state=state)\n  File \"/workspace/latent-reservations/vendor/diplomacy_cicero/fairdiplomacy/agents/searchbot_agent.py\", line 1786, in maybe_get_incremental_bp\n    parlai_req_size=parlai_req_size if recent_messages else 0,\n  File \"/workspace/latent-reservations/vendor/diplomacy_cicero/fairdiplomacy/agents/plausible_order_sampling.py\", line 276, in incremental_update_policy\n    game, speaking_power, powers=powers, num_preds=parlai_req_size\n  File \"/workspace/latent-reservations/vendor/diplomacy_cicero/fairdiplomacy/agents/plausible_order_sampling.py\", line 428, in _sample_orders_parlai\n    batch_size=self.parlai_batch_size,\n  File \"/workspace/latent-reservations/vendor/diplomacy_cicero/fairdiplomacy/utils/parlai_multi_gpu_wrappers.py\", line 90, in compute\n    result = func(game, *args, **kwargs)\n  File \"/workspace/latent-reservations/vendor/diplomacy_cicero/parlai_diplomacy/wrappers/orders.py\", line 1008, in produce_many_order_for_target_power\n    many_raw_pred = self.get_model_pred_many(seq, num_preds, batch_size, prefix_str=prefix_str)\n  File \"/workspace/latent-reservations/vendor/diplomacy_cicero/parlai_diplomacy/wrappers/base_wrapper.py\", line 429, in get_model_pred_many\n    input_seq, batch_size, cached_text_vec,\n  File \"/workspace/latent-reservations/vendor/diplomacy_cicero/parlai_diplomacy/wrappers/base_wrapper.py\", line 377, in _extract_beam_texts\n    act = self.parlai_agent.act()\n  File \"/workspace/latent-reservations/.venvs/cicero_full_agent_py37_source_v5/lib/python3.7/site-packages/parlai/core/torch_agent.py\", line 2143, in act\n    response = self.batch_act([self.observation])[0]\n  File \"/workspace/latent-reservations/.venvs/cicero_full_agent_py37_source_v5/lib/python3.7/site-packages/parlai/core/torch_agent.py\", line 2239, in batch_act\n    output = self.eval_step(batch)\n  File \"/workspace/latent-reservations/.venvs/cicero_full_agent_py37_source_v5/lib/python3.7/site-packages/parlai/core/torch_generator_agent.py\", line 886, in eval_step\n    batch, self.beam_size, maxlen, prefix_tokens=prefix_tokens\n  File \"/workspace/latent-reservations/vendor/diplomacy_cicero/parlai_diplomacy/agents/generator_custom_inference/agents.py\", line 333, in _generate\n    return super()._generate(batch, beam_size, max_ts, prefix_tokens)\n  File \"/workspace/latent-reservations/.venvs/cicero_full_agent_py37_source_v5/lib/python3.7/site-packages/parlai/core/torch_generator_agent.py\", line 1167, in _generate\n    score, incr_state = model.decoder(decoder_input, encoder_states, incr_state)\n  File \"/workspace/latent-reservations/.venvs/cicero_full_agent_py37_source_v5/lib/python3.7/site-packages/torch/nn/modules/module.py\", line 727, in _call_impl\n    result = self.forward(*input, **kwargs)\n  File \"/workspace/latent-reservations/.venvs/cicero_full_agent_py37_source_v5/lib/python3.7/site-packages/parlai/agents/transformer/modules/decoder.py\", line 412, in forward\n    tensor, encoder_output, encoder_mask, incr_state, **kwargs\n  File \"/workspace/latent-reservations/.venvs/cicero_full_agent_py37_source_v5/lib/python3.7/site-packages/parlai/agents/transformer/modules/decoder.py\", line 369, in forward_layers\n    **kwargs,\n  File \"/workspace/latent-reservations/.venvs/cicero_full_agent_py37_source_v5/lib/python3.7/site-packages/torch/nn/modules/module.py\", line 727, in _call_impl\n    result = self.forward(*input, **kwargs)\n  File \"/workspace/latent-reservations/.venvs/cicero_full_agent_py37_source_v5/lib/python3.7/site-packages/parlai/agents/transformer/modules/decoder.py\", line 128, in forward\n    **kwargs,\n  File \"/workspace/latent-reservations/.venvs/cicero_full_agent_py37_source_v5/lib/python3.7/site-packages/torch/nn/modules/module.py\", line 727, in _call_impl\n    result = self.forward(*input, **kwargs)\n  File \"/workspace/latent-reservations/.venvs/cicero_full_agent_py37_source_v5/lib/python3.7/site-packages/parlai/agents/transformer/modules/attention.py\", line 255, in forward\n    attn_weights = self.attn_dropout(attn_weights)  # --attention-dropout\n  File \"/workspace/latent-reservations/.venvs/cicero_full_agent_py37_source_v5/lib/python3.7/site-packages/torch/nn/modules/module.py\", line 765, in __getattr__\n    def __getattr__(self, name: str) -> Union[Tensor, 'Module']:\nKeyboardInterrupt\n"
+      }
+    }
+  ]
+}

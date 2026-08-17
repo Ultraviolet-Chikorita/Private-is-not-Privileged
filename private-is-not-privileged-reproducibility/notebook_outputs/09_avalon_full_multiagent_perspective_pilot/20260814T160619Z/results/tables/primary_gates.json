@@ -1,0 +1,14 @@
+{
+  "perspective_preflight_passed": true,
+  "perspective_boundary_audit_passed": true,
+  "all_player_mission_action_count": 89,
+  "all_player_mission_validity": 1.0,
+  "all_player_mission_fallback_rate": 0.0,
+  "target_count": 35,
+  "target_action_valid_rate": 1.0,
+  "games_with_valid_targets": 8,
+  "pass_count": 13,
+  "sabotage_count": 22,
+  "auditor_valid_rate": 1.0,
+  "h1_behavior_gate_passed": true
+}

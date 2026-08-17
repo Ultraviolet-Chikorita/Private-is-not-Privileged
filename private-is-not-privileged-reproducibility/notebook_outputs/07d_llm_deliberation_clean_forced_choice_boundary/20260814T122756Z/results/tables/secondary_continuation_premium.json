@@ -1,0 +1,25 @@
+{
+  "activation_mae": 0.01835910371659945,
+  "trained_text_mae": 0.01768937192202368,
+  "zero_premium_mae": 0.015358333333333342,
+  "delta_zero_minus_activation": -0.0030007703832661096,
+  "delta_text_minus_activation": -0.000669731794575773,
+  "cluster_bootstrap": {
+    "zero_premium_minus_activation": {
+      "mean": -0.002977539319392378,
+      "ci95": [
+        -0.006059471010603008,
+        0.00022451892551035232
+      ],
+      "fraction_positive": 0.0456
+    },
+    "trained_text_minus_activation": {
+      "mean": -0.0006536603749910763,
+      "ci95": [
+        -0.004351355419820064,
+        0.002820529780223506
+      ],
+      "fraction_positive": 0.3826
+    }
+  }
+}

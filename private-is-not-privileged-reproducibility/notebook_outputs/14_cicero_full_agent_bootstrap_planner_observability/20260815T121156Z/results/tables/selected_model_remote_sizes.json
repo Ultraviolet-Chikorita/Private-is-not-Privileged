@@ -1,0 +1,471 @@
+[
+  {
+    "filename": "blueprint.pt",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/blueprint.pt.gpg",
+    "size_bytes": 295485027,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "cicero_imitation_bilateral_orders_prefix",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/cicero_imitation_bilateral_orders_prefix.gpg",
+    "size_bytes": 817142831,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "cicero_imitation_bilateral_orders_prefix.dict",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/cicero_imitation_bilateral_orders_prefix.dict.gpg",
+    "size_bytes": 724742,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "cicero_imitation_bilateral_orders_prefix.opt",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/cicero_imitation_bilateral_orders_prefix.opt.gpg",
+    "size_bytes": 5333,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "dialogue",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/dialogue.gpg",
+    "size_bytes": 11738371308,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "dialogue.dict",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/dialogue.dict.gpg",
+    "size_bytes": 724676,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "dialogue.opt",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/dialogue.opt.gpg",
+    "size_bytes": 5940,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "draw_classifier",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/draw_classifier.gpg",
+    "size_bytes": 817143489,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "draw_classifier.dict",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/draw_classifier.dict.gpg",
+    "size_bytes": 724442,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "draw_classifier.opt",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/draw_classifier.opt.gpg",
+    "size_bytes": 5998,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "imitation_intent",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/imitation_intent.gpg",
+    "size_bytes": 817136687,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "imitation_intent.dict",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/imitation_intent.dict.gpg",
+    "size_bytes": 724676,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "imitation_intent.opt",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/imitation_intent.opt.gpg",
+    "size_bytes": 5932,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "markus_5m_prompts.json",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/markus_5m_prompts.json.gpg",
+    "size_bytes": 5974,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_cardinals",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_cardinals.gpg",
+    "size_bytes": 817141441,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_cardinals.dict",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_cardinals.dict.gpg",
+    "size_bytes": 724676,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_cardinals.opt",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_cardinals.opt.gpg",
+    "size_bytes": 7518,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_justifications",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_justifications.gpg",
+    "size_bytes": 817141441,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_justifications.dict",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_justifications.dict.gpg",
+    "size_bytes": 724676,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_justifications.opt",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_justifications.opt.gpg",
+    "size_bytes": 7582,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_negations",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_negations.gpg",
+    "size_bytes": 817141441,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_negations.dict",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_negations.dict.gpg",
+    "size_bytes": 724676,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_negations.opt",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_negations.opt.gpg",
+    "size_bytes": 7518,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_singleseed_3seeds",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_singleseed_3seeds.gpg",
+    "size_bytes": 817141441,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_singleseed_3seeds.dict",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_singleseed_3seeds.dict.gpg",
+    "size_bytes": 724676,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_singleseed_3seeds.opt",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_singleseed_3seeds.opt.gpg",
+    "size_bytes": 7575,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_singleseed_nospeaker_bilateral",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_singleseed_nospeaker_bilateral.gpg",
+    "size_bytes": 817141441,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_singleseed_nospeaker_bilateral.dict",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_singleseed_nospeaker_bilateral.dict.gpg",
+    "size_bytes": 724676,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_singleseed_nospeaker_bilateral.opt",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_singleseed_nospeaker_bilateral.opt.gpg",
+    "size_bytes": 7532,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_singleseed_nospeaker_nobilat",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_singleseed_nospeaker_nobilat.gpg",
+    "size_bytes": 817141441,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_singleseed_nospeaker_nobilat.dict",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_singleseed_nospeaker_nobilat.dict.gpg",
+    "size_bytes": 724676,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_singleseed_nospeaker_nobilat.opt",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_singleseed_nospeaker_nobilat.opt.gpg",
+    "size_bytes": 7527,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_singleseed_seed2_2Mphasesorderhistory_2Mphasesstatehistory_150000steps",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_singleseed_seed2_2Mphasesorderhistory_2Mphasesstatehistory_150000steps.gpg",
+    "size_bytes": 817141441,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_singleseed_seed2_2Mphasesorderhistory_2Mphasesstatehistory_150000steps.dict",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_singleseed_seed2_2Mphasesorderhistory_2Mphasesstatehistory_150000steps.dict.gpg",
+    "size_bytes": 724676,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_singleseed_seed2_2Mphasesorderhistory_2Mphasesstatehistory_150000steps.opt",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_singleseed_seed2_2Mphasesorderhistory_2Mphasesstatehistory_150000steps.opt.gpg",
+    "size_bytes": 7638,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_singleseed_seed3_4MPhasesOrderHistory",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_singleseed_seed3_4MPhasesOrderHistory.gpg",
+    "size_bytes": 817141441,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_singleseed_seed3_4MPhasesOrderHistory.dict",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_singleseed_seed3_4MPhasesOrderHistory.dict.gpg",
+    "size_bytes": 724676,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_singleseed_seed3_4MPhasesOrderHistory.opt",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/humanvsmodel_nonsense_classifier_denoising_singleseed_seed3_4MPhasesOrderHistory.opt.gpg",
+    "size_bytes": 7586,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/hvm_2mphase_orderhistory",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/hvm_2mphase_orderhistory.gpg",
+    "size_bytes": 817141441,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/hvm_2mphase_orderhistory.dict",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/hvm_2mphase_orderhistory.dict.gpg",
+    "size_bytes": 724676,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/hvm_2mphase_orderhistory.opt",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/hvm_2mphase_orderhistory.opt.gpg",
+    "size_bytes": 7427,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/hvm_2seeds_2mphase_orderhistory_statehistory",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/hvm_2seeds_2mphase_orderhistory_statehistory.gpg",
+    "size_bytes": 817141441,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/hvm_2seeds_2mphase_orderhistory_statehistory.dict",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/hvm_2seeds_2mphase_orderhistory_statehistory.dict.gpg",
+    "size_bytes": 724676,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/hvm_2seeds_2mphase_orderhistory_statehistory.opt",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/hvm_2seeds_2mphase_orderhistory_statehistory.opt.gpg",
+    "size_bytes": 7526,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/hvm_no_msg_hist",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/hvm_no_msg_hist.gpg",
+    "size_bytes": 817141441,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/hvm_no_msg_hist.dict",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/hvm_no_msg_hist.dict.gpg",
+    "size_bytes": 724676,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/hvm_no_msg_hist.opt",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/hvm_no_msg_hist.opt.gpg",
+    "size_bytes": 7336,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/hvwm",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/hvwm.gpg",
+    "size_bytes": 817125057,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/hvwm.dict",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/hvwm.dict.gpg",
+    "size_bytes": 724541,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/hvwm.opt",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/hvwm.opt.gpg",
+    "size_bytes": 6295,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/location",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/location.gpg",
+    "size_bytes": 817125057,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/location.dict",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/location.dict.gpg",
+    "size_bytes": 724541,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/location.opt",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/location.opt.gpg",
+    "size_bytes": 6375,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/nonsequitur_detector",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/nonsequitur_detector.gpg",
+    "size_bytes": 817141441,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/nonsequitur_detector.dict",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/nonsequitur_detector.dict.gpg",
+    "size_bytes": 724676,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/nonsequitur_detector.opt",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/nonsequitur_detector.opt.gpg",
+    "size_bytes": 7736,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/power",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/power.gpg",
+    "size_bytes": 817125057,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/power.dict",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/power.dict.gpg",
+    "size_bytes": 724541,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/power.opt",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/power.opt.gpg",
+    "size_bytes": 6366,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/symbol",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/symbol.gpg",
+    "size_bytes": 817125057,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/symbol.dict",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/symbol.dict.gpg",
+    "size_bytes": 724541,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "nonsense_ensemble/symbol.opt",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/nonsense_ensemble/symbol.opt.gpg",
+    "size_bytes": 6369,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "rl_search_orders.ckpt",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/rl_search_orders.ckpt.gpg",
+    "size_bytes": 117700496,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "rl_value_function.ckpt",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/rl_value_function.ckpt.gpg",
+    "size_bytes": 51534116,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "sleep_classifier",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/sleep_classifier.gpg",
+    "size_bytes": 5719560076,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "sleep_classifier.dict",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/sleep_classifier.dict.gpg",
+    "size_bytes": 724442,
+    "probe": "LOCAL",
+    "already_present": true
+  },
+  {
+    "filename": "sleep_classifier.opt",
+    "url": "https://dl.fbaipublicfiles.com/diplomacy_cicero/models/sleep_classifier.opt.gpg",
+    "size_bytes": 5636,
+    "probe": "LOCAL",
+    "already_present": true
+  }
+]

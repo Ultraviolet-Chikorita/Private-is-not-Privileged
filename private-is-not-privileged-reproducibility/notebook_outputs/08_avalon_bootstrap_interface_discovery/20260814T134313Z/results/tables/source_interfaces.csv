@@ -1,0 +1,35 @@
+file,kind,class,name,signature,lineno
+avalonbench_dev/avalon/engine.py,class,,AvalonBasicConfig,,6
+avalonbench_dev/avalon/engine.py,method,AvalonBasicConfig,from_num_players,"(cls, num_players: int, **kwargs)",65
+avalonbench_dev/avalon/engine.py,method,AvalonBasicConfig,from_presets,"(cls, presets: Dict)",82
+avalonbench_dev/avalon/engine.py,class,,AvalonGameEnvironment,,100
+avalonbench_dev/avalon/engine.py,method,AvalonGameEnvironment,__init__,"(self, config: AvalonBasicConfig)",112
+avalonbench_dev/avalon/engine.py,method,AvalonGameEnvironment,from_num_players,"(cls, num_players: Dict)",123
+avalonbench_dev/avalon/engine.py,method,AvalonGameEnvironment,from_presets,"(cls, presets: Dict)",131
+avalonbench_dev/avalon/engine.py,method,AvalonGameEnvironment,reset,(self),168
+avalonbench_dev/avalon/engine.py,method,AvalonGameEnvironment,assign_roles,(self),190
+avalonbench_dev/avalon/engine.py,method,AvalonGameEnvironment,get_role,"(self, player)",233
+avalonbench_dev/avalon/engine.py,method,AvalonGameEnvironment,get_roles,(self),239
+avalonbench_dev/avalon/engine.py,method,AvalonGameEnvironment,get_partial_sides,"(self, player)",245
+avalonbench_dev/avalon/engine.py,method,AvalonGameEnvironment,get_phase,(self),257
+avalonbench_dev/avalon/engine.py,method,AvalonGameEnvironment,get_quest_leader,(self),263
+avalonbench_dev/avalon/engine.py,method,AvalonGameEnvironment,get_team_size,(self),269
+avalonbench_dev/avalon/engine.py,method,AvalonGameEnvironment,choose_quest_team,"(self, team: frozenset, leader)",275
+avalonbench_dev/avalon/engine.py,method,AvalonGameEnvironment,get_current_quest_team,(self),308
+avalonbench_dev/avalon/engine.py,method,AvalonGameEnvironment,gather_team_votes,"(self, votes: List)",314
+avalonbench_dev/avalon/engine.py,method,AvalonGameEnvironment,get_quest_team_votes,(self),349
+avalonbench_dev/avalon/engine.py,method,AvalonGameEnvironment,gather_quest_votes,"(self, votes: List)",355
+avalonbench_dev/avalon/engine.py,method,AvalonGameEnvironment,get_assassin,(self),402
+avalonbench_dev/avalon/engine.py,method,AvalonGameEnvironment,choose_assassination_target,"(self, player, target)",408
+avalonbench_dev/avalon/test_engine.py,function,,main,(),3
+src/server/tasks/avalon/wrapper.py,class,,FakeSession,,14
+src/server/tasks/avalon/wrapper.py,method,FakeSession,action,"(self, input: Dict)",17
+src/server/tasks/avalon/wrapper.py,method,FakeSession,inject,"(self, input: Dict)",24
+src/server/tasks/avalon/wrapper.py,class,,AvalonSessionWrapper,,27
+src/server/tasks/avalon/wrapper.py,method,AvalonSessionWrapper,__init__,"(self, session: Union[Session, FakeSession], proxy: Proxy)",28
+src/server/tasks/avalon/wrapper.py,method,AvalonSessionWrapper,decorate_method,"(self, method_name)",36
+src/server/tasks/avalon/wrapper.py,method,AvalonSessionWrapper,get_history,(self),43
+src/server/tasks/avalon/wrapper.py,method,AvalonSessionWrapper,overwrite_history,"(self, history: list)",46
+src/server/tasks/avalon/wrapper.py,method,AvalonSessionWrapper,inject,"(self, input: Dict, **kwargs)",50
+src/server/tasks/avalon/wrapper.py,method,AvalonSessionWrapper,action,"(self, input: Dict=None, **kwargs)",60
+src/server/tasks/avalon/wrapper.py,method,AvalonSessionWrapper,parse_result,"(self, input: Dict, result: str)",78

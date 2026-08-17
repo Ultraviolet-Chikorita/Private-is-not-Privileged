@@ -1,0 +1,6 @@
+state_id,trajectory_id,primary_valid,control_valid,primary_order,control_order,proposal_match,minimum_match
+ld_003_trajectory_000_mayor,trajectory_000,True,True,"['demanding', 'very_accommodating', 'very_demanding', 'middle', 'somewhat_accommodating']","['very_demanding', 'middle', 'very_accommodating', 'somewhat_accommodating', 'demanding']",True,True
+ld_010_trajectory_001_other_cities,trajectory_001,True,True,"['middle', 'very_demanding', 'demanding', 'somewhat_accommodating', 'very_accommodating']","['middle', 'very_accommodating', 'very_demanding', 'somewhat_accommodating', 'demanding']",True,True
+ld_013_trajectory_002_environmental_league,trajectory_002,True,True,"['middle', 'very_demanding', 'demanding', 'somewhat_accommodating', 'very_accommodating']","['middle', 'somewhat_accommodating', 'demanding', 'very_accommodating', 'very_demanding']",True,True
+ld_021_trajectory_003_mayor,trajectory_003,True,True,"['middle', 'somewhat_accommodating', 'very_demanding', 'very_accommodating', 'demanding']","['very_accommodating', 'demanding', 'very_demanding', 'middle', 'somewhat_accommodating']",True,True
+ld_029_trajectory_004_sportco,trajectory_004,True,True,"['demanding', 'very_accommodating', 'very_demanding', 'middle', 'somewhat_accommodating']","['very_demanding', 'demanding', 'somewhat_accommodating', 'very_accommodating', 'middle']",False,True

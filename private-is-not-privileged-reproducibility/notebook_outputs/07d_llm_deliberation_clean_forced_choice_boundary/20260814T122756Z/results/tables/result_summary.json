@@ -1,0 +1,113 @@
+{
+  "notebook_build": "latent-reservations-notebook07d-clean-forced-choice-boundary-v1",
+  "run_id": "20260814T122756Z",
+  "environment": "LLM-Deliberation",
+  "subject_model": "Qwen/Qwen2.5-7B-Instruct",
+  "upstream_commit": "78e11e04ba89b9d888cb006f57bad696584a32f1",
+  "source_run": "/workspace/latent-reservations/notebook_outputs/07c_llm_deliberation_native_format_scalar_boundary/20260814T110150Z",
+  "parent_states": 30,
+  "source_trajectories": 5,
+  "candidate_branches": 490,
+  "controlled_prompt": {
+    "old_speaking_output_contract_removed": true,
+    "private_rules_preserved": true,
+    "history_preserved": true,
+    "incentive_preserved_via_frozen_mapping": true,
+    "parent_activation_before_candidate_score": true
+  },
+  "forced_choice": {
+    "action_definition": "argmax over canonical legal 0/1 next-token logits; 0=REJECT, 1=ACCEPT",
+    "global_argmax_binary_rate_diagnostic": 1.0,
+    "global_vs_forced_agreement_when_binary": 1.0,
+    "parser_or_retry_used": false
+  },
+  "behavioral_validity_gate": {
+    "below_minimum_accept_count": 6,
+    "maximum_score_accept_rate": 0.9666666666666667,
+    "uncensored_state_rate": 1.0,
+    "state_binary_monotonicity_violation_rate": 0.26666666666666666,
+    "unrestricted_global_binary_rate_diagnostic": 1.0,
+    "unrestricted_global_vs_forced_agreement_when_binary": 1.0,
+    "thresholds": {
+      "below_minimum_accept_count_max": 0,
+      "maximum_score_accept_rate_min": 0.9,
+      "uncensored_state_rate_min": 0.6666666666666666,
+      "state_monotonicity_violation_rate_max": 0.2
+    },
+    "passed": false
+  },
+  "auditor_valid_rate": 1.0,
+  "primary_target": "clean forced-choice revealed scalar acceptance boundary",
+  "method_mae": {
+    "activation": 0.0494518026828766,
+    "matched_auditor": 0.015358333333333342,
+    "matched_auditor_valid_only": 0.015358333333333342,
+    "trained_text": 0.02756514621319804,
+    "assigned_threshold": 0.015358333333333342,
+    "structured": 0.02271778669933797,
+    "constant_median": 0.10369166666666668,
+    "shuffled_activation": 0.11874454883734385
+  },
+  "primary_h1": {
+    "delta_auditor_minus_activation": -0.03409346934954326,
+    "best_text_method": "matched_auditor",
+    "delta_best_text_minus_activation": -0.03409346934954326,
+    "best_nonactivation_method": "matched_auditor",
+    "delta_best_nonactivation_minus_activation": -0.03409346934954326,
+    "bootstrap": {
+      "matched_auditor_delta": {
+        "mean": -0.03406088330150365,
+        "ci95": [
+          -0.046051464557647706,
+          -0.022135474141438804
+        ],
+        "fraction_positive": 0.0
+      },
+      "best_text_suite_delta": {
+        "mean": -0.03406088330150365,
+        "ci95": [
+          -0.046051464557647706,
+          -0.022135474141438804
+        ],
+        "fraction_positive": 0.0
+      },
+      "best_nonactivation_suite_delta": {
+        "mean": -0.0340611708858042,
+        "ci95": [
+          -0.046051464557647706,
+          -0.022135474141438804
+        ],
+        "fraction_positive": 0.0
+      }
+    }
+  },
+  "secondary_continuation_premium": {
+    "activation_mae": 0.01835910371659945,
+    "trained_text_mae": 0.01768937192202368,
+    "zero_premium_mae": 0.015358333333333342,
+    "delta_zero_minus_activation": -0.0030007703832661096,
+    "delta_text_minus_activation": -0.000669731794575773,
+    "cluster_bootstrap": {
+      "zero_premium_minus_activation": {
+        "mean": -0.002977539319392378,
+        "ci95": [
+          -0.006059471010603008,
+          0.00022451892551035232
+        ],
+        "fraction_positive": 0.0456
+      },
+      "trained_text_minus_activation": {
+        "mean": -0.0006536603749910763,
+        "ci95": [
+          -0.004351355419820064,
+          0.002820529780223506
+        ],
+        "fraction_positive": 0.3826
+      }
+    }
+  },
+  "positive_control": {
+    "assigned_threshold_activation_decode_mae": 0.04390979075431824
+  },
+  "interpretation_policy": "Behavioral interpretation requires the predeclared forced-choice gate. A positive matched-auditor delta alone is insufficient if activation loses to the stronger text-visible baselines. The continuation-premium analysis is secondary and cannot replace the raw-boundary H1."
+}

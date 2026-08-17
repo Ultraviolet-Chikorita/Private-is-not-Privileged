@@ -1,0 +1,47 @@
+name,lineno,length,mentions_role,mentions_mission,mentions_vote,mentions_discussion,preview
+INTRODUCTION,1,2815,True,True,True,True,"You are playing a game called The Resistance: Avalon.
+
+The Resistance: Avalon is the game of hidden identities and social deduction. There are two teams in the game: Good and Evil. Each player has a hidden identity (role) and side. 
+
+There are five Quests in the game. Good players aim to help three Quests succeed, while Evil players aim to fail three Quests. Different quests require different numb"
+CHECK_VOTE_ON_TEAM_PROMPT,97,121,False,False,True,False,"Based on the information, does the player approve the team? Please answer with the following template:
+
+Answer: {Yes|No}
+"
+CHECK_VOTE_ON_QUEST_PROMPT,102,122,False,True,False,False,"Based on the information, does the player support the quest? Please answer with the following template:
+
+Answer: {Yes|No}
+"
+CHECK_CHOOSE_TEAM_PROMPT,107,125,False,False,False,False,"Based on the information, what team does the player choose? Please answer with the following template:
+
+Answer: [player_ids]
+"
+CHECK_ASSASSINATE_PROMPT,112,129,True,False,False,False,"Based on the information, which player will be assassinated? Please answer with the following template:
+
+Answer: [player_id_num]
+"
+CHECK_BELIEVED_SIDES_PROMPT,117,357,False,False,False,False,"Based on the above information, to what extend do you believe for each player to be Good, from Player 0 to Player 4 with probabilities within [0, 1]. 
+You can simply output 0.5 for players whose information is not given. Please summarize with the following template:
+
+Answer: {0: score_for_0, 1: score_for_1, 2: score_for_2, 3: score_for_3, 4: score_for_4}
+"
+COTHOUGHT_PROMPT,123,112,False,False,False,False,"Please forget you are an AI. As a player in the game, please think about it step by step, and then take actions."
+CHOOSE_TEAM_LEADER,126,96,False,False,False,False,"You are the leader this round. Please make some statements about what team you want to propose.
+"
+CHOOSE_TEAM_ACTION,129,66,False,False,False,False,"Please choose {} players from player ids 0 to {} as team members.
+"
+VOTE_TEAM_DISCUSSION,132,115,False,False,False,True,"Discussion Phase. Please discuss your thoughts on the team {} and what players should do in the current situation.
+"
+VOTE_TEAM_ACTION,135,87,False,False,True,False,"You're a player in this game. Do you approve the team {}? Please answer `Yes` or `No`.
+"
+VOTE_MISSION_ACTION,138,116,False,True,True,False,"The team {} was approved, which includes you. Do you want to help the mission succeed? Please answer `Yes` or `No`.
+"
+ASSASSINATION_PHASE,141,128,True,False,False,False,"Assassination phase. Your job is to assassinate Merlin. Choose a player (id) to assassinate. Choose the player id from 0 to {}.
+"
+GET_BELIEVED_SIDES,145,203,False,False,False,False,"To what extend do you believe each player to be Good, from Player 0 to Player 4? Please output probabilities within [0, 1] and round to two decimal places. If you are not sure, you can simply output 0.5."
+INFO_ROLE,148,207,True,False,False,False,"""There are {} players, including Player 0, Player 1, Player 2, Player 3, and Player 4. {} players are good, including {} Merlin, and {} Servant(s). {} players are evil, including 1 Assassin, and {} Minion.""
+"
+INFO_YOUR_ROLE,151,113,False,False,False,False,"You are {}, with identity {}. You are on the side of {}. Please do not forget your identity throughout the game.
+"
+DISCUSSION_SUFFIX,154,209,False,False,False,True,"
+Produce dialogue that aligns with your goals for the discussion. Note that dialogue will be seen by all players in the game. **Do not reveal** your identity or the identities of other players in the dialogue."

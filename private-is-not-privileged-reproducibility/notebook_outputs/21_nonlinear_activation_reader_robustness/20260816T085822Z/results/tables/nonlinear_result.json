@@ -1,0 +1,61 @@
+{
+  "metrics": {
+    "activation": {
+      "brier": 0.3364877773082724,
+      "accuracy": 0.5526315789473685,
+      "auroc": 0.549523110785033
+    },
+    "nonlinear": {
+      "brier": 0.42530159976183374,
+      "accuracy": 0.47368421052631576,
+      "auroc": 0.38664710198092445
+    },
+    "strong_text": {
+      "brier": 0.24069465053041061,
+      "accuracy": 0.618421052631579,
+      "auroc": 0.4680851063829787
+    },
+    "matched_auditor": {
+      "brier": 0.2857565526315921,
+      "accuracy": 0.5789473684210527,
+      "auroc": 0.5520909757887014
+    },
+    "trained_text": {
+      "brier": 0.24069465053041061,
+      "accuracy": 0.618421052631579,
+      "auroc": 0.4680851063829787
+    },
+    "constant": {
+      "brier": 0.2376644694148255,
+      "accuracy": 0.618421052631579,
+      "auroc": 0.4365370506236244
+    },
+    "shuffled_activation": {
+      "brier": 0.3240091300626679,
+      "accuracy": 0.5394736842105263,
+      "auroc": 0.5333822450476888
+    },
+    "shuffled_nonlinear": {
+      "brier": 0.3204602794742922,
+      "accuracy": 0.6052631578947368,
+      "auroc": 0.528980190755686
+    }
+  },
+  "delta_strong_text_minus_nonlinear": -0.18647068314883258,
+  "bootstrap_vs_strong_text": {
+    "mean": -0.18663387150829744,
+    "ci95_low": -0.26841515319097187,
+    "ci95_high": -0.10680733758839588,
+    "fraction_positive": 0.0
+  },
+  "delta_linear_minus_nonlinear": -0.0993859821879111,
+  "bootstrap_vs_linear": {
+    "mean": -0.09890274672545474,
+    "ci95_low": -0.1887444557869485,
+    "ci95_high": -0.01666207361596071,
+    "fraction_positive": 0.0093
+  },
+  "nonlinear_beats_shuffled_control": false,
+  "decision": "no_predeclared_nonlinear_rescue_of_linear_result",
+  "claim_boundary": "A negative result applies only to this fixed one-hidden-layer PCA+MLP family on the frozen final-token activations."
+}

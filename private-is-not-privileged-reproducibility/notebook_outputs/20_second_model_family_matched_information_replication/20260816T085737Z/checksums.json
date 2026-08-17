@@ -1,0 +1,122 @@
+[
+  {
+    "path": "data/activations/pre_action_all_layers.safetensors",
+    "bytes": 20447320,
+    "sha256": "6044e4db010c4489d8f1fdc951cd67836a6c64315576c5ef422eaa3bfd3c718c"
+  },
+  {
+    "path": "data/legacy_replay.log",
+    "bytes": 35,
+    "sha256": "171e4cf95d6aed1bbc33e19d99774b2218de06269adb066f048af7324103f4bd"
+  },
+  {
+    "path": "data/legacy_replay_helper.py",
+    "bytes": 1824,
+    "sha256": "7a868e173dc5e84469d3ba9a14d569b8d60ce6101da187386996ba98ce1ba729"
+  },
+  {
+    "path": "data/legacy_replay_requests.json",
+    "bytes": 1500342,
+    "sha256": "d221ad24c70ad6ecdef2e44dcd6fc9405e0ffb394c587208f7e5ea5f55b802ff"
+  },
+  {
+    "path": "data/legacy_replay_results.json",
+    "bytes": 13547,
+    "sha256": "9a945f0921e3b27bbdd06986dc6cf7367d92c1e1160aefd7a73c44c4b28d5c85"
+  },
+  {
+    "path": "data/replication_records.jsonl",
+    "bytes": 839241,
+    "sha256": "bbc6d5714fc5a02f0a26b66cfeff595d8930bdc5441b31bc4a16d4be51297aee"
+  },
+  {
+    "path": "manifests/p1_manifest.json",
+    "bytes": 1485,
+    "sha256": "45dba498d03109ebc15642e280526229ed0329571390e7d1d4c51933853fb805"
+  },
+  {
+    "path": "manifests/protocol_freeze.json",
+    "bytes": 1318,
+    "sha256": "21049518abd1093d5b5cfa6fee706a9317c5f2b6b6a13b2e73dfe0a234102d64"
+  },
+  {
+    "path": "results/figures/method_brier.png",
+    "bytes": 66891,
+    "sha256": "1cace0feaf3c6bfff6cc0e4ccdca053388a1cd600d7ecbd77cabd614ea62adff"
+  },
+  {
+    "path": "results/figures/source_game_deltas.png",
+    "bytes": 60643,
+    "sha256": "92d9d22634a640f998351af7bbecc86a722ac4517bec10b7df9e962023ac5e19"
+  },
+  {
+    "path": "results/tables/activation_nested_folds.csv",
+    "bytes": 198,
+    "sha256": "adfb4d845ad6185b8ce9d3047485048bb57ec633109d8b8113f5b3255f6136d2"
+  },
+  {
+    "path": "results/tables/cross_model_descriptive.json",
+    "bytes": 313,
+    "sha256": "7dde927390c57cfc9306cef8733a9a9d454387720306c37e3986abf418c30ccd"
+  },
+  {
+    "path": "results/tables/cross_model_overlapping_states.csv",
+    "bytes": 8807,
+    "sha256": "d8c026e15bf1b554b136de6de5a06b2308fbc90d6c8d33892e778194be08fdae"
+  },
+  {
+    "path": "results/tables/h1_outcomes.csv",
+    "bytes": 38212,
+    "sha256": "34ed95bbcc34115f917811cc1cb3d6e0dccbb2707d394a71197f7208d0e6cb75"
+  },
+  {
+    "path": "results/tables/heldout_predictions.csv",
+    "bytes": 29070,
+    "sha256": "4ab7367f0da9099f1d51844e7be179f06fb1b9699168012d7ca63f4e1db22257"
+  },
+  {
+    "path": "results/tables/preoutcome_prompt_manifest.csv",
+    "bytes": 7771,
+    "sha256": "9840c7f89c6b13c3f1a949f072f75a60c8ffb89be23699355db67f9fde82e7bf"
+  },
+  {
+    "path": "results/tables/readiness.json",
+    "bytes": 833,
+    "sha256": "a5bd2c9622ed75df28b3e1e36ebf61e012e091524b572f8f16a57e68de8cb02e"
+  },
+  {
+    "path": "results/tables/readiness_preanalysis.json",
+    "bytes": 698,
+    "sha256": "aa376eb4fadbbac37445dddcc543ad2875dc531f428176e0044ba382f0b5ef0f"
+  },
+  {
+    "path": "results/tables/replication_result.json",
+    "bytes": 1573,
+    "sha256": "e83ec35c1e4de866fae81843ead1475efbcc9dad895a4217046073c635e1467c"
+  },
+  {
+    "path": "results/tables/result_summary.json",
+    "bytes": 5074,
+    "sha256": "f6f40926c74f42c14e156e51fc690069a69e95136a63c4efa00c3e74324ed2e6"
+  },
+  {
+    "path": "results/tables/shuffled_activation_nested_folds.csv",
+    "bytes": 190,
+    "sha256": "aba514030b081892e00ebde0a3284a829c2bff076ad86ee38e18b40150d69d7f"
+  },
+  {
+    "path": "results/tables/source_game_paired_deltas.csv",
+    "bytes": 1032,
+    "sha256": "628ae73c9fe3729381d732d6db343d3a782dec38361942ec2c8c1ef526db26ba"
+  },
+  {
+    "path": "results/tables/strong_text_nested_folds.csv",
+    "bytes": 461,
+    "sha256": "a3033ca34268d8b189eb33616ca249105ca75e060fd5c258138821c9772c98bb"
+  },
+  {
+    "path": "results/tables/valid_same_state_rows.csv",
+    "bytes": 37545,
+    "sha256": "c3862d9f3428348a49ae72afe2507cfdc385169b233dac43cc8f9028116a4594"
+  }
+]
