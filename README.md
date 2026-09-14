@@ -10,7 +10,7 @@ A model's internal activations can be highly predictive of what it will do next.
 
 ## Start here
 
-- **Research/code reviewer:** [`docs/REVIEWER_GUIDE.md`](docs/REVIEWER_GUIDE.md)
+- **Project guide:** [`docs/PROJECT_GUIDE.md`](docs/PROJECT_GUIDE.md)
 - **Notebook-by-notebook map:** [`docs/NOTEBOOK_INDEX.md`](docs/NOTEBOOK_INDEX.md)
 - **Large-artifact policy:** [`docs/LARGE_ARTIFACTS.md`](docs/LARGE_ARTIFACTS.md)
 - **Source/reproducibility notes:** [`docs/SOURCE_ARCHIVES.md`](docs/SOURCE_ARCHIVES.md)
@@ -80,7 +80,7 @@ Across the programme, strong activation decodability sometimes coexists with wea
 ├── notebook_outputs/      publication-facing tables, figures and manifests
 ├── paper/                 manuscript artifact
 ├── docs/
-│   ├── REVIEWER_GUIDE.md
+│   ├── PROJECT_GUIDE.md
 │   ├── NOTEBOOK_INDEX.md
 │   ├── LEGACY_IDENTIFIERS.md
 │   ├── LARGE_ARTIFACTS.md
